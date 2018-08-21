@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4943E691212C4F8900283934 /* neoutils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4943E663212C4F8900283934 /* neoutils.framework */; };
+		4943E692212C4F8900283934 /* AES.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943E665212C4F8900283934 /* AES.swift */; };
+		4943E693212C4F8900283934 /* SHA256.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943E666212C4F8900283934 /* SHA256.swift */; };
+		4943E694212C4F8900283934 /* scrypt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943E667212C4F8900283934 /* scrypt.swift */; };
+		4943E695212C4F8900283934 /* RIPEMD160.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943E668212C4F8900283934 /* RIPEMD160.swift */; };
+		4943E696212C4F8900283934 /* PBKDF2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943E669212C4F8900283934 /* PBKDF2.swift */; };
+		4943E697212C4F8900283934 /* NeoScan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943E66A212C4F8900283934 /* NeoScan.swift */; };
+		4943E698212C4F8900283934 /* Array+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943E66C212C4F8900283934 /* Array+Util.swift */; };
+		4943E699212C4F8900283934 /* validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943E66D212C4F8900283934 /* validator.swift */; };
+		4943E69A212C4F8900283934 /* NEP2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943E66E212C4F8900283934 /* NEP2.swift */; };
+		4943E69B212C4F8900283934 /* Data+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943E66F212C4F8900283934 /* Data+Util.swift */; };
+		4943E69C212C4F8900283934 /* Base58.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943E670212C4F8900283934 /* Base58.swift */; };
+		4943E69D212C4F8900283934 /* NEP9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943E671212C4F8900283934 /* NEP9.swift */; };
+		4943E69E212C4F8900283934 /* OpCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943E673212C4F8900283934 /* OpCodes.swift */; };
+		4943E69F212C4F8900283934 /* ScriptBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943E674212C4F8900283934 /* ScriptBuilder.swift */; };
+		4943E6A0212C4F8900283934 /* NEP5Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943E675212C4F8900283934 /* NEP5Token.swift */; };
+		4943E6A1212C4F8900283934 /* AccountState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943E677212C4F8900283934 /* AccountState.swift */; };
+		4943E6A2212C4F8900283934 /* Claims.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943E678212C4F8900283934 /* Claims.swift */; };
+		4943E6A3212C4F8900283934 /* ValueIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943E679212C4F8900283934 /* ValueIn.swift */; };
+		4943E6A4212C4F8900283934 /* NEONetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943E67A212C4F8900283934 /* NEONetwork.swift */; };
+		4943E6A5212C4F8900283934 /* ValueOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943E67B212C4F8900283934 /* ValueOut.swift */; };
+		4943E6A6212C4F8900283934 /* TransactionHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943E67C212C4F8900283934 /* TransactionHistory.swift */; };
+		4943E6A7212C4F8900283934 /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943E67D212C4F8900283934 /* Block.swift */; };
+		4943E6A8212C4F8900283934 /* Balance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943E67E212C4F8900283934 /* Balance.swift */; };
+		4943E6A9212C4F8900283934 /* Script.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943E67F212C4F8900283934 /* Script.swift */; };
+		4943E6AA212C4F8900283934 /* NeoScanTransactionHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943E680212C4F8900283934 /* NeoScanTransactionHistory.swift */; };
+		4943E6AB212C4F8900283934 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943E681212C4F8900283934 /* Transaction.swift */; };
+		4943E6AC212C4F8900283934 /* TransactionAttritbute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943E682212C4F8900283934 /* TransactionAttritbute.swift */; };
+		4943E6AD212C4F8900283934 /* Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943E683212C4F8900283934 /* Asset.swift */; };
+		4943E6AE212C4F8900283934 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943E684212C4F8900283934 /* Token.swift */; };
+		4943E6AF212C4F8900283934 /* Peer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943E685212C4F8900283934 /* Peer.swift */; };
+		4943E6B0212C4F8900283934 /* ContractResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943E686212C4F8900283934 /* ContractResult.swift */; };
+		4943E6B1212C4F8900283934 /* NeoScanBalance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943E687212C4F8900283934 /* NeoScanBalance.swift */; };
+		4943E6B2212C4F8900283934 /* ShamirSecret.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943E688212C4F8900283934 /* ShamirSecret.swift */; };
+		4943E6B3212C4F8900283934 /* strip-frameworks.sh in Resources */ = {isa = PBXBuildFile; fileRef = 4943E68A212C4F8900283934 /* strip-frameworks.sh */; };
+		4943E6B4212C4F8900283934 /* WIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943E68B212C4F8900283934 /* WIF.swift */; };
+		4943E6B5212C4F8900283934 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943E68C212C4F8900283934 /* Account.swift */; };
+		4943E6B6212C4F8900283934 /* nodes.json in Resources */ = {isa = PBXBuildFile; fileRef = 4943E68E212C4F8900283934 /* nodes.json */; };
+		4943E6B7212C4F8900283934 /* AssetIdConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943E68F212C4F8900283934 /* AssetIdConstants.swift */; };
+		4943E6B8212C4F8900283934 /* NeoClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943E690212C4F8900283934 /* NeoClient.swift */; };
+		494DB6EC212725D5004FEE9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494DB6EB212725D5004FEE9D /* AppDelegate.swift */; };
+		494DB6EE212725D5004FEE9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494DB6ED212725D5004FEE9D /* ViewController.swift */; };
+		494DB6F1212725D5004FEE9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 494DB6EF212725D5004FEE9D /* Main.storyboard */; };
+		494DB6F3212725D7004FEE9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 494DB6F2212725D7004FEE9D /* Assets.xcassets */; };
+		494DB6F6212725D7004FEE9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 494DB6F4212725D7004FEE9D /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4943E663212C4F8900283934 /* neoutils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = neoutils.framework; sourceTree = "<group>"; };
+		4943E665212C4F8900283934 /* AES.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AES.swift; sourceTree = "<group>"; };
+		4943E666212C4F8900283934 /* SHA256.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SHA256.swift; sourceTree = "<group>"; };
+		4943E667212C4F8900283934 /* scrypt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = scrypt.swift; sourceTree = "<group>"; };
+		4943E668212C4F8900283934 /* RIPEMD160.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RIPEMD160.swift; sourceTree = "<group>"; };
+		4943E669212C4F8900283934 /* PBKDF2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PBKDF2.swift; sourceTree = "<group>"; };
+		4943E66A212C4F8900283934 /* NeoScan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeoScan.swift; sourceTree = "<group>"; };
+		4943E66C212C4F8900283934 /* Array+Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Util.swift"; sourceTree = "<group>"; };
+		4943E66D212C4F8900283934 /* validator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = validator.swift; sourceTree = "<group>"; };
+		4943E66E212C4F8900283934 /* NEP2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEP2.swift; sourceTree = "<group>"; };
+		4943E66F212C4F8900283934 /* Data+Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+Util.swift"; sourceTree = "<group>"; };
+		4943E670212C4F8900283934 /* Base58.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Base58.swift; sourceTree = "<group>"; };
+		4943E671212C4F8900283934 /* NEP9.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEP9.swift; sourceTree = "<group>"; };
+		4943E673212C4F8900283934 /* OpCodes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpCodes.swift; sourceTree = "<group>"; };
+		4943E674212C4F8900283934 /* ScriptBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScriptBuilder.swift; sourceTree = "<group>"; };
+		4943E675212C4F8900283934 /* NEP5Token.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEP5Token.swift; sourceTree = "<group>"; };
+		4943E677212C4F8900283934 /* AccountState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountState.swift; sourceTree = "<group>"; };
+		4943E678212C4F8900283934 /* Claims.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Claims.swift; sourceTree = "<group>"; };
+		4943E679212C4F8900283934 /* ValueIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValueIn.swift; sourceTree = "<group>"; };
+		4943E67A212C4F8900283934 /* NEONetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEONetwork.swift; sourceTree = "<group>"; };
+		4943E67B212C4F8900283934 /* ValueOut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValueOut.swift; sourceTree = "<group>"; };
+		4943E67C212C4F8900283934 /* TransactionHistory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionHistory.swift; sourceTree = "<group>"; };
+		4943E67D212C4F8900283934 /* Block.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
+		4943E67E212C4F8900283934 /* Balance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Balance.swift; sourceTree = "<group>"; };
+		4943E67F212C4F8900283934 /* Script.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Script.swift; sourceTree = "<group>"; };
+		4943E680212C4F8900283934 /* NeoScanTransactionHistory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeoScanTransactionHistory.swift; sourceTree = "<group>"; };
+		4943E681212C4F8900283934 /* Transaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		4943E682212C4F8900283934 /* TransactionAttritbute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionAttritbute.swift; sourceTree = "<group>"; };
+		4943E683212C4F8900283934 /* Asset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Asset.swift; sourceTree = "<group>"; };
+		4943E684212C4F8900283934 /* Token.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
+		4943E685212C4F8900283934 /* Peer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Peer.swift; sourceTree = "<group>"; };
+		4943E686212C4F8900283934 /* ContractResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContractResult.swift; sourceTree = "<group>"; };
+		4943E687212C4F8900283934 /* NeoScanBalance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeoScanBalance.swift; sourceTree = "<group>"; };
+		4943E688212C4F8900283934 /* ShamirSecret.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShamirSecret.swift; sourceTree = "<group>"; };
+		4943E68A212C4F8900283934 /* strip-frameworks.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "strip-frameworks.sh"; sourceTree = "<group>"; };
+		4943E68B212C4F8900283934 /* WIF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WIF.swift; sourceTree = "<group>"; };
+		4943E68C212C4F8900283934 /* Account.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		4943E68E212C4F8900283934 /* nodes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nodes.json; sourceTree = "<group>"; };
+		4943E68F212C4F8900283934 /* AssetIdConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssetIdConstants.swift; sourceTree = "<group>"; };
+		4943E690212C4F8900283934 /* NeoClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeoClient.swift; sourceTree = "<group>"; };
+		494DB6E8212725D5004FEE9D /* AlchemintProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlchemintProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		494DB6EB212725D5004FEE9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		494DB6ED212725D5004FEE9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		494DB6F0212725D5004FEE9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		494DB6F2212725D7004FEE9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		494DB6F5212725D7004FEE9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		494DB6F7212725D7004FEE9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		496F8A55212C5BD800332EEA /* _CommonCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _CommonCrypto.h; sourceTree = "<group>"; };
+		496F8A56212C5BD800332EEA /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		494DB6E5212725D5004FEE9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4943E691212C4F8900283934 /* neoutils.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4943E662212C4F8900283934 /* NeoSwift */ = {
+			isa = PBXGroup;
+			children = (
+				4943E663212C4F8900283934 /* neoutils.framework */,
+				496F8A54212C5BD800332EEA /* CommonCrypto */,
+				4943E664212C4F8900283934 /* Crypto */,
+				4943E66B212C4F8900283934 /* Util */,
+				4943E672212C4F8900283934 /* Contracts */,
+				4943E676212C4F8900283934 /* Models */,
+				4943E689212C4F8900283934 /* scripts */,
+				4943E68D212C4F8900283934 /* data */,
+				4943E68C212C4F8900283934 /* Account.swift */,
+				4943E66A212C4F8900283934 /* NeoScan.swift */,
+				4943E688212C4F8900283934 /* ShamirSecret.swift */,
+				4943E68B212C4F8900283934 /* WIF.swift */,
+				4943E68F212C4F8900283934 /* AssetIdConstants.swift */,
+				4943E690212C4F8900283934 /* NeoClient.swift */,
+			);
+			path = NeoSwift;
+			sourceTree = "<group>";
+		};
+		4943E664212C4F8900283934 /* Crypto */ = {
+			isa = PBXGroup;
+			children = (
+				4943E665212C4F8900283934 /* AES.swift */,
+				4943E666212C4F8900283934 /* SHA256.swift */,
+				4943E667212C4F8900283934 /* scrypt.swift */,
+				4943E668212C4F8900283934 /* RIPEMD160.swift */,
+				4943E669212C4F8900283934 /* PBKDF2.swift */,
+			);
+			path = Crypto;
+			sourceTree = "<group>";
+		};
+		4943E66B212C4F8900283934 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				4943E66C212C4F8900283934 /* Array+Util.swift */,
+				4943E66D212C4F8900283934 /* validator.swift */,
+				4943E66E212C4F8900283934 /* NEP2.swift */,
+				4943E66F212C4F8900283934 /* Data+Util.swift */,
+				4943E670212C4F8900283934 /* Base58.swift */,
+				4943E671212C4F8900283934 /* NEP9.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		4943E672212C4F8900283934 /* Contracts */ = {
+			isa = PBXGroup;
+			children = (
+				4943E673212C4F8900283934 /* OpCodes.swift */,
+				4943E674212C4F8900283934 /* ScriptBuilder.swift */,
+				4943E675212C4F8900283934 /* NEP5Token.swift */,
+			);
+			path = Contracts;
+			sourceTree = "<group>";
+		};
+		4943E676212C4F8900283934 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4943E677212C4F8900283934 /* AccountState.swift */,
+				4943E678212C4F8900283934 /* Claims.swift */,
+				4943E679212C4F8900283934 /* ValueIn.swift */,
+				4943E67A212C4F8900283934 /* NEONetwork.swift */,
+				4943E67B212C4F8900283934 /* ValueOut.swift */,
+				4943E67C212C4F8900283934 /* TransactionHistory.swift */,
+				4943E67D212C4F8900283934 /* Block.swift */,
+				4943E67E212C4F8900283934 /* Balance.swift */,
+				4943E67F212C4F8900283934 /* Script.swift */,
+				4943E680212C4F8900283934 /* NeoScanTransactionHistory.swift */,
+				4943E681212C4F8900283934 /* Transaction.swift */,
+				4943E682212C4F8900283934 /* TransactionAttritbute.swift */,
+				4943E683212C4F8900283934 /* Asset.swift */,
+				4943E684212C4F8900283934 /* Token.swift */,
+				4943E685212C4F8900283934 /* Peer.swift */,
+				4943E686212C4F8900283934 /* ContractResult.swift */,
+				4943E687212C4F8900283934 /* NeoScanBalance.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4943E689212C4F8900283934 /* scripts */ = {
+			isa = PBXGroup;
+			children = (
+				4943E68A212C4F8900283934 /* strip-frameworks.sh */,
+			);
+			path = scripts;
+			sourceTree = "<group>";
+		};
+		4943E68D212C4F8900283934 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				4943E68E212C4F8900283934 /* nodes.json */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		494DB6DF212725D5004FEE9D = {
+			isa = PBXGroup;
+			children = (
+				494DB6EA212725D5004FEE9D /* AlchemintProject */,
+				494DB6E9212725D5004FEE9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		494DB6E9212725D5004FEE9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				494DB6E8212725D5004FEE9D /* AlchemintProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		494DB6EA212725D5004FEE9D /* AlchemintProject */ = {
+			isa = PBXGroup;
+			children = (
+				4943E662212C4F8900283934 /* NeoSwift */,
+				494DB6EB212725D5004FEE9D /* AppDelegate.swift */,
+				494DB6ED212725D5004FEE9D /* ViewController.swift */,
+				494DB6EF212725D5004FEE9D /* Main.storyboard */,
+				494DB6F2212725D7004FEE9D /* Assets.xcassets */,
+				494DB6F4212725D7004FEE9D /* LaunchScreen.storyboard */,
+				494DB6F7212725D7004FEE9D /* Info.plist */,
+			);
+			path = AlchemintProject;
+			sourceTree = "<group>";
+		};
+		496F8A54212C5BD800332EEA /* CommonCrypto */ = {
+			isa = PBXGroup;
+			children = (
+				496F8A55212C5BD800332EEA /* _CommonCrypto.h */,
+				496F8A56212C5BD800332EEA /* module.modulemap */,
+			);
+			path = CommonCrypto;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		494DB6E7212725D5004FEE9D /* AlchemintProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 494DB6FA212725D7004FEE9D /* Build configuration list for PBXNativeTarget "AlchemintProject" */;
+			buildPhases = (
+				494DB6E4212725D5004FEE9D /* Sources */,
+				494DB6E5212725D5004FEE9D /* Frameworks */,
+				494DB6E6212725D5004FEE9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlchemintProject;
+			productName = AlchemintProject;
+			productReference = 494DB6E8212725D5004FEE9D /* AlchemintProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		494DB6E0212725D5004FEE9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = com.alchemintTeam.wuqiaoqiao;
+				TargetAttributes = {
+					494DB6E7212725D5004FEE9D = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 494DB6E3212725D5004FEE9D /* Build configuration list for PBXProject "AlchemintProject" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 494DB6DF212725D5004FEE9D;
+			productRefGroup = 494DB6E9212725D5004FEE9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				494DB6E7212725D5004FEE9D /* AlchemintProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		494DB6E6212725D5004FEE9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4943E6B3212C4F8900283934 /* strip-frameworks.sh in Resources */,
+				494DB6F6212725D7004FEE9D /* LaunchScreen.storyboard in Resources */,
+				4943E6B6212C4F8900283934 /* nodes.json in Resources */,
+				494DB6F3212725D7004FEE9D /* Assets.xcassets in Resources */,
+				494DB6F1212725D5004FEE9D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		494DB6E4212725D5004FEE9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4943E6AA212C4F8900283934 /* NeoScanTransactionHistory.swift in Sources */,
+				4943E6B8212C4F8900283934 /* NeoClient.swift in Sources */,
+				4943E69A212C4F8900283934 /* NEP2.swift in Sources */,
+				4943E6B2212C4F8900283934 /* ShamirSecret.swift in Sources */,
+				4943E69D212C4F8900283934 /* NEP9.swift in Sources */,
+				4943E699212C4F8900283934 /* validator.swift in Sources */,
+				4943E6B7212C4F8900283934 /* AssetIdConstants.swift in Sources */,
+				4943E693212C4F8900283934 /* SHA256.swift in Sources */,
+				4943E6A5212C4F8900283934 /* ValueOut.swift in Sources */,
+				4943E6A2212C4F8900283934 /* Claims.swift in Sources */,
+				4943E6B5212C4F8900283934 /* Account.swift in Sources */,
+				494DB6EE212725D5004FEE9D /* ViewController.swift in Sources */,
+				4943E6B0212C4F8900283934 /* ContractResult.swift in Sources */,
+				4943E695212C4F8900283934 /* RIPEMD160.swift in Sources */,
+				4943E692212C4F8900283934 /* AES.swift in Sources */,
+				4943E6A7212C4F8900283934 /* Block.swift in Sources */,
+				4943E6A3212C4F8900283934 /* ValueIn.swift in Sources */,
+				4943E6AD212C4F8900283934 /* Asset.swift in Sources */,
+				4943E69E212C4F8900283934 /* OpCodes.swift in Sources */,
+				4943E6A6212C4F8900283934 /* TransactionHistory.swift in Sources */,
+				4943E6AB212C4F8900283934 /* Transaction.swift in Sources */,
+				4943E694212C4F8900283934 /* scrypt.swift in Sources */,
+				4943E6AF212C4F8900283934 /* Peer.swift in Sources */,
+				4943E6A9212C4F8900283934 /* Script.swift in Sources */,
+				4943E698212C4F8900283934 /* Array+Util.swift in Sources */,
+				4943E69F212C4F8900283934 /* ScriptBuilder.swift in Sources */,
+				4943E6A8212C4F8900283934 /* Balance.swift in Sources */,
+				4943E69C212C4F8900283934 /* Base58.swift in Sources */,
+				494DB6EC212725D5004FEE9D /* AppDelegate.swift in Sources */,
+				4943E6A1212C4F8900283934 /* AccountState.swift in Sources */,
+				4943E6A4212C4F8900283934 /* NEONetwork.swift in Sources */,
+				4943E6AE212C4F8900283934 /* Token.swift in Sources */,
+				4943E6B1212C4F8900283934 /* NeoScanBalance.swift in Sources */,
+				4943E69B212C4F8900283934 /* Data+Util.swift in Sources */,
+				4943E696212C4F8900283934 /* PBKDF2.swift in Sources */,
+				4943E6AC212C4F8900283934 /* TransactionAttritbute.swift in Sources */,
+				4943E697212C4F8900283934 /* NeoScan.swift in Sources */,
+				4943E6B4212C4F8900283934 /* WIF.swift in Sources */,
+				4943E6A0212C4F8900283934 /* NEP5Token.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		494DB6EF212725D5004FEE9D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				494DB6F0212725D5004FEE9D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		494DB6F4212725D7004FEE9D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				494DB6F5212725D7004FEE9D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		494DB6F8212725D7004FEE9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		494DB6F9212725D7004FEE9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		494DB6FB212725D7004FEE9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2565U4ACV9;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AlchemintProject",
+					"$(PROJECT_DIR)/AlchemintProject/NeoSwift",
+					"$(PROJECT_DIR)/AlchemintProject/NeoSwift/CommonCrypto",
+				);
+				INFOPLIST_FILE = AlchemintProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alchemintTeam.wuqiaoqiao.AlchemintProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/AlchemintProject/NeoSwift";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		494DB6FC212725D7004FEE9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2565U4ACV9;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AlchemintProject",
+					"$(PROJECT_DIR)/AlchemintProject/NeoSwift",
+					"$(PROJECT_DIR)/AlchemintProject/NeoSwift/CommonCrypto",
+				);
+				INFOPLIST_FILE = AlchemintProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alchemintTeam.wuqiaoqiao.AlchemintProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/AlchemintProject/NeoSwift";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		494DB6E3212725D5004FEE9D /* Build configuration list for PBXProject "AlchemintProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				494DB6F8212725D7004FEE9D /* Debug */,
+				494DB6F9212725D7004FEE9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		494DB6FA212725D7004FEE9D /* Build configuration list for PBXNativeTarget "AlchemintProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				494DB6FB212725D7004FEE9D /* Debug */,
+				494DB6FC212725D7004FEE9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 494DB6E0212725D5004FEE9D /* Project object */;
+}
