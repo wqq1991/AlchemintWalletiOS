@@ -1,0 +1,920 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "JSONDictionary"
+- "NeoClientError"
+- "NeoClientResult"
+- "Network"
+- "NEONetworkMonitor"
+- "NeoClient"
+provides-nominal:
+- "16AlchemintProject14NeoClientErrorO"
+- "16AlchemintProject15NeoClientResultO"
+- "16AlchemintProject7NetworkO"
+- "16AlchemintProject17NEONetworkMonitorC"
+- "16AlchemintProject9NeoClientC"
+- "16AlchemintProject9NeoClientC9RPCMethodO"
+- "16AlchemintProject9NeoClientC10NEP5MethodO"
+- "16AlchemintProject9NeoClientC6apiURLO"
+provides-member:
+- ["16AlchemintProject14NeoClientErrorO", ""]
+- ["16AlchemintProject15NeoClientResultO", ""]
+- ["16AlchemintProject7NetworkO", ""]
+- ["16AlchemintProject17NEONetworkMonitorC", ""]
+- ["16AlchemintProject9NeoClientC", ""]
+- ["16AlchemintProject9NeoClientC9RPCMethodO", ""]
+- ["16AlchemintProject9NeoClientC10NEP5MethodO", ""]
+- ["16AlchemintProject9NeoClientC6apiURLO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "+"
+- !private "/"
+- "=="
+- !private "??"
+- "AccountState"
+- "AnyObject"
+- !private "Array"
+- "AssetState"
+- "Assets"
+- "AssignmentPrecedence"
+- "Block"
+- "Bool"
+- "BooleanLiteralType"
+- !private "Bundle"
+- "CastingPrecedence"
+- "Claimable"
+- "ContractResult"
+- "Data"
+- "Double"
+- "Error"
+- "GetPeersResult"
+- "Int64"
+- !private "JSONDecoder"
+- "JSONDictionary"
+- !private "JSONSerialization"
+- "NEONetwork"
+- "NEONetworkMonitor"
+- "NEP5Token"
+- "NSCache"
+- !private "NSMutableURLRequest"
+- "NSString"
+- "NeoClient"
+- "NeoClientError"
+- "NeoClientResult"
+- !private "NeoutilsSelectBestSeedNode"
+- "Network"
+- !private "ScriptBuilder"
+- "String"
+- "StringLiteralType"
+- "Transaction"
+- "TransactionHistory"
+- "UInt"
+- !private "URL"
+- !private "URLRequest"
+- !private "URLSession"
+- !private "UnicodeScalarType"
+- "ValueOut"
+- !private "_findStringSwitchCase"
+- !private "pow"
+- !private "print"
+- !private "type"
+- !private "~="
+depends-member:
+- !private ["16AlchemintProject12AccountStateV", "deinit"]
+- !private ["Sa", "joined"]
+- !private ["Sa", "map"]
+- !private ["Sa", "subscript"]
+- !private ["16AlchemintProject10AssetStateV", "deinit"]
+- !private ["16AlchemintProject6AssetsV", "deinit"]
+- !private ["s23BidirectionalCollectionP", "fullHexString"]
+- !private ["s23BidirectionalCollectionP", "hashFromAddress"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "joined"]
+- !private ["s23BidirectionalCollectionP", "littleEndianHexToUInt"]
+- !private ["s23BidirectionalCollectionP", "map"]
+- !private ["s23BidirectionalCollectionP", "subscript"]
+- !private ["s19BinaryFloatingPointP", "init"]
+- !private ["16AlchemintProject5BlockV", "deinit"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So6BundleC", "init"]
+- !private ["So6BundleC", "path"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "cachePolicy"]
+- !private ["s7CVarArgP", "data"]
+- !private ["s7CVarArgP", "dataTask"]
+- !private ["s7CVarArgP", "hashFromAddress"]
+- !private ["s7CVarArgP", "httpBody"]
+- !private ["s7CVarArgP", "httpMethod"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "joined"]
+- !private ["s7CVarArgP", "jsonObject"]
+- !private ["s7CVarArgP", "littleEndianHexToUInt"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "object"]
+- !private ["s7CVarArgP", "path"]
+- !private ["s7CVarArgP", "resume"]
+- !private ["s7CVarArgP", "setObject"]
+- !private ["s7CVarArgP", "setValue"]
+- !private ["s7CVarArgP", "shared"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "timeoutInterval"]
+- !private ["s7CVarArgP", "url"]
+- !private ["So12NSURLRequestC11CachePolicyO", "reloadIgnoringLocalCacheData"]
+- !private ["16AlchemintProject9ClaimableV", "deinit"]
+- !private ["s10CollectionP", "fullHexString"]
+- !private ["s10CollectionP", "hashFromAddress"]
+- ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "joined"]
+- !private ["s10CollectionP", "littleEndianHexToUInt"]
+- !private ["s10CollectionP", "map"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10ComparableP", "hashFromAddress"]
+- ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "littleEndianHexToUInt"]
+- !private ["16AlchemintProject14ContractResultV", "deinit"]
+- !private ["16AlchemintProject14ContractResultV", "stack"]
+- !private ["s28CustomDebugStringConvertibleP", "cachePolicy"]
+- !private ["s28CustomDebugStringConvertibleP", "data"]
+- !private ["s28CustomDebugStringConvertibleP", "dataTask"]
+- !private ["s28CustomDebugStringConvertibleP", "fullHexString"]
+- !private ["s28CustomDebugStringConvertibleP", "hashFromAddress"]
+- !private ["s28CustomDebugStringConvertibleP", "httpBody"]
+- !private ["s28CustomDebugStringConvertibleP", "httpMethod"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "joined"]
+- !private ["s28CustomDebugStringConvertibleP", "jsonObject"]
+- !private ["s28CustomDebugStringConvertibleP", "littleEndianHexToUInt"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "object"]
+- !private ["s28CustomDebugStringConvertibleP", "path"]
+- !private ["s28CustomDebugStringConvertibleP", "resume"]
+- !private ["s28CustomDebugStringConvertibleP", "setObject"]
+- !private ["s28CustomDebugStringConvertibleP", "setValue"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "timeoutInterval"]
+- !private ["s28CustomDebugStringConvertibleP", "url"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "hashFromAddress"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "littleEndianHexToUInt"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "fullHexString"]
+- !private ["s17CustomReflectableP", "hashFromAddress"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "joined"]
+- !private ["s17CustomReflectableP", "littleEndianHexToUInt"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "cachePolicy"]
+- !private ["s23CustomStringConvertibleP", "data"]
+- !private ["s23CustomStringConvertibleP", "dataTask"]
+- !private ["s23CustomStringConvertibleP", "fullHexString"]
+- !private ["s23CustomStringConvertibleP", "hashFromAddress"]
+- !private ["s23CustomStringConvertibleP", "httpBody"]
+- !private ["s23CustomStringConvertibleP", "httpMethod"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "joined"]
+- !private ["s23CustomStringConvertibleP", "jsonObject"]
+- !private ["s23CustomStringConvertibleP", "littleEndianHexToUInt"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "object"]
+- !private ["s23CustomStringConvertibleP", "path"]
+- !private ["s23CustomStringConvertibleP", "resume"]
+- !private ["s23CustomStringConvertibleP", "setObject"]
+- !private ["s23CustomStringConvertibleP", "setValue"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "timeoutInterval"]
+- !private ["s23CustomStringConvertibleP", "url"]
+- !private ["10Foundation4DataV", "fullHexString"]
+- !private ["10Foundation4DataV", "init"]
+- !private ["s9DecodableP", "URL"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "decimals"]
+- !private ["s9DecodableP", "fullHexString"]
+- !private ["s9DecodableP", "hashFromAddress"]
+- !private ["s9DecodableP", "hexDataValue"]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "joined"]
+- !private ["s9DecodableP", "littleEndianHexToUInt"]
+- !private ["s9DecodableP", "mainNet"]
+- !private ["s9DecodableP", "map"]
+- !private ["s9DecodableP", "nodes"]
+- !private ["s9DecodableP", "stack"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s10DictionaryV", "subscript"]
+- !private ["Sd", "init"]
+- !private ["s9EncodableP", "URL"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "decimals"]
+- !private ["s9EncodableP", "fullHexString"]
+- !private ["s9EncodableP", "hashFromAddress"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "joined"]
+- !private ["s9EncodableP", "littleEndianHexToUInt"]
+- !private ["s9EncodableP", "mainNet"]
+- !private ["s9EncodableP", "map"]
+- !private ["s9EncodableP", "nodes"]
+- !private ["s9EncodableP", "subscript"]
+- ["s9EquatableP", "RawValue"]
+- ["s9EquatableP", ""]
+- ["s9EquatableP", "_Default_RawValue"]
+- ["s9EquatableP", "_code"]
+- ["s9EquatableP", "_domain"]
+- !private ["s9EquatableP", "_findStringSwitchCase"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- ["s9EquatableP", "_getEmbeddedNSError"]
+- ["s9EquatableP", "_userInfo"]
+- !private ["s9EquatableP", "cachePolicy"]
+- !private ["s9EquatableP", "data"]
+- !private ["s9EquatableP", "dataTask"]
+- !private ["s9EquatableP", "fullHexString"]
+- !private ["s9EquatableP", "getAccountState"]
+- !private ["s9EquatableP", "getAssetState"]
+- !private ["s9EquatableP", "getBestBlockHash"]
+- !private ["s9EquatableP", "getBlock"]
+- !private ["s9EquatableP", "getBlockCount"]
+- !private ["s9EquatableP", "getBlockHash"]
+- !private ["s9EquatableP", "getClaims"]
+- !private ["s9EquatableP", "getConnectionCount"]
+- !private ["s9EquatableP", "getPeers"]
+- !private ["s9EquatableP", "getTransaction"]
+- !private ["s9EquatableP", "getTransactionHistory"]
+- !private ["s9EquatableP", "getUTXO"]
+- !private ["s9EquatableP", "getUnconfirmedTransactions"]
+- !private ["s9EquatableP", "hashFromAddress"]
+- ["s9EquatableP", "hashValue"]
+- !private ["s9EquatableP", "httpBody"]
+- !private ["s9EquatableP", "httpMethod"]
+- ["s9EquatableP", "init"]
+- ["s9EquatableP", "invalidBodyRequest"]
+- ["s9EquatableP", "invalidData"]
+- ["s9EquatableP", "invalidRequest"]
+- ["s9EquatableP", "invalidSeed"]
+- !private ["s9EquatableP", "invokeContract"]
+- !private ["s9EquatableP", "joined"]
+- !private ["s9EquatableP", "jsonObject"]
+- !private ["s9EquatableP", "littleEndianHexToUInt"]
+- ["s9EquatableP", "main"]
+- !private ["s9EquatableP", "map"]
+- ["s9EquatableP", "noInternet"]
+- !private ["s9EquatableP", "object"]
+- !private ["s9EquatableP", "path"]
+- !private ["s9EquatableP", "prettyPrinted"]
+- ["s9EquatableP", "privateNet"]
+- ["s9EquatableP", "rawValue"]
+- !private ["s9EquatableP", "reloadIgnoringLocalCacheData"]
+- !private ["s9EquatableP", "resume"]
+- !private ["s9EquatableP", "sendTransaction"]
+- !private ["s9EquatableP", "setObject"]
+- !private ["s9EquatableP", "setValue"]
+- !private ["s9EquatableP", "shared"]
+- !private ["s9EquatableP", "subscript"]
+- ["s9EquatableP", "test"]
+- !private ["s9EquatableP", "timeoutInterval"]
+- !private ["s9EquatableP", "url"]
+- !private ["s9EquatableP", "validateAddress"]
+- ["s5ErrorP", ""]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_userInfo"]
+- ["s5ErrorP", "hashValue"]
+- ["s5ErrorP", "invalidBodyRequest"]
+- ["s5ErrorP", "invalidData"]
+- ["s5ErrorP", "invalidRequest"]
+- ["s5ErrorP", "invalidSeed"]
+- ["s5ErrorP", "noInternet"]
+- !private ["s25ExpressibleByArrayLiteralP", "joined"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s25ExpressibleByArrayLiteralP", "prettyPrinted"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "hashFromAddress"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "littleEndianHexToUInt"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "hashFromAddress"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "littleEndianHexToUInt"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "hashFromAddress"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "littleEndianHexToUInt"]
+- !private ["s13FloatingPointP", "init"]
+- !private ["16AlchemintProject14GetPeersResultV", "deinit"]
+- ["s8HashableP", "RawValue"]
+- ["s8HashableP", ""]
+- ["s8HashableP", "_Default_RawValue"]
+- ["s8HashableP", "_code"]
+- ["s8HashableP", "_domain"]
+- !private ["s8HashableP", "_findStringSwitchCase"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- ["s8HashableP", "_getEmbeddedNSError"]
+- ["s8HashableP", "_userInfo"]
+- !private ["s8HashableP", "cachePolicy"]
+- !private ["s8HashableP", "data"]
+- !private ["s8HashableP", "dataTask"]
+- !private ["s8HashableP", "fullHexString"]
+- !private ["s8HashableP", "getAccountState"]
+- !private ["s8HashableP", "getAssetState"]
+- !private ["s8HashableP", "getBestBlockHash"]
+- !private ["s8HashableP", "getBlock"]
+- !private ["s8HashableP", "getBlockCount"]
+- !private ["s8HashableP", "getBlockHash"]
+- !private ["s8HashableP", "getClaims"]
+- !private ["s8HashableP", "getConnectionCount"]
+- !private ["s8HashableP", "getPeers"]
+- !private ["s8HashableP", "getTransaction"]
+- !private ["s8HashableP", "getTransactionHistory"]
+- !private ["s8HashableP", "getUTXO"]
+- !private ["s8HashableP", "getUnconfirmedTransactions"]
+- !private ["s8HashableP", "hashFromAddress"]
+- ["s8HashableP", "hashValue"]
+- !private ["s8HashableP", "httpBody"]
+- !private ["s8HashableP", "httpMethod"]
+- ["s8HashableP", "init"]
+- ["s8HashableP", "invalidBodyRequest"]
+- ["s8HashableP", "invalidData"]
+- ["s8HashableP", "invalidRequest"]
+- ["s8HashableP", "invalidSeed"]
+- !private ["s8HashableP", "invokeContract"]
+- !private ["s8HashableP", "jsonObject"]
+- !private ["s8HashableP", "littleEndianHexToUInt"]
+- ["s8HashableP", "main"]
+- ["s8HashableP", "noInternet"]
+- !private ["s8HashableP", "object"]
+- !private ["s8HashableP", "path"]
+- ["s8HashableP", "privateNet"]
+- ["s8HashableP", "rawValue"]
+- !private ["s8HashableP", "reloadIgnoringLocalCacheData"]
+- !private ["s8HashableP", "resume"]
+- !private ["s8HashableP", "sendTransaction"]
+- !private ["s8HashableP", "setObject"]
+- !private ["s8HashableP", "setValue"]
+- !private ["s8HashableP", "shared"]
+- ["s8HashableP", "test"]
+- !private ["s8HashableP", "timeoutInterval"]
+- !private ["s8HashableP", "url"]
+- !private ["s8HashableP", "validateAddress"]
+- !private ["10Foundation11JSONDecoderC", "decode"]
+- !private ["10Foundation11JSONDecoderC", "init"]
+- !private ["So17JSONSerializationC", "data"]
+- !private ["So17JSONSerializationC", "jsonObject"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "hashFromAddress"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "littleEndianHexToUInt"]
+- !private ["s10MirrorPathP", "hashFromAddress"]
+- ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "littleEndianHexToUInt"]
+- !private ["s17MutableCollectionP", "fullHexString"]
+- !private ["s17MutableCollectionP", "init"]
+- !private ["s17MutableCollectionP", "joined"]
+- !private ["s17MutableCollectionP", "map"]
+- !private ["s17MutableCollectionP", "subscript"]
+- !private ["16AlchemintProject10NEONetworkV", "deinit"]
+- !private ["16AlchemintProject10NEONetworkV", "mainNet"]
+- !private ["16AlchemintProject17NEONetworkMonitorC", "Bundle"]
+- !private ["16AlchemintProject17NEONetworkMonitorC", "Data"]
+- !private ["16AlchemintProject17NEONetworkMonitorC", "JSONDecoder"]
+- !private ["16AlchemintProject17NEONetworkMonitorC", "JSONDictionary"]
+- !private ["16AlchemintProject17NEONetworkMonitorC", "JSONSerialization"]
+- ["16AlchemintProject17NEONetworkMonitorC", "NEONetwork"]
+- ["16AlchemintProject17NEONetworkMonitorC", "NEONetworkMonitor"]
+- !private ["16AlchemintProject17NEONetworkMonitorC", "NeoutilsSelectBestSeedNode"]
+- ["16AlchemintProject17NEONetworkMonitorC", "String"]
+- !private ["16AlchemintProject17NEONetworkMonitorC", "URL"]
+- ["16AlchemintProject17NEONetworkMonitorC", "autoSelectBestNode"]
+- ["16AlchemintProject17NEONetworkMonitorC", "deinit"]
+- ["16AlchemintProject17NEONetworkMonitorC", "init"]
+- !private ["16AlchemintProject17NEONetworkMonitorC", "load"]
+- ["16AlchemintProject17NEONetworkMonitorC", "network"]
+- ["16AlchemintProject17NEONetworkMonitorC", "sharedInstance"]
+- !private ["16AlchemintProject17NEONetworkMonitorC", "type"]
+- !private ["16AlchemintProject7NEONodeC", "URL"]
+- !private ["16AlchemintProject8NEONodesC", "nodes"]
+- ["16AlchemintProject9NeoClientC10NEP5MethodO", "RawValue"]
+- ["16AlchemintProject9NeoClientC10NEP5MethodO", "_Default_RawValue"]
+- !private ["16AlchemintProject9NeoClientC10NEP5MethodO", "_findStringSwitchCase"]
+- ["16AlchemintProject9NeoClientC10NEP5MethodO", "balanceOf"]
+- ["16AlchemintProject9NeoClientC10NEP5MethodO", "decimal"]
+- ["16AlchemintProject9NeoClientC10NEP5MethodO", "deinit"]
+- ["16AlchemintProject9NeoClientC10NEP5MethodO", "hashValue"]
+- ["16AlchemintProject9NeoClientC10NEP5MethodO", "init"]
+- ["16AlchemintProject9NeoClientC10NEP5MethodO", "rawValue"]
+- ["16AlchemintProject9NeoClientC10NEP5MethodO", "symbol"]
+- !private ["16AlchemintProject9NEP5TokenV", "decimals"]
+- !private ["16AlchemintProject9NEP5TokenV", "deinit"]
+- !private ["16AlchemintProject9NEP5TokenV", "init"]
+- ["So7NSCacheC", "init"]
+- !private ["So7NSCacheC", "object"]
+- !private ["So7NSCacheC", "setObject"]
+- !private ["So8NSCodingP", "cachePolicy"]
+- !private ["So8NSCodingP", "hashFromAddress"]
+- !private ["So8NSCodingP", "httpBody"]
+- !private ["So8NSCodingP", "httpMethod"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "littleEndianHexToUInt"]
+- !private ["So8NSCodingP", "setValue"]
+- !private ["So8NSCodingP", "timeoutInterval"]
+- !private ["So9NSCopyingP", "cachePolicy"]
+- !private ["So9NSCopyingP", "hashFromAddress"]
+- !private ["So9NSCopyingP", "httpBody"]
+- !private ["So9NSCopyingP", "httpMethod"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "littleEndianHexToUInt"]
+- !private ["So9NSCopyingP", "resume"]
+- !private ["So9NSCopyingP", "setValue"]
+- !private ["So9NSCopyingP", "timeoutInterval"]
+- !private ["So21NSItemProviderReadingP", "hashFromAddress"]
+- !private ["So21NSItemProviderReadingP", "littleEndianHexToUInt"]
+- !private ["So21NSItemProviderWritingP", "hashFromAddress"]
+- !private ["So21NSItemProviderWritingP", "littleEndianHexToUInt"]
+- !private ["So16NSMutableCopyingP", "cachePolicy"]
+- !private ["So16NSMutableCopyingP", "hashFromAddress"]
+- !private ["So16NSMutableCopyingP", "httpBody"]
+- !private ["So16NSMutableCopyingP", "httpMethod"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So16NSMutableCopyingP", "littleEndianHexToUInt"]
+- !private ["So16NSMutableCopyingP", "setValue"]
+- !private ["So16NSMutableCopyingP", "timeoutInterval"]
+- !private ["So19NSMutableURLRequestC", "cachePolicy"]
+- !private ["So19NSMutableURLRequestC", "httpBody"]
+- !private ["So19NSMutableURLRequestC", "httpMethod"]
+- !private ["So19NSMutableURLRequestC", "init"]
+- !private ["So19NSMutableURLRequestC", "setValue"]
+- !private ["So19NSMutableURLRequestC", "timeoutInterval"]
+- !private ["So8NSObjectC", "cachePolicy"]
+- !private ["So8NSObjectC", "data"]
+- !private ["So8NSObjectC", "dataTask"]
+- !private ["So8NSObjectC", "hashFromAddress"]
+- !private ["So8NSObjectC", "httpBody"]
+- !private ["So8NSObjectC", "httpMethod"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "jsonObject"]
+- !private ["So8NSObjectC", "littleEndianHexToUInt"]
+- !private ["So8NSObjectC", "object"]
+- !private ["So8NSObjectC", "path"]
+- !private ["So8NSObjectC", "resume"]
+- !private ["So8NSObjectC", "setObject"]
+- !private ["So8NSObjectC", "setValue"]
+- !private ["So8NSObjectC", "shared"]
+- !private ["So8NSObjectC", "timeoutInterval"]
+- !private ["So8NSObjectC", "url"]
+- !private ["So16NSObjectProtocolP", "cachePolicy"]
+- !private ["So16NSObjectProtocolP", "data"]
+- !private ["So16NSObjectProtocolP", "dataTask"]
+- !private ["So16NSObjectProtocolP", "hashFromAddress"]
+- !private ["So16NSObjectProtocolP", "httpBody"]
+- !private ["So16NSObjectProtocolP", "httpMethod"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "jsonObject"]
+- !private ["So16NSObjectProtocolP", "littleEndianHexToUInt"]
+- !private ["So16NSObjectProtocolP", "object"]
+- !private ["So16NSObjectProtocolP", "path"]
+- !private ["So16NSObjectProtocolP", "resume"]
+- !private ["So16NSObjectProtocolP", "setObject"]
+- !private ["So16NSObjectProtocolP", "setValue"]
+- !private ["So16NSObjectProtocolP", "shared"]
+- !private ["So16NSObjectProtocolP", "timeoutInterval"]
+- !private ["So16NSObjectProtocolP", "url"]
+- !private ["So14NSSecureCodingP", "cachePolicy"]
+- !private ["So14NSSecureCodingP", "hashFromAddress"]
+- !private ["So14NSSecureCodingP", "httpBody"]
+- !private ["So14NSSecureCodingP", "httpMethod"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "littleEndianHexToUInt"]
+- !private ["So14NSSecureCodingP", "setValue"]
+- !private ["So14NSSecureCodingP", "timeoutInterval"]
+- !private ["So8NSStringC", "hashFromAddress"]
+- !private ["So8NSStringC", "littleEndianHexToUInt"]
+- !private ["So12NSURLRequestC", "cachePolicy"]
+- !private ["So12NSURLRequestC", "httpBody"]
+- !private ["So12NSURLRequestC", "httpMethod"]
+- !private ["So12NSURLRequestC", "init"]
+- !private ["So12NSURLRequestC", "setValue"]
+- !private ["So12NSURLRequestC", "timeoutInterval"]
+- ["16AlchemintProject9NeoClientC", "AccountState"]
+- ["16AlchemintProject9NeoClientC", "AnyObject"]
+- ["16AlchemintProject9NeoClientC", "AssetState"]
+- ["16AlchemintProject9NeoClientC", "Assets"]
+- ["16AlchemintProject9NeoClientC", "Block"]
+- ["16AlchemintProject9NeoClientC", "Bool"]
+- ["16AlchemintProject9NeoClientC", "Claimable"]
+- ["16AlchemintProject9NeoClientC", "ContractResult"]
+- ["16AlchemintProject9NeoClientC", "Data"]
+- ["16AlchemintProject9NeoClientC", "Double"]
+- ["16AlchemintProject9NeoClientC", "GetPeersResult"]
+- ["16AlchemintProject9NeoClientC", "Int64"]
+- !private ["16AlchemintProject9NeoClientC", "JSONDecoder"]
+- ["16AlchemintProject9NeoClientC", "JSONDictionary"]
+- !private ["16AlchemintProject9NeoClientC", "JSONSerialization"]
+- ["16AlchemintProject9NeoClientC", "NEP5Method"]
+- ["16AlchemintProject9NeoClientC", "NEP5Token"]
+- ["16AlchemintProject9NeoClientC", "NSCache"]
+- !private ["16AlchemintProject9NeoClientC", "NSMutableURLRequest"]
+- ["16AlchemintProject9NeoClientC", "NSString"]
+- ["16AlchemintProject9NeoClientC", "NeoClient"]
+- !private ["16AlchemintProject9NeoClientC", "NeoClientError"]
+- ["16AlchemintProject9NeoClientC", "NeoClientResult"]
+- ["16AlchemintProject9NeoClientC", "Network"]
+- ["16AlchemintProject9NeoClientC", "RPCMethod"]
+- !private ["16AlchemintProject9NeoClientC", "ScriptBuilder"]
+- ["16AlchemintProject9NeoClientC", "String"]
+- ["16AlchemintProject9NeoClientC", "Transaction"]
+- ["16AlchemintProject9NeoClientC", "TransactionHistory"]
+- ["16AlchemintProject9NeoClientC", "UInt"]
+- !private ["16AlchemintProject9NeoClientC", "URL"]
+- !private ["16AlchemintProject9NeoClientC", "URLRequest"]
+- !private ["16AlchemintProject9NeoClientC", "URLSession"]
+- ["16AlchemintProject9NeoClientC", "ValueOut"]
+- !private ["16AlchemintProject9NeoClientC", "_findStringSwitchCase"]
+- ["16AlchemintProject9NeoClientC", "apiURL"]
+- ["16AlchemintProject9NeoClientC", "deinit"]
+- ["16AlchemintProject9NeoClientC", "fullNodeAPI"]
+- ["16AlchemintProject9NeoClientC", "getAccountState"]
+- ["16AlchemintProject9NeoClientC", "getAssetState"]
+- ["16AlchemintProject9NeoClientC", "getAssets"]
+- ["16AlchemintProject9NeoClientC", "getBestBlockHash"]
+- ["16AlchemintProject9NeoClientC", "getBlockBy"]
+- ["16AlchemintProject9NeoClientC", "getBlockCount"]
+- ["16AlchemintProject9NeoClientC", "getBlockHash"]
+- ["16AlchemintProject9NeoClientC", "getClaims"]
+- ["16AlchemintProject9NeoClientC", "getConnectionCount"]
+- ["16AlchemintProject9NeoClientC", "getPeers"]
+- ["16AlchemintProject9NeoClientC", "getTokenBalance"]
+- ["16AlchemintProject9NeoClientC", "getTokenBalanceUInt"]
+- ["16AlchemintProject9NeoClientC", "getTokenInfo"]
+- ["16AlchemintProject9NeoClientC", "getTokenSaleStatus"]
+- ["16AlchemintProject9NeoClientC", "getTransaction"]
+- ["16AlchemintProject9NeoClientC", "getTransactionHistory"]
+- ["16AlchemintProject9NeoClientC", "getTransactionOutput"]
+- ["16AlchemintProject9NeoClientC", "getUnconfirmedTransactions"]
+- ["16AlchemintProject9NeoClientC", "init"]
+- ["16AlchemintProject9NeoClientC", "invokeContract"]
+- ["16AlchemintProject9NeoClientC", "network"]
+- !private ["16AlchemintProject9NeoClientC", "pow"]
+- !private ["16AlchemintProject9NeoClientC", "print"]
+- ["16AlchemintProject9NeoClientC", "seed"]
+- ["16AlchemintProject9NeoClientC", "sendFullNodeRequest"]
+- ["16AlchemintProject9NeoClientC", "sendRawTransaction"]
+- ["16AlchemintProject9NeoClientC", "sendRequest"]
+- ["16AlchemintProject9NeoClientC", "sharedMain"]
+- ["16AlchemintProject9NeoClientC", "sharedTest"]
+- !private ["16AlchemintProject9NeoClientC", "tokenInfoCache"]
+- ["16AlchemintProject9NeoClientC", "validateAddress"]
+- ["16AlchemintProject14NeoClientErrorO", "String"]
+- ["16AlchemintProject14NeoClientErrorO", "__derived_enum_equals"]
+- ["16AlchemintProject14NeoClientErrorO", "_code"]
+- ["16AlchemintProject14NeoClientErrorO", "_domain"]
+- ["16AlchemintProject14NeoClientErrorO", "_getEmbeddedNSError"]
+- ["16AlchemintProject14NeoClientErrorO", "_userInfo"]
+- ["16AlchemintProject14NeoClientErrorO", "deinit"]
+- ["16AlchemintProject14NeoClientErrorO", "hashValue"]
+- ["16AlchemintProject14NeoClientErrorO", "invalidBodyRequest"]
+- ["16AlchemintProject14NeoClientErrorO", "invalidData"]
+- ["16AlchemintProject14NeoClientErrorO", "invalidRequest"]
+- ["16AlchemintProject14NeoClientErrorO", "invalidSeed"]
+- ["16AlchemintProject14NeoClientErrorO", "localizedDescription"]
+- ["16AlchemintProject14NeoClientErrorO", "noInternet"]
+- ["16AlchemintProject15NeoClientResultO", "NeoClientError"]
+- ["16AlchemintProject15NeoClientResultO", "T"]
+- ["16AlchemintProject15NeoClientResultO", "failure"]
+- ["16AlchemintProject15NeoClientResultO", "success"]
+- !private ["So24NeoutilsSeedNodeResponseC", "url"]
+- ["16AlchemintProject7NetworkO", "RawValue"]
+- ["16AlchemintProject7NetworkO", "_Default_RawValue"]
+- !private ["16AlchemintProject7NetworkO", "_findStringSwitchCase"]
+- ["16AlchemintProject7NetworkO", "deinit"]
+- ["16AlchemintProject7NetworkO", "hashValue"]
+- ["16AlchemintProject7NetworkO", "init"]
+- ["16AlchemintProject7NetworkO", "main"]
+- ["16AlchemintProject7NetworkO", "privateNet"]
+- ["16AlchemintProject7NetworkO", "rawValue"]
+- ["16AlchemintProject7NetworkO", "test"]
+- !private ["s7NumericP", "init"]
+- !private ["s9OptionSetP", "prettyPrinted"]
+- !private ["So17ProgressReportingP", "resume"]
+- ["16AlchemintProject9NeoClientC9RPCMethodO", "RawValue"]
+- ["16AlchemintProject9NeoClientC9RPCMethodO", "_Default_RawValue"]
+- !private ["16AlchemintProject9NeoClientC9RPCMethodO", "_findStringSwitchCase"]
+- ["16AlchemintProject9NeoClientC9RPCMethodO", "deinit"]
+- ["16AlchemintProject9NeoClientC9RPCMethodO", "getAccountState"]
+- ["16AlchemintProject9NeoClientC9RPCMethodO", "getAssetState"]
+- ["16AlchemintProject9NeoClientC9RPCMethodO", "getBalance"]
+- ["16AlchemintProject9NeoClientC9RPCMethodO", "getBestBlockHash"]
+- ["16AlchemintProject9NeoClientC9RPCMethodO", "getBlock"]
+- ["16AlchemintProject9NeoClientC9RPCMethodO", "getBlockCount"]
+- ["16AlchemintProject9NeoClientC9RPCMethodO", "getBlockHash"]
+- ["16AlchemintProject9NeoClientC9RPCMethodO", "getConnectionCount"]
+- ["16AlchemintProject9NeoClientC9RPCMethodO", "getPeers"]
+- ["16AlchemintProject9NeoClientC9RPCMethodO", "getTransaction"]
+- ["16AlchemintProject9NeoClientC9RPCMethodO", "getTransactionOutput"]
+- ["16AlchemintProject9NeoClientC9RPCMethodO", "getUnconfirmedTransactions"]
+- ["16AlchemintProject9NeoClientC9RPCMethodO", "hashValue"]
+- ["16AlchemintProject9NeoClientC9RPCMethodO", "init"]
+- ["16AlchemintProject9NeoClientC9RPCMethodO", "invokeContract"]
+- ["16AlchemintProject9NeoClientC9RPCMethodO", "invokeFunction"]
+- ["16AlchemintProject9NeoClientC9RPCMethodO", "rawValue"]
+- ["16AlchemintProject9NeoClientC9RPCMethodO", "sendTransaction"]
+- ["16AlchemintProject9NeoClientC9RPCMethodO", "validateAddress"]
+- !private ["s22RandomAccessCollectionP", "fullHexString"]
+- !private ["s22RandomAccessCollectionP", "init"]
+- !private ["s22RandomAccessCollectionP", "joined"]
+- !private ["s22RandomAccessCollectionP", "map"]
+- !private ["s22RandomAccessCollectionP", "subscript"]
+- !private ["s26RangeReplaceableCollectionP", "fullHexString"]
+- !private ["s26RangeReplaceableCollectionP", "hashFromAddress"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "joined"]
+- !private ["s26RangeReplaceableCollectionP", "littleEndianHexToUInt"]
+- !private ["s26RangeReplaceableCollectionP", "map"]
+- !private ["s26RangeReplaceableCollectionP", "subscript"]
+- ["s16RawRepresentableP", "RawValue"]
+- ["s16RawRepresentableP", ""]
+- ["s16RawRepresentableP", "_Default_RawValue"]
+- !private ["s16RawRepresentableP", "_findStringSwitchCase"]
+- !private ["s16RawRepresentableP", "getAccountState"]
+- !private ["s16RawRepresentableP", "getAssetState"]
+- !private ["s16RawRepresentableP", "getBestBlockHash"]
+- !private ["s16RawRepresentableP", "getBlock"]
+- !private ["s16RawRepresentableP", "getBlockCount"]
+- !private ["s16RawRepresentableP", "getBlockHash"]
+- !private ["s16RawRepresentableP", "getClaims"]
+- !private ["s16RawRepresentableP", "getConnectionCount"]
+- !private ["s16RawRepresentableP", "getPeers"]
+- !private ["s16RawRepresentableP", "getTransaction"]
+- !private ["s16RawRepresentableP", "getTransactionHistory"]
+- !private ["s16RawRepresentableP", "getUTXO"]
+- !private ["s16RawRepresentableP", "getUnconfirmedTransactions"]
+- ["s16RawRepresentableP", "hashValue"]
+- ["s16RawRepresentableP", "init"]
+- !private ["s16RawRepresentableP", "invokeContract"]
+- ["s16RawRepresentableP", "main"]
+- !private ["s16RawRepresentableP", "prettyPrinted"]
+- ["s16RawRepresentableP", "privateNet"]
+- ["s16RawRepresentableP", "rawValue"]
+- !private ["s16RawRepresentableP", "reloadIgnoringLocalCacheData"]
+- !private ["s16RawRepresentableP", "sendTransaction"]
+- ["s16RawRepresentableP", "test"]
+- !private ["s16RawRepresentableP", "validateAddress"]
+- !private ["10Foundation20ReferenceConvertibleP", "fullHexString"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["16AlchemintProject13ScriptBuilderC", "init"]
+- !private ["16AlchemintProject13ScriptBuilderC", "pushContractInvoke"]
+- !private ["16AlchemintProject13ScriptBuilderC", "rawHexString"]
+- !private ["s8SequenceP", "fullHexString"]
+- !private ["s8SequenceP", "hashFromAddress"]
+- ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "joined"]
+- !private ["s8SequenceP", "littleEndianHexToUInt"]
+- !private ["s8SequenceP", "map"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["s10SetAlgebraP", "prettyPrinted"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["16AlchemintProject10StackEntryV", "hexDataValue"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s10StrideableP", "init"]
+- !private ["SS", "hashFromAddress"]
+- ["SS", "init"]
+- !private ["SS", "littleEndianHexToUInt"]
+- !private ["s14StringProtocolP", "hashFromAddress"]
+- ["s14StringProtocolP", "init"]
+- !private ["s14StringProtocolP", "littleEndianHexToUInt"]
+- !private ["s16TextOutputStreamP", "hashFromAddress"]
+- ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "littleEndianHexToUInt"]
+- !private ["s20TextOutputStreamableP", "hashFromAddress"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "littleEndianHexToUInt"]
+- !private ["16AlchemintProject11TransactionV", "deinit"]
+- !private ["16AlchemintProject18TransactionHistoryV", "deinit"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["So10URLSessionC", "dataTask"]
+- !private ["So10URLSessionC", "shared"]
+- !private ["So18URLSessionDataTaskC", "resume"]
+- !private ["So14URLSessionTaskC", "resume"]
+- !private ["16AlchemintProject8ValueOutV", "deinit"]
+- !private ["So17JSONSerializationC14WritingOptionsV", "prettyPrinted"]
+- !private ["s14_ArrayProtocolP", "joined"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s24_DestructorSafeContainerP", "joined"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "hashFromAddress"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "littleEndianHexToUInt"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "hashFromAddress"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "littleEndianHexToUInt"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "hashFromAddress"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "littleEndianHexToUInt"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "hashFromAddress"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "littleEndianHexToUInt"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "hashFromAddress"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "littleEndianHexToUInt"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "cachePolicy"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "hashFromAddress"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "httpBody"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "httpMethod"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "littleEndianHexToUInt"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "setValue"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "timeoutInterval"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cachePolicy"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "data"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataTask"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "hashFromAddress"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "httpBody"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "httpMethod"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "jsonObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "littleEndianHexToUInt"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "object"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "path"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "resume"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "timeoutInterval"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "url"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "fullHexString"]
+- !private ["s21_ObjectiveCBridgeableP", "hashFromAddress"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "joined"]
+- !private ["s21_ObjectiveCBridgeableP", "littleEndianHexToUInt"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s16_SwiftStringViewP", "hashFromAddress"]
+- ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "littleEndianHexToUInt"]
+- ["16AlchemintProject9NeoClientC6apiURLO", "RawValue"]
+- ["16AlchemintProject9NeoClientC6apiURLO", "_Default_RawValue"]
+- !private ["16AlchemintProject9NeoClientC6apiURLO", "_findStringSwitchCase"]
+- ["16AlchemintProject9NeoClientC6apiURLO", "deinit"]
+- ["16AlchemintProject9NeoClientC6apiURLO", "getClaims"]
+- ["16AlchemintProject9NeoClientC6apiURLO", "getTransactionHistory"]
+- ["16AlchemintProject9NeoClientC6apiURLO", "getUTXO"]
+- ["16AlchemintProject9NeoClientC6apiURLO", "hashValue"]
+- ["16AlchemintProject9NeoClientC6apiURLO", "init"]
+- ["16AlchemintProject9NeoClientC6apiURLO", "rawValue"]
+- !private ["So17goSeqRefInterfaceP", "url"]
+depends-nominal:
+- !private "16AlchemintProject12AccountStateV"
+- !private "Sa"
+- !private "16AlchemintProject10AssetStateV"
+- !private "16AlchemintProject6AssetsV"
+- "s23BidirectionalCollectionP"
+- !private "s19BinaryFloatingPointP"
+- !private "16AlchemintProject5BlockV"
+- !private "Sb"
+- !private "So6BundleC"
+- "s7CVarArgP"
+- !private "So12NSURLRequestC11CachePolicyO"
+- !private "16AlchemintProject9ClaimableV"
+- "s10CollectionP"
+- "s10ComparableP"
+- !private "16AlchemintProject14ContractResultV"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation4DataV"
+- "s9DecodableP"
+- !private "s10DictionaryV"
+- !private "Sd"
+- "s9EncodableP"
+- "s9EquatableP"
+- "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s13FloatingPointP"
+- !private "16AlchemintProject14GetPeersResultV"
+- "s8HashableP"
+- !private "10Foundation11JSONDecoderC"
+- !private "So17JSONSerializationC"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- !private "16AlchemintProject10NEONetworkV"
+- "16AlchemintProject17NEONetworkMonitorC"
+- !private "16AlchemintProject7NEONodeC"
+- !private "16AlchemintProject8NEONodesC"
+- "16AlchemintProject9NeoClientC10NEP5MethodO"
+- !private "16AlchemintProject9NEP5TokenV"
+- "So7NSCacheC"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So19NSMutableURLRequestC"
+- !private "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "So12NSURLRequestC"
+- "16AlchemintProject9NeoClientC"
+- "16AlchemintProject14NeoClientErrorO"
+- "16AlchemintProject15NeoClientResultO"
+- !private "So24NeoutilsSeedNodeResponseC"
+- "16AlchemintProject7NetworkO"
+- !private "s7NumericP"
+- !private "s9OptionSetP"
+- !private "So17ProgressReportingP"
+- "16AlchemintProject9NeoClientC9RPCMethodO"
+- !private "s22RandomAccessCollectionP"
+- "s26RangeReplaceableCollectionP"
+- "s16RawRepresentableP"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "16AlchemintProject13ScriptBuilderC"
+- "s8SequenceP"
+- !private "s10SetAlgebraP"
+- !private "s13SignedNumericP"
+- !private "16AlchemintProject10StackEntryV"
+- !private "s12StaticStringV"
+- !private "s10StrideableP"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "16AlchemintProject11TransactionV"
+- !private "16AlchemintProject18TransactionHistoryV"
+- !private "10Foundation3URLV"
+- !private "So10URLSessionC"
+- !private "So18URLSessionDataTaskC"
+- !private "So14URLSessionTaskC"
+- !private "16AlchemintProject8ValueOutV"
+- !private "So17JSONSerializationC14WritingOptionsV"
+- !private "s14_ArrayProtocolP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+- "16AlchemintProject9NeoClientC6apiURLO"
+- !private "So17goSeqRefInterfaceP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/Neoutils.framework/Headers/Universe.objc.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/Neoutils.framework/Headers/Neoutils.objc.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/Neoutils.framework/Headers/ref.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/Neoutils.framework/Headers/Neoutils.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/CommonCrypto/module.modulemap"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/Neoutils.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "e5aad57738db9df34f7153933fb1cd40"

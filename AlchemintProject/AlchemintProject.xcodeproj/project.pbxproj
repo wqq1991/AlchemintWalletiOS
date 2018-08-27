@@ -7,94 +7,103 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4943E691212C4F8900283934 /* neoutils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4943E663212C4F8900283934 /* neoutils.framework */; };
-		4943E692212C4F8900283934 /* AES.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943E665212C4F8900283934 /* AES.swift */; };
-		4943E693212C4F8900283934 /* SHA256.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943E666212C4F8900283934 /* SHA256.swift */; };
-		4943E694212C4F8900283934 /* scrypt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943E667212C4F8900283934 /* scrypt.swift */; };
-		4943E695212C4F8900283934 /* RIPEMD160.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943E668212C4F8900283934 /* RIPEMD160.swift */; };
-		4943E696212C4F8900283934 /* PBKDF2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943E669212C4F8900283934 /* PBKDF2.swift */; };
-		4943E697212C4F8900283934 /* NeoScan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943E66A212C4F8900283934 /* NeoScan.swift */; };
-		4943E698212C4F8900283934 /* Array+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943E66C212C4F8900283934 /* Array+Util.swift */; };
-		4943E699212C4F8900283934 /* validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943E66D212C4F8900283934 /* validator.swift */; };
-		4943E69A212C4F8900283934 /* NEP2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943E66E212C4F8900283934 /* NEP2.swift */; };
-		4943E69B212C4F8900283934 /* Data+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943E66F212C4F8900283934 /* Data+Util.swift */; };
-		4943E69C212C4F8900283934 /* Base58.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943E670212C4F8900283934 /* Base58.swift */; };
-		4943E69D212C4F8900283934 /* NEP9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943E671212C4F8900283934 /* NEP9.swift */; };
-		4943E69E212C4F8900283934 /* OpCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943E673212C4F8900283934 /* OpCodes.swift */; };
-		4943E69F212C4F8900283934 /* ScriptBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943E674212C4F8900283934 /* ScriptBuilder.swift */; };
-		4943E6A0212C4F8900283934 /* NEP5Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943E675212C4F8900283934 /* NEP5Token.swift */; };
-		4943E6A1212C4F8900283934 /* AccountState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943E677212C4F8900283934 /* AccountState.swift */; };
-		4943E6A2212C4F8900283934 /* Claims.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943E678212C4F8900283934 /* Claims.swift */; };
-		4943E6A3212C4F8900283934 /* ValueIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943E679212C4F8900283934 /* ValueIn.swift */; };
-		4943E6A4212C4F8900283934 /* NEONetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943E67A212C4F8900283934 /* NEONetwork.swift */; };
-		4943E6A5212C4F8900283934 /* ValueOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943E67B212C4F8900283934 /* ValueOut.swift */; };
-		4943E6A6212C4F8900283934 /* TransactionHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943E67C212C4F8900283934 /* TransactionHistory.swift */; };
-		4943E6A7212C4F8900283934 /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943E67D212C4F8900283934 /* Block.swift */; };
-		4943E6A8212C4F8900283934 /* Balance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943E67E212C4F8900283934 /* Balance.swift */; };
-		4943E6A9212C4F8900283934 /* Script.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943E67F212C4F8900283934 /* Script.swift */; };
-		4943E6AA212C4F8900283934 /* NeoScanTransactionHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943E680212C4F8900283934 /* NeoScanTransactionHistory.swift */; };
-		4943E6AB212C4F8900283934 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943E681212C4F8900283934 /* Transaction.swift */; };
-		4943E6AC212C4F8900283934 /* TransactionAttritbute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943E682212C4F8900283934 /* TransactionAttritbute.swift */; };
-		4943E6AD212C4F8900283934 /* Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943E683212C4F8900283934 /* Asset.swift */; };
-		4943E6AE212C4F8900283934 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943E684212C4F8900283934 /* Token.swift */; };
-		4943E6AF212C4F8900283934 /* Peer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943E685212C4F8900283934 /* Peer.swift */; };
-		4943E6B0212C4F8900283934 /* ContractResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943E686212C4F8900283934 /* ContractResult.swift */; };
-		4943E6B1212C4F8900283934 /* NeoScanBalance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943E687212C4F8900283934 /* NeoScanBalance.swift */; };
-		4943E6B2212C4F8900283934 /* ShamirSecret.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943E688212C4F8900283934 /* ShamirSecret.swift */; };
-		4943E6B3212C4F8900283934 /* strip-frameworks.sh in Resources */ = {isa = PBXBuildFile; fileRef = 4943E68A212C4F8900283934 /* strip-frameworks.sh */; };
-		4943E6B4212C4F8900283934 /* WIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943E68B212C4F8900283934 /* WIF.swift */; };
-		4943E6B5212C4F8900283934 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943E68C212C4F8900283934 /* Account.swift */; };
-		4943E6B6212C4F8900283934 /* nodes.json in Resources */ = {isa = PBXBuildFile; fileRef = 4943E68E212C4F8900283934 /* nodes.json */; };
-		4943E6B7212C4F8900283934 /* AssetIdConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943E68F212C4F8900283934 /* AssetIdConstants.swift */; };
-		4943E6B8212C4F8900283934 /* NeoClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943E690212C4F8900283934 /* NeoClient.swift */; };
+		44E296FE213417C200FB1E87 /* Info-tvOS.plist in Resources */ = {isa = PBXBuildFile; fileRef = 44E296C7213417C200FB1E87 /* Info-tvOS.plist */; };
+		44E296FF213417C200FB1E87 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 44E296C8213417C200FB1E87 /* Info.plist */; };
+		44E29701213417C200FB1E87 /* AES.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E296CF213417C200FB1E87 /* AES.swift */; };
+		44E29702213417C200FB1E87 /* SHA256.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E296D0213417C200FB1E87 /* SHA256.swift */; };
+		44E29703213417C200FB1E87 /* scrypt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E296D1213417C200FB1E87 /* scrypt.swift */; };
+		44E29704213417C200FB1E87 /* RIPEMD160.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E296D2213417C200FB1E87 /* RIPEMD160.swift */; };
+		44E29705213417C200FB1E87 /* PBKDF2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E296D3213417C200FB1E87 /* PBKDF2.swift */; };
+		44E29706213417C200FB1E87 /* NeoScan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E296D4213417C200FB1E87 /* NeoScan.swift */; };
+		44E29707213417C200FB1E87 /* Array+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E296D6213417C200FB1E87 /* Array+Util.swift */; };
+		44E29708213417C200FB1E87 /* validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E296D7213417C200FB1E87 /* validator.swift */; };
+		44E29709213417C200FB1E87 /* NEP2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E296D8213417C200FB1E87 /* NEP2.swift */; };
+		44E2970A213417C200FB1E87 /* Data+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E296D9213417C200FB1E87 /* Data+Util.swift */; };
+		44E2970B213417C200FB1E87 /* Base58.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E296DA213417C200FB1E87 /* Base58.swift */; };
+		44E2970C213417C200FB1E87 /* NEP9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E296DB213417C200FB1E87 /* NEP9.swift */; };
+		44E2970D213417C200FB1E87 /* OpCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E296DD213417C200FB1E87 /* OpCodes.swift */; };
+		44E2970E213417C200FB1E87 /* ScriptBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E296DE213417C200FB1E87 /* ScriptBuilder.swift */; };
+		44E2970F213417C200FB1E87 /* NEP5Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E296DF213417C200FB1E87 /* NEP5Token.swift */; };
+		44E29710213417C200FB1E87 /* AccountState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E296E1213417C200FB1E87 /* AccountState.swift */; };
+		44E29711213417C200FB1E87 /* Claims.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E296E2213417C200FB1E87 /* Claims.swift */; };
+		44E29712213417C200FB1E87 /* ValueIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E296E3213417C200FB1E87 /* ValueIn.swift */; };
+		44E29713213417C200FB1E87 /* NEONetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E296E4213417C200FB1E87 /* NEONetwork.swift */; };
+		44E29714213417C200FB1E87 /* ValueOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E296E5213417C200FB1E87 /* ValueOut.swift */; };
+		44E29715213417C200FB1E87 /* TransactionHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E296E6213417C200FB1E87 /* TransactionHistory.swift */; };
+		44E29716213417C200FB1E87 /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E296E7213417C200FB1E87 /* Block.swift */; };
+		44E29717213417C200FB1E87 /* Balance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E296E8213417C200FB1E87 /* Balance.swift */; };
+		44E29718213417C200FB1E87 /* Script.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E296E9213417C200FB1E87 /* Script.swift */; };
+		44E29719213417C200FB1E87 /* NeoScanTransactionHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E296EA213417C200FB1E87 /* NeoScanTransactionHistory.swift */; };
+		44E2971A213417C200FB1E87 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E296EB213417C200FB1E87 /* Transaction.swift */; };
+		44E2971B213417C200FB1E87 /* TransactionAttritbute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E296EC213417C200FB1E87 /* TransactionAttritbute.swift */; };
+		44E2971C213417C200FB1E87 /* Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E296ED213417C200FB1E87 /* Asset.swift */; };
+		44E2971D213417C200FB1E87 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E296EE213417C200FB1E87 /* Token.swift */; };
+		44E2971E213417C200FB1E87 /* Peer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E296EF213417C200FB1E87 /* Peer.swift */; };
+		44E2971F213417C200FB1E87 /* ContractResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E296F0213417C200FB1E87 /* ContractResult.swift */; };
+		44E29720213417C200FB1E87 /* NeoScanBalance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E296F1213417C200FB1E87 /* NeoScanBalance.swift */; };
+		44E29721213417C200FB1E87 /* ShamirSecret.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E296F2213417C200FB1E87 /* ShamirSecret.swift */; };
+		44E29722213417C200FB1E87 /* strip-frameworks.sh in Resources */ = {isa = PBXBuildFile; fileRef = 44E296F4213417C200FB1E87 /* strip-frameworks.sh */; };
+		44E29723213417C200FB1E87 /* WIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E296F5213417C200FB1E87 /* WIF.swift */; };
+		44E29724213417C200FB1E87 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E296F6213417C200FB1E87 /* Account.swift */; };
+		44E29725213417C200FB1E87 /* nodes.json in Resources */ = {isa = PBXBuildFile; fileRef = 44E296F8213417C200FB1E87 /* nodes.json */; };
+		44E29726213417C200FB1E87 /* AssetIdConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E296F9213417C200FB1E87 /* AssetIdConstants.swift */; };
+		44E29727213417C200FB1E87 /* NeoClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E296FA213417C200FB1E87 /* NeoClient.swift */; };
+		44E297292134181A00FB1E87 /* neoutils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E297282134181A00FB1E87 /* neoutils.framework */; };
 		494DB6EC212725D5004FEE9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494DB6EB212725D5004FEE9D /* AppDelegate.swift */; };
 		494DB6EE212725D5004FEE9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494DB6ED212725D5004FEE9D /* ViewController.swift */; };
 		494DB6F1212725D5004FEE9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 494DB6EF212725D5004FEE9D /* Main.storyboard */; };
 		494DB6F3212725D7004FEE9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 494DB6F2212725D7004FEE9D /* Assets.xcassets */; };
 		494DB6F6212725D7004FEE9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 494DB6F4212725D7004FEE9D /* LaunchScreen.storyboard */; };
+		E37763F6AF5285587955FDA0 /* Pods_AlchemintProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ADF4FED3BCCB015B106ADEB /* Pods_AlchemintProject.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4943E663212C4F8900283934 /* neoutils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = neoutils.framework; sourceTree = "<group>"; };
-		4943E665212C4F8900283934 /* AES.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AES.swift; sourceTree = "<group>"; };
-		4943E666212C4F8900283934 /* SHA256.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SHA256.swift; sourceTree = "<group>"; };
-		4943E667212C4F8900283934 /* scrypt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = scrypt.swift; sourceTree = "<group>"; };
-		4943E668212C4F8900283934 /* RIPEMD160.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RIPEMD160.swift; sourceTree = "<group>"; };
-		4943E669212C4F8900283934 /* PBKDF2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PBKDF2.swift; sourceTree = "<group>"; };
-		4943E66A212C4F8900283934 /* NeoScan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeoScan.swift; sourceTree = "<group>"; };
-		4943E66C212C4F8900283934 /* Array+Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Util.swift"; sourceTree = "<group>"; };
-		4943E66D212C4F8900283934 /* validator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = validator.swift; sourceTree = "<group>"; };
-		4943E66E212C4F8900283934 /* NEP2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEP2.swift; sourceTree = "<group>"; };
-		4943E66F212C4F8900283934 /* Data+Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+Util.swift"; sourceTree = "<group>"; };
-		4943E670212C4F8900283934 /* Base58.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Base58.swift; sourceTree = "<group>"; };
-		4943E671212C4F8900283934 /* NEP9.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEP9.swift; sourceTree = "<group>"; };
-		4943E673212C4F8900283934 /* OpCodes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpCodes.swift; sourceTree = "<group>"; };
-		4943E674212C4F8900283934 /* ScriptBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScriptBuilder.swift; sourceTree = "<group>"; };
-		4943E675212C4F8900283934 /* NEP5Token.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEP5Token.swift; sourceTree = "<group>"; };
-		4943E677212C4F8900283934 /* AccountState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountState.swift; sourceTree = "<group>"; };
-		4943E678212C4F8900283934 /* Claims.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Claims.swift; sourceTree = "<group>"; };
-		4943E679212C4F8900283934 /* ValueIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValueIn.swift; sourceTree = "<group>"; };
-		4943E67A212C4F8900283934 /* NEONetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEONetwork.swift; sourceTree = "<group>"; };
-		4943E67B212C4F8900283934 /* ValueOut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValueOut.swift; sourceTree = "<group>"; };
-		4943E67C212C4F8900283934 /* TransactionHistory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionHistory.swift; sourceTree = "<group>"; };
-		4943E67D212C4F8900283934 /* Block.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
-		4943E67E212C4F8900283934 /* Balance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Balance.swift; sourceTree = "<group>"; };
-		4943E67F212C4F8900283934 /* Script.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Script.swift; sourceTree = "<group>"; };
-		4943E680212C4F8900283934 /* NeoScanTransactionHistory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeoScanTransactionHistory.swift; sourceTree = "<group>"; };
-		4943E681212C4F8900283934 /* Transaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
-		4943E682212C4F8900283934 /* TransactionAttritbute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionAttritbute.swift; sourceTree = "<group>"; };
-		4943E683212C4F8900283934 /* Asset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Asset.swift; sourceTree = "<group>"; };
-		4943E684212C4F8900283934 /* Token.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
-		4943E685212C4F8900283934 /* Peer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Peer.swift; sourceTree = "<group>"; };
-		4943E686212C4F8900283934 /* ContractResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContractResult.swift; sourceTree = "<group>"; };
-		4943E687212C4F8900283934 /* NeoScanBalance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeoScanBalance.swift; sourceTree = "<group>"; };
-		4943E688212C4F8900283934 /* ShamirSecret.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShamirSecret.swift; sourceTree = "<group>"; };
-		4943E68A212C4F8900283934 /* strip-frameworks.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "strip-frameworks.sh"; sourceTree = "<group>"; };
-		4943E68B212C4F8900283934 /* WIF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WIF.swift; sourceTree = "<group>"; };
-		4943E68C212C4F8900283934 /* Account.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
-		4943E68E212C4F8900283934 /* nodes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nodes.json; sourceTree = "<group>"; };
-		4943E68F212C4F8900283934 /* AssetIdConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssetIdConstants.swift; sourceTree = "<group>"; };
-		4943E690212C4F8900283934 /* NeoClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeoClient.swift; sourceTree = "<group>"; };
+		0ADF4FED3BCCB015B106ADEB /* Pods_AlchemintProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlchemintProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		12E3EBB7BC1DE46769B1A19E /* Pods-AlchemintProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlchemintProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlchemintProject/Pods-AlchemintProject.release.xcconfig"; sourceTree = "<group>"; };
+		44E296C7213417C200FB1E87 /* Info-tvOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-tvOS.plist"; sourceTree = "<group>"; };
+		44E296C8213417C200FB1E87 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44E296CC213417C200FB1E87 /* _CommonCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _CommonCrypto.h; sourceTree = "<group>"; };
+		44E296CD213417C200FB1E87 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		44E296CF213417C200FB1E87 /* AES.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AES.swift; sourceTree = "<group>"; };
+		44E296D0213417C200FB1E87 /* SHA256.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SHA256.swift; sourceTree = "<group>"; };
+		44E296D1213417C200FB1E87 /* scrypt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = scrypt.swift; sourceTree = "<group>"; };
+		44E296D2213417C200FB1E87 /* RIPEMD160.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RIPEMD160.swift; sourceTree = "<group>"; };
+		44E296D3213417C200FB1E87 /* PBKDF2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PBKDF2.swift; sourceTree = "<group>"; };
+		44E296D4213417C200FB1E87 /* NeoScan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeoScan.swift; sourceTree = "<group>"; };
+		44E296D6213417C200FB1E87 /* Array+Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Util.swift"; sourceTree = "<group>"; };
+		44E296D7213417C200FB1E87 /* validator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = validator.swift; sourceTree = "<group>"; };
+		44E296D8213417C200FB1E87 /* NEP2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEP2.swift; sourceTree = "<group>"; };
+		44E296D9213417C200FB1E87 /* Data+Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+Util.swift"; sourceTree = "<group>"; };
+		44E296DA213417C200FB1E87 /* Base58.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Base58.swift; sourceTree = "<group>"; };
+		44E296DB213417C200FB1E87 /* NEP9.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEP9.swift; sourceTree = "<group>"; };
+		44E296DD213417C200FB1E87 /* OpCodes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpCodes.swift; sourceTree = "<group>"; };
+		44E296DE213417C200FB1E87 /* ScriptBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScriptBuilder.swift; sourceTree = "<group>"; };
+		44E296DF213417C200FB1E87 /* NEP5Token.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEP5Token.swift; sourceTree = "<group>"; };
+		44E296E1213417C200FB1E87 /* AccountState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountState.swift; sourceTree = "<group>"; };
+		44E296E2213417C200FB1E87 /* Claims.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Claims.swift; sourceTree = "<group>"; };
+		44E296E3213417C200FB1E87 /* ValueIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValueIn.swift; sourceTree = "<group>"; };
+		44E296E4213417C200FB1E87 /* NEONetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEONetwork.swift; sourceTree = "<group>"; };
+		44E296E5213417C200FB1E87 /* ValueOut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValueOut.swift; sourceTree = "<group>"; };
+		44E296E6213417C200FB1E87 /* TransactionHistory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionHistory.swift; sourceTree = "<group>"; };
+		44E296E7213417C200FB1E87 /* Block.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
+		44E296E8213417C200FB1E87 /* Balance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Balance.swift; sourceTree = "<group>"; };
+		44E296E9213417C200FB1E87 /* Script.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Script.swift; sourceTree = "<group>"; };
+		44E296EA213417C200FB1E87 /* NeoScanTransactionHistory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeoScanTransactionHistory.swift; sourceTree = "<group>"; };
+		44E296EB213417C200FB1E87 /* Transaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		44E296EC213417C200FB1E87 /* TransactionAttritbute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionAttritbute.swift; sourceTree = "<group>"; };
+		44E296ED213417C200FB1E87 /* Asset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Asset.swift; sourceTree = "<group>"; };
+		44E296EE213417C200FB1E87 /* Token.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
+		44E296EF213417C200FB1E87 /* Peer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Peer.swift; sourceTree = "<group>"; };
+		44E296F0213417C200FB1E87 /* ContractResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContractResult.swift; sourceTree = "<group>"; };
+		44E296F1213417C200FB1E87 /* NeoScanBalance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeoScanBalance.swift; sourceTree = "<group>"; };
+		44E296F2213417C200FB1E87 /* ShamirSecret.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShamirSecret.swift; sourceTree = "<group>"; };
+		44E296F4213417C200FB1E87 /* strip-frameworks.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "strip-frameworks.sh"; sourceTree = "<group>"; };
+		44E296F5213417C200FB1E87 /* WIF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WIF.swift; sourceTree = "<group>"; };
+		44E296F6213417C200FB1E87 /* Account.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		44E296F8213417C200FB1E87 /* nodes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nodes.json; sourceTree = "<group>"; };
+		44E296F9213417C200FB1E87 /* AssetIdConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssetIdConstants.swift; sourceTree = "<group>"; };
+		44E296FA213417C200FB1E87 /* NeoClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeoClient.swift; sourceTree = "<group>"; };
+		44E297282134181A00FB1E87 /* neoutils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = neoutils.framework; sourceTree = "<group>"; };
 		494DB6E8212725D5004FEE9D /* AlchemintProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlchemintProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		494DB6EB212725D5004FEE9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		494DB6ED212725D5004FEE9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -102,8 +111,7 @@
 		494DB6F2212725D7004FEE9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		494DB6F5212725D7004FEE9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		494DB6F7212725D7004FEE9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		496F8A55212C5BD800332EEA /* _CommonCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _CommonCrypto.h; sourceTree = "<group>"; };
-		496F8A56212C5BD800332EEA /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		587BFC4684D65D7BB0EB1D2C /* Pods-AlchemintProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlchemintProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlchemintProject/Pods-AlchemintProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,107 +119,182 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4943E691212C4F8900283934 /* neoutils.framework in Frameworks */,
+				E37763F6AF5285587955FDA0 /* Pods_AlchemintProject.framework in Frameworks */,
+				44E297292134181A00FB1E87 /* neoutils.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4943E662212C4F8900283934 /* NeoSwift */ = {
+		0322F4B45707B63267E0C32A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4943E663212C4F8900283934 /* neoutils.framework */,
-				496F8A54212C5BD800332EEA /* CommonCrypto */,
-				4943E664212C4F8900283934 /* Crypto */,
-				4943E66B212C4F8900283934 /* Util */,
-				4943E672212C4F8900283934 /* Contracts */,
-				4943E676212C4F8900283934 /* Models */,
-				4943E689212C4F8900283934 /* scripts */,
-				4943E68D212C4F8900283934 /* data */,
-				4943E68C212C4F8900283934 /* Account.swift */,
-				4943E66A212C4F8900283934 /* NeoScan.swift */,
-				4943E688212C4F8900283934 /* ShamirSecret.swift */,
-				4943E68B212C4F8900283934 /* WIF.swift */,
-				4943E68F212C4F8900283934 /* AssetIdConstants.swift */,
-				4943E690212C4F8900283934 /* NeoClient.swift */,
+				587BFC4684D65D7BB0EB1D2C /* Pods-AlchemintProject.debug.xcconfig */,
+				12E3EBB7BC1DE46769B1A19E /* Pods-AlchemintProject.release.xcconfig */,
 			);
-			path = NeoSwift;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		4943E664212C4F8900283934 /* Crypto */ = {
+		44E296C3213417C200FB1E87 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				4943E665212C4F8900283934 /* AES.swift */,
-				4943E666212C4F8900283934 /* SHA256.swift */,
-				4943E667212C4F8900283934 /* scrypt.swift */,
-				4943E668212C4F8900283934 /* RIPEMD160.swift */,
-				4943E669212C4F8900283934 /* PBKDF2.swift */,
+				44E296C4213417C200FB1E87 /* Models */,
+				44E296C5213417C200FB1E87 /* External */,
+				44E296FB213417C200FB1E87 /* Custom */,
 			);
-			path = Crypto;
+			path = Sources;
 			sourceTree = "<group>";
 		};
-		4943E66B212C4F8900283934 /* Util */ = {
+		44E296C4213417C200FB1E87 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				4943E66C212C4F8900283934 /* Array+Util.swift */,
-				4943E66D212C4F8900283934 /* validator.swift */,
-				4943E66E212C4F8900283934 /* NEP2.swift */,
-				4943E66F212C4F8900283934 /* Data+Util.swift */,
-				4943E670212C4F8900283934 /* Base58.swift */,
-				4943E671212C4F8900283934 /* NEP9.swift */,
-			);
-			path = Util;
-			sourceTree = "<group>";
-		};
-		4943E672212C4F8900283934 /* Contracts */ = {
-			isa = PBXGroup;
-			children = (
-				4943E673212C4F8900283934 /* OpCodes.swift */,
-				4943E674212C4F8900283934 /* ScriptBuilder.swift */,
-				4943E675212C4F8900283934 /* NEP5Token.swift */,
-			);
-			path = Contracts;
-			sourceTree = "<group>";
-		};
-		4943E676212C4F8900283934 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				4943E677212C4F8900283934 /* AccountState.swift */,
-				4943E678212C4F8900283934 /* Claims.swift */,
-				4943E679212C4F8900283934 /* ValueIn.swift */,
-				4943E67A212C4F8900283934 /* NEONetwork.swift */,
-				4943E67B212C4F8900283934 /* ValueOut.swift */,
-				4943E67C212C4F8900283934 /* TransactionHistory.swift */,
-				4943E67D212C4F8900283934 /* Block.swift */,
-				4943E67E212C4F8900283934 /* Balance.swift */,
-				4943E67F212C4F8900283934 /* Script.swift */,
-				4943E680212C4F8900283934 /* NeoScanTransactionHistory.swift */,
-				4943E681212C4F8900283934 /* Transaction.swift */,
-				4943E682212C4F8900283934 /* TransactionAttritbute.swift */,
-				4943E683212C4F8900283934 /* Asset.swift */,
-				4943E684212C4F8900283934 /* Token.swift */,
-				4943E685212C4F8900283934 /* Peer.swift */,
-				4943E686212C4F8900283934 /* ContractResult.swift */,
-				4943E687212C4F8900283934 /* NeoScanBalance.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
 		};
-		4943E689212C4F8900283934 /* scripts */ = {
+		44E296C5213417C200FB1E87 /* External */ = {
 			isa = PBXGroup;
 			children = (
-				4943E68A212C4F8900283934 /* strip-frameworks.sh */,
+				44E296C6213417C200FB1E87 /* Alamofire */,
+				44E296C9213417C200FB1E87 /* NeoSwift */,
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+		44E296C6213417C200FB1E87 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				44E296C7213417C200FB1E87 /* Info-tvOS.plist */,
+				44E296C8213417C200FB1E87 /* Info.plist */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		44E296C9213417C200FB1E87 /* NeoSwift */ = {
+			isa = PBXGroup;
+			children = (
+				44E297282134181A00FB1E87 /* neoutils.framework */,
+				44E296CB213417C200FB1E87 /* CommonCrypto */,
+				44E296CE213417C200FB1E87 /* Crypto */,
+				44E296D4213417C200FB1E87 /* NeoScan.swift */,
+				44E296D5213417C200FB1E87 /* Util */,
+				44E296DC213417C200FB1E87 /* Contracts */,
+				44E296E0213417C200FB1E87 /* Models */,
+				44E296F2213417C200FB1E87 /* ShamirSecret.swift */,
+				44E296F3213417C200FB1E87 /* scripts */,
+				44E296F5213417C200FB1E87 /* WIF.swift */,
+				44E296F6213417C200FB1E87 /* Account.swift */,
+				44E296F7213417C200FB1E87 /* data */,
+				44E296F9213417C200FB1E87 /* AssetIdConstants.swift */,
+				44E296FA213417C200FB1E87 /* NeoClient.swift */,
+			);
+			path = NeoSwift;
+			sourceTree = "<group>";
+		};
+		44E296CB213417C200FB1E87 /* CommonCrypto */ = {
+			isa = PBXGroup;
+			children = (
+				44E296CC213417C200FB1E87 /* _CommonCrypto.h */,
+				44E296CD213417C200FB1E87 /* module.modulemap */,
+			);
+			path = CommonCrypto;
+			sourceTree = "<group>";
+		};
+		44E296CE213417C200FB1E87 /* Crypto */ = {
+			isa = PBXGroup;
+			children = (
+				44E296CF213417C200FB1E87 /* AES.swift */,
+				44E296D0213417C200FB1E87 /* SHA256.swift */,
+				44E296D1213417C200FB1E87 /* scrypt.swift */,
+				44E296D2213417C200FB1E87 /* RIPEMD160.swift */,
+				44E296D3213417C200FB1E87 /* PBKDF2.swift */,
+			);
+			path = Crypto;
+			sourceTree = "<group>";
+		};
+		44E296D5213417C200FB1E87 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				44E296D6213417C200FB1E87 /* Array+Util.swift */,
+				44E296D7213417C200FB1E87 /* validator.swift */,
+				44E296D8213417C200FB1E87 /* NEP2.swift */,
+				44E296D9213417C200FB1E87 /* Data+Util.swift */,
+				44E296DA213417C200FB1E87 /* Base58.swift */,
+				44E296DB213417C200FB1E87 /* NEP9.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		44E296DC213417C200FB1E87 /* Contracts */ = {
+			isa = PBXGroup;
+			children = (
+				44E296DD213417C200FB1E87 /* OpCodes.swift */,
+				44E296DE213417C200FB1E87 /* ScriptBuilder.swift */,
+				44E296DF213417C200FB1E87 /* NEP5Token.swift */,
+			);
+			path = Contracts;
+			sourceTree = "<group>";
+		};
+		44E296E0213417C200FB1E87 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				44E296E1213417C200FB1E87 /* AccountState.swift */,
+				44E296E2213417C200FB1E87 /* Claims.swift */,
+				44E296E3213417C200FB1E87 /* ValueIn.swift */,
+				44E296E4213417C200FB1E87 /* NEONetwork.swift */,
+				44E296E5213417C200FB1E87 /* ValueOut.swift */,
+				44E296E6213417C200FB1E87 /* TransactionHistory.swift */,
+				44E296E7213417C200FB1E87 /* Block.swift */,
+				44E296E8213417C200FB1E87 /* Balance.swift */,
+				44E296E9213417C200FB1E87 /* Script.swift */,
+				44E296EA213417C200FB1E87 /* NeoScanTransactionHistory.swift */,
+				44E296EB213417C200FB1E87 /* Transaction.swift */,
+				44E296EC213417C200FB1E87 /* TransactionAttritbute.swift */,
+				44E296ED213417C200FB1E87 /* Asset.swift */,
+				44E296EE213417C200FB1E87 /* Token.swift */,
+				44E296EF213417C200FB1E87 /* Peer.swift */,
+				44E296F0213417C200FB1E87 /* ContractResult.swift */,
+				44E296F1213417C200FB1E87 /* NeoScanBalance.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		44E296F3213417C200FB1E87 /* scripts */ = {
+			isa = PBXGroup;
+			children = (
+				44E296F4213417C200FB1E87 /* strip-frameworks.sh */,
 			);
 			path = scripts;
 			sourceTree = "<group>";
 		};
-		4943E68D212C4F8900283934 /* data */ = {
+		44E296F7213417C200FB1E87 /* data */ = {
 			isa = PBXGroup;
 			children = (
-				4943E68E212C4F8900283934 /* nodes.json */,
+				44E296F8213417C200FB1E87 /* nodes.json */,
 			);
 			path = data;
+			sourceTree = "<group>";
+		};
+		44E296FB213417C200FB1E87 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		44E296FC213417C200FB1E87 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		44E296FD213417C200FB1E87 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		494DB6DF212725D5004FEE9D = {
@@ -219,6 +302,8 @@
 			children = (
 				494DB6EA212725D5004FEE9D /* AlchemintProject */,
 				494DB6E9212725D5004FEE9D /* Products */,
+				0322F4B45707B63267E0C32A /* Pods */,
+				971A90A0917A251ECB8E2347 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -233,24 +318,25 @@
 		494DB6EA212725D5004FEE9D /* AlchemintProject */ = {
 			isa = PBXGroup;
 			children = (
-				4943E662212C4F8900283934 /* NeoSwift */,
 				494DB6EB212725D5004FEE9D /* AppDelegate.swift */,
 				494DB6ED212725D5004FEE9D /* ViewController.swift */,
 				494DB6EF212725D5004FEE9D /* Main.storyboard */,
 				494DB6F2212725D7004FEE9D /* Assets.xcassets */,
 				494DB6F4212725D7004FEE9D /* LaunchScreen.storyboard */,
 				494DB6F7212725D7004FEE9D /* Info.plist */,
+				44E296FC213417C200FB1E87 /* Resources */,
+				44E296C3213417C200FB1E87 /* Sources */,
+				44E296FD213417C200FB1E87 /* ViewControllers */,
 			);
 			path = AlchemintProject;
 			sourceTree = "<group>";
 		};
-		496F8A54212C5BD800332EEA /* CommonCrypto */ = {
+		971A90A0917A251ECB8E2347 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				496F8A55212C5BD800332EEA /* _CommonCrypto.h */,
-				496F8A56212C5BD800332EEA /* module.modulemap */,
+				0ADF4FED3BCCB015B106ADEB /* Pods_AlchemintProject.framework */,
 			);
-			path = CommonCrypto;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,9 +346,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 494DB6FA212725D7004FEE9D /* Build configuration list for PBXNativeTarget "AlchemintProject" */;
 			buildPhases = (
+				F055BFC63415987F269E8506 /* [CP] Check Pods Manifest.lock */,
 				494DB6E4212725D5004FEE9D /* Sources */,
 				494DB6E5212725D5004FEE9D /* Frameworks */,
 				494DB6E6212725D5004FEE9D /* Resources */,
+				4A6DCC7A954FF6B749DD907F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -311,60 +399,101 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4943E6B3212C4F8900283934 /* strip-frameworks.sh in Resources */,
 				494DB6F6212725D7004FEE9D /* LaunchScreen.storyboard in Resources */,
-				4943E6B6212C4F8900283934 /* nodes.json in Resources */,
 				494DB6F3212725D7004FEE9D /* Assets.xcassets in Resources */,
+				44E29725213417C200FB1E87 /* nodes.json in Resources */,
+				44E29722213417C200FB1E87 /* strip-frameworks.sh in Resources */,
+				44E296FE213417C200FB1E87 /* Info-tvOS.plist in Resources */,
+				44E296FF213417C200FB1E87 /* Info.plist in Resources */,
 				494DB6F1212725D5004FEE9D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4A6DCC7A954FF6B749DD907F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AlchemintProject/Pods-AlchemintProject-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlchemintProject/Pods-AlchemintProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F055BFC63415987F269E8506 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlchemintProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		494DB6E4212725D5004FEE9D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4943E6AA212C4F8900283934 /* NeoScanTransactionHistory.swift in Sources */,
-				4943E6B8212C4F8900283934 /* NeoClient.swift in Sources */,
-				4943E69A212C4F8900283934 /* NEP2.swift in Sources */,
-				4943E6B2212C4F8900283934 /* ShamirSecret.swift in Sources */,
-				4943E69D212C4F8900283934 /* NEP9.swift in Sources */,
-				4943E699212C4F8900283934 /* validator.swift in Sources */,
-				4943E6B7212C4F8900283934 /* AssetIdConstants.swift in Sources */,
-				4943E693212C4F8900283934 /* SHA256.swift in Sources */,
-				4943E6A5212C4F8900283934 /* ValueOut.swift in Sources */,
-				4943E6A2212C4F8900283934 /* Claims.swift in Sources */,
-				4943E6B5212C4F8900283934 /* Account.swift in Sources */,
+				44E29719213417C200FB1E87 /* NeoScanTransactionHistory.swift in Sources */,
+				44E29727213417C200FB1E87 /* NeoClient.swift in Sources */,
+				44E29709213417C200FB1E87 /* NEP2.swift in Sources */,
+				44E29721213417C200FB1E87 /* ShamirSecret.swift in Sources */,
+				44E2970C213417C200FB1E87 /* NEP9.swift in Sources */,
+				44E29708213417C200FB1E87 /* validator.swift in Sources */,
+				44E29726213417C200FB1E87 /* AssetIdConstants.swift in Sources */,
+				44E29702213417C200FB1E87 /* SHA256.swift in Sources */,
+				44E29714213417C200FB1E87 /* ValueOut.swift in Sources */,
+				44E29711213417C200FB1E87 /* Claims.swift in Sources */,
+				44E29724213417C200FB1E87 /* Account.swift in Sources */,
 				494DB6EE212725D5004FEE9D /* ViewController.swift in Sources */,
-				4943E6B0212C4F8900283934 /* ContractResult.swift in Sources */,
-				4943E695212C4F8900283934 /* RIPEMD160.swift in Sources */,
-				4943E692212C4F8900283934 /* AES.swift in Sources */,
-				4943E6A7212C4F8900283934 /* Block.swift in Sources */,
-				4943E6A3212C4F8900283934 /* ValueIn.swift in Sources */,
-				4943E6AD212C4F8900283934 /* Asset.swift in Sources */,
-				4943E69E212C4F8900283934 /* OpCodes.swift in Sources */,
-				4943E6A6212C4F8900283934 /* TransactionHistory.swift in Sources */,
-				4943E6AB212C4F8900283934 /* Transaction.swift in Sources */,
-				4943E694212C4F8900283934 /* scrypt.swift in Sources */,
-				4943E6AF212C4F8900283934 /* Peer.swift in Sources */,
-				4943E6A9212C4F8900283934 /* Script.swift in Sources */,
-				4943E698212C4F8900283934 /* Array+Util.swift in Sources */,
-				4943E69F212C4F8900283934 /* ScriptBuilder.swift in Sources */,
-				4943E6A8212C4F8900283934 /* Balance.swift in Sources */,
-				4943E69C212C4F8900283934 /* Base58.swift in Sources */,
+				44E2971F213417C200FB1E87 /* ContractResult.swift in Sources */,
+				44E29704213417C200FB1E87 /* RIPEMD160.swift in Sources */,
+				44E29701213417C200FB1E87 /* AES.swift in Sources */,
+				44E29716213417C200FB1E87 /* Block.swift in Sources */,
+				44E29712213417C200FB1E87 /* ValueIn.swift in Sources */,
+				44E2971C213417C200FB1E87 /* Asset.swift in Sources */,
+				44E2970D213417C200FB1E87 /* OpCodes.swift in Sources */,
+				44E29715213417C200FB1E87 /* TransactionHistory.swift in Sources */,
+				44E2971A213417C200FB1E87 /* Transaction.swift in Sources */,
+				44E29703213417C200FB1E87 /* scrypt.swift in Sources */,
+				44E2971E213417C200FB1E87 /* Peer.swift in Sources */,
+				44E29718213417C200FB1E87 /* Script.swift in Sources */,
+				44E29707213417C200FB1E87 /* Array+Util.swift in Sources */,
+				44E2970E213417C200FB1E87 /* ScriptBuilder.swift in Sources */,
+				44E29717213417C200FB1E87 /* Balance.swift in Sources */,
+				44E2970B213417C200FB1E87 /* Base58.swift in Sources */,
 				494DB6EC212725D5004FEE9D /* AppDelegate.swift in Sources */,
-				4943E6A1212C4F8900283934 /* AccountState.swift in Sources */,
-				4943E6A4212C4F8900283934 /* NEONetwork.swift in Sources */,
-				4943E6AE212C4F8900283934 /* Token.swift in Sources */,
-				4943E6B1212C4F8900283934 /* NeoScanBalance.swift in Sources */,
-				4943E69B212C4F8900283934 /* Data+Util.swift in Sources */,
-				4943E696212C4F8900283934 /* PBKDF2.swift in Sources */,
-				4943E6AC212C4F8900283934 /* TransactionAttritbute.swift in Sources */,
-				4943E697212C4F8900283934 /* NeoScan.swift in Sources */,
-				4943E6B4212C4F8900283934 /* WIF.swift in Sources */,
-				4943E6A0212C4F8900283934 /* NEP5Token.swift in Sources */,
+				44E29710213417C200FB1E87 /* AccountState.swift in Sources */,
+				44E29713213417C200FB1E87 /* NEONetwork.swift in Sources */,
+				44E2971D213417C200FB1E87 /* Token.swift in Sources */,
+				44E29720213417C200FB1E87 /* NeoScanBalance.swift in Sources */,
+				44E2970A213417C200FB1E87 /* Data+Util.swift in Sources */,
+				44E29705213417C200FB1E87 /* PBKDF2.swift in Sources */,
+				44E2971B213417C200FB1E87 /* TransactionAttritbute.swift in Sources */,
+				44E29706213417C200FB1E87 /* NeoScan.swift in Sources */,
+				44E29723213417C200FB1E87 /* WIF.swift in Sources */,
+				44E2970F213417C200FB1E87 /* NEP5Token.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -506,6 +635,7 @@
 		};
 		494DB6FB212725D7004FEE9D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 587BFC4684D65D7BB0EB1D2C /* Pods-AlchemintProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -515,9 +645,10 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/AlchemintProject",
-					"$(PROJECT_DIR)/AlchemintProject/NeoSwift",
-					"$(PROJECT_DIR)/AlchemintProject/NeoSwift/CommonCrypto",
+					"$(PROJECT_DIR)/AlchemintProject/Sources/External/NeoSwift",
+					"$(PROJECT_DIR)/AlchemintProject/Sources/External/NeoSwift/CommonCrypto",
 				);
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/AlchemintProject/Sources/External/NeoSwift/CommonCrypto";
 				INFOPLIST_FILE = AlchemintProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -536,6 +667,7 @@
 		};
 		494DB6FC212725D7004FEE9D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12E3EBB7BC1DE46769B1A19E /* Pods-AlchemintProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -545,9 +677,10 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/AlchemintProject",
-					"$(PROJECT_DIR)/AlchemintProject/NeoSwift",
-					"$(PROJECT_DIR)/AlchemintProject/NeoSwift/CommonCrypto",
+					"$(PROJECT_DIR)/AlchemintProject/Sources/External/NeoSwift",
+					"$(PROJECT_DIR)/AlchemintProject/Sources/External/NeoSwift/CommonCrypto",
 				);
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/AlchemintProject/Sources/External/NeoSwift/CommonCrypto";
 				INFOPLIST_FILE = AlchemintProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (

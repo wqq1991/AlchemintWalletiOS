@@ -1,0 +1,199 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "OpCode"
+provides-nominal:
+- "16AlchemintProject6OpCodeO"
+provides-member:
+- ["16AlchemintProject6OpCodeO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "OpCode"
+- "UInt8"
+- !private "~="
+depends-member:
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- ["s9EquatableP", "RawValue"]
+- ["s9EquatableP", ""]
+- ["s9EquatableP", "_Default_RawValue"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- ["s9EquatableP", "hashValue"]
+- ["s9EquatableP", "init"]
+- ["s9EquatableP", "rawValue"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s8HashableP", "RawValue"]
+- ["s8HashableP", ""]
+- ["s8HashableP", "_Default_RawValue"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- ["s8HashableP", "hashValue"]
+- ["s8HashableP", "init"]
+- ["s8HashableP", "rawValue"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["16AlchemintProject6OpCodeO", "ABS"]
+- ["16AlchemintProject6OpCodeO", "ADD"]
+- ["16AlchemintProject6OpCodeO", "AND"]
+- ["16AlchemintProject6OpCodeO", "APPCALL"]
+- ["16AlchemintProject6OpCodeO", "ARRAYSIZE"]
+- ["16AlchemintProject6OpCodeO", "BOOLAND"]
+- ["16AlchemintProject6OpCodeO", "BOOLOR"]
+- ["16AlchemintProject6OpCodeO", "CALL"]
+- ["16AlchemintProject6OpCodeO", "CAT"]
+- ["16AlchemintProject6OpCodeO", "CHECKMULTISIG"]
+- ["16AlchemintProject6OpCodeO", "CHECKSIG"]
+- ["16AlchemintProject6OpCodeO", "DEC"]
+- ["16AlchemintProject6OpCodeO", "DEPTH"]
+- ["16AlchemintProject6OpCodeO", "DIV"]
+- ["16AlchemintProject6OpCodeO", "DROP"]
+- ["16AlchemintProject6OpCodeO", "DUP"]
+- ["16AlchemintProject6OpCodeO", "DUPFROMALTSTACK"]
+- ["16AlchemintProject6OpCodeO", "EQUAL"]
+- ["16AlchemintProject6OpCodeO", "FROMALTSTACK"]
+- ["16AlchemintProject6OpCodeO", "GT"]
+- ["16AlchemintProject6OpCodeO", "GTE"]
+- ["16AlchemintProject6OpCodeO", "HASH160"]
+- ["16AlchemintProject6OpCodeO", "HASH256"]
+- ["16AlchemintProject6OpCodeO", "INC"]
+- ["16AlchemintProject6OpCodeO", "INVERT"]
+- ["16AlchemintProject6OpCodeO", "JMP"]
+- ["16AlchemintProject6OpCodeO", "JMPIF"]
+- ["16AlchemintProject6OpCodeO", "JMPIFNOT"]
+- ["16AlchemintProject6OpCodeO", "LEFT"]
+- ["16AlchemintProject6OpCodeO", "LT"]
+- ["16AlchemintProject6OpCodeO", "LTE"]
+- ["16AlchemintProject6OpCodeO", "MAX"]
+- ["16AlchemintProject6OpCodeO", "MIN"]
+- ["16AlchemintProject6OpCodeO", "MOD"]
+- ["16AlchemintProject6OpCodeO", "MUL"]
+- ["16AlchemintProject6OpCodeO", "NEGATE"]
+- ["16AlchemintProject6OpCodeO", "NEWARRAY"]
+- ["16AlchemintProject6OpCodeO", "NEWSTRUCT"]
+- ["16AlchemintProject6OpCodeO", "NIP"]
+- ["16AlchemintProject6OpCodeO", "NOP"]
+- ["16AlchemintProject6OpCodeO", "NOT"]
+- ["16AlchemintProject6OpCodeO", "NUMEQUAL"]
+- ["16AlchemintProject6OpCodeO", "NUMNOTEQUAL"]
+- ["16AlchemintProject6OpCodeO", "NZ"]
+- ["16AlchemintProject6OpCodeO", "OR"]
+- ["16AlchemintProject6OpCodeO", "OVER"]
+- ["16AlchemintProject6OpCodeO", "PACK"]
+- ["16AlchemintProject6OpCodeO", "PICK"]
+- ["16AlchemintProject6OpCodeO", "PICKITEM"]
+- ["16AlchemintProject6OpCodeO", "PUSH0"]
+- ["16AlchemintProject6OpCodeO", "PUSH1"]
+- ["16AlchemintProject6OpCodeO", "PUSH10"]
+- ["16AlchemintProject6OpCodeO", "PUSH11"]
+- ["16AlchemintProject6OpCodeO", "PUSH12"]
+- ["16AlchemintProject6OpCodeO", "PUSH13"]
+- ["16AlchemintProject6OpCodeO", "PUSH14"]
+- ["16AlchemintProject6OpCodeO", "PUSH15"]
+- ["16AlchemintProject6OpCodeO", "PUSH16"]
+- ["16AlchemintProject6OpCodeO", "PUSH2"]
+- ["16AlchemintProject6OpCodeO", "PUSH3"]
+- ["16AlchemintProject6OpCodeO", "PUSH4"]
+- ["16AlchemintProject6OpCodeO", "PUSH5"]
+- ["16AlchemintProject6OpCodeO", "PUSH6"]
+- ["16AlchemintProject6OpCodeO", "PUSH7"]
+- ["16AlchemintProject6OpCodeO", "PUSH8"]
+- ["16AlchemintProject6OpCodeO", "PUSH9"]
+- ["16AlchemintProject6OpCodeO", "PUSHBYTES1"]
+- ["16AlchemintProject6OpCodeO", "PUSHBYTES75"]
+- ["16AlchemintProject6OpCodeO", "PUSHDATA1"]
+- ["16AlchemintProject6OpCodeO", "PUSHDATA2"]
+- ["16AlchemintProject6OpCodeO", "PUSHDATA4"]
+- ["16AlchemintProject6OpCodeO", "PUSHM1"]
+- ["16AlchemintProject6OpCodeO", "RET"]
+- ["16AlchemintProject6OpCodeO", "RIGHT"]
+- ["16AlchemintProject6OpCodeO", "ROLL"]
+- ["16AlchemintProject6OpCodeO", "ROT"]
+- ["16AlchemintProject6OpCodeO", "RawValue"]
+- ["16AlchemintProject6OpCodeO", "SETITEM"]
+- ["16AlchemintProject6OpCodeO", "SHA1"]
+- ["16AlchemintProject6OpCodeO", "SHA256"]
+- ["16AlchemintProject6OpCodeO", "SHL"]
+- ["16AlchemintProject6OpCodeO", "SHR"]
+- ["16AlchemintProject6OpCodeO", "SIGN"]
+- ["16AlchemintProject6OpCodeO", "SIZE"]
+- ["16AlchemintProject6OpCodeO", "SUB"]
+- ["16AlchemintProject6OpCodeO", "SUBSTR"]
+- ["16AlchemintProject6OpCodeO", "SWAP"]
+- ["16AlchemintProject6OpCodeO", "SYSCALL"]
+- ["16AlchemintProject6OpCodeO", "TAILCALL"]
+- ["16AlchemintProject6OpCodeO", "THROW"]
+- ["16AlchemintProject6OpCodeO", "THROWIFNOT"]
+- ["16AlchemintProject6OpCodeO", "TOALTSTACK"]
+- ["16AlchemintProject6OpCodeO", "TUCK"]
+- ["16AlchemintProject6OpCodeO", "UNPACK"]
+- ["16AlchemintProject6OpCodeO", "WITHIN"]
+- ["16AlchemintProject6OpCodeO", "XDROP"]
+- ["16AlchemintProject6OpCodeO", "XOR"]
+- ["16AlchemintProject6OpCodeO", "XSWAP"]
+- ["16AlchemintProject6OpCodeO", "XTUCK"]
+- ["16AlchemintProject6OpCodeO", "_Default_RawValue"]
+- ["16AlchemintProject6OpCodeO", "deinit"]
+- ["16AlchemintProject6OpCodeO", "hashValue"]
+- ["16AlchemintProject6OpCodeO", "init"]
+- ["16AlchemintProject6OpCodeO", "rawValue"]
+- ["s16RawRepresentableP", "RawValue"]
+- ["s16RawRepresentableP", ""]
+- ["s16RawRepresentableP", "_Default_RawValue"]
+- ["s16RawRepresentableP", "hashValue"]
+- ["s16RawRepresentableP", "init"]
+- ["s16RawRepresentableP", "rawValue"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+depends-nominal:
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- "16AlchemintProject6OpCodeO"
+- "s16RawRepresentableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/Neoutils.framework/Headers/Universe.objc.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/Neoutils.framework/Headers/Neoutils.objc.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/Neoutils.framework/Headers/ref.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/Neoutils.framework/Headers/Neoutils.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/CommonCrypto/module.modulemap"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/Neoutils.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "edfe32262ae6eb747c430f443d059c0e"

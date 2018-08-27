@@ -1,0 +1,6 @@
+framework module Pods_AlchemintProject {
+  umbrella header "Pods-AlchemintProject-umbrella.h"
+
+  export *
+  module * { export * }
+}
