@@ -283,20 +283,6 @@
 			path = Custom;
 			sourceTree = "<group>";
 		};
-		44E296FC213417C200FB1E87 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		44E296FD213417C200FB1E87 /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewControllers;
-			sourceTree = "<group>";
-		};
 		494DB6DF212725D5004FEE9D = {
 			isa = PBXGroup;
 			children = (
@@ -324,9 +310,7 @@
 				494DB6F2212725D7004FEE9D /* Assets.xcassets */,
 				494DB6F4212725D7004FEE9D /* LaunchScreen.storyboard */,
 				494DB6F7212725D7004FEE9D /* Info.plist */,
-				44E296FC213417C200FB1E87 /* Resources */,
 				44E296C3213417C200FB1E87 /* Sources */,
-				44E296FD213417C200FB1E87 /* ViewControllers */,
 			);
 			path = AlchemintProject;
 			sourceTree = "<group>";
