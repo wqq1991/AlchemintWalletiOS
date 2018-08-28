@@ -1,0 +1,314 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "_borderWidth"
+- "_cornerRadius"
+provides-nominal:
+provides-member:
+- ["So11UITextFieldC", ""]
+- ["So11UITextFieldC", "borderColor"]
+- ["So11UITextFieldC", "borderWidth"]
+- ["So11UITextFieldC", "cornerRadius"]
+provides-dynamic-lookup:
+- "borderColor"
+- "borderWidth"
+- "cornerRadius"
+depends-top-level:
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "CGFloat"
+- "UIColor"
+- "UITextField"
+- !private "_borderColor"
+- "_borderWidth"
+- "_cornerRadius"
+depends-member:
+- !private ["So7CALayerC", "borderColor"]
+- !private ["So7CALayerC", "borderWidth"]
+- !private ["So7CALayerC", "cornerRadius"]
+- !private ["So7CALayerC", "masksToBounds"]
+- !private ["So15CALayerDelegateP", "_borderColor"]
+- !private ["So15CALayerDelegateP", "_borderWidth"]
+- !private ["So15CALayerDelegateP", "_cornerRadius"]
+- !private ["So15CALayerDelegateP", "layer"]
+- !private ["So13CAMediaTimingP", "borderColor"]
+- !private ["So13CAMediaTimingP", "borderWidth"]
+- !private ["So13CAMediaTimingP", "cornerRadius"]
+- !private ["So13CAMediaTimingP", "masksToBounds"]
+- !private ["s7CVarArgP", "_borderColor"]
+- !private ["s7CVarArgP", "_borderWidth"]
+- !private ["s7CVarArgP", "_cornerRadius"]
+- !private ["s7CVarArgP", "borderColor"]
+- !private ["s7CVarArgP", "borderWidth"]
+- !private ["s7CVarArgP", "cgColor"]
+- !private ["s7CVarArgP", "cornerRadius"]
+- !private ["s7CVarArgP", "layer"]
+- !private ["s7CVarArgP", "masksToBounds"]
+- !private ["s28CustomDebugStringConvertibleP", "_borderColor"]
+- !private ["s28CustomDebugStringConvertibleP", "_borderWidth"]
+- !private ["s28CustomDebugStringConvertibleP", "_cornerRadius"]
+- !private ["s28CustomDebugStringConvertibleP", "borderColor"]
+- !private ["s28CustomDebugStringConvertibleP", "borderWidth"]
+- !private ["s28CustomDebugStringConvertibleP", "cgColor"]
+- !private ["s28CustomDebugStringConvertibleP", "cornerRadius"]
+- !private ["s28CustomDebugStringConvertibleP", "layer"]
+- !private ["s28CustomDebugStringConvertibleP", "masksToBounds"]
+- !private ["s23CustomStringConvertibleP", "_borderColor"]
+- !private ["s23CustomStringConvertibleP", "_borderWidth"]
+- !private ["s23CustomStringConvertibleP", "_cornerRadius"]
+- !private ["s23CustomStringConvertibleP", "borderColor"]
+- !private ["s23CustomStringConvertibleP", "borderWidth"]
+- !private ["s23CustomStringConvertibleP", "cgColor"]
+- !private ["s23CustomStringConvertibleP", "cornerRadius"]
+- !private ["s23CustomStringConvertibleP", "layer"]
+- !private ["s23CustomStringConvertibleP", "masksToBounds"]
+- !private ["s9EquatableP", "_borderColor"]
+- !private ["s9EquatableP", "_borderWidth"]
+- !private ["s9EquatableP", "_cornerRadius"]
+- !private ["s9EquatableP", "borderColor"]
+- !private ["s9EquatableP", "borderWidth"]
+- !private ["s9EquatableP", "cgColor"]
+- !private ["s9EquatableP", "cornerRadius"]
+- !private ["s9EquatableP", "layer"]
+- !private ["s9EquatableP", "masksToBounds"]
+- !private ["s8HashableP", "_borderColor"]
+- !private ["s8HashableP", "_borderWidth"]
+- !private ["s8HashableP", "_cornerRadius"]
+- !private ["s8HashableP", "borderColor"]
+- !private ["s8HashableP", "borderWidth"]
+- !private ["s8HashableP", "cgColor"]
+- !private ["s8HashableP", "cornerRadius"]
+- !private ["s8HashableP", "layer"]
+- !private ["s8HashableP", "masksToBounds"]
+- !private ["So8NSCodingP", "_borderColor"]
+- !private ["So8NSCodingP", "_borderWidth"]
+- !private ["So8NSCodingP", "_cornerRadius"]
+- !private ["So8NSCodingP", "borderColor"]
+- !private ["So8NSCodingP", "borderWidth"]
+- !private ["So8NSCodingP", "cgColor"]
+- !private ["So8NSCodingP", "cornerRadius"]
+- !private ["So8NSCodingP", "layer"]
+- !private ["So8NSCodingP", "masksToBounds"]
+- !private ["So9NSCopyingP", "cgColor"]
+- !private ["So21NSItemProviderReadingP", "cgColor"]
+- !private ["So21NSItemProviderWritingP", "cgColor"]
+- ["So8NSObjectC", "CGFloat"]
+- ["So8NSObjectC", "UIColor"]
+- !private ["So8NSObjectC", "_borderColor"]
+- !private ["So8NSObjectC", "_borderWidth"]
+- !private ["So8NSObjectC", "_cornerRadius"]
+- ["So8NSObjectC", "borderColor"]
+- ["So8NSObjectC", "borderWidth"]
+- !private ["So8NSObjectC", "cgColor"]
+- ["So8NSObjectC", "cornerRadius"]
+- !private ["So8NSObjectC", "layer"]
+- !private ["So8NSObjectC", "masksToBounds"]
+- !private ["So16NSObjectProtocolP", "_borderColor"]
+- !private ["So16NSObjectProtocolP", "_borderWidth"]
+- !private ["So16NSObjectProtocolP", "_cornerRadius"]
+- !private ["So16NSObjectProtocolP", "borderColor"]
+- !private ["So16NSObjectProtocolP", "borderWidth"]
+- !private ["So16NSObjectProtocolP", "cgColor"]
+- !private ["So16NSObjectProtocolP", "cornerRadius"]
+- !private ["So16NSObjectProtocolP", "layer"]
+- !private ["So16NSObjectProtocolP", "masksToBounds"]
+- !private ["So14NSSecureCodingP", "borderColor"]
+- !private ["So14NSSecureCodingP", "borderWidth"]
+- !private ["So14NSSecureCodingP", "cgColor"]
+- !private ["So14NSSecureCodingP", "cornerRadius"]
+- !private ["So14NSSecureCodingP", "masksToBounds"]
+- !private ["So29UIAccessibilityIdentificationP", "_borderColor"]
+- !private ["So29UIAccessibilityIdentificationP", "_borderWidth"]
+- !private ["So29UIAccessibilityIdentificationP", "_cornerRadius"]
+- !private ["So29UIAccessibilityIdentificationP", "layer"]
+- !private ["So12UIAppearanceP", "_borderColor"]
+- !private ["So12UIAppearanceP", "_borderWidth"]
+- !private ["So12UIAppearanceP", "_cornerRadius"]
+- !private ["So12UIAppearanceP", "layer"]
+- !private ["So21UIAppearanceContainerP", "_borderColor"]
+- !private ["So21UIAppearanceContainerP", "_borderWidth"]
+- !private ["So21UIAppearanceContainerP", "_cornerRadius"]
+- !private ["So21UIAppearanceContainerP", "layer"]
+- !private ["So7UIColorC", "cgColor"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "_borderColor"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "_borderWidth"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "_cornerRadius"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "layer"]
+- ["So9UIControlC", "CGFloat"]
+- ["So9UIControlC", "UIColor"]
+- !private ["So9UIControlC", "_borderColor"]
+- !private ["So9UIControlC", "_borderWidth"]
+- !private ["So9UIControlC", "_cornerRadius"]
+- ["So9UIControlC", "borderColor"]
+- ["So9UIControlC", "borderWidth"]
+- ["So9UIControlC", "cornerRadius"]
+- !private ["So9UIControlC", "layer"]
+- !private ["So17UICoordinateSpaceP", "_borderColor"]
+- !private ["So17UICoordinateSpaceP", "_borderWidth"]
+- !private ["So17UICoordinateSpaceP", "_cornerRadius"]
+- !private ["So17UICoordinateSpaceP", "layer"]
+- !private ["So13UIDynamicItemP", "_borderColor"]
+- !private ["So13UIDynamicItemP", "_borderWidth"]
+- !private ["So13UIDynamicItemP", "_cornerRadius"]
+- !private ["So13UIDynamicItemP", "layer"]
+- !private ["So18UIFocusEnvironmentP", "_borderColor"]
+- !private ["So18UIFocusEnvironmentP", "_borderWidth"]
+- !private ["So18UIFocusEnvironmentP", "_cornerRadius"]
+- !private ["So18UIFocusEnvironmentP", "layer"]
+- !private ["So11UIFocusItemP", "_borderColor"]
+- !private ["So11UIFocusItemP", "_borderWidth"]
+- !private ["So11UIFocusItemP", "_cornerRadius"]
+- !private ["So11UIFocusItemP", "layer"]
+- !private ["So10UIKeyInputP", "_borderColor"]
+- !private ["So10UIKeyInputP", "_borderWidth"]
+- !private ["So10UIKeyInputP", "_cornerRadius"]
+- !private ["So10UIKeyInputP", "layer"]
+- !private ["So30UIPasteConfigurationSupportingP", "_borderColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "_borderWidth"]
+- !private ["So30UIPasteConfigurationSupportingP", "_cornerRadius"]
+- !private ["So30UIPasteConfigurationSupportingP", "layer"]
+- ["So11UIResponderC", "CGFloat"]
+- ["So11UIResponderC", "UIColor"]
+- !private ["So11UIResponderC", "_borderColor"]
+- !private ["So11UIResponderC", "_borderWidth"]
+- !private ["So11UIResponderC", "_cornerRadius"]
+- ["So11UIResponderC", "borderColor"]
+- ["So11UIResponderC", "borderWidth"]
+- ["So11UIResponderC", "cornerRadius"]
+- !private ["So11UIResponderC", "layer"]
+- !private ["So30UIResponderStandardEditActionsP", "_borderColor"]
+- !private ["So30UIResponderStandardEditActionsP", "_borderWidth"]
+- !private ["So30UIResponderStandardEditActionsP", "_cornerRadius"]
+- !private ["So30UIResponderStandardEditActionsP", "layer"]
+- !private ["So15UITextDraggableP", "_borderColor"]
+- !private ["So15UITextDraggableP", "_borderWidth"]
+- !private ["So15UITextDraggableP", "_cornerRadius"]
+- !private ["So15UITextDraggableP", "layer"]
+- !private ["So15UITextDroppableP", "_borderColor"]
+- !private ["So15UITextDroppableP", "_borderWidth"]
+- !private ["So15UITextDroppableP", "_cornerRadius"]
+- !private ["So15UITextDroppableP", "layer"]
+- ["So11UITextFieldC", "CGFloat"]
+- ["So11UITextFieldC", "UIColor"]
+- !private ["So11UITextFieldC", "_borderColor"]
+- !private ["So11UITextFieldC", "_borderWidth"]
+- !private ["So11UITextFieldC", "_cornerRadius"]
+- ["So11UITextFieldC", "borderColor"]
+- ["So11UITextFieldC", "borderWidth"]
+- ["So11UITextFieldC", "cornerRadius"]
+- !private ["So11UITextFieldC", "layer"]
+- !private ["So11UITextInputP", "_borderColor"]
+- !private ["So11UITextInputP", "_borderWidth"]
+- !private ["So11UITextInputP", "_cornerRadius"]
+- !private ["So11UITextInputP", "layer"]
+- !private ["So17UITextInputTraitsP", "_borderColor"]
+- !private ["So17UITextInputTraitsP", "_borderWidth"]
+- !private ["So17UITextInputTraitsP", "_cornerRadius"]
+- !private ["So17UITextInputTraitsP", "layer"]
+- !private ["So34UITextPasteConfigurationSupportingP", "_borderColor"]
+- !private ["So34UITextPasteConfigurationSupportingP", "_borderWidth"]
+- !private ["So34UITextPasteConfigurationSupportingP", "_cornerRadius"]
+- !private ["So34UITextPasteConfigurationSupportingP", "layer"]
+- !private ["So18UITraitEnvironmentP", "_borderColor"]
+- !private ["So18UITraitEnvironmentP", "_borderWidth"]
+- !private ["So18UITraitEnvironmentP", "_cornerRadius"]
+- !private ["So18UITraitEnvironmentP", "layer"]
+- ["So6UIViewC", "CGFloat"]
+- ["So6UIViewC", "UIColor"]
+- !private ["So6UIViewC", "_borderColor"]
+- !private ["So6UIViewC", "_borderWidth"]
+- !private ["So6UIViewC", "_cornerRadius"]
+- ["So6UIViewC", "borderColor"]
+- ["So6UIViewC", "borderWidth"]
+- ["So6UIViewC", "cornerRadius"]
+- !private ["So6UIViewC", "layer"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "_borderColor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "_borderWidth"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "_cornerRadius"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "layer"]
+- !private ["s26_ExpressibleByColorLiteralP", "cgColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "_borderColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "_borderWidth"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "_cornerRadius"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "borderColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "borderWidth"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cgColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cornerRadius"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "layer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "masksToBounds"]
+depends-nominal:
+- !private "So7CALayerC"
+- !private "So15CALayerDelegateP"
+- !private "So13CAMediaTimingP"
+- !private "s7CVarArgP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9EquatableP"
+- !private "s8HashableP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So7UIColorC"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- "So9UIControlC"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So10UIKeyInputP"
+- !private "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So15UITextDraggableP"
+- !private "So15UITextDroppableP"
+- "So11UITextFieldC"
+- !private "So11UITextInputP"
+- !private "So17UITextInputTraitsP"
+- !private "So34UITextPasteConfigurationSupportingP"
+- !private "So18UITraitEnvironmentP"
+- "So6UIViewC"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s26_ExpressibleByColorLiteralP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/Neoutils.framework/Headers/Universe.objc.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/Neoutils.framework/Headers/Neoutils.objc.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/Neoutils.framework/Headers/ref.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/Neoutils.framework/Headers/Neoutils.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/CommonCrypto/module.modulemap"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/Neoutils.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "f252a2871559ad7d6b25d43b67e5c6a4"
