@@ -10,11 +10,59 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Podfile"
-            timestampString = "557061837.3313659"
+            timestampString = "557146183.628243"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "8"
             endingLineNumber = "8">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Joe&apos;s workspase/SketchFile/HelloSwift/HelloSwift/Sources/Custom/Network/AlchemintClient.swift"
+            timestampString = "557146183.628369"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "asyncGetResquest(api:method:params:fail:success:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlchemintProject.asyncGetResquest(api: Swift.String, method: Swift.String, params: Swift.String, fail: (Swift.Error) -&gt; (), success: (Swift.Dictionary&lt;Swift.String, Any&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "AlchemintProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/babaiholdings/Documents/Joe&apos;s%20workspase/SketchFile/HelloSwift/HelloSwift/Sources/Custom/Network/AlchemintClient.swift"
+                  timestampString = "557146183.780748"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "616">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Any&gt;) -&gt; () in AlchemintProject.asyncGetResquest(api: Swift.String, method: Swift.String, params: Swift.String, fail: (Swift.Error) -&gt; (), success: (Swift.Dictionary&lt;Swift.String, Any&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "AlchemintProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/babaiholdings/Documents/Joe&apos;s%20workspase/SketchFile/HelloSwift/HelloSwift/Sources/Custom/Network/AlchemintClient.swift"
+                  timestampString = "557146183.82945"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "37">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

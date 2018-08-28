@@ -49,6 +49,20 @@
 		44E29726213417C200FB1E87 /* AssetIdConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E296F9213417C200FB1E87 /* AssetIdConstants.swift */; };
 		44E29727213417C200FB1E87 /* NeoClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E296FA213417C200FB1E87 /* NeoClient.swift */; };
 		44E297292134181A00FB1E87 /* neoutils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E297282134181A00FB1E87 /* neoutils.framework */; };
+		44E2972B2135208700FB1E87 /* Parameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E2972A2135208700FB1E87 /* Parameter.swift */; };
+		44E2972D213520EF00FB1E87 /* SwiftHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E2972C213520EF00FB1E87 /* SwiftHeader.swift */; };
+		44E29741213534DB00FB1E87 /* UIImageCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E29730213534DB00FB1E87 /* UIImageCommon.swift */; };
+		44E29742213534DB00FB1E87 /* TextOffsetX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E29731213534DB00FB1E87 /* TextOffsetX.swift */; };
+		44E29743213534DB00FB1E87 /* JWViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E29733213534DB00FB1E87 /* JWViewExtension.swift */; };
+		44E29744213534DB00FB1E87 /* JWNavigationBarEt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E29734213534DB00FB1E87 /* JWNavigationBarEt.swift */; };
+		44E29745213534DB00FB1E87 /* UIColorPreinstall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E29735213534DB00FB1E87 /* UIColorPreinstall.swift */; };
+		44E29746213534DB00FB1E87 /* JWTextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E29736213534DB00FB1E87 /* JWTextFieldExtension.swift */; };
+		44E29747213534DB00FB1E87 /* AutoLayoutAssist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E29738213534DB00FB1E87 /* AutoLayoutAssist.swift */; };
+		44E29748213534DB00FB1E87 /* JWButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E29739213534DB00FB1E87 /* JWButtonExtension.swift */; };
+		44E29749213534DB00FB1E87 /* TaskForGCD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E2973A213534DB00FB1E87 /* TaskForGCD.swift */; };
+		44E2974A213534DB00FB1E87 /* AccountTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E2973B213534DB00FB1E87 /* AccountTextField.swift */; };
+		44E2974B213534DB00FB1E87 /* JWUIKits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E2973C213534DB00FB1E87 /* JWUIKits.swift */; };
+		44E2975021354CAC00FB1E87 /* AlchemintClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E2974F21354CAC00FB1E87 /* AlchemintClient.swift */; };
 		494DB6EC212725D5004FEE9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494DB6EB212725D5004FEE9D /* AppDelegate.swift */; };
 		494DB6EE212725D5004FEE9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494DB6ED212725D5004FEE9D /* ViewController.swift */; };
 		494DB6F1212725D5004FEE9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 494DB6EF212725D5004FEE9D /* Main.storyboard */; };
@@ -60,8 +74,6 @@
 /* Begin PBXFileReference section */
 		0ADF4FED3BCCB015B106ADEB /* Pods_AlchemintProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlchemintProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		12E3EBB7BC1DE46769B1A19E /* Pods-AlchemintProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlchemintProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlchemintProject/Pods-AlchemintProject.release.xcconfig"; sourceTree = "<group>"; };
-		44E296C7213417C200FB1E87 /* Info-tvOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-tvOS.plist"; sourceTree = "<group>"; };
-		44E296C8213417C200FB1E87 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44E296CC213417C200FB1E87 /* _CommonCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _CommonCrypto.h; sourceTree = "<group>"; };
 		44E296CD213417C200FB1E87 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		44E296CF213417C200FB1E87 /* AES.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AES.swift; sourceTree = "<group>"; };
@@ -104,6 +116,20 @@
 		44E296F9213417C200FB1E87 /* AssetIdConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssetIdConstants.swift; sourceTree = "<group>"; };
 		44E296FA213417C200FB1E87 /* NeoClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeoClient.swift; sourceTree = "<group>"; };
 		44E297282134181A00FB1E87 /* neoutils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = neoutils.framework; sourceTree = "<group>"; };
+		44E2972A2135208700FB1E87 /* Parameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parameter.swift; sourceTree = "<group>"; };
+		44E2972C213520EF00FB1E87 /* SwiftHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftHeader.swift; sourceTree = "<group>"; };
+		44E29730213534DB00FB1E87 /* UIImageCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageCommon.swift; sourceTree = "<group>"; };
+		44E29731213534DB00FB1E87 /* TextOffsetX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextOffsetX.swift; sourceTree = "<group>"; };
+		44E29733213534DB00FB1E87 /* JWViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JWViewExtension.swift; sourceTree = "<group>"; };
+		44E29734213534DB00FB1E87 /* JWNavigationBarEt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JWNavigationBarEt.swift; sourceTree = "<group>"; };
+		44E29735213534DB00FB1E87 /* UIColorPreinstall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorPreinstall.swift; sourceTree = "<group>"; };
+		44E29736213534DB00FB1E87 /* JWTextFieldExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JWTextFieldExtension.swift; sourceTree = "<group>"; };
+		44E29738213534DB00FB1E87 /* AutoLayoutAssist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoLayoutAssist.swift; sourceTree = "<group>"; };
+		44E29739213534DB00FB1E87 /* JWButtonExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JWButtonExtension.swift; sourceTree = "<group>"; };
+		44E2973A213534DB00FB1E87 /* TaskForGCD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskForGCD.swift; sourceTree = "<group>"; };
+		44E2973B213534DB00FB1E87 /* AccountTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountTextField.swift; sourceTree = "<group>"; };
+		44E2973C213534DB00FB1E87 /* JWUIKits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JWUIKits.swift; sourceTree = "<group>"; };
+		44E2974F21354CAC00FB1E87 /* AlchemintClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlchemintClient.swift; sourceTree = "<group>"; };
 		494DB6E8212725D5004FEE9D /* AlchemintProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlchemintProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		494DB6EB212725D5004FEE9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		494DB6ED212725D5004FEE9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -139,9 +165,9 @@
 		44E296C3213417C200FB1E87 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				44E2972E213534DB00FB1E87 /* Custom */,
 				44E296C4213417C200FB1E87 /* Models */,
 				44E296C5213417C200FB1E87 /* External */,
-				44E296FB213417C200FB1E87 /* Custom */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -156,19 +182,9 @@
 		44E296C5213417C200FB1E87 /* External */ = {
 			isa = PBXGroup;
 			children = (
-				44E296C6213417C200FB1E87 /* Alamofire */,
 				44E296C9213417C200FB1E87 /* NeoSwift */,
 			);
 			path = External;
-			sourceTree = "<group>";
-		};
-		44E296C6213417C200FB1E87 /* Alamofire */ = {
-			isa = PBXGroup;
-			children = (
-				44E296C7213417C200FB1E87 /* Info-tvOS.plist */,
-				44E296C8213417C200FB1E87 /* Info.plist */,
-			);
-			path = Alamofire;
 			sourceTree = "<group>";
 		};
 		44E296C9213417C200FB1E87 /* NeoSwift */ = {
@@ -276,13 +292,75 @@
 			path = data;
 			sourceTree = "<group>";
 		};
-		44E296FB213417C200FB1E87 /* Custom */ = {
+		44E296FC213417C200FB1E87 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Custom;
+			path = Resources;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
+=======
+		44E296FD213417C200FB1E87 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		44E2972E213534DB00FB1E87 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				44E2974E21354C5600FB1E87 /* Network */,
+				44E2972F213534DB00FB1E87 /* CateGory */,
+				44E29737213534DB00FB1E87 /* View */,
+			);
+			name = Custom;
+			path = "../../../../Joe's workspase/SketchFile/HelloSwift/HelloSwift/Sources/Custom";
+			sourceTree = "<group>";
+		};
+		44E2972F213534DB00FB1E87 /* CateGory */ = {
+			isa = PBXGroup;
+			children = (
+				44E29730213534DB00FB1E87 /* UIImageCommon.swift */,
+				44E29731213534DB00FB1E87 /* TextOffsetX.swift */,
+				44E29732213534DB00FB1E87 /* JWUIViewExtension */,
+				44E29734213534DB00FB1E87 /* JWNavigationBarEt.swift */,
+				44E29735213534DB00FB1E87 /* UIColorPreinstall.swift */,
+				44E29736213534DB00FB1E87 /* JWTextFieldExtension.swift */,
+			);
+			path = CateGory;
+			sourceTree = "<group>";
+		};
+		44E29732213534DB00FB1E87 /* JWUIViewExtension */ = {
+			isa = PBXGroup;
+			children = (
+				44E29733213534DB00FB1E87 /* JWViewExtension.swift */,
+			);
+			path = JWUIViewExtension;
+			sourceTree = "<group>";
+		};
+		44E29737213534DB00FB1E87 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				44E29738213534DB00FB1E87 /* AutoLayoutAssist.swift */,
+				44E29739213534DB00FB1E87 /* JWButtonExtension.swift */,
+				44E2973A213534DB00FB1E87 /* TaskForGCD.swift */,
+				44E2973B213534DB00FB1E87 /* AccountTextField.swift */,
+				44E2973C213534DB00FB1E87 /* JWUIKits.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		44E2974E21354C5600FB1E87 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				44E2974F21354CAC00FB1E87 /* AlchemintClient.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+>>>>>>> a9bb1d87b21578d9f78831de918f313b57daaa00
 		494DB6DF212725D5004FEE9D = {
 			isa = PBXGroup;
 			children = (
@@ -306,6 +384,8 @@
 			children = (
 				494DB6EB212725D5004FEE9D /* AppDelegate.swift */,
 				494DB6ED212725D5004FEE9D /* ViewController.swift */,
+				44E2972A2135208700FB1E87 /* Parameter.swift */,
+				44E2972C213520EF00FB1E87 /* SwiftHeader.swift */,
 				494DB6EF212725D5004FEE9D /* Main.storyboard */,
 				494DB6F2212725D7004FEE9D /* Assets.xcassets */,
 				494DB6F4212725D7004FEE9D /* LaunchScreen.storyboard */,
@@ -387,8 +467,6 @@
 				494DB6F3212725D7004FEE9D /* Assets.xcassets in Resources */,
 				44E29725213417C200FB1E87 /* nodes.json in Resources */,
 				44E29722213417C200FB1E87 /* strip-frameworks.sh in Resources */,
-				44E296FE213417C200FB1E87 /* Info-tvOS.plist in Resources */,
-				44E296FF213417C200FB1E87 /* Info.plist in Resources */,
 				494DB6F1212725D5004FEE9D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -448,14 +526,22 @@
 				44E29726213417C200FB1E87 /* AssetIdConstants.swift in Sources */,
 				44E29702213417C200FB1E87 /* SHA256.swift in Sources */,
 				44E29714213417C200FB1E87 /* ValueOut.swift in Sources */,
+				44E2975021354CAC00FB1E87 /* AlchemintClient.swift in Sources */,
+				44E29744213534DB00FB1E87 /* JWNavigationBarEt.swift in Sources */,
+				44E29748213534DB00FB1E87 /* JWButtonExtension.swift in Sources */,
 				44E29711213417C200FB1E87 /* Claims.swift in Sources */,
+				44E2974A213534DB00FB1E87 /* AccountTextField.swift in Sources */,
 				44E29724213417C200FB1E87 /* Account.swift in Sources */,
+				44E2972B2135208700FB1E87 /* Parameter.swift in Sources */,
 				494DB6EE212725D5004FEE9D /* ViewController.swift in Sources */,
 				44E2971F213417C200FB1E87 /* ContractResult.swift in Sources */,
 				44E29704213417C200FB1E87 /* RIPEMD160.swift in Sources */,
+				44E29749213534DB00FB1E87 /* TaskForGCD.swift in Sources */,
 				44E29701213417C200FB1E87 /* AES.swift in Sources */,
 				44E29716213417C200FB1E87 /* Block.swift in Sources */,
 				44E29712213417C200FB1E87 /* ValueIn.swift in Sources */,
+				44E29746213534DB00FB1E87 /* JWTextFieldExtension.swift in Sources */,
+				44E29741213534DB00FB1E87 /* UIImageCommon.swift in Sources */,
 				44E2971C213417C200FB1E87 /* Asset.swift in Sources */,
 				44E2970D213417C200FB1E87 /* OpCodes.swift in Sources */,
 				44E29715213417C200FB1E87 /* TransactionHistory.swift in Sources */,
@@ -463,18 +549,24 @@
 				44E29703213417C200FB1E87 /* scrypt.swift in Sources */,
 				44E2971E213417C200FB1E87 /* Peer.swift in Sources */,
 				44E29718213417C200FB1E87 /* Script.swift in Sources */,
+				44E29742213534DB00FB1E87 /* TextOffsetX.swift in Sources */,
 				44E29707213417C200FB1E87 /* Array+Util.swift in Sources */,
 				44E2970E213417C200FB1E87 /* ScriptBuilder.swift in Sources */,
+				44E29747213534DB00FB1E87 /* AutoLayoutAssist.swift in Sources */,
+				44E29743213534DB00FB1E87 /* JWViewExtension.swift in Sources */,
 				44E29717213417C200FB1E87 /* Balance.swift in Sources */,
 				44E2970B213417C200FB1E87 /* Base58.swift in Sources */,
 				494DB6EC212725D5004FEE9D /* AppDelegate.swift in Sources */,
+				44E2974B213534DB00FB1E87 /* JWUIKits.swift in Sources */,
 				44E29710213417C200FB1E87 /* AccountState.swift in Sources */,
+				44E29745213534DB00FB1E87 /* UIColorPreinstall.swift in Sources */,
 				44E29713213417C200FB1E87 /* NEONetwork.swift in Sources */,
 				44E2971D213417C200FB1E87 /* Token.swift in Sources */,
 				44E29720213417C200FB1E87 /* NeoScanBalance.swift in Sources */,
 				44E2970A213417C200FB1E87 /* Data+Util.swift in Sources */,
 				44E29705213417C200FB1E87 /* PBKDF2.swift in Sources */,
 				44E2971B213417C200FB1E87 /* TransactionAttritbute.swift in Sources */,
+				44E2972D213520EF00FB1E87 /* SwiftHeader.swift in Sources */,
 				44E29706213417C200FB1E87 /* NeoScan.swift in Sources */,
 				44E29723213417C200FB1E87 /* WIF.swift in Sources */,
 				44E2970F213417C200FB1E87 /* NEP5Token.swift in Sources */,
@@ -639,6 +731,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -D DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alchemintTeam.wuqiaoqiao.AlchemintProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";

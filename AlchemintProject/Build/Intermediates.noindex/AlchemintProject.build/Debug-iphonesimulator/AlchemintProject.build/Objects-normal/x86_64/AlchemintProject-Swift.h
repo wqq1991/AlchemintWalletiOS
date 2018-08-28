@@ -164,6 +164,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 #if __has_feature(modules)
 @import UIKit;
+@import CoreGraphics;
 @import ObjectiveC;
 #endif
 
@@ -182,6 +183,24 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma pop_macro("any")
 #endif
 
+@class NSCoder;
+
+SWIFT_CLASS("_TtC16AlchemintProject11JWTextField")
+@interface JWTextField : UITextField
+@property (nonatomic, getter=isEditing) BOOL editing;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC16AlchemintProject16AccountTextField")
+@interface AccountTextField : JWTextField
+@property (nonatomic) NSInteger maxLength;
+@property (nonatomic) NSInteger minLength;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class UIWindow;
 @class UIApplication;
 
@@ -197,16 +216,93 @@ SWIFT_CLASS("_TtC16AlchemintProject11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UIColor;
+
+SWIFT_CLASS("_TtC16AlchemintProject8JWButton")
+@interface JWButton : UIButton
+@property (nonatomic, strong) UIColor * _Nullable borderColor;
+@property (nonatomic) CGFloat borderWidth;
+@property (nonatomic) CGFloat cornerRadius;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UIImage;
+
+SWIFT_CLASS("_TtC16AlchemintProject11JWImageView")
+@interface JWImageView : UIImageView
+@property (nonatomic, strong) UIColor * _Nullable borderColor;
+@property (nonatomic) CGFloat borderWidth;
+@property (nonatomic) CGFloat cornerRadius;
+- (nonnull instancetype)initWithImage:(UIImage * _Nullable)image OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithImage:(UIImage * _Nullable)image highlightedImage:(UIImage * _Nullable)highlightedImage OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC16AlchemintProject7JWLabel")
+@interface JWLabel : UILabel
+@property (nonatomic, strong) UIColor * _Nullable borderColor;
+@property (nonatomic) CGFloat borderWidth;
+@property (nonatomic) CGFloat cornerRadius;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+
+SWIFT_CLASS("_TtC16AlchemintProject6JWView")
+@interface JWView : UIView
+@property (nonatomic, strong) UIColor * _Nullable borderColor;
+@property (nonatomic) CGFloat borderWidth;
+@property (nonatomic) CGFloat cornerRadius;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 
 SWIFT_CLASS("_TtC16AlchemintProject7NeoScan")
 @interface NeoScan : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UITextField;
-@class UIButton;
+
+@interface UIButton (SWIFT_EXTENSION(AlchemintProject))
+@property (nonatomic) BOOL jwEnabled;
+@property (nonatomic, strong) UIColor * _Nonnull disabledBackgroundColor;
+@property (nonatomic, strong) UIColor * _Nonnull enabledBackgroundColor;
+@end
+
+
+
+
+
+
+
+
+
+
+@interface UITextField (SWIFT_EXTENSION(AlchemintProject))
+@property (nonatomic) CGFloat offsetX;
+@end
+
+
+@interface UITextField (SWIFT_EXTENSION(AlchemintProject))
+/// 设置textfield 文字偏移量
+@property (nonatomic) CGFloat textOffsetX;
+@end
+
+
+@interface UITextField (SWIFT_EXTENSION(AlchemintProject))
+@property (nonatomic, strong) UIColor * _Nullable borderColor;
+@property (nonatomic) CGFloat borderWidth;
+@property (nonatomic) CGFloat cornerRadius;
+@end
+
+
+
 @class NSBundle;
-@class NSCoder;
 
 SWIFT_CLASS("_TtC16AlchemintProject14ViewController")
 @interface ViewController : UIViewController
