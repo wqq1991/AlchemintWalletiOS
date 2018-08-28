@@ -27,7 +27,7 @@ extension UITextField {
         
             _borderColor = newValue
         
-            layer.borderColor = _borderColor?.CGColor
+            layer.borderColor = _borderColor?.cgColor
             
         }
         

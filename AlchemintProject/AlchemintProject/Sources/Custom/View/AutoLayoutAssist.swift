@@ -20,7 +20,7 @@ extension UIView {
     
         for constraint: NSLayoutConstraint in (superview?.constraints)! {
         
-            if constraint.firstAttribute == attribute && constraint.firstItem.isEqual(firstItem) {
+            if constraint.firstAttribute == attribute && (constraint.firstItem?.isEqual(firstItem))! {
                 
                 constraint.constant = value
             

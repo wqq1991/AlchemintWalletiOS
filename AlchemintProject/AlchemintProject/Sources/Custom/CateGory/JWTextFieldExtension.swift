@@ -20,14 +20,14 @@ extension UITextField {
         }
         
         set {
+
+            let view = UIView(frame: CGRect(x: 0, y: 0, width: offsetX, height: 30))
             
-            let view = UIView(frame: CGRectMake(0, 0, offsetX, 30))
-            
-            view.backgroundColor = UIColor.clearColor()
+            view.backgroundColor = UIColor.clear
             
             leftView = view
             
-            leftViewMode = UITextFieldViewMode.Always
+            leftViewMode = UITextFieldViewMode.always
         }
     }
 
