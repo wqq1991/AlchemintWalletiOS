@@ -1,16 +1,47 @@
 PODS:
   - Alamofire (4.7.3)
+  - Alamofire-SwiftyJSON (3.0.0):
+    - Alamofire (~> 4.5)
+    - SwiftyJSON (~> 4.0.0)
+  - AlamofireImage (3.3.1):
+    - Alamofire (~> 4.5)
+  - AlamofireJsonToObjects (2.4.1):
+    - Alamofire
+    - EVReflection
+  - EVReflection (5.7.0):
+    - EVReflection/Core (= 5.7.0)
+  - EVReflection/Core (5.7.0)
+  - NVActivityIndicatorView (4.3.0):
+    - NVActivityIndicatorView/Presenter (= 4.3.0)
+  - NVActivityIndicatorView/Presenter (4.3.0)
+  - SwiftyJSON (4.0.0)
 
 DEPENDENCIES:
   - Alamofire (~> 4.7.3)
+  - Alamofire-SwiftyJSON (~> 3.0.0)
+  - AlamofireImage (~> 3.3.1)
+  - AlamofireJsonToObjects (~> 2.4.1)
+  - NVActivityIndicatorView (~> 4.3.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
+    - Alamofire-SwiftyJSON
+    - AlamofireImage
+    - AlamofireJsonToObjects
+    - EVReflection
+    - NVActivityIndicatorView
+    - SwiftyJSON
 
 SPEC CHECKSUMS:
   Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  Alamofire-SwiftyJSON: 2b3649d57dc7bb2880fb8b86f8bb969397666916
+  AlamofireImage: 3b35b586853abaf94ca1250f4e94cff3c21a4c0d
+  AlamofireJsonToObjects: 2f652417f69ca86f229b704cdd00370bb892af45
+  EVReflection: c579d225cf0ec062d80f35f5af82acd770016a76
+  NVActivityIndicatorView: 963f62bf9f993fcf23218e55958e5b1761b9504c
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
 
-PODFILE CHECKSUM: 32e7117aa2bbcda9a135db54a65204f0c012b155
+PODFILE CHECKSUM: 1a9b697e67e9b01fd44617bdcd156a232e2fe1e8
 
 COCOAPODS: 1.5.3

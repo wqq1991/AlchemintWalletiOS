@@ -1,0 +1,14 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "87fb5b4ff1034d711132b71339c61404"
+build_time: [1535537535, 400537000]
+inputs:
+  "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Pods/EVReflection/Source/ConversionOptions.swift": [1535509519, 0]
+  "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Pods/EVReflection/Source/DeserializationStatus.swift": [1535509519, 0]
+  "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Pods/EVReflection/Source/EVArrayExtension.swift": [1535509519, 0]
+  "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Pods/EVReflection/Source/EVCustomReflectable.swift": [1535509519, 0]
+  "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Pods/EVReflection/Source/EVDictionaryExtension.swift": [1535509519, 0]
+  "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Pods/EVReflection/Source/EVObject.swift": [1535509519, 0]
+  "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Pods/EVReflection/Source/EVReflectable.swift": [1535509519, 0]
+  "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Pods/EVReflection/Source/EVReflection.swift": [1535509519, 0]
+  "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Pods/EVReflection/Source/EVWorkaroundHelpers.swift": [1535509519, 0]
+  "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Pods/EVReflection/Source/PrintOptions.swift": [1535509519, 0]

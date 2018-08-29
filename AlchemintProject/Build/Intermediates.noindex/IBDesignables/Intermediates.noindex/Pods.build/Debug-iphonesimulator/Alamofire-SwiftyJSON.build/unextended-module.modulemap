@@ -1,0 +1,10 @@
+framework module Alamofire_SwiftyJSON {
+  umbrella header "Alamofire-SwiftyJSON-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module Alamofire_SwiftyJSON.__Swift {
+    exclude header "Alamofire_SwiftyJSON-Swift.h"
+}

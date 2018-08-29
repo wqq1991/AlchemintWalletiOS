@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "263d88327f0e01836a1dd86c3a932a73"
+build_time: [1535537549, 542097000]
+inputs:
+  "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Pods/Alamofire-SwiftyJSON/Source/Alamofire-SwiftyJSON.swift": [1535509427, 0]

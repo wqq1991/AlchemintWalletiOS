@@ -50,6 +50,25 @@
 		44E2972B2135208700FB1E87 /* Parameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E2972A2135208700FB1E87 /* Parameter.swift */; };
 		44E2972D213520EF00FB1E87 /* SwiftHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E2972C213520EF00FB1E87 /* SwiftHeader.swift */; };
 		44E297532136339600FB1E87 /* AlchemintClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E297522136339500FB1E87 /* AlchemintClient.swift */; };
+		44E297A82136848C00FB1E87 /* JWBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E297A72136848C00FB1E87 /* JWBaseViewController.swift */; };
+		44E297CA21368A9400FB1E87 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E297AE21368A9300FB1E87 /* LoginViewController.swift */; };
+		44E297CB21368A9400FB1E87 /* LoginModule.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44E297AF21368A9300FB1E87 /* LoginModule.storyboard */; };
+		44E297CC21368A9400FB1E87 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E297B021368A9300FB1E87 /* RegisterViewController.swift */; };
+		44E297CD21368A9400FB1E87 /* More_RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E297B321368A9300FB1E87 /* More_RootViewController.swift */; };
+		44E297CE21368A9400FB1E87 /* MoreListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E297B421368A9300FB1E87 /* MoreListCell.swift */; };
+		44E297CF21368A9400FB1E87 /* MoreModule.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44E297B521368A9300FB1E87 /* MoreModule.storyboard */; };
+		44E297D021368A9400FB1E87 /* ProductModule.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44E297B721368A9300FB1E87 /* ProductModule.storyboard */; };
+		44E297D121368A9400FB1E87 /* ProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E297B921368A9300FB1E87 /* ProductDetailViewController.swift */; };
+		44E297D221368A9400FB1E87 /* ProductListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E297BA21368A9300FB1E87 /* ProductListCell.swift */; };
+		44E297D321368A9400FB1E87 /* Product_RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E297BB21368A9300FB1E87 /* Product_RootViewController.swift */; };
+		44E297D421368A9400FB1E87 /* MyWealth_RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E297BE21368A9300FB1E87 /* MyWealth_RootViewController.swift */; };
+		44E297D521368A9400FB1E87 /* MyWealthModule.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44E297BF21368A9300FB1E87 /* MyWealthModule.storyboard */; };
+		44E297D621368A9400FB1E87 /* HomePageModule.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44E297C121368A9300FB1E87 /* HomePageModule.storyboard */; };
+		44E297D721368A9400FB1E87 /* HomePage_RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E297C321368A9300FB1E87 /* HomePage_RootViewController.swift */; };
+		44E297D821368A9400FB1E87 /* RootTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E297C521368A9300FB1E87 /* RootTabBarController.swift */; };
+		44E297D921368A9400FB1E87 /* RootTabBarController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44E297C621368A9300FB1E87 /* RootTabBarController.storyboard */; };
+		44E297DA21368A9400FB1E87 /* StartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44E297C821368A9300FB1E87 /* StartViewController.xib */; };
+		44E297DB21368A9400FB1E87 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E297C921368A9300FB1E87 /* StartViewController.swift */; };
 		494DB6EC212725D5004FEE9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494DB6EB212725D5004FEE9D /* AppDelegate.swift */; };
 		494DB6EE212725D5004FEE9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494DB6ED212725D5004FEE9D /* ViewController.swift */; };
 		494DB6F1212725D5004FEE9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 494DB6EF212725D5004FEE9D /* Main.storyboard */; };
@@ -117,6 +136,25 @@
 		44E2972A2135208700FB1E87 /* Parameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parameter.swift; sourceTree = "<group>"; };
 		44E2972C213520EF00FB1E87 /* SwiftHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftHeader.swift; sourceTree = "<group>"; };
 		44E297522136339500FB1E87 /* AlchemintClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlchemintClient.swift; sourceTree = "<group>"; };
+		44E297A72136848C00FB1E87 /* JWBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JWBaseViewController.swift; sourceTree = "<group>"; };
+		44E297AE21368A9300FB1E87 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		44E297AF21368A9300FB1E87 /* LoginModule.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LoginModule.storyboard; sourceTree = "<group>"; };
+		44E297B021368A9300FB1E87 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		44E297B321368A9300FB1E87 /* More_RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = More_RootViewController.swift; sourceTree = "<group>"; };
+		44E297B421368A9300FB1E87 /* MoreListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreListCell.swift; sourceTree = "<group>"; };
+		44E297B521368A9300FB1E87 /* MoreModule.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MoreModule.storyboard; sourceTree = "<group>"; };
+		44E297B721368A9300FB1E87 /* ProductModule.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ProductModule.storyboard; sourceTree = "<group>"; };
+		44E297B921368A9300FB1E87 /* ProductDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductDetailViewController.swift; sourceTree = "<group>"; };
+		44E297BA21368A9300FB1E87 /* ProductListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductListCell.swift; sourceTree = "<group>"; };
+		44E297BB21368A9300FB1E87 /* Product_RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product_RootViewController.swift; sourceTree = "<group>"; };
+		44E297BE21368A9300FB1E87 /* MyWealth_RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyWealth_RootViewController.swift; sourceTree = "<group>"; };
+		44E297BF21368A9300FB1E87 /* MyWealthModule.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MyWealthModule.storyboard; sourceTree = "<group>"; };
+		44E297C121368A9300FB1E87 /* HomePageModule.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HomePageModule.storyboard; sourceTree = "<group>"; };
+		44E297C321368A9300FB1E87 /* HomePage_RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePage_RootViewController.swift; sourceTree = "<group>"; };
+		44E297C521368A9300FB1E87 /* RootTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootTabBarController.swift; sourceTree = "<group>"; };
+		44E297C621368A9300FB1E87 /* RootTabBarController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = RootTabBarController.storyboard; sourceTree = "<group>"; };
+		44E297C821368A9300FB1E87 /* StartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StartViewController.xib; sourceTree = "<group>"; };
+		44E297C921368A9300FB1E87 /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		494DB6E8212725D5004FEE9D /* AlchemintProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlchemintProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		494DB6EB212725D5004FEE9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		494DB6ED212725D5004FEE9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -290,6 +328,160 @@
 			path = Network;
 			sourceTree = "<group>";
 		};
+		44E2975921364BC000FB1E87 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				44E2975A21364BC000FB1E87 /* JWBaseViewControllers */,
+				44E297A921368A9300FB1E87 /* Modules */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		44E2975A21364BC000FB1E87 /* JWBaseViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				44E297DC2136A84D00FB1E87 /* JWCustomNavigationController */,
+				44E297A62136848C00FB1E87 /* JWBaseViewController */,
+			);
+			path = JWBaseViewControllers;
+			sourceTree = "<group>";
+		};
+		44E297A62136848C00FB1E87 /* JWBaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				44E297A72136848C00FB1E87 /* JWBaseViewController.swift */,
+			);
+			path = JWBaseViewController;
+			sourceTree = "<group>";
+		};
+		44E297A921368A9300FB1E87 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				44E297AA21368A9300FB1E87 /* Modules */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		44E297AA21368A9300FB1E87 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				44E297AB21368A9300FB1E87 /* LoginModule */,
+				44E297B121368A9300FB1E87 /* MoreModule */,
+				44E297B621368A9300FB1E87 /* ProductModule */,
+				44E297BC21368A9300FB1E87 /* MyWealthModule */,
+				44E297C021368A9300FB1E87 /* HomePageModule */,
+				44E297C421368A9300FB1E87 /* RootTabBarViewController */,
+				44E297C721368A9300FB1E87 /* OtherModule */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		44E297AB21368A9300FB1E87 /* LoginModule */ = {
+			isa = PBXGroup;
+			children = (
+				44E297AE21368A9300FB1E87 /* LoginViewController.swift */,
+				44E297AF21368A9300FB1E87 /* LoginModule.storyboard */,
+				44E297B021368A9300FB1E87 /* RegisterViewController.swift */,
+			);
+			path = LoginModule;
+			sourceTree = "<group>";
+		};
+		44E297B121368A9300FB1E87 /* MoreModule */ = {
+			isa = PBXGroup;
+			children = (
+				44E297B221368A9300FB1E87 /* More_RootViewController */,
+				44E297B521368A9300FB1E87 /* MoreModule.storyboard */,
+			);
+			path = MoreModule;
+			sourceTree = "<group>";
+		};
+		44E297B221368A9300FB1E87 /* More_RootViewController */ = {
+			isa = PBXGroup;
+			children = (
+				44E297B321368A9300FB1E87 /* More_RootViewController.swift */,
+				44E297B421368A9300FB1E87 /* MoreListCell.swift */,
+			);
+			path = More_RootViewController;
+			sourceTree = "<group>";
+		};
+		44E297B621368A9300FB1E87 /* ProductModule */ = {
+			isa = PBXGroup;
+			children = (
+				44E297B721368A9300FB1E87 /* ProductModule.storyboard */,
+				44E297B821368A9300FB1E87 /* Product_RootViewController */,
+			);
+			path = ProductModule;
+			sourceTree = "<group>";
+		};
+		44E297B821368A9300FB1E87 /* Product_RootViewController */ = {
+			isa = PBXGroup;
+			children = (
+				44E297B921368A9300FB1E87 /* ProductDetailViewController.swift */,
+				44E297BA21368A9300FB1E87 /* ProductListCell.swift */,
+				44E297BB21368A9300FB1E87 /* Product_RootViewController.swift */,
+			);
+			path = Product_RootViewController;
+			sourceTree = "<group>";
+		};
+		44E297BC21368A9300FB1E87 /* MyWealthModule */ = {
+			isa = PBXGroup;
+			children = (
+				44E297BD21368A9300FB1E87 /* MyWealth_RootViewController */,
+				44E297BF21368A9300FB1E87 /* MyWealthModule.storyboard */,
+			);
+			path = MyWealthModule;
+			sourceTree = "<group>";
+		};
+		44E297BD21368A9300FB1E87 /* MyWealth_RootViewController */ = {
+			isa = PBXGroup;
+			children = (
+				44E297BE21368A9300FB1E87 /* MyWealth_RootViewController.swift */,
+			);
+			path = MyWealth_RootViewController;
+			sourceTree = "<group>";
+		};
+		44E297C021368A9300FB1E87 /* HomePageModule */ = {
+			isa = PBXGroup;
+			children = (
+				44E297C121368A9300FB1E87 /* HomePageModule.storyboard */,
+				44E297C221368A9300FB1E87 /* HomePage_RootViewController */,
+			);
+			path = HomePageModule;
+			sourceTree = "<group>";
+		};
+		44E297C221368A9300FB1E87 /* HomePage_RootViewController */ = {
+			isa = PBXGroup;
+			children = (
+				44E297C321368A9300FB1E87 /* HomePage_RootViewController.swift */,
+			);
+			path = HomePage_RootViewController;
+			sourceTree = "<group>";
+		};
+		44E297C421368A9300FB1E87 /* RootTabBarViewController */ = {
+			isa = PBXGroup;
+			children = (
+				44E297C521368A9300FB1E87 /* RootTabBarController.swift */,
+				44E297C621368A9300FB1E87 /* RootTabBarController.storyboard */,
+			);
+			path = RootTabBarViewController;
+			sourceTree = "<group>";
+		};
+		44E297C721368A9300FB1E87 /* OtherModule */ = {
+			isa = PBXGroup;
+			children = (
+				44E297C821368A9300FB1E87 /* StartViewController.xib */,
+				44E297C921368A9300FB1E87 /* StartViewController.swift */,
+			);
+			path = OtherModule;
+			sourceTree = "<group>";
+		};
+		44E297DC2136A84D00FB1E87 /* JWCustomNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = JWCustomNavigationController;
+			sourceTree = "<group>";
+		};
 		494DB6DF212725D5004FEE9D = {
 			isa = PBXGroup;
 			children = (
@@ -319,6 +511,7 @@
 				494DB6F2212725D7004FEE9D /* Assets.xcassets */,
 				494DB6F4212725D7004FEE9D /* LaunchScreen.storyboard */,
 				494DB6F7212725D7004FEE9D /* Info.plist */,
+				44E2975921364BC000FB1E87 /* ViewControllers */,
 				44E296C3213417C200FB1E87 /* Sources */,
 			);
 			path = AlchemintProject;
@@ -435,10 +628,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44E297D521368A9400FB1E87 /* MyWealthModule.storyboard in Resources */,
+				44E297CB21368A9400FB1E87 /* LoginModule.storyboard in Resources */,
 				494DB6F6212725D7004FEE9D /* LaunchScreen.storyboard in Resources */,
 				494DB6F3212725D7004FEE9D /* Assets.xcassets in Resources */,
 				44E29725213417C200FB1E87 /* nodes.json in Resources */,
+				44E297DA21368A9400FB1E87 /* StartViewController.xib in Resources */,
+				44E297D921368A9400FB1E87 /* RootTabBarController.storyboard in Resources */,
 				44E29722213417C200FB1E87 /* strip-frameworks.sh in Resources */,
+				44E297D621368A9400FB1E87 /* HomePageModule.storyboard in Resources */,
+				44E297CF21368A9400FB1E87 /* MoreModule.storyboard in Resources */,
+				44E297D021368A9400FB1E87 /* ProductModule.storyboard in Resources */,
 				494DB6F1212725D5004FEE9D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -454,10 +654,22 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-AlchemintProject/Pods-AlchemintProject-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire-SwiftyJSON/Alamofire_SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireJsonToObjects/AlamofireJsonToObjects.framework",
+				"${BUILT_PRODUCTS_DIR}/EVReflection/EVReflection.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire_SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireJsonToObjects.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EVReflection.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -492,6 +704,7 @@
 				44E29719213417C200FB1E87 /* NeoScanTransactionHistory.swift in Sources */,
 				44E29727213417C200FB1E87 /* NeoClient.swift in Sources */,
 				44E29709213417C200FB1E87 /* NEP2.swift in Sources */,
+				44E297D321368A9400FB1E87 /* Product_RootViewController.swift in Sources */,
 				44E29721213417C200FB1E87 /* ShamirSecret.swift in Sources */,
 				44E2970C213417C200FB1E87 /* NEP9.swift in Sources */,
 				44E29708213417C200FB1E87 /* validator.swift in Sources */,
@@ -518,19 +731,27 @@
 				44E2970D213417C200FB1E87 /* OpCodes.swift in Sources */,
 				44E29715213417C200FB1E87 /* TransactionHistory.swift in Sources */,
 				44E2971A213417C200FB1E87 /* Transaction.swift in Sources */,
+				44E297D221368A9400FB1E87 /* ProductListCell.swift in Sources */,
 				44E29703213417C200FB1E87 /* scrypt.swift in Sources */,
 				44E2971E213417C200FB1E87 /* Peer.swift in Sources */,
 				44E29718213417C200FB1E87 /* Script.swift in Sources */,
+				44E297A82136848C00FB1E87 /* JWBaseViewController.swift in Sources */,
 				49FD85EE2135790B00F86387 /* TextOffsetX.swift in Sources */,
+				44E297D721368A9400FB1E87 /* HomePage_RootViewController.swift in Sources */,
+				44E297CD21368A9400FB1E87 /* More_RootViewController.swift in Sources */,
 				44E29707213417C200FB1E87 /* Array+Util.swift in Sources */,
 				44E2970E213417C200FB1E87 /* ScriptBuilder.swift in Sources */,
 				49FD85F32135790B00F86387 /* AutoLayoutAssist.swift in Sources */,
+				44E297D821368A9400FB1E87 /* RootTabBarController.swift in Sources */,
+				44E297D121368A9400FB1E87 /* ProductDetailViewController.swift in Sources */,
+				44E297CE21368A9400FB1E87 /* MoreListCell.swift in Sources */,
 				49FD85EF2135790B00F86387 /* JWViewExtension.swift in Sources */,
 				44E29717213417C200FB1E87 /* Balance.swift in Sources */,
 				44E2970B213417C200FB1E87 /* Base58.swift in Sources */,
 				494DB6EC212725D5004FEE9D /* AppDelegate.swift in Sources */,
 				49FD85F72135790B00F86387 /* JWUIKits.swift in Sources */,
 				44E29710213417C200FB1E87 /* AccountState.swift in Sources */,
+				44E297CA21368A9400FB1E87 /* LoginViewController.swift in Sources */,
 				49FD85F12135790B00F86387 /* UIColorPreinstall.swift in Sources */,
 				44E29713213417C200FB1E87 /* NEONetwork.swift in Sources */,
 				44E2971D213417C200FB1E87 /* Token.swift in Sources */,
@@ -538,6 +759,9 @@
 				44E2970A213417C200FB1E87 /* Data+Util.swift in Sources */,
 				44E29705213417C200FB1E87 /* PBKDF2.swift in Sources */,
 				44E2971B213417C200FB1E87 /* TransactionAttritbute.swift in Sources */,
+				44E297CC21368A9400FB1E87 /* RegisterViewController.swift in Sources */,
+				44E297D421368A9400FB1E87 /* MyWealth_RootViewController.swift in Sources */,
+				44E297DB21368A9400FB1E87 /* StartViewController.swift in Sources */,
 				44E2972D213520EF00FB1E87 /* SwiftHeader.swift in Sources */,
 				44E29706213417C200FB1E87 /* NeoScan.swift in Sources */,
 				44E29723213417C200FB1E87 /* WIF.swift in Sources */,

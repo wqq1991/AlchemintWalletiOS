@@ -3,5 +3,9 @@ use_frameworks!
 
 target 'AlchemintProject' do
     pod 'Alamofire', '~> 4.7.3'
+    pod 'Alamofire-SwiftyJSON', '~> 3.0.0'
+    pod 'AlamofireJsonToObjects', '~> 2.4.1'
+    pod 'AlamofireImage', '~> 3.3.1'
+    pod 'NVActivityIndicatorView', '~> 4.3.0'
 end
     

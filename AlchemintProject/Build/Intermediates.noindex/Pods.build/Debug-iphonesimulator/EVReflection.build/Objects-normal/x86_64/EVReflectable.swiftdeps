@@ -1,0 +1,660 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "EVReflectable"
+- "EVReflectableStatusesObjectKey"
+- "=="
+- "!="
+- "=="
+- "!="
+provides-nominal:
+- "12EVReflection13EVReflectableP"
+provides-member:
+- ["12EVReflection13EVReflectableP", ""]
+- ["12EVReflection13EVReflectableP", "evReflectionStatuses"]
+- ["12EVReflection13EVReflectableP", "init"]
+- ["12EVReflection13EVReflectableP", "init"]
+- ["12EVReflection13EVReflectableP", "init"]
+- ["12EVReflection13EVReflectableP", "init"]
+- ["12EVReflection13EVReflectableP", "init"]
+- ["12EVReflection13EVReflectableP", "init"]
+- ["12EVReflection13EVReflectableP", "hashValue"]
+- ["12EVReflection13EVReflectableP", "hash"]
+- ["12EVReflection13EVReflectableP", "=="]
+- ["12EVReflection13EVReflectableP", "!="]
+- ["12EVReflection13EVReflectableP", "initValidation"]
+- ["12EVReflection13EVReflectableP", "propertyMapping"]
+- ["12EVReflection13EVReflectableP", "propertyConverters"]
+- ["12EVReflection13EVReflectableP", "skipPropertyValue"]
+- ["12EVReflection13EVReflectableP", "decodePropertyValue"]
+- ["12EVReflection13EVReflectableP", "encodePropertyValue"]
+- ["12EVReflection13EVReflectableP", "customConverter"]
+- ["12EVReflection13EVReflectableP", "getType"]
+- ["12EVReflection13EVReflectableP", "getSpecificType"]
+- ["12EVReflection13EVReflectableP", "saveToTemp"]
+- ["12EVReflection13EVReflectableP", "saveToDocuments"]
+- ["12EVReflection13EVReflectableP", "toDictionary"]
+- ["12EVReflection13EVReflectableP", "toJsonString"]
+- ["12EVReflection13EVReflectableP", "toJsonData"]
+- ["12EVReflection13EVReflectableP", "arrayFromJson"]
+- ["12EVReflection13EVReflectableP", "mapObjectTo"]
+- ["12EVReflection13EVReflectableP", "typeForKey"]
+- ["12EVReflection13EVReflectableP", "convertDictionary"]
+- ["12EVReflection13EVReflectableP", "initMayNotContainKeys"]
+- ["12EVReflection13EVReflectableP", "initMustContainKeys"]
+- ["12EVReflection13EVReflectableP", "evReflectionStatus"]
+- ["12EVReflection13EVReflectableP", "addStatusMessage"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- "!="
+- "=="
+- !private "??"
+- "AnyObject"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- "ConversionOptions"
+- "Data"
+- "DeserializationStatus"
+- !private "EVCustomReflectable"
+- "EVReflectable"
+- "EVReflectableStatusesObjectKey"
+- !private "EVReflection"
+- "Int"
+- !private "JSONSerialization"
+- "Mirror"
+- "NSDictionary"
+- !private "NSKeyedArchiver"
+- !private "NSKeyedUnarchiver"
+- !private "NSMutableDictionary"
+- "NSObject"
+- "NSObjectProtocol"
+- !private "NSSearchPathForDirectoriesInDomains"
+- !private "NSString"
+- !private "NSTemporaryDirectory"
+- "String"
+- "StringLiteralType"
+- !private "evPrint"
+- !private "objc_AssociationPolicy"
+- !private "objc_getAssociatedObject"
+- !private "objc_setAssociatedObject"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "init"]
+- !private ["Sa", "subscript"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "subscript"]
+- !private ["s13BinaryIntegerP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "DeserializationStatus"]
+- !private ["s7CVarArgP", "EVReflectableStatusesObjectKey"]
+- !private ["s7CVarArgP", "EVReflection"]
+- !private ["s7CVarArgP", "Int"]
+- !private ["s7CVarArgP", "JSONSerialization"]
+- !private ["s7CVarArgP", "NSDictionary"]
+- !private ["s7CVarArgP", "NSKeyedUnarchiver"]
+- !private ["s7CVarArgP", "NSSearchPathForDirectoriesInDomains"]
+- !private ["s7CVarArgP", "NSTemporaryDirectory"]
+- !private ["s7CVarArgP", "String"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "appendingPathComponent"]
+- !private ["s7CVarArgP", "archiveRootObject"]
+- !private ["s7CVarArgP", "data"]
+- !private ["s7CVarArgP", "hashValue"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "jsonObject"]
+- !private ["s7CVarArgP", "objc_AssociationPolicy"]
+- !private ["s7CVarArgP", "objc_getAssociatedObject"]
+- !private ["s7CVarArgP", "objc_setAssociatedObject"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "unarchiveObject"]
+- !private ["s10CollectionP", "append"]
+- ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "subscript"]
+- ["s10ComparableP", "init"]
+- !private ["12EVReflection17ConversionOptionsV", "DefaultDeserialize"]
+- !private ["12EVReflection17ConversionOptionsV", "DefaultNSCoding"]
+- !private ["12EVReflection17ConversionOptionsV", "DefaultSerialize"]
+- !private ["12EVReflection17ConversionOptionsV", "None"]
+- !private ["s28CustomDebugStringConvertibleP", "DeserializationStatus"]
+- !private ["s28CustomDebugStringConvertibleP", "EVReflectableStatusesObjectKey"]
+- !private ["s28CustomDebugStringConvertibleP", "EVReflection"]
+- !private ["s28CustomDebugStringConvertibleP", "Int"]
+- !private ["s28CustomDebugStringConvertibleP", "JSONSerialization"]
+- !private ["s28CustomDebugStringConvertibleP", "NSDictionary"]
+- !private ["s28CustomDebugStringConvertibleP", "NSKeyedUnarchiver"]
+- !private ["s28CustomDebugStringConvertibleP", "NSSearchPathForDirectoriesInDomains"]
+- !private ["s28CustomDebugStringConvertibleP", "NSTemporaryDirectory"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "appendingPathComponent"]
+- !private ["s28CustomDebugStringConvertibleP", "archiveRootObject"]
+- !private ["s28CustomDebugStringConvertibleP", "data"]
+- !private ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "jsonObject"]
+- !private ["s28CustomDebugStringConvertibleP", "objc_AssociationPolicy"]
+- !private ["s28CustomDebugStringConvertibleP", "objc_getAssociatedObject"]
+- !private ["s28CustomDebugStringConvertibleP", "objc_setAssociatedObject"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "unarchiveObject"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "appendingPathComponent"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "children"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subjectType"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "superclassMirror"]
+- !private ["s23CustomStringConvertibleP", "DefaultDeserialize"]
+- !private ["s23CustomStringConvertibleP", "DefaultNSCoding"]
+- !private ["s23CustomStringConvertibleP", "DefaultSerialize"]
+- !private ["s23CustomStringConvertibleP", "DeserializationStatus"]
+- !private ["s23CustomStringConvertibleP", "EVReflectableStatusesObjectKey"]
+- !private ["s23CustomStringConvertibleP", "EVReflection"]
+- !private ["s23CustomStringConvertibleP", "IncorrectKey"]
+- !private ["s23CustomStringConvertibleP", "Int"]
+- !private ["s23CustomStringConvertibleP", "JSONSerialization"]
+- !private ["s23CustomStringConvertibleP", "MissingKey"]
+- !private ["s23CustomStringConvertibleP", "NSDictionary"]
+- !private ["s23CustomStringConvertibleP", "NSKeyedUnarchiver"]
+- !private ["s23CustomStringConvertibleP", "NSSearchPathForDirectoriesInDomains"]
+- !private ["s23CustomStringConvertibleP", "NSTemporaryDirectory"]
+- !private ["s23CustomStringConvertibleP", "None"]
+- !private ["s23CustomStringConvertibleP", "ShouldExtendNSObject"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "appendingPathComponent"]
+- !private ["s23CustomStringConvertibleP", "archiveRootObject"]
+- !private ["s23CustomStringConvertibleP", "children"]
+- !private ["s23CustomStringConvertibleP", "data"]
+- !private ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "jsonObject"]
+- !private ["s23CustomStringConvertibleP", "objc_AssociationPolicy"]
+- !private ["s23CustomStringConvertibleP", "objc_getAssociatedObject"]
+- !private ["s23CustomStringConvertibleP", "objc_setAssociatedObject"]
+- !private ["s23CustomStringConvertibleP", "subjectType"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "superclassMirror"]
+- !private ["s23CustomStringConvertibleP", "unarchiveObject"]
+- !private ["s23CustomStringConvertibleP", "utf8"]
+- !private ["10Foundation4DataV", "init"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "append"]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["12EVReflection21DeserializationStatusV", "IncorrectKey"]
+- !private ["12EVReflection21DeserializationStatusV", "MissingKey"]
+- !private ["12EVReflection21DeserializationStatusV", "None"]
+- !private ["12EVReflection21DeserializationStatusV", "deinit"]
+- !private ["12EVReflection19EVCustomReflectableP", "constructWith"]
+- !private ["12EVReflection19EVCustomReflectableP", "toCodableValue"]
+- ["12EVReflection13EVReflectableP", "!="]
+- ["12EVReflection13EVReflectableP", "=="]
+- ["12EVReflection13EVReflectableP", "AnyObject"]
+- ["12EVReflection13EVReflectableP", "Bool"]
+- ["12EVReflection13EVReflectableP", "ConversionOptions"]
+- ["12EVReflection13EVReflectableP", "Data"]
+- ["12EVReflection13EVReflectableP", "DeserializationStatus"]
+- !private ["12EVReflection13EVReflectableP", "EVCustomReflectable"]
+- ["12EVReflection13EVReflectableP", "EVReflectable"]
+- !private ["12EVReflection13EVReflectableP", "EVReflectableStatusesObjectKey"]
+- !private ["12EVReflection13EVReflectableP", "EVReflection"]
+- ["12EVReflection13EVReflectableP", "Int"]
+- !private ["12EVReflection13EVReflectableP", "JSONSerialization"]
+- ["12EVReflection13EVReflectableP", "Mirror"]
+- ["12EVReflection13EVReflectableP", "NSDictionary"]
+- !private ["12EVReflection13EVReflectableP", "NSKeyedArchiver"]
+- !private ["12EVReflection13EVReflectableP", "NSKeyedUnarchiver"]
+- !private ["12EVReflection13EVReflectableP", "NSMutableDictionary"]
+- ["12EVReflection13EVReflectableP", "NSObject"]
+- !private ["12EVReflection13EVReflectableP", "NSSearchPathForDirectoriesInDomains"]
+- !private ["12EVReflection13EVReflectableP", "NSString"]
+- !private ["12EVReflection13EVReflectableP", "NSTemporaryDirectory"]
+- ["12EVReflection13EVReflectableP", "String"]
+- ["12EVReflection13EVReflectableP", "addStatusMessage"]
+- ["12EVReflection13EVReflectableP", "arrayFromJson"]
+- ["12EVReflection13EVReflectableP", "convertDictionary"]
+- ["12EVReflection13EVReflectableP", "customConverter"]
+- ["12EVReflection13EVReflectableP", "decodePropertyValue"]
+- ["12EVReflection13EVReflectableP", "encodePropertyValue"]
+- !private ["12EVReflection13EVReflectableP", "evPrint"]
+- ["12EVReflection13EVReflectableP", "evReflectionStatus"]
+- ["12EVReflection13EVReflectableP", "evReflectionStatuses"]
+- ["12EVReflection13EVReflectableP", "getSpecificType"]
+- ["12EVReflection13EVReflectableP", "getType"]
+- ["12EVReflection13EVReflectableP", "hash"]
+- ["12EVReflection13EVReflectableP", "hashValue"]
+- ["12EVReflection13EVReflectableP", "init"]
+- ["12EVReflection13EVReflectableP", "initMayNotContainKeys"]
+- ["12EVReflection13EVReflectableP", "initMustContainKeys"]
+- ["12EVReflection13EVReflectableP", "initValidation"]
+- !private ["12EVReflection13EVReflectableP", "isEqual"]
+- ["12EVReflection13EVReflectableP", "mapObjectTo"]
+- !private ["12EVReflection13EVReflectableP", "objc_AssociationPolicy"]
+- !private ["12EVReflection13EVReflectableP", "objc_getAssociatedObject"]
+- !private ["12EVReflection13EVReflectableP", "objc_setAssociatedObject"]
+- ["12EVReflection13EVReflectableP", "propertyConverters"]
+- ["12EVReflection13EVReflectableP", "propertyMapping"]
+- ["12EVReflection13EVReflectableP", "saveToDocuments"]
+- ["12EVReflection13EVReflectableP", "saveToTemp"]
+- ["12EVReflection13EVReflectableP", "skipPropertyValue"]
+- ["12EVReflection13EVReflectableP", "toDictionary"]
+- ["12EVReflection13EVReflectableP", "toJsonData"]
+- ["12EVReflection13EVReflectableP", "toJsonString"]
+- ["12EVReflection13EVReflectableP", "typeForKey"]
+- !private ["12EVReflectionAAC", "areEqual"]
+- !private ["12EVReflectionAAC", "arrayFromJson"]
+- !private ["12EVReflectionAAC", "convertDictionaryForJsonSerialization"]
+- !private ["12EVReflectionAAC", "dictionaryFromJson"]
+- !private ["12EVReflectionAAC", "hashValue"]
+- !private ["12EVReflectionAAC", "setPropertiesfromDictionary"]
+- !private ["12EVReflectionAAC", "toDictionary"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "append"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["SS10FoundationE8EncodingV", "utf8"]
+- !private ["s9EquatableP", "DefaultDeserialize"]
+- !private ["s9EquatableP", "DefaultNSCoding"]
+- !private ["s9EquatableP", "DefaultSerialize"]
+- !private ["s9EquatableP", "DeserializationStatus"]
+- !private ["s9EquatableP", "EVReflectableStatusesObjectKey"]
+- !private ["s9EquatableP", "EVReflection"]
+- !private ["s9EquatableP", "IncorrectKey"]
+- !private ["s9EquatableP", "Int"]
+- !private ["s9EquatableP", "JSONSerialization"]
+- !private ["s9EquatableP", "MissingKey"]
+- !private ["s9EquatableP", "NSDictionary"]
+- !private ["s9EquatableP", "NSKeyedUnarchiver"]
+- !private ["s9EquatableP", "NSSearchPathForDirectoriesInDomains"]
+- !private ["s9EquatableP", "NSTemporaryDirectory"]
+- !private ["s9EquatableP", "None"]
+- !private ["s9EquatableP", "OBJC_ASSOCIATION_RETAIN"]
+- !private ["s9EquatableP", "ShouldExtendNSObject"]
+- !private ["s9EquatableP", "String"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "append"]
+- !private ["s9EquatableP", "appendingPathComponent"]
+- !private ["s9EquatableP", "archiveRootObject"]
+- !private ["s9EquatableP", "data"]
+- !private ["s9EquatableP", "documentDirectory"]
+- !private ["s9EquatableP", "hashValue"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "jsonObject"]
+- !private ["s9EquatableP", "objc_AssociationPolicy"]
+- !private ["s9EquatableP", "objc_getAssociatedObject"]
+- !private ["s9EquatableP", "objc_setAssociatedObject"]
+- !private ["s9EquatableP", "prettyPrinted"]
+- !private ["s9EquatableP", "subscript"]
+- !private ["s9EquatableP", "unarchiveObject"]
+- !private ["s9EquatableP", "userDomainMask"]
+- !private ["s9EquatableP", "utf8"]
+- !private ["s25ExpressibleByArrayLiteralP", "DefaultDeserialize"]
+- !private ["s25ExpressibleByArrayLiteralP", "DefaultNSCoding"]
+- !private ["s25ExpressibleByArrayLiteralP", "DefaultSerialize"]
+- !private ["s25ExpressibleByArrayLiteralP", "IncorrectKey"]
+- !private ["s25ExpressibleByArrayLiteralP", "MissingKey"]
+- !private ["s25ExpressibleByArrayLiteralP", "None"]
+- !private ["s25ExpressibleByArrayLiteralP", "ShouldExtendNSObject"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "prettyPrinted"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "userDomainMask"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "appendingPathComponent"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "appendingPathComponent"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "appendingPathComponent"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["s8HashableP", "DeserializationStatus"]
+- !private ["s8HashableP", "EVReflectableStatusesObjectKey"]
+- !private ["s8HashableP", "EVReflection"]
+- !private ["s8HashableP", "Int"]
+- !private ["s8HashableP", "JSONSerialization"]
+- !private ["s8HashableP", "NSDictionary"]
+- !private ["s8HashableP", "NSKeyedUnarchiver"]
+- !private ["s8HashableP", "NSSearchPathForDirectoriesInDomains"]
+- !private ["s8HashableP", "NSTemporaryDirectory"]
+- !private ["s8HashableP", "OBJC_ASSOCIATION_RETAIN"]
+- !private ["s8HashableP", "String"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "appendingPathComponent"]
+- !private ["s8HashableP", "archiveRootObject"]
+- !private ["s8HashableP", "data"]
+- !private ["s8HashableP", "documentDirectory"]
+- !private ["s8HashableP", "hashValue"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "jsonObject"]
+- !private ["s8HashableP", "objc_AssociationPolicy"]
+- !private ["s8HashableP", "objc_getAssociatedObject"]
+- !private ["s8HashableP", "objc_setAssociatedObject"]
+- !private ["s8HashableP", "subscript"]
+- !private ["s8HashableP", "unarchiveObject"]
+- !private ["s8HashableP", "utf8"]
+- !private ["Si", "init"]
+- !private ["So17JSONSerializationC", "data"]
+- !private ["So17JSONSerializationC", "jsonObject"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["s6MirrorV", "children"]
+- !private ["s6MirrorV", "init"]
+- !private ["s6MirrorV", "subjectType"]
+- !private ["s6MirrorV", "superclassMirror"]
+- ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "append"]
+- !private ["s17MutableCollectionP", "init"]
+- !private ["s17MutableCollectionP", "subscript"]
+- !private ["So7NSCoderC", "archiveRootObject"]
+- !private ["So7NSCoderC", "unarchiveObject"]
+- !private ["So8NSCodingP", "appendingPathComponent"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "subscript"]
+- !private ["So9NSCopyingP", "appendingPathComponent"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "subscript"]
+- !private ["So12NSDictionaryC", "init"]
+- !private ["So12NSDictionaryC", "subscript"]
+- !private ["So17NSFastEnumerationP", "init"]
+- !private ["So17NSFastEnumerationP", "subscript"]
+- !private ["So21NSItemProviderReadingP", "appendingPathComponent"]
+- !private ["So21NSItemProviderWritingP", "appendingPathComponent"]
+- !private ["So15NSKeyedArchiverC", "archiveRootObject"]
+- !private ["So17NSKeyedUnarchiverC", "unarchiveObject"]
+- !private ["So16NSMutableCopyingP", "appendingPathComponent"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So16NSMutableCopyingP", "subscript"]
+- !private ["So19NSMutableDictionaryC", "init"]
+- !private ["So19NSMutableDictionaryC", "subscript"]
+- ["So8NSObjectC", "ConversionOptions"]
+- ["So8NSObjectC", "Data"]
+- ["So8NSObjectC", "DeserializationStatus"]
+- !private ["So8NSObjectC", "EVCustomReflectable"]
+- ["So8NSObjectC", "EVReflectable"]
+- !private ["So8NSObjectC", "EVReflectableStatusesObjectKey"]
+- !private ["So8NSObjectC", "EVReflection"]
+- ["So8NSObjectC", "Int"]
+- !private ["So8NSObjectC", "JSONSerialization"]
+- ["So8NSObjectC", "NSDictionary"]
+- !private ["So8NSObjectC", "NSKeyedUnarchiver"]
+- !private ["So8NSObjectC", "NSSearchPathForDirectoriesInDomains"]
+- !private ["So8NSObjectC", "NSString"]
+- !private ["So8NSObjectC", "NSTemporaryDirectory"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "appendingPathComponent"]
+- !private ["So8NSObjectC", "archiveRootObject"]
+- !private ["So8NSObjectC", "data"]
+- !private ["So8NSObjectC", "hashValue"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "jsonObject"]
+- !private ["So8NSObjectC", "objc_AssociationPolicy"]
+- !private ["So8NSObjectC", "objc_getAssociatedObject"]
+- !private ["So8NSObjectC", "objc_setAssociatedObject"]
+- !private ["So8NSObjectC", "subscript"]
+- !private ["So8NSObjectC", "unarchiveObject"]
+- ["So16NSObjectProtocolP", "AnyObject"]
+- ["So16NSObjectProtocolP", "Bool"]
+- ["So16NSObjectProtocolP", "ConversionOptions"]
+- ["So16NSObjectProtocolP", "Data"]
+- ["So16NSObjectProtocolP", "DeserializationStatus"]
+- !private ["So16NSObjectProtocolP", "EVCustomReflectable"]
+- ["So16NSObjectProtocolP", "EVReflectable"]
+- !private ["So16NSObjectProtocolP", "EVReflectableStatusesObjectKey"]
+- !private ["So16NSObjectProtocolP", "EVReflection"]
+- ["So16NSObjectProtocolP", "Int"]
+- !private ["So16NSObjectProtocolP", "JSONSerialization"]
+- ["So16NSObjectProtocolP", "Mirror"]
+- ["So16NSObjectProtocolP", "NSDictionary"]
+- !private ["So16NSObjectProtocolP", "NSKeyedArchiver"]
+- !private ["So16NSObjectProtocolP", "NSKeyedUnarchiver"]
+- !private ["So16NSObjectProtocolP", "NSMutableDictionary"]
+- ["So16NSObjectProtocolP", "NSObject"]
+- !private ["So16NSObjectProtocolP", "NSSearchPathForDirectoriesInDomains"]
+- !private ["So16NSObjectProtocolP", "NSString"]
+- !private ["So16NSObjectProtocolP", "NSTemporaryDirectory"]
+- ["So16NSObjectProtocolP", "String"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "addStatusMessage"]
+- !private ["So16NSObjectProtocolP", "appendingPathComponent"]
+- !private ["So16NSObjectProtocolP", "archiveRootObject"]
+- !private ["So16NSObjectProtocolP", "data"]
+- !private ["So16NSObjectProtocolP", "evPrint"]
+- !private ["So16NSObjectProtocolP", "evReflectionStatuses"]
+- !private ["So16NSObjectProtocolP", "hashValue"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "isEqual"]
+- !private ["So16NSObjectProtocolP", "jsonObject"]
+- !private ["So16NSObjectProtocolP", "objc_AssociationPolicy"]
+- !private ["So16NSObjectProtocolP", "objc_getAssociatedObject"]
+- !private ["So16NSObjectProtocolP", "objc_setAssociatedObject"]
+- !private ["So16NSObjectProtocolP", "subscript"]
+- !private ["So16NSObjectProtocolP", "toDictionary"]
+- !private ["So16NSObjectProtocolP", "toJsonData"]
+- !private ["So16NSObjectProtocolP", "typeForKey"]
+- !private ["So16NSObjectProtocolP", "unarchiveObject"]
+- !private ["So14NSSecureCodingP", "appendingPathComponent"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "subscript"]
+- !private ["So8NSStringC", "appendingPathComponent"]
+- !private ["s7NumericP", "init"]
+- !private ["s9OptionSetP", "DefaultDeserialize"]
+- !private ["s9OptionSetP", "DefaultNSCoding"]
+- !private ["s9OptionSetP", "DefaultSerialize"]
+- !private ["s9OptionSetP", "IncorrectKey"]
+- !private ["s9OptionSetP", "MissingKey"]
+- !private ["s9OptionSetP", "None"]
+- !private ["s9OptionSetP", "ShouldExtendNSObject"]
+- !private ["s9OptionSetP", "prettyPrinted"]
+- !private ["s9OptionSetP", "userDomainMask"]
+- !private ["12EVReflection12PrintOptionsV", "ShouldExtendNSObject"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- !private ["s22RandomAccessCollectionP", "init"]
+- !private ["s22RandomAccessCollectionP", "subscript"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "subscript"]
+- !private ["s16RawRepresentableP", "DefaultDeserialize"]
+- !private ["s16RawRepresentableP", "DefaultNSCoding"]
+- !private ["s16RawRepresentableP", "DefaultSerialize"]
+- !private ["s16RawRepresentableP", "IncorrectKey"]
+- !private ["s16RawRepresentableP", "MissingKey"]
+- !private ["s16RawRepresentableP", "None"]
+- !private ["s16RawRepresentableP", "OBJC_ASSOCIATION_RETAIN"]
+- !private ["s16RawRepresentableP", "ShouldExtendNSObject"]
+- !private ["s16RawRepresentableP", "documentDirectory"]
+- !private ["s16RawRepresentableP", "prettyPrinted"]
+- !private ["s16RawRepresentableP", "userDomainMask"]
+- !private ["s16RawRepresentableP", "utf8"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["So11FileManagerC19SearchPathDirectoryO", "documentDirectory"]
+- !private ["So11FileManagerC20SearchPathDomainMaskV", "userDomainMask"]
+- !private ["s8SequenceP", "append"]
+- ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["s10SetAlgebraP", "DefaultDeserialize"]
+- !private ["s10SetAlgebraP", "DefaultNSCoding"]
+- !private ["s10SetAlgebraP", "DefaultSerialize"]
+- !private ["s10SetAlgebraP", "IncorrectKey"]
+- !private ["s10SetAlgebraP", "MissingKey"]
+- !private ["s10SetAlgebraP", "None"]
+- !private ["s10SetAlgebraP", "ShouldExtendNSObject"]
+- !private ["s10SetAlgebraP", "prettyPrinted"]
+- !private ["s10SetAlgebraP", "userDomainMask"]
+- !private ["s13SignedIntegerP", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s10StrideableP", "init"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["So17JSONSerializationC14WritingOptionsV", "prettyPrinted"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "appendingPathComponent"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DeserializationStatus"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "EVReflectableStatusesObjectKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "EVReflection"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Int"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "JSONSerialization"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSDictionary"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSKeyedUnarchiver"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSSearchPathForDirectoriesInDomains"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSTemporaryDirectory"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "appendingPathComponent"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "archiveRootObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "data"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "hashValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "jsonObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "objc_AssociationPolicy"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "objc_getAssociatedObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "objc_setAssociatedObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "unarchiveObject"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- ["s16_SwiftStringViewP", "init"]
+- !private ["SC22objc_AssociationPolicyO", "OBJC_ASSOCIATION_RETAIN"]
+depends-nominal:
+- !private "Sa"
+- "s23BidirectionalCollectionP"
+- !private "s13BinaryIntegerP"
+- !private "Sb"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- !private "12EVReflection17ConversionOptionsV"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation4DataV"
+- "s9DecodableP"
+- !private "12EVReflection21DeserializationStatusV"
+- !private "12EVReflection19EVCustomReflectableP"
+- "12EVReflection13EVReflectableP"
+- !private "12EVReflectionAAC"
+- "s9EncodableP"
+- !private "SS10FoundationE8EncodingV"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "s8HashableP"
+- !private "Si"
+- !private "So17JSONSerializationC"
+- "s25LosslessStringConvertibleP"
+- !private "s6MirrorV"
+- "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- !private "So7NSCoderC"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So12NSDictionaryC"
+- !private "So17NSFastEnumerationP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So15NSKeyedArchiverC"
+- !private "So17NSKeyedUnarchiverC"
+- !private "So16NSMutableCopyingP"
+- !private "So19NSMutableDictionaryC"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "s7NumericP"
+- !private "s9OptionSetP"
+- !private "12EVReflection12PrintOptionsV"
+- !private "s22RandomAccessCollectionP"
+- "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "So11FileManagerC19SearchPathDirectoryO"
+- !private "So11FileManagerC20SearchPathDomainMaskV"
+- "s8SequenceP"
+- !private "s10SetAlgebraP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s10StrideableP"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "So17JSONSerializationC14WritingOptionsV"
+- !private "s14_ArrayProtocolP"
+- !private "s18_BitwiseOperationsP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+- !private "SC22objc_AssociationPolicyO"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Pods/Target Support Files/EVReflection/EVReflection-umbrella.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/EVReflection.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "7cb265b19b2d87154debca9c75c1b1b2"

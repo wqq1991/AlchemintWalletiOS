@@ -24,7 +24,6 @@ class ViewController: UIViewController {
         
         //let url = "http://192.168.0.101:59908/api/privatenet?method=getutxo&params=['AQdP56hHfo54JCWfpPw4MXviJDtQJMtXFa']";
         
-        
         asyncGetResquest(api: BASE_URL, method: "getutxo", params: "['AQdP56hHfo54JCWfpPw4MXviJDtQJMtXFa']", fail: { (error) in
             
             DLog("error = \(error)")

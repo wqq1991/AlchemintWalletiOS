@@ -165,6 +165,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_feature(modules)
 @import UIKit;
 @import CoreGraphics;
+@import Foundation;
 @import ObjectiveC;
 #endif
 
@@ -216,6 +217,45 @@ SWIFT_CLASS("_TtC16AlchemintProject11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UITouch;
+@class UIEvent;
+@class NSBundle;
+
+SWIFT_CLASS("_TtC16AlchemintProject20JWBaseViewController")
+@interface JWBaseViewController : UIViewController
+- (void)viewDidLoad;
+/// 离开当前页面自动收起键盘
+/// \param animated animated description
+///
+- (void)viewWillDisappear:(BOOL)animated;
+/// 点击空白处完成编辑.
+/// \param touches touches description
+///
+/// \param event event description
+///
+- (void)touchesBegan:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
+- (void)leftItemTapped;
+- (void)rightItemTapped;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UIView;
+@class UIScrollView;
+
+SWIFT_CLASS("_TtC16AlchemintProject27HomePage_RootViewController")
+@interface HomePage_RootViewController : JWBaseViewController
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified mView;
+@property (nonatomic, weak) IBOutlet UIScrollView * _Null_unspecified mScrollview;
+- (void)viewDidLoad;
+- (void)viewDidAppear:(BOOL)animated;
+- (void)leftItemTapped;
+- (void)rightItemTapped;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 @class UIColor;
 
 SWIFT_CLASS("_TtC16AlchemintProject8JWButton")
@@ -262,9 +302,123 @@ SWIFT_CLASS("_TtC16AlchemintProject6JWView")
 @end
 
 
+SWIFT_CLASS("_TtC16AlchemintProject19LoginViewController")
+@interface LoginViewController : JWBaseViewController <UITextFieldDelegate>
+@property (nonatomic, weak) IBOutlet JWImageView * _Null_unspecified logoImageView;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified loginView;
+@property (nonatomic, weak) IBOutlet AccountTextField * _Null_unspecified usernameTf;
+@property (nonatomic, weak) IBOutlet AccountTextField * _Null_unspecified passwordTf;
+- (IBAction)loginBtnAction:(JWButton * _Nonnull)sender;
+- (void)viewDidLoad;
+- (void)leftItemTapped;
+- (void)textFieldDidBeginEditing:(UITextField * _Nonnull)textField;
+- (void)textFieldDidEndEditing:(UITextField * _Nonnull)textField;
+- (BOOL)textFieldShouldReturn:(UITextField * _Nonnull)textField SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC16AlchemintProject12MoreListCell")
+@interface MoreListCell : UITableViewCell
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UITableView;
+
+SWIFT_CLASS("_TtC16AlchemintProject23More_RootViewController")
+@interface More_RootViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+@property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified mTableView;
+- (void)viewDidLoad;
+- (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForHeaderInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC16AlchemintProject27MyWealth_RootViewController")
+@interface MyWealth_RootViewController : JWBaseViewController <UITableViewDataSource, UITableViewDelegate>
+- (void)viewDidLoad;
+- (void)touchesEnded:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 SWIFT_CLASS("_TtC16AlchemintProject7NeoScan")
 @interface NeoScan : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC16AlchemintProject27ProductDetailViewController")
+@interface ProductDetailViewController : JWBaseViewController
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC16AlchemintProject15ProductListCell")
+@interface ProductListCell : UITableViewCell
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC16AlchemintProject26Product_RootViewController")
+@interface Product_RootViewController : JWBaseViewController
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC16AlchemintProject22RegisterViewController")
+@interface RegisterViewController : JWBaseViewController <UITextFieldDelegate>
+@property (nonatomic, weak) IBOutlet JWImageView * _Null_unspecified logoImageView;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified registerView;
+@property (nonatomic, weak) IBOutlet AccountTextField * _Null_unspecified usernameTf;
+@property (nonatomic, weak) IBOutlet AccountTextField * _Null_unspecified passwordTf;
+@property (nonatomic, weak) IBOutlet AccountTextField * _Null_unspecified rePasswordTf;
+- (IBAction)registerBtnAction:(JWButton * _Nonnull)sender;
+- (void)viewDidLoad;
+- (void)textFieldDidBeginEditing:(UITextField * _Nonnull)textField;
+- (void)textFieldDidEndEditing:(UITextField * _Nonnull)textField;
+- (BOOL)textFieldShouldReturn:(UITextField * _Nonnull)textField SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UITabBar;
+@class UITabBarItem;
+
+SWIFT_CLASS("_TtC16AlchemintProject20RootTabBarController")
+@interface RootTabBarController : UITabBarController
+- (void)viewDidLoad;
+/// ITEM 切换的时候调用的代理方法
+- (void)tabBar:(UITabBar * _Nonnull)tabBar didSelectItem:(UITabBarItem * _Nonnull)item;
+/// 重载父类Set 方法
+@property (nonatomic) NSUInteger selectedIndex;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC16AlchemintProject19StartViewController")
+@interface StartViewController : JWBaseViewController
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified imageView;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified iconLb;
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
@@ -302,7 +456,6 @@ SWIFT_CLASS("_TtC16AlchemintProject7NeoScan")
 
 
 
-@class NSBundle;
 
 SWIFT_CLASS("_TtC16AlchemintProject14ViewController")
 @interface ViewController : UIViewController

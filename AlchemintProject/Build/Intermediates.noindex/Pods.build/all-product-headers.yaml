@@ -4,6 +4,33 @@
   'roots': [
     {
       'type': 'directory',
+      'name': "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Products/Debug-iphonesimulator/Alamofire-SwiftyJSON/Alamofire_SwiftyJSON.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Alamofire-SwiftyJSON-umbrella.h",
+          'external-contents': "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Pods/Target Support Files/Alamofire-SwiftyJSON/Alamofire-SwiftyJSON-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Alamofire_SwiftyJSON-Swift.h",
+          'external-contents': "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Products/Debug-iphonesimulator/Alamofire-SwiftyJSON/Alamofire_SwiftyJSON.framework/Headers/Alamofire_SwiftyJSON-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Products/Debug-iphonesimulator/Alamofire-SwiftyJSON/Alamofire_SwiftyJSON.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire-SwiftyJSON.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
       'name': "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers",
       'contents': [
         {
@@ -31,6 +58,119 @@
     },
     {
       'type': 'directory',
+      'name': "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Products/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "AlamofireImage-Swift.h",
+          'external-contents': "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Products/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Headers/AlamofireImage-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "AlamofireImage-umbrella.h",
+          'external-contents': "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Pods/Target Support Files/AlamofireImage/AlamofireImage-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Products/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/AlamofireImage.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Products/Debug-iphonesimulator/AlamofireJsonToObjects/AlamofireJsonToObjects.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "AlamofireJsonToObjects-Swift.h",
+          'external-contents': "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Products/Debug-iphonesimulator/AlamofireJsonToObjects/AlamofireJsonToObjects.framework/Headers/AlamofireJsonToObjects-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "AlamofireJsonToObjects-umbrella.h",
+          'external-contents': "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Pods/Target Support Files/AlamofireJsonToObjects/AlamofireJsonToObjects-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "AlamofireJsonToObjects.h",
+          'external-contents': "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Pods/AlamofireJsonToObjects/AlamofireJsonToObjects/AlamofireJsonToObjects.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Products/Debug-iphonesimulator/AlamofireJsonToObjects/AlamofireJsonToObjects.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/AlamofireJsonToObjects.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Products/Debug-iphonesimulator/EVReflection/EVReflection.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "EVReflection-Swift.h",
+          'external-contents': "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Products/Debug-iphonesimulator/EVReflection/EVReflection.framework/Headers/EVReflection-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "EVReflection-umbrella.h",
+          'external-contents': "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Pods/Target Support Files/EVReflection/EVReflection-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Products/Debug-iphonesimulator/EVReflection/EVReflection.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/EVReflection.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Products/Debug-iphonesimulator/NVActivityIndicatorView/NVActivityIndicatorView.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "NVActivityIndicatorView-Swift.h",
+          'external-contents': "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Products/Debug-iphonesimulator/NVActivityIndicatorView/NVActivityIndicatorView.framework/Headers/NVActivityIndicatorView-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "NVActivityIndicatorView-umbrella.h",
+          'external-contents': "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Pods/Target Support Files/NVActivityIndicatorView/NVActivityIndicatorView-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Products/Debug-iphonesimulator/NVActivityIndicatorView/NVActivityIndicatorView.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/NVActivityIndicatorView.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
       'name': "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Products/Debug-iphonesimulator/Pods_AlchemintProject.framework/Headers",
       'contents': [
         {
@@ -53,6 +193,33 @@
           'type': 'file',
           'name': "module.modulemap",
           'external-contents': "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-AlchemintProject.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "SwiftyJSON-Swift.h",
+          'external-contents': "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "SwiftyJSON-umbrella.h",
+          'external-contents': "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Pods/Target Support Files/SwiftyJSON/SwiftyJSON-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SwiftyJSON.build/module.modulemap"
         }
       ]
     }
