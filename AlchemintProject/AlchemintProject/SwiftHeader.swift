@@ -8,4 +8,4 @@
 
 import Foundation
 
-let API = "http://192.168.0.101:59908/api/privatenet";
+let BASE_URL = "http://192.168.0.101:59908/api/privatenet";

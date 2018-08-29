@@ -1,11 +1,11 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
-- "API"
+- "BASE_URL"
 provides-nominal:
 provides-member:
 provides-dynamic-lookup:
 depends-top-level:
-- "API"
+- "BASE_URL"
 - "StringLiteralType"
 depends-member:
 - ["s23BidirectionalCollectionP", "init"]
@@ -106,4 +106,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
-interface-hash: "31a5dabc584ab333ead3803eb7a0a600"
+interface-hash: "e30a31f3ea27de8937731a3d4d3950d0"

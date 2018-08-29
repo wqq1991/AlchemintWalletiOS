@@ -49,6 +49,7 @@
 		44E297292134181A00FB1E87 /* neoutils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E297282134181A00FB1E87 /* neoutils.framework */; };
 		44E2972B2135208700FB1E87 /* Parameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E2972A2135208700FB1E87 /* Parameter.swift */; };
 		44E2972D213520EF00FB1E87 /* SwiftHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E2972C213520EF00FB1E87 /* SwiftHeader.swift */; };
+		44E297532136339600FB1E87 /* AlchemintClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E297522136339500FB1E87 /* AlchemintClient.swift */; };
 		494DB6EC212725D5004FEE9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494DB6EB212725D5004FEE9D /* AppDelegate.swift */; };
 		494DB6EE212725D5004FEE9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494DB6ED212725D5004FEE9D /* ViewController.swift */; };
 		494DB6F1212725D5004FEE9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 494DB6EF212725D5004FEE9D /* Main.storyboard */; };
@@ -115,6 +116,7 @@
 		44E297282134181A00FB1E87 /* neoutils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = neoutils.framework; sourceTree = "<group>"; };
 		44E2972A2135208700FB1E87 /* Parameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parameter.swift; sourceTree = "<group>"; };
 		44E2972C213520EF00FB1E87 /* SwiftHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftHeader.swift; sourceTree = "<group>"; };
+		44E297522136339500FB1E87 /* AlchemintClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlchemintClient.swift; sourceTree = "<group>"; };
 		494DB6E8212725D5004FEE9D /* AlchemintProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlchemintProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		494DB6EB212725D5004FEE9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		494DB6ED212725D5004FEE9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -280,6 +282,14 @@
 			path = data;
 			sourceTree = "<group>";
 		};
+		44E297512136339500FB1E87 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				44E297522136339500FB1E87 /* AlchemintClient.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		494DB6DF212725D5004FEE9D = {
 			isa = PBXGroup;
 			children = (
@@ -301,10 +311,10 @@
 		494DB6EA212725D5004FEE9D /* AlchemintProject */ = {
 			isa = PBXGroup;
 			children = (
-				494DB6EB212725D5004FEE9D /* AppDelegate.swift */,
-				494DB6ED212725D5004FEE9D /* ViewController.swift */,
 				44E2972A2135208700FB1E87 /* Parameter.swift */,
 				44E2972C213520EF00FB1E87 /* SwiftHeader.swift */,
+				494DB6EB212725D5004FEE9D /* AppDelegate.swift */,
+				494DB6ED212725D5004FEE9D /* ViewController.swift */,
 				494DB6EF212725D5004FEE9D /* Main.storyboard */,
 				494DB6F2212725D7004FEE9D /* Assets.xcassets */,
 				494DB6F4212725D7004FEE9D /* LaunchScreen.storyboard */,
@@ -317,6 +327,7 @@
 		49FD85DA2135790B00F86387 /* Custom */ = {
 			isa = PBXGroup;
 			children = (
+				44E297512136339500FB1E87 /* Network */,
 				49FD85DB2135790B00F86387 /* CateGory */,
 				49FD85E32135790B00F86387 /* View */,
 			);
@@ -326,9 +337,9 @@
 		49FD85DB2135790B00F86387 /* CateGory */ = {
 			isa = PBXGroup;
 			children = (
+				49FD85DE2135790B00F86387 /* JWUIViewExtension */,
 				49FD85DC2135790B00F86387 /* UIImageCommon.swift */,
 				49FD85DD2135790B00F86387 /* TextOffsetX.swift */,
-				49FD85DE2135790B00F86387 /* JWUIViewExtension */,
 				49FD85E02135790B00F86387 /* JWNavigationBarEt.swift */,
 				49FD85E12135790B00F86387 /* UIColorPreinstall.swift */,
 				49FD85E22135790B00F86387 /* JWTextFieldExtension.swift */,
@@ -487,6 +498,7 @@
 				44E29726213417C200FB1E87 /* AssetIdConstants.swift in Sources */,
 				44E29702213417C200FB1E87 /* SHA256.swift in Sources */,
 				44E29714213417C200FB1E87 /* ValueOut.swift in Sources */,
+				44E297532136339600FB1E87 /* AlchemintClient.swift in Sources */,
 				49FD85F02135790B00F86387 /* JWNavigationBarEt.swift in Sources */,
 				49FD85F42135790B00F86387 /* JWButtonExtension.swift in Sources */,
 				44E29711213417C200FB1E87 /* Claims.swift in Sources */,
