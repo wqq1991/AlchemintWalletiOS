@@ -1,0 +1,503 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "NeoScan"
+provides-nominal:
+- "16AlchemintProject7NeoScanC"
+- "16AlchemintProject7NeoScanC0cD6ResultO"
+- "16AlchemintProject7NeoScanC0cD5ErrorO"
+- "16AlchemintProject7NeoScanC12APIEndpointsO"
+provides-member:
+- ["16AlchemintProject7NeoScanC", ""]
+- ["16AlchemintProject7NeoScanC0cD6ResultO", ""]
+- ["16AlchemintProject7NeoScanC0cD5ErrorO", ""]
+- ["16AlchemintProject7NeoScanC12APIEndpointsO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "+"
+- "=="
+- !private "Array"
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- "Claimable"
+- "Error"
+- "Int"
+- !private "JSONDecoder"
+- "JSONDictionary"
+- !private "JSONSerialization"
+- "NEOScanTransactionHistory"
+- !private "NSMutableURLRequest"
+- "NSObject"
+- "NeoClientError"
+- "NeoScan"
+- "NeoScanGetBalance"
+- "String"
+- "StringLiteralType"
+- !private "URL"
+- !private "URLRequest"
+- !private "URLSession"
+- !private "UnicodeScalarType"
+- !private "_findStringSwitchCase"
+- !private "~="
+depends-member:
+- ["16AlchemintProject7NeoScanC12APIEndpointsO", "RawValue"]
+- ["16AlchemintProject7NeoScanC12APIEndpointsO", "_Default_RawValue"]
+- !private ["16AlchemintProject7NeoScanC12APIEndpointsO", "_findStringSwitchCase"]
+- ["16AlchemintProject7NeoScanC12APIEndpointsO", "deinit"]
+- ["16AlchemintProject7NeoScanC12APIEndpointsO", "getBalance"]
+- ["16AlchemintProject7NeoScanC12APIEndpointsO", "getClaimable"]
+- ["16AlchemintProject7NeoScanC12APIEndpointsO", "getHistory"]
+- ["16AlchemintProject7NeoScanC12APIEndpointsO", "hashValue"]
+- ["16AlchemintProject7NeoScanC12APIEndpointsO", "init"]
+- ["16AlchemintProject7NeoScanC12APIEndpointsO", "rawValue"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "APIEndpoints"]
+- !private ["s7CVarArgP", "Claimable"]
+- !private ["s7CVarArgP", "JSONDecoder"]
+- !private ["s7CVarArgP", "JSONSerialization"]
+- !private ["s7CVarArgP", "NEOScanTransactionHistory"]
+- !private ["s7CVarArgP", "NSMutableURLRequest"]
+- !private ["s7CVarArgP", "NeoScanGetBalance"]
+- !private ["s7CVarArgP", "NeoScanResult"]
+- !private ["s7CVarArgP", "String"]
+- !private ["s7CVarArgP", "URL"]
+- !private ["s7CVarArgP", "URLSession"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_findStringSwitchCase"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "baseEndpoint"]
+- !private ["s7CVarArgP", "data"]
+- !private ["s7CVarArgP", "dataTask"]
+- !private ["s7CVarArgP", "httpMethod"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "jsonObject"]
+- !private ["s7CVarArgP", "resume"]
+- !private ["s7CVarArgP", "sendFullNodeRequest"]
+- !private ["s7CVarArgP", "shared"]
+- !private ["16AlchemintProject9ClaimableV", "deinit"]
+- ["s10CollectionP", "init"]
+- ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "APIEndpoints"]
+- !private ["s28CustomDebugStringConvertibleP", "Claimable"]
+- !private ["s28CustomDebugStringConvertibleP", "JSONDecoder"]
+- !private ["s28CustomDebugStringConvertibleP", "JSONSerialization"]
+- !private ["s28CustomDebugStringConvertibleP", "NEOScanTransactionHistory"]
+- !private ["s28CustomDebugStringConvertibleP", "NSMutableURLRequest"]
+- !private ["s28CustomDebugStringConvertibleP", "NeoScanGetBalance"]
+- !private ["s28CustomDebugStringConvertibleP", "NeoScanResult"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- !private ["s28CustomDebugStringConvertibleP", "URL"]
+- !private ["s28CustomDebugStringConvertibleP", "URLSession"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "_findStringSwitchCase"]
+- !private ["s28CustomDebugStringConvertibleP", "baseEndpoint"]
+- !private ["s28CustomDebugStringConvertibleP", "data"]
+- !private ["s28CustomDebugStringConvertibleP", "dataTask"]
+- !private ["s28CustomDebugStringConvertibleP", "httpMethod"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "jsonObject"]
+- !private ["s28CustomDebugStringConvertibleP", "resume"]
+- !private ["s28CustomDebugStringConvertibleP", "sendFullNodeRequest"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "APIEndpoints"]
+- !private ["s23CustomStringConvertibleP", "Claimable"]
+- !private ["s23CustomStringConvertibleP", "JSONDecoder"]
+- !private ["s23CustomStringConvertibleP", "JSONSerialization"]
+- !private ["s23CustomStringConvertibleP", "NEOScanTransactionHistory"]
+- !private ["s23CustomStringConvertibleP", "NSMutableURLRequest"]
+- !private ["s23CustomStringConvertibleP", "NeoScanGetBalance"]
+- !private ["s23CustomStringConvertibleP", "NeoScanResult"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", "URL"]
+- !private ["s23CustomStringConvertibleP", "URLSession"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_findStringSwitchCase"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "baseEndpoint"]
+- !private ["s23CustomStringConvertibleP", "data"]
+- !private ["s23CustomStringConvertibleP", "dataTask"]
+- !private ["s23CustomStringConvertibleP", "httpMethod"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "jsonObject"]
+- !private ["s23CustomStringConvertibleP", "resume"]
+- !private ["s23CustomStringConvertibleP", "sendFullNodeRequest"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "APIEndpoints"]
+- !private ["s9EquatableP", "Claimable"]
+- !private ["s9EquatableP", "JSONDecoder"]
+- !private ["s9EquatableP", "JSONSerialization"]
+- !private ["s9EquatableP", "NEOScanTransactionHistory"]
+- !private ["s9EquatableP", "NSMutableURLRequest"]
+- !private ["s9EquatableP", "NeoScanGetBalance"]
+- !private ["s9EquatableP", "NeoScanResult"]
+- ["s9EquatableP", "RawValue"]
+- !private ["s9EquatableP", "String"]
+- !private ["s9EquatableP", "URL"]
+- !private ["s9EquatableP", "URLSession"]
+- ["s9EquatableP", ""]
+- ["s9EquatableP", "_Default_RawValue"]
+- ["s9EquatableP", "_code"]
+- ["s9EquatableP", "_domain"]
+- !private ["s9EquatableP", "_findStringSwitchCase"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- ["s9EquatableP", "_getEmbeddedNSError"]
+- ["s9EquatableP", "_userInfo"]
+- !private ["s9EquatableP", "baseEndpoint"]
+- !private ["s9EquatableP", "data"]
+- !private ["s9EquatableP", "dataTask"]
+- !private ["s9EquatableP", "getBalance"]
+- !private ["s9EquatableP", "getClaimable"]
+- !private ["s9EquatableP", "getHistory"]
+- ["s9EquatableP", "hashValue"]
+- !private ["s9EquatableP", "httpMethod"]
+- ["s9EquatableP", "init"]
+- ["s9EquatableP", "invalidData"]
+- !private ["s9EquatableP", "invalidRequest"]
+- !private ["s9EquatableP", "jsonObject"]
+- !private ["s9EquatableP", "prettyPrinted"]
+- ["s9EquatableP", "rawValue"]
+- !private ["s9EquatableP", "resume"]
+- !private ["s9EquatableP", "sendFullNodeRequest"]
+- !private ["s9EquatableP", "shared"]
+- ["s5ErrorP", ""]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_userInfo"]
+- ["s5ErrorP", "hashValue"]
+- ["s5ErrorP", "invalidData"]
+- !private ["s5ErrorP", "invalidRequest"]
+- !private ["s25ExpressibleByArrayLiteralP", "prettyPrinted"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "APIEndpoints"]
+- !private ["s8HashableP", "Claimable"]
+- !private ["s8HashableP", "JSONDecoder"]
+- !private ["s8HashableP", "JSONSerialization"]
+- !private ["s8HashableP", "NEOScanTransactionHistory"]
+- !private ["s8HashableP", "NSMutableURLRequest"]
+- !private ["s8HashableP", "NeoScanGetBalance"]
+- !private ["s8HashableP", "NeoScanResult"]
+- ["s8HashableP", "RawValue"]
+- !private ["s8HashableP", "String"]
+- !private ["s8HashableP", "URL"]
+- !private ["s8HashableP", "URLSession"]
+- ["s8HashableP", ""]
+- ["s8HashableP", "_Default_RawValue"]
+- ["s8HashableP", "_code"]
+- ["s8HashableP", "_domain"]
+- !private ["s8HashableP", "_findStringSwitchCase"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- ["s8HashableP", "_getEmbeddedNSError"]
+- ["s8HashableP", "_userInfo"]
+- !private ["s8HashableP", "baseEndpoint"]
+- !private ["s8HashableP", "data"]
+- !private ["s8HashableP", "dataTask"]
+- !private ["s8HashableP", "getBalance"]
+- !private ["s8HashableP", "getClaimable"]
+- !private ["s8HashableP", "getHistory"]
+- ["s8HashableP", "hashValue"]
+- !private ["s8HashableP", "httpMethod"]
+- ["s8HashableP", "init"]
+- ["s8HashableP", "invalidData"]
+- !private ["s8HashableP", "invalidRequest"]
+- !private ["s8HashableP", "jsonObject"]
+- ["s8HashableP", "rawValue"]
+- !private ["s8HashableP", "resume"]
+- !private ["s8HashableP", "sendFullNodeRequest"]
+- !private ["s8HashableP", "shared"]
+- !private ["10Foundation11JSONDecoderC", "decode"]
+- !private ["10Foundation11JSONDecoderC", "init"]
+- !private ["So17JSONSerializationC", "data"]
+- !private ["So17JSONSerializationC", "jsonObject"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["16AlchemintProject25NEOScanTransactionHistoryV", "deinit"]
+- !private ["So8NSCodingP", "httpMethod"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So9NSCopyingP", "httpMethod"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "resume"]
+- !private ["So16NSMutableCopyingP", "httpMethod"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So19NSMutableURLRequestC", "httpMethod"]
+- !private ["So19NSMutableURLRequestC", "init"]
+- !private ["So8NSObjectC", "APIEndpoints"]
+- ["So8NSObjectC", "Claimable"]
+- ["So8NSObjectC", "Error"]
+- ["So8NSObjectC", "Int"]
+- !private ["So8NSObjectC", "JSONDecoder"]
+- ["So8NSObjectC", "JSONDictionary"]
+- !private ["So8NSObjectC", "JSONSerialization"]
+- ["So8NSObjectC", "NEOScanTransactionHistory"]
+- !private ["So8NSObjectC", "NSMutableURLRequest"]
+- ["So8NSObjectC", "NeoClientError"]
+- ["So8NSObjectC", "NeoScanGetBalance"]
+- ["So8NSObjectC", "NeoScanResult"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "URL"]
+- !private ["So8NSObjectC", "URLRequest"]
+- !private ["So8NSObjectC", "URLSession"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "_findStringSwitchCase"]
+- ["So8NSObjectC", "baseEndpoint"]
+- !private ["So8NSObjectC", "data"]
+- !private ["So8NSObjectC", "dataTask"]
+- ["So8NSObjectC", "getBalance"]
+- ["So8NSObjectC", "getClaimableGAS"]
+- ["So8NSObjectC", "getTransactionHistory"]
+- !private ["So8NSObjectC", "httpMethod"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "jsonObject"]
+- !private ["So8NSObjectC", "resume"]
+- ["So8NSObjectC", "sendFullNodeRequest"]
+- !private ["So8NSObjectC", "shared"]
+- !private ["So16NSObjectProtocolP", "APIEndpoints"]
+- !private ["So16NSObjectProtocolP", "Claimable"]
+- !private ["So16NSObjectProtocolP", "JSONDecoder"]
+- !private ["So16NSObjectProtocolP", "JSONSerialization"]
+- !private ["So16NSObjectProtocolP", "NEOScanTransactionHistory"]
+- !private ["So16NSObjectProtocolP", "NSMutableURLRequest"]
+- !private ["So16NSObjectProtocolP", "NeoScanGetBalance"]
+- !private ["So16NSObjectProtocolP", "NeoScanResult"]
+- !private ["So16NSObjectProtocolP", "String"]
+- !private ["So16NSObjectProtocolP", "URL"]
+- !private ["So16NSObjectProtocolP", "URLSession"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "_findStringSwitchCase"]
+- !private ["So16NSObjectProtocolP", "baseEndpoint"]
+- !private ["So16NSObjectProtocolP", "data"]
+- !private ["So16NSObjectProtocolP", "dataTask"]
+- !private ["So16NSObjectProtocolP", "httpMethod"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "jsonObject"]
+- !private ["So16NSObjectProtocolP", "resume"]
+- !private ["So16NSObjectProtocolP", "sendFullNodeRequest"]
+- !private ["So16NSObjectProtocolP", "shared"]
+- !private ["So14NSSecureCodingP", "httpMethod"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So12NSURLRequestC", "httpMethod"]
+- !private ["So12NSURLRequestC", "init"]
+- !private ["16AlchemintProject14NeoClientErrorO", "invalidData"]
+- !private ["16AlchemintProject14NeoClientErrorO", "invalidRequest"]
+- ["16AlchemintProject7NeoScanC", "APIEndpoints"]
+- ["16AlchemintProject7NeoScanC", "Claimable"]
+- ["16AlchemintProject7NeoScanC", "Error"]
+- ["16AlchemintProject7NeoScanC", "Int"]
+- !private ["16AlchemintProject7NeoScanC", "JSONDecoder"]
+- ["16AlchemintProject7NeoScanC", "JSONDictionary"]
+- !private ["16AlchemintProject7NeoScanC", "JSONSerialization"]
+- ["16AlchemintProject7NeoScanC", "NEOScanTransactionHistory"]
+- !private ["16AlchemintProject7NeoScanC", "NSMutableURLRequest"]
+- ["16AlchemintProject7NeoScanC", "NeoClientError"]
+- ["16AlchemintProject7NeoScanC", "NeoScanError"]
+- ["16AlchemintProject7NeoScanC", "NeoScanGetBalance"]
+- ["16AlchemintProject7NeoScanC", "NeoScanResult"]
+- ["16AlchemintProject7NeoScanC", "String"]
+- !private ["16AlchemintProject7NeoScanC", "URL"]
+- !private ["16AlchemintProject7NeoScanC", "URLRequest"]
+- !private ["16AlchemintProject7NeoScanC", "URLSession"]
+- !private ["16AlchemintProject7NeoScanC", "_findStringSwitchCase"]
+- ["16AlchemintProject7NeoScanC", "baseEndpoint"]
+- ["16AlchemintProject7NeoScanC", "deinit"]
+- ["16AlchemintProject7NeoScanC", "getBalance"]
+- ["16AlchemintProject7NeoScanC", "getClaimableGAS"]
+- ["16AlchemintProject7NeoScanC", "getTransactionHistory"]
+- ["16AlchemintProject7NeoScanC", "init"]
+- ["16AlchemintProject7NeoScanC", "sendFullNodeRequest"]
+- ["16AlchemintProject7NeoScanC0cD5ErrorO", "String"]
+- ["16AlchemintProject7NeoScanC0cD5ErrorO", "__derived_enum_equals"]
+- ["16AlchemintProject7NeoScanC0cD5ErrorO", "_code"]
+- ["16AlchemintProject7NeoScanC0cD5ErrorO", "_domain"]
+- ["16AlchemintProject7NeoScanC0cD5ErrorO", "_getEmbeddedNSError"]
+- ["16AlchemintProject7NeoScanC0cD5ErrorO", "_userInfo"]
+- ["16AlchemintProject7NeoScanC0cD5ErrorO", "deinit"]
+- ["16AlchemintProject7NeoScanC0cD5ErrorO", "hashValue"]
+- ["16AlchemintProject7NeoScanC0cD5ErrorO", "invalidData"]
+- ["16AlchemintProject7NeoScanC0cD5ErrorO", "localizedDescription"]
+- !private ["16AlchemintProject17NeoScanGetBalanceV", "deinit"]
+- ["16AlchemintProject7NeoScanC0cD6ResultO", "NeoClientError"]
+- ["16AlchemintProject7NeoScanC0cD6ResultO", "T"]
+- ["16AlchemintProject7NeoScanC0cD6ResultO", "failure"]
+- ["16AlchemintProject7NeoScanC0cD6ResultO", "success"]
+- !private ["s9OptionSetP", "prettyPrinted"]
+- !private ["So17ProgressReportingP", "resume"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- ["s16RawRepresentableP", "RawValue"]
+- ["s16RawRepresentableP", ""]
+- ["s16RawRepresentableP", "_Default_RawValue"]
+- !private ["s16RawRepresentableP", "_findStringSwitchCase"]
+- !private ["s16RawRepresentableP", "getBalance"]
+- !private ["s16RawRepresentableP", "getClaimable"]
+- !private ["s16RawRepresentableP", "getHistory"]
+- ["s16RawRepresentableP", "hashValue"]
+- ["s16RawRepresentableP", "init"]
+- !private ["s16RawRepresentableP", "prettyPrinted"]
+- ["s16RawRepresentableP", "rawValue"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- ["s8SequenceP", "init"]
+- !private ["s10SetAlgebraP", "prettyPrinted"]
+- !private ["s12StaticStringV", "init"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["10Foundation3URLV", "init"]
+- ["9Alamofire14URLConvertibleP", "init"]
+- !private ["So10URLSessionC", "dataTask"]
+- !private ["So10URLSessionC", "shared"]
+- !private ["So18URLSessionDataTaskC", "resume"]
+- !private ["So14URLSessionTaskC", "resume"]
+- !private ["So17JSONSerializationC14WritingOptionsV", "prettyPrinted"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "httpMethod"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "APIEndpoints"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Claimable"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "JSONDecoder"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "JSONSerialization"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NEOScanTransactionHistory"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSMutableURLRequest"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NeoScanGetBalance"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NeoScanResult"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URLSession"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "_findStringSwitchCase"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "baseEndpoint"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "data"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataTask"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "httpMethod"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "jsonObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "resume"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sendFullNodeRequest"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "16AlchemintProject7NeoScanC12APIEndpointsO"
+- "s23BidirectionalCollectionP"
+- !private "Sb"
+- "s7CVarArgP"
+- !private "16AlchemintProject9ClaimableV"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "10Foundation11JSONDecoderC"
+- !private "So17JSONSerializationC"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "16AlchemintProject25NEOScanTransactionHistoryV"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So16NSMutableCopyingP"
+- !private "So19NSMutableURLRequestC"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So12NSURLRequestC"
+- !private "16AlchemintProject14NeoClientErrorO"
+- "16AlchemintProject7NeoScanC"
+- "16AlchemintProject7NeoScanC0cD5ErrorO"
+- !private "16AlchemintProject17NeoScanGetBalanceV"
+- "16AlchemintProject7NeoScanC0cD6ResultO"
+- !private "s9OptionSetP"
+- !private "So17ProgressReportingP"
+- "s26RangeReplaceableCollectionP"
+- "s16RawRepresentableP"
+- !private "10Foundation20ReferenceConvertibleP"
+- "s8SequenceP"
+- !private "s10SetAlgebraP"
+- !private "s12StaticStringV"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "10Foundation3URLV"
+- "9Alamofire14URLConvertibleP"
+- !private "So10URLSessionC"
+- !private "So18URLSessionDataTaskC"
+- !private "So14URLSessionTaskC"
+- !private "So17JSONSerializationC14WritingOptionsV"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/Neoutils.framework/Headers/Universe.objc.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/Neoutils.framework/Headers/Neoutils.objc.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/Neoutils.framework/Headers/ref.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/Neoutils.framework/Headers/Neoutils.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/CommonCrypto/module.modulemap"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/Neoutils.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LocalAuthentication.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "95d25595538fa017e992f5ee23b9a57e"

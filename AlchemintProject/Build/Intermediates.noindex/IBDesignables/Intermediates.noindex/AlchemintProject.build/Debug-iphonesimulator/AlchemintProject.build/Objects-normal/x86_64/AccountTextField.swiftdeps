@@ -1,0 +1,241 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AccountTextField"
+provides-nominal:
+- "16AlchemintProject16AccountTextFieldC"
+provides-member:
+- ["16AlchemintProject16AccountTextFieldC", ""]
+provides-dynamic-lookup:
+- "maxLength"
+- "minLength"
+depends-top-level:
+- "AccountTextField"
+- "AssignmentPrecedence"
+- "Int"
+- "JWTextField"
+- "UITextField"
+depends-member:
+- ["16AlchemintProject16AccountTextFieldC", "Int"]
+- ["16AlchemintProject16AccountTextFieldC", "_maxLength"]
+- ["16AlchemintProject16AccountTextFieldC", "_minLength"]
+- ["16AlchemintProject16AccountTextFieldC", "deinit"]
+- ["16AlchemintProject16AccountTextFieldC", "init"]
+- ["16AlchemintProject16AccountTextFieldC", "maxLength"]
+- ["16AlchemintProject16AccountTextFieldC", "minLength"]
+- ["So15CALayerDelegateP", ""]
+- !private ["So15CALayerDelegateP", "_maxLength"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "minLength"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_maxLength"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "minLength"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "_maxLength"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "minLength"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_maxLength"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "minLength"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_maxLength"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "minLength"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "_maxLength"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "minLength"]
+- ["16AlchemintProject11JWTextFieldC", "Int"]
+- ["16AlchemintProject11JWTextFieldC", ""]
+- ["16AlchemintProject11JWTextFieldC", "_maxLength"]
+- ["16AlchemintProject11JWTextFieldC", "_minLength"]
+- ["16AlchemintProject11JWTextFieldC", "init"]
+- ["16AlchemintProject11JWTextFieldC", "maxLength"]
+- ["16AlchemintProject11JWTextFieldC", "minLength"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "_maxLength"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "minLength"]
+- ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "_maxLength"]
+- ["So8NSObjectC", "_minLength"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "maxLength"]
+- ["So8NSObjectC", "minLength"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "_maxLength"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "minLength"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "_maxLength"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "minLength"]
+- ["So12UIAppearanceP", ""]
+- !private ["So12UIAppearanceP", "_maxLength"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "minLength"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "_maxLength"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "minLength"]
+- ["So30UIContentSizeCategoryAdjustingP", ""]
+- !private ["So30UIContentSizeCategoryAdjustingP", "_maxLength"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "init"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "minLength"]
+- ["So9UIControlC", "Int"]
+- ["So9UIControlC", "_maxLength"]
+- ["So9UIControlC", "_minLength"]
+- ["So9UIControlC", "init"]
+- ["So9UIControlC", "maxLength"]
+- ["So9UIControlC", "minLength"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So17UICoordinateSpaceP", "_maxLength"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "minLength"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So13UIDynamicItemP", "_maxLength"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "minLength"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "_maxLength"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "minLength"]
+- ["So11UIFocusItemP", ""]
+- !private ["So11UIFocusItemP", "_maxLength"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "minLength"]
+- ["So10UIKeyInputP", ""]
+- !private ["So10UIKeyInputP", "_maxLength"]
+- !private ["So10UIKeyInputP", "init"]
+- !private ["So10UIKeyInputP", "minLength"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "_maxLength"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "minLength"]
+- ["So11UIResponderC", "Int"]
+- ["So11UIResponderC", "_maxLength"]
+- ["So11UIResponderC", "_minLength"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "maxLength"]
+- ["So11UIResponderC", "minLength"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "_maxLength"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "minLength"]
+- ["So15UITextDraggableP", ""]
+- !private ["So15UITextDraggableP", "_maxLength"]
+- !private ["So15UITextDraggableP", "init"]
+- !private ["So15UITextDraggableP", "minLength"]
+- ["So15UITextDroppableP", ""]
+- !private ["So15UITextDroppableP", "_maxLength"]
+- !private ["So15UITextDroppableP", "init"]
+- !private ["So15UITextDroppableP", "minLength"]
+- ["So11UITextFieldC", "Int"]
+- ["So11UITextFieldC", "_maxLength"]
+- ["So11UITextFieldC", "_minLength"]
+- ["So11UITextFieldC", "init"]
+- ["So11UITextFieldC", "maxLength"]
+- ["So11UITextFieldC", "minLength"]
+- ["So11UITextInputP", ""]
+- !private ["So11UITextInputP", "_maxLength"]
+- !private ["So11UITextInputP", "init"]
+- !private ["So11UITextInputP", "minLength"]
+- ["So17UITextInputTraitsP", ""]
+- !private ["So17UITextInputTraitsP", "_maxLength"]
+- !private ["So17UITextInputTraitsP", "init"]
+- !private ["So17UITextInputTraitsP", "minLength"]
+- ["So34UITextPasteConfigurationSupportingP", ""]
+- !private ["So34UITextPasteConfigurationSupportingP", "_maxLength"]
+- !private ["So34UITextPasteConfigurationSupportingP", "init"]
+- !private ["So34UITextPasteConfigurationSupportingP", "minLength"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "_maxLength"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "minLength"]
+- ["So6UIViewC", "Int"]
+- ["So6UIViewC", "_maxLength"]
+- ["So6UIViewC", "_minLength"]
+- ["So6UIViewC", "init"]
+- ["So6UIViewC", "maxLength"]
+- ["So6UIViewC", "minLength"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "_maxLength"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "minLength"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "_maxLength"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "minLength"]
+depends-nominal:
+- "16AlchemintProject16AccountTextFieldC"
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "s9EquatableP"
+- "s8HashableP"
+- "16AlchemintProject11JWTextFieldC"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So30UIContentSizeCategoryAdjustingP"
+- "So9UIControlC"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So10UIKeyInputP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So15UITextDraggableP"
+- "So15UITextDroppableP"
+- "So11UITextFieldC"
+- "So11UITextInputP"
+- "So17UITextInputTraitsP"
+- "So34UITextPasteConfigurationSupportingP"
+- "So18UITraitEnvironmentP"
+- "So6UIViewC"
+- "s37_DefaultCustomPlaygroundQuickLookableP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/Neoutils.framework/Headers/Universe.objc.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/Neoutils.framework/Headers/Neoutils.objc.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/Neoutils.framework/Headers/ref.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/Neoutils.framework/Headers/Neoutils.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/CommonCrypto/module.modulemap"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/Neoutils.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LocalAuthentication.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "c9e3fdd520dad640368f56271feed7f0"

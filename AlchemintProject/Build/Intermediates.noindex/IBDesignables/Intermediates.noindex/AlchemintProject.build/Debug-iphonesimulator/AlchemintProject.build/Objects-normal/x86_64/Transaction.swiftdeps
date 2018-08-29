@@ -1,0 +1,360 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Transaction"
+provides-nominal:
+- "16AlchemintProject11TransactionV"
+- "16AlchemintProject11TransactionV10CodingKeysO"
+provides-member:
+- ["16AlchemintProject11TransactionV", ""]
+- ["16AlchemintProject11TransactionV10CodingKeysO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- !private "Array"
+- "AssignmentPrecedence"
+- "Codable"
+- "CodingKey"
+- "Decoder"
+- "Int64"
+- "Script"
+- "String"
+- "StringLiteralType"
+- "Transaction"
+- "ValueIn"
+- "ValueOut"
+- !private "_findStringSwitchCase"
+- !private "~="
+depends-member:
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- ["s7CVarArgP", "init"]
+- ["s9CodingKeyP", "RawValue"]
+- ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_Default_RawValue"]
+- !private ["s9CodingKeyP", "_findStringSwitchCase"]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- !private ["s9CodingKeyP", "networkFee"]
+- ["s9CodingKeyP", "rawValue"]
+- !private ["s9CodingKeyP", "scripts"]
+- !private ["s9CodingKeyP", "size"]
+- ["s9CodingKeyP", "stringValue"]
+- !private ["s9CodingKeyP", "systemFee"]
+- !private ["s9CodingKeyP", "transactionID"]
+- !private ["s9CodingKeyP", "type"]
+- !private ["s9CodingKeyP", "valueIns"]
+- !private ["s9CodingKeyP", "valueOuts"]
+- !private ["s9CodingKeyP", "version"]
+- ["16AlchemintProject11TransactionV10CodingKeysO", "RawValue"]
+- ["16AlchemintProject11TransactionV10CodingKeysO", "_Default_RawValue"]
+- !private ["16AlchemintProject11TransactionV10CodingKeysO", "_findStringSwitchCase"]
+- ["16AlchemintProject11TransactionV10CodingKeysO", "debugDescription"]
+- ["16AlchemintProject11TransactionV10CodingKeysO", "deinit"]
+- ["16AlchemintProject11TransactionV10CodingKeysO", "description"]
+- ["16AlchemintProject11TransactionV10CodingKeysO", "hashValue"]
+- ["16AlchemintProject11TransactionV10CodingKeysO", "init"]
+- ["16AlchemintProject11TransactionV10CodingKeysO", "intValue"]
+- ["16AlchemintProject11TransactionV10CodingKeysO", "networkFee"]
+- ["16AlchemintProject11TransactionV10CodingKeysO", "rawValue"]
+- ["16AlchemintProject11TransactionV10CodingKeysO", "scripts"]
+- ["16AlchemintProject11TransactionV10CodingKeysO", "size"]
+- ["16AlchemintProject11TransactionV10CodingKeysO", "stringValue"]
+- ["16AlchemintProject11TransactionV10CodingKeysO", "systemFee"]
+- ["16AlchemintProject11TransactionV10CodingKeysO", "transactionID"]
+- ["16AlchemintProject11TransactionV10CodingKeysO", "type"]
+- ["16AlchemintProject11TransactionV10CodingKeysO", "valueIns"]
+- ["16AlchemintProject11TransactionV10CodingKeysO", "valueOuts"]
+- ["16AlchemintProject11TransactionV10CodingKeysO", "version"]
+- ["s10CollectionP", "init"]
+- ["s10ComparableP", "init"]
+- ["s28CustomDebugStringConvertibleP", "RawValue"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_Default_RawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "_findStringSwitchCase"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- !private ["s28CustomDebugStringConvertibleP", "networkFee"]
+- ["s28CustomDebugStringConvertibleP", "rawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "scripts"]
+- !private ["s28CustomDebugStringConvertibleP", "size"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s28CustomDebugStringConvertibleP", "systemFee"]
+- !private ["s28CustomDebugStringConvertibleP", "transactionID"]
+- !private ["s28CustomDebugStringConvertibleP", "type"]
+- !private ["s28CustomDebugStringConvertibleP", "valueIns"]
+- !private ["s28CustomDebugStringConvertibleP", "valueOuts"]
+- !private ["s28CustomDebugStringConvertibleP", "version"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", "RawValue"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_Default_RawValue"]
+- !private ["s23CustomStringConvertibleP", "_findStringSwitchCase"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- !private ["s23CustomStringConvertibleP", "networkFee"]
+- ["s23CustomStringConvertibleP", "rawValue"]
+- !private ["s23CustomStringConvertibleP", "scripts"]
+- !private ["s23CustomStringConvertibleP", "size"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- !private ["s23CustomStringConvertibleP", "systemFee"]
+- !private ["s23CustomStringConvertibleP", "transactionID"]
+- !private ["s23CustomStringConvertibleP", "type"]
+- !private ["s23CustomStringConvertibleP", "valueIns"]
+- !private ["s23CustomStringConvertibleP", "valueOuts"]
+- !private ["s23CustomStringConvertibleP", "version"]
+- !private ["s9DecodableP", "CodingKeys"]
+- !private ["s9DecodableP", "Int64"]
+- !private ["s9DecodableP", "Script"]
+- !private ["s9DecodableP", "String"]
+- !private ["s9DecodableP", "ValueIn"]
+- !private ["s9DecodableP", "ValueOut"]
+- ["s9DecodableP", ""]
+- !private ["s9DecodableP", "_findStringSwitchCase"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- ["s9DecodableP", "encode"]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "networkFee"]
+- !private ["s9DecodableP", "scripts"]
+- !private ["s9DecodableP", "size"]
+- !private ["s9DecodableP", "systemFee"]
+- !private ["s9DecodableP", "transactionID"]
+- !private ["s9DecodableP", "type"]
+- !private ["s9DecodableP", "valueIns"]
+- !private ["s9DecodableP", "valueOuts"]
+- !private ["s9DecodableP", "version"]
+- !private ["s7DecoderP", "container"]
+- !private ["s9EncodableP", "CodingKeys"]
+- !private ["s9EncodableP", "Int64"]
+- !private ["s9EncodableP", "Script"]
+- !private ["s9EncodableP", "String"]
+- !private ["s9EncodableP", "ValueIn"]
+- !private ["s9EncodableP", "ValueOut"]
+- ["s9EncodableP", ""]
+- !private ["s9EncodableP", "_findStringSwitchCase"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- ["s9EncodableP", "encode"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "networkFee"]
+- !private ["s9EncodableP", "scripts"]
+- !private ["s9EncodableP", "size"]
+- !private ["s9EncodableP", "systemFee"]
+- !private ["s9EncodableP", "transactionID"]
+- !private ["s9EncodableP", "type"]
+- !private ["s9EncodableP", "valueIns"]
+- !private ["s9EncodableP", "valueOuts"]
+- !private ["s9EncodableP", "version"]
+- !private ["s7EncoderP", "container"]
+- ["s9EquatableP", "RawValue"]
+- ["s9EquatableP", ""]
+- ["s9EquatableP", "_Default_RawValue"]
+- !private ["s9EquatableP", "_findStringSwitchCase"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- ["s9EquatableP", "debugDescription"]
+- ["s9EquatableP", "description"]
+- ["s9EquatableP", "hashValue"]
+- ["s9EquatableP", "init"]
+- ["s9EquatableP", "intValue"]
+- !private ["s9EquatableP", "networkFee"]
+- ["s9EquatableP", "rawValue"]
+- !private ["s9EquatableP", "scripts"]
+- !private ["s9EquatableP", "size"]
+- ["s9EquatableP", "stringValue"]
+- !private ["s9EquatableP", "systemFee"]
+- !private ["s9EquatableP", "transactionID"]
+- !private ["s9EquatableP", "type"]
+- !private ["s9EquatableP", "valueIns"]
+- !private ["s9EquatableP", "valueOuts"]
+- !private ["s9EquatableP", "version"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s8HashableP", "RawValue"]
+- ["s8HashableP", ""]
+- ["s8HashableP", "_Default_RawValue"]
+- !private ["s8HashableP", "_findStringSwitchCase"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- ["s8HashableP", "debugDescription"]
+- ["s8HashableP", "description"]
+- ["s8HashableP", "hashValue"]
+- ["s8HashableP", "init"]
+- ["s8HashableP", "intValue"]
+- !private ["s8HashableP", "networkFee"]
+- ["s8HashableP", "rawValue"]
+- !private ["s8HashableP", "scripts"]
+- !private ["s8HashableP", "size"]
+- ["s8HashableP", "stringValue"]
+- !private ["s8HashableP", "systemFee"]
+- !private ["s8HashableP", "transactionID"]
+- !private ["s8HashableP", "type"]
+- !private ["s8HashableP", "valueIns"]
+- !private ["s8HashableP", "valueOuts"]
+- !private ["s8HashableP", "version"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- !private ["s22KeyedEncodingContainerV", "encode"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encode"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- ["s16RawRepresentableP", "RawValue"]
+- ["s16RawRepresentableP", ""]
+- ["s16RawRepresentableP", "_Default_RawValue"]
+- !private ["s16RawRepresentableP", "_findStringSwitchCase"]
+- ["s16RawRepresentableP", "debugDescription"]
+- ["s16RawRepresentableP", "description"]
+- ["s16RawRepresentableP", "hashValue"]
+- ["s16RawRepresentableP", "init"]
+- ["s16RawRepresentableP", "intValue"]
+- !private ["s16RawRepresentableP", "networkFee"]
+- ["s16RawRepresentableP", "rawValue"]
+- !private ["s16RawRepresentableP", "scripts"]
+- !private ["s16RawRepresentableP", "size"]
+- ["s16RawRepresentableP", "stringValue"]
+- !private ["s16RawRepresentableP", "systemFee"]
+- !private ["s16RawRepresentableP", "transactionID"]
+- !private ["s16RawRepresentableP", "type"]
+- !private ["s16RawRepresentableP", "valueIns"]
+- !private ["s16RawRepresentableP", "valueOuts"]
+- !private ["s16RawRepresentableP", "version"]
+- ["16AlchemintProject6ScriptV", "deinit"]
+- ["s8SequenceP", "init"]
+- !private ["s12StaticStringV", "init"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["16AlchemintProject11TransactionV", "CodingKey"]
+- ["16AlchemintProject11TransactionV", "CodingKeys"]
+- ["16AlchemintProject11TransactionV", "Decoder"]
+- ["16AlchemintProject11TransactionV", "Int64"]
+- ["16AlchemintProject11TransactionV", "Script"]
+- ["16AlchemintProject11TransactionV", "String"]
+- ["16AlchemintProject11TransactionV", "ValueIn"]
+- ["16AlchemintProject11TransactionV", "ValueOut"]
+- !private ["16AlchemintProject11TransactionV", "_findStringSwitchCase"]
+- ["16AlchemintProject11TransactionV", "deinit"]
+- ["16AlchemintProject11TransactionV", "encode"]
+- ["16AlchemintProject11TransactionV", "init"]
+- ["16AlchemintProject11TransactionV", "networkFee"]
+- ["16AlchemintProject11TransactionV", "scripts"]
+- ["16AlchemintProject11TransactionV", "size"]
+- ["16AlchemintProject11TransactionV", "systemFee"]
+- ["16AlchemintProject11TransactionV", "transactionID"]
+- ["16AlchemintProject11TransactionV", "type"]
+- ["16AlchemintProject11TransactionV", "valueIns"]
+- ["16AlchemintProject11TransactionV", "valueOuts"]
+- ["16AlchemintProject11TransactionV", "version"]
+- ["9Alamofire14URLConvertibleP", "init"]
+- ["16AlchemintProject7ValueInV", "deinit"]
+- ["16AlchemintProject8ValueOutV", "deinit"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "s23BidirectionalCollectionP"
+- !private "Sb"
+- "s7CVarArgP"
+- "s9CodingKeyP"
+- "16AlchemintProject11TransactionV10CodingKeysO"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- !private "s7DecoderP"
+- "s9EncodableP"
+- !private "s7EncoderP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- !private "s22KeyedEncodingContainerV"
+- !private "s30KeyedEncodingContainerProtocolP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "s26RangeReplaceableCollectionP"
+- "s16RawRepresentableP"
+- "16AlchemintProject6ScriptV"
+- "s8SequenceP"
+- !private "s12StaticStringV"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "16AlchemintProject11TransactionV"
+- "9Alamofire14URLConvertibleP"
+- "16AlchemintProject7ValueInV"
+- "16AlchemintProject8ValueOutV"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/Neoutils.framework/Headers/Universe.objc.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/Neoutils.framework/Headers/Neoutils.objc.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/Neoutils.framework/Headers/ref.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/Neoutils.framework/Headers/Neoutils.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/CommonCrypto/module.modulemap"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/Neoutils.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LocalAuthentication.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "5d578ec17d8dbad3a086f61f609e3463"

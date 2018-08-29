@@ -1,0 +1,11 @@
+framework module AlamofireJsonToObjects {
+  umbrella header "AlamofireJsonToObjects-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module AlamofireJsonToObjects.Swift {
+    header "AlamofireJsonToObjects-Swift.h"
+    requires objc
+}

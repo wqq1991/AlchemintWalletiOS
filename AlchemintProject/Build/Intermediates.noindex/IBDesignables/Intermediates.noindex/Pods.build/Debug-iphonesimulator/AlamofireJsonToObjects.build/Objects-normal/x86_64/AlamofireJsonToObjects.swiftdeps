@@ -1,0 +1,536 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "EVNetworkingObject"
+provides-nominal:
+- "22AlamofireJsonToObjects18EVNetworkingObjectC"
+- "9Alamofire11DataRequestC0A13JsonToObjectsE9ErrorCodeO"
+provides-member:
+- ["22AlamofireJsonToObjects18EVNetworkingObjectC", ""]
+- ["9Alamofire11DataRequestC", ""]
+- ["9Alamofire11DataRequestC0A13JsonToObjectsE9ErrorCodeO", ""]
+- ["9Alamofire11DataRequestC", "ErrorCode"]
+- ["9Alamofire11DataRequestC", "newError"]
+- ["9Alamofire11DataRequestC", "EVReflectionSerializer"]
+- ["9Alamofire11DataRequestC", "responseObject"]
+- ["9Alamofire11DataRequestC", "EVReflectionArraySerializer"]
+- ["9Alamofire11DataRequestC", "responseArray"]
+provides-dynamic-lookup:
+- "initValidation"
+depends-top-level:
+- !private "!="
+- "=="
+- !private ">"
+- !private "??"
+- !private "AnyHashable"
+- !private "AnyObject"
+- !private "AssignmentPrecedence"
+- "BooleanLiteralType"
+- !private "CastingPrecedence"
+- "DataRequest"
+- "DataResponse"
+- "DataResponseSerializer"
+- !private "DeserializationStatus"
+- !private "Dictionary"
+- "DispatchQueue"
+- "EVNetworkingObject"
+- "EVObject"
+- !private "EVReflection"
+- "Int"
+- !private "NSArray"
+- "NSDictionary"
+- "NSError"
+- !private "NSLocalizedFailureReasonErrorKey"
+- !private "NSMutableArray"
+- !private "NSMutableDictionary"
+- "String"
+- !private "StringLiteralType"
+- "Void"
+- !private "~="
+depends-member:
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "isEmpty"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "DeserializationStatus"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "addStatusMessage"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "getSpecificType"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "replaceObject"]
+- !private ["s7CVarArgP", "statusCode"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "isEmpty"]
+- !private ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "DataRequest"]
+- !private ["s28CustomDebugStringConvertibleP", "DataResponseSerializer"]
+- !private ["s28CustomDebugStringConvertibleP", "DeserializationStatus"]
+- !private ["s28CustomDebugStringConvertibleP", "EVReflection"]
+- !private ["s28CustomDebugStringConvertibleP", "EVReflectionArraySerializer"]
+- !private ["s28CustomDebugStringConvertibleP", "EVReflectionSerializer"]
+- !private ["s28CustomDebugStringConvertibleP", "NSArray"]
+- !private ["s28CustomDebugStringConvertibleP", "NSDictionary"]
+- !private ["s28CustomDebugStringConvertibleP", "NSError"]
+- !private ["s28CustomDebugStringConvertibleP", "NSLocalizedFailureReasonErrorKey"]
+- !private ["s28CustomDebugStringConvertibleP", "NSMutableArray"]
+- !private ["s28CustomDebugStringConvertibleP", "NSMutableDictionary"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addStatusMessage"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "failure"]
+- !private ["s28CustomDebugStringConvertibleP", "getSpecificType"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "jsonResponseSerializer"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "newError"]
+- !private ["s28CustomDebugStringConvertibleP", "replaceObject"]
+- !private ["s28CustomDebugStringConvertibleP", "response"]
+- !private ["s28CustomDebugStringConvertibleP", "statusCode"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "success"]
+- !private ["s28CustomDebugStringConvertibleP", "value"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "replaceObject"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "Custom"]
+- !private ["s23CustomStringConvertibleP", "DataRequest"]
+- !private ["s23CustomStringConvertibleP", "DataResponseSerializer"]
+- !private ["s23CustomStringConvertibleP", "DeserializationStatus"]
+- !private ["s23CustomStringConvertibleP", "EVReflection"]
+- !private ["s23CustomStringConvertibleP", "EVReflectionArraySerializer"]
+- !private ["s23CustomStringConvertibleP", "EVReflectionSerializer"]
+- !private ["s23CustomStringConvertibleP", "NSArray"]
+- !private ["s23CustomStringConvertibleP", "NSDictionary"]
+- !private ["s23CustomStringConvertibleP", "NSError"]
+- !private ["s23CustomStringConvertibleP", "NSLocalizedFailureReasonErrorKey"]
+- !private ["s23CustomStringConvertibleP", "NSMutableArray"]
+- !private ["s23CustomStringConvertibleP", "NSMutableDictionary"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "addStatusMessage"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "failure"]
+- !private ["s23CustomStringConvertibleP", "getSpecificType"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "jsonResponseSerializer"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "newError"]
+- !private ["s23CustomStringConvertibleP", "replaceObject"]
+- !private ["s23CustomStringConvertibleP", "response"]
+- !private ["s23CustomStringConvertibleP", "statusCode"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "success"]
+- !private ["s23CustomStringConvertibleP", "value"]
+- !private ["9Alamofire11DataRequestC", "AnyHashable"]
+- !private ["9Alamofire11DataRequestC", "AnyObject"]
+- !private ["9Alamofire11DataRequestC", "DataRequest"]
+- ["9Alamofire11DataRequestC", "DataResponse"]
+- ["9Alamofire11DataRequestC", "DataResponseSerializer"]
+- ["9Alamofire11DataRequestC", "DispatchQueue"]
+- ["9Alamofire11DataRequestC", "EVObject"]
+- !private ["9Alamofire11DataRequestC", "EVReflection"]
+- ["9Alamofire11DataRequestC", "EVReflectionArraySerializer"]
+- ["9Alamofire11DataRequestC", "EVReflectionSerializer"]
+- ["9Alamofire11DataRequestC", "ErrorCode"]
+- ["9Alamofire11DataRequestC", "Int"]
+- !private ["9Alamofire11DataRequestC", "NSArray"]
+- !private ["9Alamofire11DataRequestC", "NSDictionary"]
+- ["9Alamofire11DataRequestC", "NSError"]
+- !private ["9Alamofire11DataRequestC", "NSLocalizedFailureReasonErrorKey"]
+- !private ["9Alamofire11DataRequestC", "NSMutableArray"]
+- !private ["9Alamofire11DataRequestC", "NSMutableDictionary"]
+- ["9Alamofire11DataRequestC", "String"]
+- ["9Alamofire11DataRequestC", "Void"]
+- !private ["9Alamofire11DataRequestC", "jsonResponseSerializer"]
+- ["9Alamofire11DataRequestC", "newError"]
+- !private ["9Alamofire11DataRequestC", "response"]
+- ["9Alamofire11DataRequestC", "responseArray"]
+- ["9Alamofire11DataRequestC", "responseObject"]
+- !private ["9Alamofire22DataResponseSerializerV", "init"]
+- !private ["9Alamofire22DataResponseSerializerV", "serializeResponse"]
+- !private ["9Alamofire30DataResponseSerializerProtocolP", "init"]
+- !private ["9Alamofire30DataResponseSerializerProtocolP", "serializeResponse"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "isEmpty"]
+- !private ["12EVReflection21DeserializationStatusV", "Custom"]
+- !private ["22AlamofireJsonToObjects18EVNetworkingObjectC", "DeserializationStatus"]
+- ["22AlamofireJsonToObjects18EVNetworkingObjectC", "NSDictionary"]
+- ["22AlamofireJsonToObjects18EVNetworkingObjectC", "String"]
+- !private ["22AlamofireJsonToObjects18EVNetworkingObjectC", "addStatusMessage"]
+- ["22AlamofireJsonToObjects18EVNetworkingObjectC", "deinit"]
+- ["22AlamofireJsonToObjects18EVNetworkingObjectC", "init"]
+- ["22AlamofireJsonToObjects18EVNetworkingObjectC", "initValidation"]
+- ["22AlamofireJsonToObjects18EVNetworkingObjectC", "propertyMapping"]
+- !private ["12EVReflection8EVObjectC", "DeserializationStatus"]
+- ["12EVReflection8EVObjectC", "NSDictionary"]
+- ["12EVReflection8EVObjectC", "String"]
+- ["12EVReflection8EVObjectC", ""]
+- !private ["12EVReflection8EVObjectC", "addStatusMessage"]
+- !private ["12EVReflection8EVObjectC", "getSpecificType"]
+- ["12EVReflection8EVObjectC", "init"]
+- ["12EVReflection8EVObjectC", "initValidation"]
+- ["12EVReflection8EVObjectC", "propertyMapping"]
+- !private ["12EVReflection13EVReflectableP", "DeserializationStatus"]
+- ["12EVReflection13EVReflectableP", ""]
+- !private ["12EVReflection13EVReflectableP", "addStatusMessage"]
+- !private ["12EVReflection13EVReflectableP", "getSpecificType"]
+- !private ["12EVReflection13EVReflectableP", "init"]
+- !private ["12EVReflectionAAC", "setPropertiesfromDictionary"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "isEmpty"]
+- !private ["s9EquatableP", "Custom"]
+- !private ["s9EquatableP", "DeserializationStatus"]
+- ["s9EquatableP", "RawValue"]
+- ["s9EquatableP", ""]
+- ["s9EquatableP", "_Default_RawValue"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "addStatusMessage"]
+- !private ["s9EquatableP", "allowFragments"]
+- !private ["s9EquatableP", "count"]
+- !private ["s9EquatableP", "getSpecificType"]
+- ["s9EquatableP", "hashValue"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "isEmpty"]
+- !private ["s9EquatableP", "map"]
+- !private ["s9EquatableP", "noData"]
+- ["s9EquatableP", "rawValue"]
+- !private ["s9EquatableP", "replaceObject"]
+- !private ["s9EquatableP", "statusCode"]
+- !private ["s9EquatableP", "subscript"]
+- !private ["s5ErrorP", "init"]
+- ["9Alamofire11DataRequestC0A13JsonToObjectsE9ErrorCodeO", "RawValue"]
+- ["9Alamofire11DataRequestC0A13JsonToObjectsE9ErrorCodeO", "_Default_RawValue"]
+- ["9Alamofire11DataRequestC0A13JsonToObjectsE9ErrorCodeO", "deinit"]
+- ["9Alamofire11DataRequestC0A13JsonToObjectsE9ErrorCodeO", "hashValue"]
+- ["9Alamofire11DataRequestC0A13JsonToObjectsE9ErrorCodeO", "init"]
+- ["9Alamofire11DataRequestC0A13JsonToObjectsE9ErrorCodeO", "noData"]
+- ["9Alamofire11DataRequestC0A13JsonToObjectsE9ErrorCodeO", "rawValue"]
+- !private ["s25ExpressibleByArrayLiteralP", "Custom"]
+- !private ["s25ExpressibleByArrayLiteralP", "allowFragments"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s25ExpressibleByArrayLiteralP", "replaceObject"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "isEmpty"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "isEmpty"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "isEmpty"]
+- !private ["So15HTTPURLResponseC", "statusCode"]
+- !private ["s8HashableP", "DeserializationStatus"]
+- ["s8HashableP", "RawValue"]
+- ["s8HashableP", ""]
+- ["s8HashableP", "_Default_RawValue"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "addStatusMessage"]
+- !private ["s8HashableP", "count"]
+- !private ["s8HashableP", "getSpecificType"]
+- ["s8HashableP", "hashValue"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "isEmpty"]
+- !private ["s8HashableP", "map"]
+- !private ["s8HashableP", "noData"]
+- ["s8HashableP", "rawValue"]
+- !private ["s8HashableP", "replaceObject"]
+- !private ["s8HashableP", "statusCode"]
+- !private ["s8HashableP", "subscript"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "isEmpty"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "isEmpty"]
+- !private ["So7NSArrayC", "count"]
+- !private ["So7NSArrayC", "init"]
+- !private ["So7NSArrayC", "map"]
+- !private ["So7NSArrayC", "replaceObject"]
+- !private ["So7NSArrayC", "subscript"]
+- !private ["So8NSCodingP", "DeserializationStatus"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "addStatusMessage"]
+- !private ["So8NSCodingP", "count"]
+- !private ["So8NSCodingP", "getSpecificType"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "isEmpty"]
+- !private ["So8NSCodingP", "map"]
+- !private ["So8NSCodingP", "replaceObject"]
+- !private ["So8NSCodingP", "statusCode"]
+- !private ["So8NSCodingP", "subscript"]
+- !private ["So9NSCopyingP", "count"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "isEmpty"]
+- !private ["So9NSCopyingP", "map"]
+- !private ["So9NSCopyingP", "replaceObject"]
+- !private ["So9NSCopyingP", "statusCode"]
+- !private ["So9NSCopyingP", "subscript"]
+- !private ["So12NSDictionaryC", "init"]
+- !private ["So12NSDictionaryC", "subscript"]
+- !private ["So7NSErrorC", "init"]
+- !private ["So17NSFastEnumerationP", "count"]
+- !private ["So17NSFastEnumerationP", "init"]
+- !private ["So17NSFastEnumerationP", "map"]
+- !private ["So17NSFastEnumerationP", "replaceObject"]
+- !private ["So17NSFastEnumerationP", "subscript"]
+- !private ["So21NSItemProviderReadingP", "isEmpty"]
+- !private ["So21NSItemProviderWritingP", "isEmpty"]
+- !private ["So14NSMutableArrayC", "init"]
+- !private ["So14NSMutableArrayC", "replaceObject"]
+- !private ["So16NSMutableCopyingP", "count"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So16NSMutableCopyingP", "isEmpty"]
+- !private ["So16NSMutableCopyingP", "map"]
+- !private ["So16NSMutableCopyingP", "replaceObject"]
+- !private ["So16NSMutableCopyingP", "subscript"]
+- !private ["So19NSMutableDictionaryC", "init"]
+- !private ["So19NSMutableDictionaryC", "subscript"]
+- !private ["So8NSObjectC", "DeserializationStatus"]
+- ["So8NSObjectC", "NSDictionary"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "addStatusMessage"]
+- !private ["So8NSObjectC", "count"]
+- !private ["So8NSObjectC", "getSpecificType"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "initValidation"]
+- !private ["So8NSObjectC", "isEmpty"]
+- !private ["So8NSObjectC", "map"]
+- ["So8NSObjectC", "propertyMapping"]
+- !private ["So8NSObjectC", "replaceObject"]
+- !private ["So8NSObjectC", "statusCode"]
+- !private ["So8NSObjectC", "subscript"]
+- !private ["So16NSObjectProtocolP", "DeserializationStatus"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "addStatusMessage"]
+- !private ["So16NSObjectProtocolP", "count"]
+- !private ["So16NSObjectProtocolP", "getSpecificType"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "isEmpty"]
+- !private ["So16NSObjectProtocolP", "map"]
+- !private ["So16NSObjectProtocolP", "replaceObject"]
+- !private ["So16NSObjectProtocolP", "statusCode"]
+- !private ["So16NSObjectProtocolP", "subscript"]
+- !private ["So14NSSecureCodingP", "count"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "isEmpty"]
+- !private ["So14NSSecureCodingP", "map"]
+- !private ["So14NSSecureCodingP", "replaceObject"]
+- !private ["So14NSSecureCodingP", "statusCode"]
+- !private ["So14NSSecureCodingP", "subscript"]
+- !private ["So8NSStringC", "isEmpty"]
+- !private ["s9OptionSetP", "Custom"]
+- !private ["s9OptionSetP", "allowFragments"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "isEmpty"]
+- !private ["s16RawRepresentableP", "Custom"]
+- ["s16RawRepresentableP", "RawValue"]
+- ["s16RawRepresentableP", ""]
+- ["s16RawRepresentableP", "_Default_RawValue"]
+- !private ["s16RawRepresentableP", "allowFragments"]
+- ["s16RawRepresentableP", "hashValue"]
+- ["s16RawRepresentableP", "init"]
+- !private ["s16RawRepresentableP", "noData"]
+- ["s16RawRepresentableP", "rawValue"]
+- !private ["So17JSONSerializationC14ReadingOptionsV", "allowFragments"]
+- !private ["9Alamofire7RequestC", "AnyHashable"]
+- !private ["9Alamofire7RequestC", "AnyObject"]
+- !private ["9Alamofire7RequestC", "DataRequest"]
+- ["9Alamofire7RequestC", "DataResponse"]
+- ["9Alamofire7RequestC", "DataResponseSerializer"]
+- ["9Alamofire7RequestC", "DispatchQueue"]
+- ["9Alamofire7RequestC", "EVObject"]
+- !private ["9Alamofire7RequestC", "EVReflection"]
+- ["9Alamofire7RequestC", "EVReflectionArraySerializer"]
+- ["9Alamofire7RequestC", "EVReflectionSerializer"]
+- ["9Alamofire7RequestC", "ErrorCode"]
+- ["9Alamofire7RequestC", "Int"]
+- !private ["9Alamofire7RequestC", "NSArray"]
+- !private ["9Alamofire7RequestC", "NSDictionary"]
+- ["9Alamofire7RequestC", "NSError"]
+- !private ["9Alamofire7RequestC", "NSLocalizedFailureReasonErrorKey"]
+- !private ["9Alamofire7RequestC", "NSMutableArray"]
+- !private ["9Alamofire7RequestC", "NSMutableDictionary"]
+- ["9Alamofire7RequestC", "String"]
+- ["9Alamofire7RequestC", "Void"]
+- !private ["9Alamofire7RequestC", "jsonResponseSerializer"]
+- ["9Alamofire7RequestC", "newError"]
+- !private ["9Alamofire7RequestC", "response"]
+- ["9Alamofire7RequestC", "responseArray"]
+- ["9Alamofire7RequestC", "responseObject"]
+- !private ["9Alamofire6ResultO", "failure"]
+- !private ["9Alamofire6ResultO", "success"]
+- !private ["9Alamofire6ResultO", "value"]
+- !private ["s8SequenceP", "count"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "isEmpty"]
+- !private ["s8SequenceP", "map"]
+- !private ["s8SequenceP", "replaceObject"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["s10SetAlgebraP", "Custom"]
+- !private ["s10SetAlgebraP", "allowFragments"]
+- !private ["SS", "init"]
+- !private ["SS", "isEmpty"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s14StringProtocolP", "isEmpty"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "isEmpty"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "isEmpty"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["9Alamofire14URLConvertibleP", "isEmpty"]
+- !private ["So11URLResponseC", "statusCode"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "isEmpty"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "isEmpty"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "isEmpty"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "isEmpty"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DeserializationStatus"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addStatusMessage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "count"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getSpecificType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isEmpty"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "map"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "replaceObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "statusCode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "isEmpty"]
+depends-nominal:
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "9Alamofire11DataRequestC"
+- !private "9Alamofire22DataResponseSerializerV"
+- !private "9Alamofire30DataResponseSerializerProtocolP"
+- !private "s9DecodableP"
+- !private "12EVReflection21DeserializationStatusV"
+- "22AlamofireJsonToObjects18EVNetworkingObjectC"
+- "12EVReflection8EVObjectC"
+- "12EVReflection13EVReflectableP"
+- !private "12EVReflectionAAC"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s5ErrorP"
+- "9Alamofire11DataRequestC0A13JsonToObjectsE9ErrorCodeO"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "So15HTTPURLResponseC"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So7NSArrayC"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So12NSDictionaryC"
+- !private "So7NSErrorC"
+- !private "So17NSFastEnumerationP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So14NSMutableArrayC"
+- !private "So16NSMutableCopyingP"
+- !private "So19NSMutableDictionaryC"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "s9OptionSetP"
+- !private "s26RangeReplaceableCollectionP"
+- "s16RawRepresentableP"
+- !private "So17JSONSerializationC14ReadingOptionsV"
+- "9Alamofire7RequestC"
+- !private "9Alamofire6ResultO"
+- !private "s8SequenceP"
+- !private "s10SetAlgebraP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "9Alamofire14URLConvertibleP"
+- !private "So11URLResponseC"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+- !private "value"
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/EVReflection/EVReflection.framework/Modules/EVReflection.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Pods/Target Support Files/EVReflection/EVReflection-umbrella.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Pods/Target Support Files/AlamofireJsonToObjects/AlamofireJsonToObjects-umbrella.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Pods/AlamofireJsonToObjects/AlamofireJsonToObjects/AlamofireJsonToObjects.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/EVReflection/EVReflection.framework/Headers/EVReflection-Swift.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Intermediates.noindex/IBDesignables/Intermediates.noindex/Pods.build/Debug-iphonesimulator/AlamofireJsonToObjects.build/unextended-module.modulemap"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Intermediates.noindex/IBDesignables/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/module.modulemap"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Intermediates.noindex/IBDesignables/Intermediates.noindex/Pods.build/Debug-iphonesimulator/EVReflection.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "bf1e07499e759c117d4004db7516da73"

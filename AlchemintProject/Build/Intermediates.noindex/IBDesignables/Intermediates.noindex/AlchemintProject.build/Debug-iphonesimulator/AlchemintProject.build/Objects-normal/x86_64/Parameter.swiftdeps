@@ -1,0 +1,255 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "kLoginViewViewNotification"
+- "kBackBtnImageName"
+- "kAnimationTimeInterval"
+- "kNavThemeColor"
+- "kNavThemeColor2"
+- "kTabThemeColor3"
+- "kThemeColor"
+- "kThemeColor2"
+- "kThemeColor3"
+- "kVersion"
+- "SCREEN_WIDTH"
+- "SCREEN_HEIGHT"
+- "DLog"
+provides-nominal:
+provides-member:
+provides-dynamic-lookup:
+depends-top-level:
+- "Bundle"
+- "CastingPrecedence"
+- "DLog"
+- "Int"
+- !private "NSString"
+- "SCREEN_HEIGHT"
+- "SCREEN_WIDTH"
+- "String"
+- "StringLiteralType"
+- "UIColor"
+- "UIScreen"
+- !private "UnicodeScalarType"
+- "kAnimationTimeInterval"
+- "kBackBtnImageName"
+- "kLoginViewViewNotification"
+- "kNavThemeColor"
+- "kNavThemeColor2"
+- "kTabThemeColor3"
+- "kThemeColor"
+- "kThemeColor2"
+- "kThemeColor3"
+- "kVersion"
+- !private "print"
+depends-member:
+- ["s23BidirectionalCollectionP", "init"]
+- ["So6BundleC", "infoDictionary"]
+- ["So6BundleC", "main"]
+- ["SC6CGRectV", "height"]
+- ["SC6CGRectV", "width"]
+- ["s7CVarArgP", "bounds"]
+- ["s7CVarArgP", "colorFromeRGB"]
+- ["s7CVarArgP", "infoDictionary"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "lastPathComponent"]
+- ["s7CVarArgP", "main"]
+- ["s7CVarArgP", "subscript"]
+- ["s10CollectionP", "init"]
+- ["s10CollectionP", "subscript"]
+- ["s10ComparableP", "init"]
+- ["s28CustomDebugStringConvertibleP", "bounds"]
+- ["s28CustomDebugStringConvertibleP", "colorFromeRGB"]
+- ["s28CustomDebugStringConvertibleP", "height"]
+- ["s28CustomDebugStringConvertibleP", "infoDictionary"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "lastPathComponent"]
+- ["s28CustomDebugStringConvertibleP", "main"]
+- ["s28CustomDebugStringConvertibleP", "subscript"]
+- ["s28CustomDebugStringConvertibleP", "width"]
+- ["s29CustomPlaygroundQuickLookableP", "height"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "lastPathComponent"]
+- ["s29CustomPlaygroundQuickLookableP", "width"]
+- ["s17CustomReflectableP", "height"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "subscript"]
+- ["s17CustomReflectableP", "width"]
+- ["s23CustomStringConvertibleP", "bounds"]
+- ["s23CustomStringConvertibleP", "colorFromeRGB"]
+- ["s23CustomStringConvertibleP", "infoDictionary"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "lastPathComponent"]
+- ["s23CustomStringConvertibleP", "main"]
+- ["s23CustomStringConvertibleP", "subscript"]
+- ["s9DecodableP", "height"]
+- ["s9DecodableP", "init"]
+- ["s9DecodableP", "subscript"]
+- ["s9DecodableP", "width"]
+- ["s10DictionaryV", "subscript"]
+- ["s9EncodableP", "height"]
+- ["s9EncodableP", "init"]
+- ["s9EncodableP", "subscript"]
+- ["s9EncodableP", "width"]
+- ["s9EquatableP", "bounds"]
+- ["s9EquatableP", "colorFromeRGB"]
+- ["s9EquatableP", "height"]
+- ["s9EquatableP", "infoDictionary"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "lastPathComponent"]
+- ["s9EquatableP", "main"]
+- ["s9EquatableP", "subscript"]
+- ["s9EquatableP", "width"]
+- ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "lastPathComponent"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "lastPathComponent"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "lastPathComponent"]
+- ["s8HashableP", "bounds"]
+- ["s8HashableP", "colorFromeRGB"]
+- ["s8HashableP", "infoDictionary"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "lastPathComponent"]
+- ["s8HashableP", "main"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- ["So8NSCodingP", "colorFromeRGB"]
+- !private ["So8NSCodingP", "lastPathComponent"]
+- ["So9NSCopyingP", "colorFromeRGB"]
+- !private ["So9NSCopyingP", "lastPathComponent"]
+- ["So21NSItemProviderReadingP", "colorFromeRGB"]
+- !private ["So21NSItemProviderReadingP", "lastPathComponent"]
+- ["So21NSItemProviderWritingP", "colorFromeRGB"]
+- !private ["So21NSItemProviderWritingP", "lastPathComponent"]
+- !private ["So16NSMutableCopyingP", "lastPathComponent"]
+- ["So8NSObjectC", "bounds"]
+- ["So8NSObjectC", "colorFromeRGB"]
+- ["So8NSObjectC", "infoDictionary"]
+- !private ["So8NSObjectC", "lastPathComponent"]
+- ["So8NSObjectC", "main"]
+- ["So16NSObjectProtocolP", "bounds"]
+- ["So16NSObjectProtocolP", "colorFromeRGB"]
+- ["So16NSObjectProtocolP", "infoDictionary"]
+- !private ["So16NSObjectProtocolP", "lastPathComponent"]
+- ["So16NSObjectProtocolP", "main"]
+- ["So14NSSecureCodingP", "colorFromeRGB"]
+- !private ["So14NSSecureCodingP", "lastPathComponent"]
+- !private ["So8NSStringC", "lastPathComponent"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- ["s8SequenceP", "init"]
+- ["s8SequenceP", "subscript"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["So7UIColorC", "colorFromeRGB"]
+- ["So8UIScreenC", "bounds"]
+- ["So8UIScreenC", "main"]
+- ["So18UITraitEnvironmentP", "bounds"]
+- ["So18UITraitEnvironmentP", "main"]
+- ["9Alamofire14URLConvertibleP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s26_ExpressibleByColorLiteralP", "colorFromeRGB"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "lastPathComponent"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "bounds"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "colorFromeRGB"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "infoDictionary"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lastPathComponent"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- ["s21_ObjectiveCBridgeableP", "height"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "subscript"]
+- ["s21_ObjectiveCBridgeableP", "width"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "s23BidirectionalCollectionP"
+- "So6BundleC"
+- "SC6CGRectV"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s10DictionaryV"
+- "s9EncodableP"
+- "s9EquatableP"
+- "s30ExpressibleByDictionaryLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- "s26RangeReplaceableCollectionP"
+- "s8SequenceP"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "So7UIColorC"
+- "So8UIScreenC"
+- "So18UITraitEnvironmentP"
+- "9Alamofire14URLConvertibleP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s26_ExpressibleByColorLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/Neoutils.framework/Headers/Universe.objc.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/Neoutils.framework/Headers/Neoutils.objc.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/Neoutils.framework/Headers/ref.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/Neoutils.framework/Headers/Neoutils.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/CommonCrypto/module.modulemap"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/Neoutils.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LocalAuthentication.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "21da0055726f349fd4b5cb45d6bcfd9a"

@@ -1,0 +1,561 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "disabledBackgroundColorKey"
+- "enabledBackgroundColorKey"
+- "jwEnabledKey"
+provides-nominal:
+provides-member:
+- ["So8UIButtonC", ""]
+- ["So8UIButtonC", "jwEnabled"]
+- ["So8UIButtonC", "disabledBackgroundColor"]
+- ["So8UIButtonC", "enabledBackgroundColor"]
+provides-dynamic-lookup:
+- "disabledBackgroundColor"
+- "enabledBackgroundColor"
+- "jwEnabled"
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "=="
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- "String"
+- "StringLiteralType"
+- "UIButton"
+- "UIColor"
+- !private "UIView"
+- !private "Void"
+- "disabledBackgroundColorKey"
+- "enabledBackgroundColorKey"
+- "jwEnabledKey"
+- !private "objc_getAssociatedObject"
+- !private "objc_setAssociatedObject"
+depends-member:
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "UIColor"]
+- !private ["So15CALayerDelegateP", "UIView"]
+- !private ["So15CALayerDelegateP", "animate"]
+- !private ["So15CALayerDelegateP", "backgroundColor"]
+- !private ["So15CALayerDelegateP", "disabledBackgroundColor"]
+- !private ["So15CALayerDelegateP", "disabledBackgroundColorKey"]
+- !private ["So15CALayerDelegateP", "enabledBackgroundColor"]
+- !private ["So15CALayerDelegateP", "enabledBackgroundColorKey"]
+- !private ["So15CALayerDelegateP", "isEnabled"]
+- !private ["So15CALayerDelegateP", "jwEnabled"]
+- !private ["So15CALayerDelegateP", "jwEnabledKey"]
+- !private ["So15CALayerDelegateP", "objc_getAssociatedObject"]
+- !private ["So15CALayerDelegateP", "objc_setAssociatedObject"]
+- !private ["s7CVarArgP", "UIColor"]
+- !private ["s7CVarArgP", "UIView"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "animate"]
+- !private ["s7CVarArgP", "backgroundColor"]
+- !private ["s7CVarArgP", "clear"]
+- !private ["s7CVarArgP", "disabledBackgroundColor"]
+- !private ["s7CVarArgP", "disabledBackgroundColorKey"]
+- !private ["s7CVarArgP", "enabledBackgroundColor"]
+- !private ["s7CVarArgP", "enabledBackgroundColorKey"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isEnabled"]
+- !private ["s7CVarArgP", "jwEnabled"]
+- !private ["s7CVarArgP", "jwEnabledKey"]
+- !private ["s7CVarArgP", "objc_getAssociatedObject"]
+- !private ["s7CVarArgP", "objc_setAssociatedObject"]
+- ["s10CollectionP", "init"]
+- ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "UIColor"]
+- !private ["s28CustomDebugStringConvertibleP", "UIView"]
+- !private ["s28CustomDebugStringConvertibleP", "animate"]
+- !private ["s28CustomDebugStringConvertibleP", "backgroundColor"]
+- !private ["s28CustomDebugStringConvertibleP", "clear"]
+- !private ["s28CustomDebugStringConvertibleP", "disabledBackgroundColor"]
+- !private ["s28CustomDebugStringConvertibleP", "disabledBackgroundColorKey"]
+- !private ["s28CustomDebugStringConvertibleP", "enabledBackgroundColor"]
+- !private ["s28CustomDebugStringConvertibleP", "enabledBackgroundColorKey"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isEnabled"]
+- !private ["s28CustomDebugStringConvertibleP", "jwEnabled"]
+- !private ["s28CustomDebugStringConvertibleP", "jwEnabledKey"]
+- !private ["s28CustomDebugStringConvertibleP", "objc_getAssociatedObject"]
+- !private ["s28CustomDebugStringConvertibleP", "objc_setAssociatedObject"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "UIColor"]
+- !private ["s23CustomStringConvertibleP", "UIView"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "animate"]
+- !private ["s23CustomStringConvertibleP", "backgroundColor"]
+- !private ["s23CustomStringConvertibleP", "clear"]
+- !private ["s23CustomStringConvertibleP", "disabledBackgroundColor"]
+- !private ["s23CustomStringConvertibleP", "disabledBackgroundColorKey"]
+- !private ["s23CustomStringConvertibleP", "enabledBackgroundColor"]
+- !private ["s23CustomStringConvertibleP", "enabledBackgroundColorKey"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isEnabled"]
+- !private ["s23CustomStringConvertibleP", "jwEnabled"]
+- !private ["s23CustomStringConvertibleP", "jwEnabledKey"]
+- !private ["s23CustomStringConvertibleP", "objc_getAssociatedObject"]
+- !private ["s23CustomStringConvertibleP", "objc_setAssociatedObject"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "OBJC_ASSOCIATION_ASSIGN"]
+- !private ["s9EquatableP", "OBJC_ASSOCIATION_RETAIN_NONATOMIC"]
+- !private ["s9EquatableP", "UIColor"]
+- !private ["s9EquatableP", "UIView"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "animate"]
+- !private ["s9EquatableP", "backgroundColor"]
+- !private ["s9EquatableP", "clear"]
+- !private ["s9EquatableP", "disabledBackgroundColor"]
+- !private ["s9EquatableP", "disabledBackgroundColorKey"]
+- !private ["s9EquatableP", "enabledBackgroundColor"]
+- !private ["s9EquatableP", "enabledBackgroundColorKey"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "isEnabled"]
+- !private ["s9EquatableP", "jwEnabled"]
+- !private ["s9EquatableP", "jwEnabledKey"]
+- !private ["s9EquatableP", "objc_getAssociatedObject"]
+- !private ["s9EquatableP", "objc_setAssociatedObject"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "OBJC_ASSOCIATION_ASSIGN"]
+- !private ["s8HashableP", "OBJC_ASSOCIATION_RETAIN_NONATOMIC"]
+- !private ["s8HashableP", "UIColor"]
+- !private ["s8HashableP", "UIView"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "animate"]
+- !private ["s8HashableP", "backgroundColor"]
+- !private ["s8HashableP", "clear"]
+- !private ["s8HashableP", "disabledBackgroundColor"]
+- !private ["s8HashableP", "disabledBackgroundColorKey"]
+- !private ["s8HashableP", "enabledBackgroundColor"]
+- !private ["s8HashableP", "enabledBackgroundColorKey"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "isEnabled"]
+- !private ["s8HashableP", "jwEnabled"]
+- !private ["s8HashableP", "jwEnabledKey"]
+- !private ["s8HashableP", "objc_getAssociatedObject"]
+- !private ["s8HashableP", "objc_setAssociatedObject"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "UIColor"]
+- !private ["So8NSCodingP", "UIView"]
+- !private ["So8NSCodingP", "animate"]
+- !private ["So8NSCodingP", "backgroundColor"]
+- !private ["So8NSCodingP", "clear"]
+- !private ["So8NSCodingP", "disabledBackgroundColor"]
+- !private ["So8NSCodingP", "disabledBackgroundColorKey"]
+- !private ["So8NSCodingP", "enabledBackgroundColor"]
+- !private ["So8NSCodingP", "enabledBackgroundColorKey"]
+- !private ["So8NSCodingP", "isEnabled"]
+- !private ["So8NSCodingP", "jwEnabled"]
+- !private ["So8NSCodingP", "jwEnabledKey"]
+- !private ["So8NSCodingP", "objc_getAssociatedObject"]
+- !private ["So8NSCodingP", "objc_setAssociatedObject"]
+- !private ["So9NSCopyingP", "clear"]
+- !private ["So21NSItemProviderReadingP", "clear"]
+- !private ["So21NSItemProviderWritingP", "clear"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "UIColor"]
+- !private ["So8NSObjectC", "UIView"]
+- !private ["So8NSObjectC", "Void"]
+- !private ["So8NSObjectC", "animate"]
+- !private ["So8NSObjectC", "backgroundColor"]
+- !private ["So8NSObjectC", "clear"]
+- ["So8NSObjectC", "disabledBackgroundColor"]
+- !private ["So8NSObjectC", "disabledBackgroundColorKey"]
+- ["So8NSObjectC", "enabledBackgroundColor"]
+- !private ["So8NSObjectC", "enabledBackgroundColorKey"]
+- !private ["So8NSObjectC", "isEnabled"]
+- ["So8NSObjectC", "jwEnabled"]
+- !private ["So8NSObjectC", "jwEnabledKey"]
+- !private ["So8NSObjectC", "objc_getAssociatedObject"]
+- !private ["So8NSObjectC", "objc_setAssociatedObject"]
+- !private ["So16NSObjectProtocolP", "UIColor"]
+- !private ["So16NSObjectProtocolP", "UIView"]
+- !private ["So16NSObjectProtocolP", "animate"]
+- !private ["So16NSObjectProtocolP", "backgroundColor"]
+- !private ["So16NSObjectProtocolP", "clear"]
+- !private ["So16NSObjectProtocolP", "disabledBackgroundColor"]
+- !private ["So16NSObjectProtocolP", "disabledBackgroundColorKey"]
+- !private ["So16NSObjectProtocolP", "enabledBackgroundColor"]
+- !private ["So16NSObjectProtocolP", "enabledBackgroundColorKey"]
+- !private ["So16NSObjectProtocolP", "isEnabled"]
+- !private ["So16NSObjectProtocolP", "jwEnabled"]
+- !private ["So16NSObjectProtocolP", "jwEnabledKey"]
+- !private ["So16NSObjectProtocolP", "objc_getAssociatedObject"]
+- !private ["So16NSObjectProtocolP", "objc_setAssociatedObject"]
+- !private ["So14NSSecureCodingP", "clear"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s16RawRepresentableP", "OBJC_ASSOCIATION_ASSIGN"]
+- !private ["s16RawRepresentableP", "OBJC_ASSOCIATION_RETAIN_NONATOMIC"]
+- ["s8SequenceP", "init"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "UIColor"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "UIView"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "backgroundColor"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "disabledBackgroundColor"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "disabledBackgroundColorKey"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "enabledBackgroundColor"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "enabledBackgroundColorKey"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "isEnabled"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "jwEnabled"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "jwEnabledKey"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "objc_getAssociatedObject"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "objc_setAssociatedObject"]
+- !private ["So29UIAccessibilityIdentificationP", "UIColor"]
+- !private ["So29UIAccessibilityIdentificationP", "UIView"]
+- !private ["So29UIAccessibilityIdentificationP", "animate"]
+- !private ["So29UIAccessibilityIdentificationP", "backgroundColor"]
+- !private ["So29UIAccessibilityIdentificationP", "disabledBackgroundColor"]
+- !private ["So29UIAccessibilityIdentificationP", "disabledBackgroundColorKey"]
+- !private ["So29UIAccessibilityIdentificationP", "enabledBackgroundColor"]
+- !private ["So29UIAccessibilityIdentificationP", "enabledBackgroundColorKey"]
+- !private ["So29UIAccessibilityIdentificationP", "isEnabled"]
+- !private ["So29UIAccessibilityIdentificationP", "jwEnabled"]
+- !private ["So29UIAccessibilityIdentificationP", "jwEnabledKey"]
+- !private ["So29UIAccessibilityIdentificationP", "objc_getAssociatedObject"]
+- !private ["So29UIAccessibilityIdentificationP", "objc_setAssociatedObject"]
+- !private ["So12UIAppearanceP", "UIColor"]
+- !private ["So12UIAppearanceP", "UIView"]
+- !private ["So12UIAppearanceP", "animate"]
+- !private ["So12UIAppearanceP", "backgroundColor"]
+- !private ["So12UIAppearanceP", "disabledBackgroundColor"]
+- !private ["So12UIAppearanceP", "disabledBackgroundColorKey"]
+- !private ["So12UIAppearanceP", "enabledBackgroundColor"]
+- !private ["So12UIAppearanceP", "enabledBackgroundColorKey"]
+- !private ["So12UIAppearanceP", "isEnabled"]
+- !private ["So12UIAppearanceP", "jwEnabled"]
+- !private ["So12UIAppearanceP", "jwEnabledKey"]
+- !private ["So12UIAppearanceP", "objc_getAssociatedObject"]
+- !private ["So12UIAppearanceP", "objc_setAssociatedObject"]
+- !private ["So21UIAppearanceContainerP", "UIColor"]
+- !private ["So21UIAppearanceContainerP", "UIView"]
+- !private ["So21UIAppearanceContainerP", "animate"]
+- !private ["So21UIAppearanceContainerP", "backgroundColor"]
+- !private ["So21UIAppearanceContainerP", "disabledBackgroundColor"]
+- !private ["So21UIAppearanceContainerP", "disabledBackgroundColorKey"]
+- !private ["So21UIAppearanceContainerP", "enabledBackgroundColor"]
+- !private ["So21UIAppearanceContainerP", "enabledBackgroundColorKey"]
+- !private ["So21UIAppearanceContainerP", "isEnabled"]
+- !private ["So21UIAppearanceContainerP", "jwEnabled"]
+- !private ["So21UIAppearanceContainerP", "jwEnabledKey"]
+- !private ["So21UIAppearanceContainerP", "objc_getAssociatedObject"]
+- !private ["So21UIAppearanceContainerP", "objc_setAssociatedObject"]
+- ["So8UIButtonC", "Bool"]
+- ["So8UIButtonC", "UIColor"]
+- !private ["So8UIButtonC", "UIView"]
+- !private ["So8UIButtonC", "Void"]
+- !private ["So8UIButtonC", "backgroundColor"]
+- ["So8UIButtonC", "disabledBackgroundColor"]
+- !private ["So8UIButtonC", "disabledBackgroundColorKey"]
+- ["So8UIButtonC", "enabledBackgroundColor"]
+- !private ["So8UIButtonC", "enabledBackgroundColorKey"]
+- !private ["So8UIButtonC", "isEnabled"]
+- ["So8UIButtonC", "jwEnabled"]
+- !private ["So8UIButtonC", "jwEnabledKey"]
+- !private ["So8UIButtonC", "objc_getAssociatedObject"]
+- !private ["So8UIButtonC", "objc_setAssociatedObject"]
+- !private ["So7UIColorC", "clear"]
+- ["So9UIControlC", "Bool"]
+- ["So9UIControlC", "UIColor"]
+- !private ["So9UIControlC", "UIView"]
+- !private ["So9UIControlC", "Void"]
+- !private ["So9UIControlC", "backgroundColor"]
+- ["So9UIControlC", "disabledBackgroundColor"]
+- !private ["So9UIControlC", "disabledBackgroundColorKey"]
+- ["So9UIControlC", "enabledBackgroundColor"]
+- !private ["So9UIControlC", "enabledBackgroundColorKey"]
+- !private ["So9UIControlC", "isEnabled"]
+- ["So9UIControlC", "jwEnabled"]
+- !private ["So9UIControlC", "jwEnabledKey"]
+- !private ["So9UIControlC", "objc_getAssociatedObject"]
+- !private ["So9UIControlC", "objc_setAssociatedObject"]
+- !private ["So17UICoordinateSpaceP", "UIColor"]
+- !private ["So17UICoordinateSpaceP", "UIView"]
+- !private ["So17UICoordinateSpaceP", "animate"]
+- !private ["So17UICoordinateSpaceP", "backgroundColor"]
+- !private ["So17UICoordinateSpaceP", "disabledBackgroundColor"]
+- !private ["So17UICoordinateSpaceP", "disabledBackgroundColorKey"]
+- !private ["So17UICoordinateSpaceP", "enabledBackgroundColor"]
+- !private ["So17UICoordinateSpaceP", "enabledBackgroundColorKey"]
+- !private ["So17UICoordinateSpaceP", "isEnabled"]
+- !private ["So17UICoordinateSpaceP", "jwEnabled"]
+- !private ["So17UICoordinateSpaceP", "jwEnabledKey"]
+- !private ["So17UICoordinateSpaceP", "objc_getAssociatedObject"]
+- !private ["So17UICoordinateSpaceP", "objc_setAssociatedObject"]
+- !private ["So13UIDynamicItemP", "UIColor"]
+- !private ["So13UIDynamicItemP", "UIView"]
+- !private ["So13UIDynamicItemP", "animate"]
+- !private ["So13UIDynamicItemP", "backgroundColor"]
+- !private ["So13UIDynamicItemP", "disabledBackgroundColor"]
+- !private ["So13UIDynamicItemP", "disabledBackgroundColorKey"]
+- !private ["So13UIDynamicItemP", "enabledBackgroundColor"]
+- !private ["So13UIDynamicItemP", "enabledBackgroundColorKey"]
+- !private ["So13UIDynamicItemP", "isEnabled"]
+- !private ["So13UIDynamicItemP", "jwEnabled"]
+- !private ["So13UIDynamicItemP", "jwEnabledKey"]
+- !private ["So13UIDynamicItemP", "objc_getAssociatedObject"]
+- !private ["So13UIDynamicItemP", "objc_setAssociatedObject"]
+- !private ["So18UIFocusEnvironmentP", "UIColor"]
+- !private ["So18UIFocusEnvironmentP", "UIView"]
+- !private ["So18UIFocusEnvironmentP", "animate"]
+- !private ["So18UIFocusEnvironmentP", "backgroundColor"]
+- !private ["So18UIFocusEnvironmentP", "disabledBackgroundColor"]
+- !private ["So18UIFocusEnvironmentP", "disabledBackgroundColorKey"]
+- !private ["So18UIFocusEnvironmentP", "enabledBackgroundColor"]
+- !private ["So18UIFocusEnvironmentP", "enabledBackgroundColorKey"]
+- !private ["So18UIFocusEnvironmentP", "isEnabled"]
+- !private ["So18UIFocusEnvironmentP", "jwEnabled"]
+- !private ["So18UIFocusEnvironmentP", "jwEnabledKey"]
+- !private ["So18UIFocusEnvironmentP", "objc_getAssociatedObject"]
+- !private ["So18UIFocusEnvironmentP", "objc_setAssociatedObject"]
+- !private ["So11UIFocusItemP", "UIColor"]
+- !private ["So11UIFocusItemP", "UIView"]
+- !private ["So11UIFocusItemP", "animate"]
+- !private ["So11UIFocusItemP", "backgroundColor"]
+- !private ["So11UIFocusItemP", "disabledBackgroundColor"]
+- !private ["So11UIFocusItemP", "disabledBackgroundColorKey"]
+- !private ["So11UIFocusItemP", "enabledBackgroundColor"]
+- !private ["So11UIFocusItemP", "enabledBackgroundColorKey"]
+- !private ["So11UIFocusItemP", "isEnabled"]
+- !private ["So11UIFocusItemP", "jwEnabled"]
+- !private ["So11UIFocusItemP", "jwEnabledKey"]
+- !private ["So11UIFocusItemP", "objc_getAssociatedObject"]
+- !private ["So11UIFocusItemP", "objc_setAssociatedObject"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIView"]
+- !private ["So30UIPasteConfigurationSupportingP", "animate"]
+- !private ["So30UIPasteConfigurationSupportingP", "backgroundColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "disabledBackgroundColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "disabledBackgroundColorKey"]
+- !private ["So30UIPasteConfigurationSupportingP", "enabledBackgroundColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "enabledBackgroundColorKey"]
+- !private ["So30UIPasteConfigurationSupportingP", "isEnabled"]
+- !private ["So30UIPasteConfigurationSupportingP", "jwEnabled"]
+- !private ["So30UIPasteConfigurationSupportingP", "jwEnabledKey"]
+- !private ["So30UIPasteConfigurationSupportingP", "objc_getAssociatedObject"]
+- !private ["So30UIPasteConfigurationSupportingP", "objc_setAssociatedObject"]
+- ["So11UIResponderC", "Bool"]
+- ["So11UIResponderC", "UIColor"]
+- !private ["So11UIResponderC", "UIView"]
+- !private ["So11UIResponderC", "Void"]
+- !private ["So11UIResponderC", "animate"]
+- !private ["So11UIResponderC", "backgroundColor"]
+- ["So11UIResponderC", "disabledBackgroundColor"]
+- !private ["So11UIResponderC", "disabledBackgroundColorKey"]
+- ["So11UIResponderC", "enabledBackgroundColor"]
+- !private ["So11UIResponderC", "enabledBackgroundColorKey"]
+- !private ["So11UIResponderC", "isEnabled"]
+- ["So11UIResponderC", "jwEnabled"]
+- !private ["So11UIResponderC", "jwEnabledKey"]
+- !private ["So11UIResponderC", "objc_getAssociatedObject"]
+- !private ["So11UIResponderC", "objc_setAssociatedObject"]
+- !private ["So30UIResponderStandardEditActionsP", "UIColor"]
+- !private ["So30UIResponderStandardEditActionsP", "UIView"]
+- !private ["So30UIResponderStandardEditActionsP", "animate"]
+- !private ["So30UIResponderStandardEditActionsP", "backgroundColor"]
+- !private ["So30UIResponderStandardEditActionsP", "disabledBackgroundColor"]
+- !private ["So30UIResponderStandardEditActionsP", "disabledBackgroundColorKey"]
+- !private ["So30UIResponderStandardEditActionsP", "enabledBackgroundColor"]
+- !private ["So30UIResponderStandardEditActionsP", "enabledBackgroundColorKey"]
+- !private ["So30UIResponderStandardEditActionsP", "isEnabled"]
+- !private ["So30UIResponderStandardEditActionsP", "jwEnabled"]
+- !private ["So30UIResponderStandardEditActionsP", "jwEnabledKey"]
+- !private ["So30UIResponderStandardEditActionsP", "objc_getAssociatedObject"]
+- !private ["So30UIResponderStandardEditActionsP", "objc_setAssociatedObject"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "UIColor"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "UIView"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "backgroundColor"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "disabledBackgroundColor"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "disabledBackgroundColorKey"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "enabledBackgroundColor"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "enabledBackgroundColorKey"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "isEnabled"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "jwEnabled"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "jwEnabledKey"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "objc_getAssociatedObject"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "objc_setAssociatedObject"]
+- !private ["So18UITraitEnvironmentP", "UIColor"]
+- !private ["So18UITraitEnvironmentP", "UIView"]
+- !private ["So18UITraitEnvironmentP", "animate"]
+- !private ["So18UITraitEnvironmentP", "backgroundColor"]
+- !private ["So18UITraitEnvironmentP", "disabledBackgroundColor"]
+- !private ["So18UITraitEnvironmentP", "disabledBackgroundColorKey"]
+- !private ["So18UITraitEnvironmentP", "enabledBackgroundColor"]
+- !private ["So18UITraitEnvironmentP", "enabledBackgroundColorKey"]
+- !private ["So18UITraitEnvironmentP", "isEnabled"]
+- !private ["So18UITraitEnvironmentP", "jwEnabled"]
+- !private ["So18UITraitEnvironmentP", "jwEnabledKey"]
+- !private ["So18UITraitEnvironmentP", "objc_getAssociatedObject"]
+- !private ["So18UITraitEnvironmentP", "objc_setAssociatedObject"]
+- ["So6UIViewC", "Bool"]
+- ["So6UIViewC", "UIColor"]
+- !private ["So6UIViewC", "UIView"]
+- !private ["So6UIViewC", "Void"]
+- !private ["So6UIViewC", "animate"]
+- !private ["So6UIViewC", "backgroundColor"]
+- ["So6UIViewC", "disabledBackgroundColor"]
+- !private ["So6UIViewC", "disabledBackgroundColorKey"]
+- ["So6UIViewC", "enabledBackgroundColor"]
+- !private ["So6UIViewC", "enabledBackgroundColorKey"]
+- !private ["So6UIViewC", "isEnabled"]
+- ["So6UIViewC", "jwEnabled"]
+- !private ["So6UIViewC", "jwEnabledKey"]
+- !private ["So6UIViewC", "objc_getAssociatedObject"]
+- !private ["So6UIViewC", "objc_setAssociatedObject"]
+- ["9Alamofire14URLConvertibleP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "UIColor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "UIView"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "animate"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "backgroundColor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "disabledBackgroundColor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "disabledBackgroundColorKey"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "enabledBackgroundColor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "enabledBackgroundColorKey"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "isEnabled"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "jwEnabled"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "jwEnabledKey"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "objc_getAssociatedObject"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "objc_setAssociatedObject"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s26_ExpressibleByColorLiteralP", "clear"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "animate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "backgroundColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "clear"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "disabledBackgroundColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "disabledBackgroundColorKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "enabledBackgroundColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "enabledBackgroundColorKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isEnabled"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "jwEnabled"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "jwEnabledKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "objc_getAssociatedObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "objc_setAssociatedObject"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+- !private ["SC22objc_AssociationPolicyO", "OBJC_ASSOCIATION_ASSIGN"]
+- !private ["SC22objc_AssociationPolicyO", "OBJC_ASSOCIATION_RETAIN_NONATOMIC"]
+depends-nominal:
+- "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- "s8SequenceP"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- "So8UIButtonC"
+- !private "So7UIColorC"
+- "So9UIControlC"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- !private "So18UITraitEnvironmentP"
+- "So6UIViewC"
+- "9Alamofire14URLConvertibleP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByColorLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+- !private "SC22objc_AssociationPolicyO"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/Neoutils.framework/Headers/Universe.objc.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/Neoutils.framework/Headers/Neoutils.objc.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/Neoutils.framework/Headers/ref.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/Neoutils.framework/Headers/Neoutils.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/CommonCrypto/module.modulemap"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/Neoutils.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LocalAuthentication.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "7a28b7c2c7ac7385069e93675dfacdb4"

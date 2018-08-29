@@ -1,0 +1,369 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "EVObject"
+provides-nominal:
+- "12EVReflection8EVObjectC"
+provides-member:
+- ["12EVReflection8EVObjectC", ""]
+provides-dynamic-lookup:
+- "customConverter"
+- "debugDescription"
+- "decodePropertyValue"
+- "description"
+- "encode"
+- "encodePropertyValue"
+- "initValidation"
+- "isEqual"
+- "setValue"
+- "skipPropertyValue"
+depends-top-level:
+- "!="
+- "=="
+- "AnyObject"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- !private "EVGenericsKVC"
+- "EVObject"
+- "EVReflectable"
+- !private "EVReflection"
+- "NSCoder"
+- "NSCoding"
+- "NSDictionary"
+- "NSObject"
+- "String"
+- !private "StringLiteralType"
+- !private "UnicodeScalarType"
+- !private "evPrint"
+depends-member:
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s7CVarArgP", "EVReflection"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "addStatusMessage"]
+- ["s7CVarArgP", "customConverter"]
+- ["s7CVarArgP", "decodePropertyValue"]
+- ["s7CVarArgP", "encode"]
+- ["s7CVarArgP", "encodePropertyValue"]
+- ["s7CVarArgP", "encodeWithCoder"]
+- !private ["s7CVarArgP", "evPrint"]
+- ["s7CVarArgP", "evReflectionStatuses"]
+- ["s7CVarArgP", "getSpecificType"]
+- ["s7CVarArgP", "getType"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "initValidation"]
+- ["s7CVarArgP", "propertyConverters"]
+- ["s7CVarArgP", "propertyMapping"]
+- ["s7CVarArgP", "skipPropertyValue"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["12EVReflection17ConversionOptionsV", "DefaultNSCoding"]
+- !private ["s28CustomDebugStringConvertibleP", "EVReflection"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addStatusMessage"]
+- ["s28CustomDebugStringConvertibleP", "customConverter"]
+- ["s28CustomDebugStringConvertibleP", "decodePropertyValue"]
+- ["s28CustomDebugStringConvertibleP", "encode"]
+- ["s28CustomDebugStringConvertibleP", "encodePropertyValue"]
+- ["s28CustomDebugStringConvertibleP", "encodeWithCoder"]
+- !private ["s28CustomDebugStringConvertibleP", "evPrint"]
+- ["s28CustomDebugStringConvertibleP", "evReflectionStatuses"]
+- ["s28CustomDebugStringConvertibleP", "getSpecificType"]
+- ["s28CustomDebugStringConvertibleP", "getType"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "initValidation"]
+- ["s28CustomDebugStringConvertibleP", "propertyConverters"]
+- ["s28CustomDebugStringConvertibleP", "propertyMapping"]
+- ["s28CustomDebugStringConvertibleP", "skipPropertyValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "DefaultNSCoding"]
+- !private ["s23CustomStringConvertibleP", "EVReflection"]
+- !private ["s23CustomStringConvertibleP", "IncorrectKey"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "addStatusMessage"]
+- ["s23CustomStringConvertibleP", "customConverter"]
+- ["s23CustomStringConvertibleP", "decodePropertyValue"]
+- ["s23CustomStringConvertibleP", "encode"]
+- ["s23CustomStringConvertibleP", "encodePropertyValue"]
+- ["s23CustomStringConvertibleP", "encodeWithCoder"]
+- !private ["s23CustomStringConvertibleP", "evPrint"]
+- ["s23CustomStringConvertibleP", "evReflectionStatuses"]
+- ["s23CustomStringConvertibleP", "getSpecificType"]
+- ["s23CustomStringConvertibleP", "getType"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "initValidation"]
+- ["s23CustomStringConvertibleP", "propertyConverters"]
+- ["s23CustomStringConvertibleP", "propertyMapping"]
+- ["s23CustomStringConvertibleP", "skipPropertyValue"]
+- !private ["s9DecodableP", "init"]
+- !private ["12EVReflection21DeserializationStatusV", "IncorrectKey"]
+- !private ["12EVReflection13EVGenericsKVCP", "setGenericValue"]
+- ["12EVReflection8EVObjectC", "AnyObject"]
+- ["12EVReflection8EVObjectC", "Bool"]
+- !private ["12EVReflection8EVObjectC", "EVGenericsKVC"]
+- !private ["12EVReflection8EVObjectC", "EVObject"]
+- ["12EVReflection8EVObjectC", "EVReflectable"]
+- !private ["12EVReflection8EVObjectC", "EVReflection"]
+- ["12EVReflection8EVObjectC", "NSCoder"]
+- ["12EVReflection8EVObjectC", "NSDictionary"]
+- ["12EVReflection8EVObjectC", "String"]
+- !private ["12EVReflection8EVObjectC", "addStatusMessage"]
+- ["12EVReflection8EVObjectC", "customConverter"]
+- ["12EVReflection8EVObjectC", "debugDescription"]
+- ["12EVReflection8EVObjectC", "decodePropertyValue"]
+- ["12EVReflection8EVObjectC", "deinit"]
+- ["12EVReflection8EVObjectC", "description"]
+- ["12EVReflection8EVObjectC", "encode"]
+- ["12EVReflection8EVObjectC", "encodePropertyValue"]
+- ["12EVReflection8EVObjectC", "encodeWithCoder"]
+- !private ["12EVReflection8EVObjectC", "evPrint"]
+- ["12EVReflection8EVObjectC", "evReflectionStatuses"]
+- ["12EVReflection8EVObjectC", "getSpecificType"]
+- ["12EVReflection8EVObjectC", "getType"]
+- ["12EVReflection8EVObjectC", "init"]
+- ["12EVReflection8EVObjectC", "initValidation"]
+- ["12EVReflection8EVObjectC", "isEqual"]
+- ["12EVReflection8EVObjectC", "propertyConverters"]
+- ["12EVReflection8EVObjectC", "propertyMapping"]
+- ["12EVReflection8EVObjectC", "setValue"]
+- ["12EVReflection8EVObjectC", "skipPropertyValue"]
+- !private ["12EVReflection13EVReflectableP", "EVReflection"]
+- ["12EVReflection13EVReflectableP", ""]
+- !private ["12EVReflection13EVReflectableP", "addStatusMessage"]
+- ["12EVReflection13EVReflectableP", "customConverter"]
+- ["12EVReflection13EVReflectableP", "decodePropertyValue"]
+- ["12EVReflection13EVReflectableP", "encode"]
+- ["12EVReflection13EVReflectableP", "encodePropertyValue"]
+- ["12EVReflection13EVReflectableP", "encodeWithCoder"]
+- !private ["12EVReflection13EVReflectableP", "evPrint"]
+- ["12EVReflection13EVReflectableP", "evReflectionStatuses"]
+- ["12EVReflection13EVReflectableP", "getSpecificType"]
+- ["12EVReflection13EVReflectableP", "getType"]
+- ["12EVReflection13EVReflectableP", "init"]
+- ["12EVReflection13EVReflectableP", "initValidation"]
+- ["12EVReflection13EVReflectableP", "propertyConverters"]
+- ["12EVReflection13EVReflectableP", "propertyMapping"]
+- ["12EVReflection13EVReflectableP", "skipPropertyValue"]
+- !private ["12EVReflectionAAC", "areEqual"]
+- !private ["12EVReflectionAAC", "decodeObjectWithCoder"]
+- !private ["12EVReflectionAAC", "description"]
+- !private ["12EVReflectionAAC", "encodeWithCoder"]
+- !private ["12EVReflectionAAC", "swiftStringFromClass"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "DefaultNSCoding"]
+- !private ["s9EquatableP", "EVReflection"]
+- !private ["s9EquatableP", "IncorrectKey"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "addStatusMessage"]
+- ["s9EquatableP", "customConverter"]
+- ["s9EquatableP", "decodePropertyValue"]
+- ["s9EquatableP", "encode"]
+- ["s9EquatableP", "encodePropertyValue"]
+- ["s9EquatableP", "encodeWithCoder"]
+- !private ["s9EquatableP", "evPrint"]
+- ["s9EquatableP", "evReflectionStatuses"]
+- ["s9EquatableP", "getSpecificType"]
+- ["s9EquatableP", "getType"]
+- ["s9EquatableP", "init"]
+- ["s9EquatableP", "initValidation"]
+- ["s9EquatableP", "propertyConverters"]
+- ["s9EquatableP", "propertyMapping"]
+- ["s9EquatableP", "skipPropertyValue"]
+- !private ["s25ExpressibleByArrayLiteralP", "DefaultNSCoding"]
+- !private ["s25ExpressibleByArrayLiteralP", "IncorrectKey"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "EVReflection"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "addStatusMessage"]
+- ["s8HashableP", "customConverter"]
+- ["s8HashableP", "decodePropertyValue"]
+- ["s8HashableP", "encode"]
+- ["s8HashableP", "encodePropertyValue"]
+- ["s8HashableP", "encodeWithCoder"]
+- !private ["s8HashableP", "evPrint"]
+- ["s8HashableP", "evReflectionStatuses"]
+- ["s8HashableP", "getSpecificType"]
+- ["s8HashableP", "getType"]
+- ["s8HashableP", "init"]
+- ["s8HashableP", "initValidation"]
+- ["s8HashableP", "propertyConverters"]
+- ["s8HashableP", "propertyMapping"]
+- ["s8HashableP", "skipPropertyValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "EVReflection"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "addStatusMessage"]
+- ["So8NSCodingP", "customConverter"]
+- ["So8NSCodingP", "decodePropertyValue"]
+- ["So8NSCodingP", "encode"]
+- ["So8NSCodingP", "encodePropertyValue"]
+- ["So8NSCodingP", "encodeWithCoder"]
+- !private ["So8NSCodingP", "evPrint"]
+- ["So8NSCodingP", "evReflectionStatuses"]
+- ["So8NSCodingP", "getSpecificType"]
+- ["So8NSCodingP", "getType"]
+- ["So8NSCodingP", "init"]
+- ["So8NSCodingP", "initValidation"]
+- ["So8NSCodingP", "propertyConverters"]
+- ["So8NSCodingP", "propertyMapping"]
+- ["So8NSCodingP", "skipPropertyValue"]
+- ["So8NSObjectC", "AnyObject"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "EVGenericsKVC"]
+- !private ["So8NSObjectC", "EVObject"]
+- ["So8NSObjectC", "EVReflectable"]
+- !private ["So8NSObjectC", "EVReflection"]
+- ["So8NSObjectC", "NSCoder"]
+- ["So8NSObjectC", "NSDictionary"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "addStatusMessage"]
+- ["So8NSObjectC", "customConverter"]
+- ["So8NSObjectC", "debugDescription"]
+- ["So8NSObjectC", "decodePropertyValue"]
+- ["So8NSObjectC", "description"]
+- ["So8NSObjectC", "encode"]
+- ["So8NSObjectC", "encodePropertyValue"]
+- ["So8NSObjectC", "encodeWithCoder"]
+- !private ["So8NSObjectC", "evPrint"]
+- ["So8NSObjectC", "evReflectionStatuses"]
+- ["So8NSObjectC", "getSpecificType"]
+- ["So8NSObjectC", "getType"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "initValidation"]
+- ["So8NSObjectC", "isEqual"]
+- ["So8NSObjectC", "propertyConverters"]
+- ["So8NSObjectC", "propertyMapping"]
+- ["So8NSObjectC", "setValue"]
+- ["So8NSObjectC", "skipPropertyValue"]
+- !private ["So16NSObjectProtocolP", "EVReflection"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "addStatusMessage"]
+- ["So16NSObjectProtocolP", "customConverter"]
+- ["So16NSObjectProtocolP", "decodePropertyValue"]
+- ["So16NSObjectProtocolP", "encode"]
+- ["So16NSObjectProtocolP", "encodePropertyValue"]
+- ["So16NSObjectProtocolP", "encodeWithCoder"]
+- !private ["So16NSObjectProtocolP", "evPrint"]
+- ["So16NSObjectProtocolP", "evReflectionStatuses"]
+- ["So16NSObjectProtocolP", "getSpecificType"]
+- ["So16NSObjectProtocolP", "getType"]
+- ["So16NSObjectProtocolP", "init"]
+- ["So16NSObjectProtocolP", "initValidation"]
+- ["So16NSObjectProtocolP", "propertyConverters"]
+- ["So16NSObjectProtocolP", "propertyMapping"]
+- ["So16NSObjectProtocolP", "skipPropertyValue"]
+- !private ["s9OptionSetP", "DefaultNSCoding"]
+- !private ["s9OptionSetP", "IncorrectKey"]
+- !private ["12EVReflection12PrintOptionsV", "IncorrectKey"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s16RawRepresentableP", "DefaultNSCoding"]
+- !private ["s16RawRepresentableP", "IncorrectKey"]
+- !private ["s8SequenceP", "init"]
+- !private ["s10SetAlgebraP", "DefaultNSCoding"]
+- !private ["s10SetAlgebraP", "IncorrectKey"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "EVReflection"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addStatusMessage"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "customConverter"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "decodePropertyValue"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "encode"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "encodePropertyValue"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "encodeWithCoder"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "evPrint"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "evReflectionStatuses"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "getSpecificType"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "getType"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "initValidation"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "propertyConverters"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "propertyMapping"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "skipPropertyValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "s23BidirectionalCollectionP"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "12EVReflection17ConversionOptionsV"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "12EVReflection21DeserializationStatusV"
+- !private "12EVReflection13EVGenericsKVCP"
+- "12EVReflection8EVObjectC"
+- "12EVReflection13EVReflectableP"
+- !private "12EVReflectionAAC"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "s9OptionSetP"
+- !private "12EVReflection12PrintOptionsV"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "s8SequenceP"
+- !private "s10SetAlgebraP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Pods/Target Support Files/EVReflection/EVReflection-umbrella.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Intermediates.noindex/IBDesignables/Intermediates.noindex/Pods.build/Debug-iphonesimulator/EVReflection.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "c44aa023afb96d7227b839eb9bfd96d3"

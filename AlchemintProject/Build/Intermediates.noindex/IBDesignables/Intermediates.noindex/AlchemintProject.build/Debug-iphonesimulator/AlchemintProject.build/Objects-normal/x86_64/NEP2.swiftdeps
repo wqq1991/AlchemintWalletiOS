@@ -1,0 +1,305 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "NEP2"
+provides-nominal:
+- "16AlchemintProject4NEP2C"
+provides-member:
+- ["16AlchemintProject4NEP2C", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "+"
+- !private "..<"
+- !private "=="
+- !private "AES"
+- !private "Array"
+- "Bool"
+- !private "BooleanLiteralType"
+- "NEP2"
+- "String"
+- "UInt8"
+- !private "scrypt"
+depends-member:
+- !private ["16AlchemintProject3AESV", "KeySize"]
+- !private ["16AlchemintProject3AESV", "decrypt"]
+- !private ["16AlchemintProject3AESV", "encrypt"]
+- !private ["Sa", "base58CheckEncodedString"]
+- !private ["Sa", "init"]
+- !private ["Sa", "sha256"]
+- !private ["Sa", "subscript"]
+- !private ["Sa", "xor"]
+- !private ["s23BidirectionalCollectionP", "base58CheckDecodedBytes"]
+- !private ["s23BidirectionalCollectionP", "base58CheckEncodedString"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "sha256"]
+- !private ["s23BidirectionalCollectionP", "subscript"]
+- !private ["s23BidirectionalCollectionP", "utf8"]
+- !private ["s23BidirectionalCollectionP", "xor"]
+- !private ["s7CVarArgP", "base58CheckDecodedBytes"]
+- !private ["s7CVarArgP", "base58CheckEncodedString"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "sha256"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "utf8"]
+- !private ["s7CVarArgP", "xor"]
+- !private ["s10CollectionP", "base58CheckDecodedBytes"]
+- !private ["s10CollectionP", "base58CheckEncodedString"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "sha256"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10CollectionP", "utf8"]
+- !private ["s10CollectionP", "xor"]
+- !private ["s10ComparableP", "base58CheckDecodedBytes"]
+- !private ["s10ComparableP", "utf8"]
+- !private ["s28CustomDebugStringConvertibleP", "base58CheckDecodedBytes"]
+- !private ["s28CustomDebugStringConvertibleP", "base58CheckEncodedString"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "sha256"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "utf8"]
+- !private ["s28CustomDebugStringConvertibleP", "xor"]
+- !private ["s29CustomPlaygroundQuickLookableP", "base58CheckDecodedBytes"]
+- !private ["s29CustomPlaygroundQuickLookableP", "utf8"]
+- !private ["s17CustomReflectableP", "base58CheckDecodedBytes"]
+- !private ["s17CustomReflectableP", "base58CheckEncodedString"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "sha256"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "utf8"]
+- !private ["s17CustomReflectableP", "xor"]
+- !private ["s23CustomStringConvertibleP", "base58CheckDecodedBytes"]
+- !private ["s23CustomStringConvertibleP", "base58CheckEncodedString"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "sha256"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "utf8"]
+- !private ["s23CustomStringConvertibleP", "xor"]
+- !private ["s9DecodableP", "base58CheckDecodedBytes"]
+- !private ["s9DecodableP", "base58CheckEncodedString"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "sha256"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s9DecodableP", "utf8"]
+- !private ["s9DecodableP", "xor"]
+- !private ["s9EncodableP", "base58CheckDecodedBytes"]
+- !private ["s9EncodableP", "base58CheckEncodedString"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "sha256"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EncodableP", "utf8"]
+- !private ["s9EncodableP", "xor"]
+- !private ["s9EquatableP", "base58CheckDecodedBytes"]
+- !private ["s9EquatableP", "base58CheckEncodedString"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "keySize256"]
+- !private ["s9EquatableP", "sha256"]
+- !private ["s9EquatableP", "subscript"]
+- !private ["s9EquatableP", "utf8"]
+- !private ["s9EquatableP", "xor"]
+- !private ["s25ExpressibleByArrayLiteralP", "base58CheckEncodedString"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "sha256"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "xor"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "base58CheckDecodedBytes"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "utf8"]
+- !private ["s26ExpressibleByStringLiteralP", "base58CheckDecodedBytes"]
+- !private ["s26ExpressibleByStringLiteralP", "utf8"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "base58CheckDecodedBytes"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "utf8"]
+- !private ["s8HashableP", "base58CheckDecodedBytes"]
+- !private ["s8HashableP", "keySize256"]
+- !private ["s8HashableP", "utf8"]
+- !private ["16AlchemintProject3AESV7KeySizeO", "keySize256"]
+- !private ["s25LosslessStringConvertibleP", "base58CheckDecodedBytes"]
+- !private ["s25LosslessStringConvertibleP", "utf8"]
+- !private ["s10MirrorPathP", "base58CheckDecodedBytes"]
+- !private ["s10MirrorPathP", "utf8"]
+- !private ["s17MutableCollectionP", "base58CheckEncodedString"]
+- !private ["s17MutableCollectionP", "init"]
+- !private ["s17MutableCollectionP", "sha256"]
+- !private ["s17MutableCollectionP", "subscript"]
+- !private ["s17MutableCollectionP", "xor"]
+- !private ["16AlchemintProject4NEP2C", "AES"]
+- ["16AlchemintProject4NEP2C", "Bool"]
+- ["16AlchemintProject4NEP2C", "String"]
+- ["16AlchemintProject4NEP2C", "UInt8"]
+- ["16AlchemintProject4NEP2C", "decryptKey"]
+- ["16AlchemintProject4NEP2C", "deinit"]
+- ["16AlchemintProject4NEP2C", "encryptKey"]
+- ["16AlchemintProject4NEP2C", "init"]
+- !private ["16AlchemintProject4NEP2C", "scrypt"]
+- ["16AlchemintProject4NEP2C", "verify"]
+- !private ["So8NSCodingP", "base58CheckDecodedBytes"]
+- !private ["So8NSCodingP", "utf8"]
+- !private ["So9NSCopyingP", "base58CheckDecodedBytes"]
+- !private ["So9NSCopyingP", "utf8"]
+- !private ["So21NSItemProviderReadingP", "base58CheckDecodedBytes"]
+- !private ["So21NSItemProviderReadingP", "utf8"]
+- !private ["So21NSItemProviderWritingP", "base58CheckDecodedBytes"]
+- !private ["So21NSItemProviderWritingP", "utf8"]
+- !private ["So16NSMutableCopyingP", "base58CheckDecodedBytes"]
+- !private ["So16NSMutableCopyingP", "utf8"]
+- !private ["So8NSObjectC", "base58CheckDecodedBytes"]
+- !private ["So8NSObjectC", "utf8"]
+- !private ["So16NSObjectProtocolP", "base58CheckDecodedBytes"]
+- !private ["So16NSObjectProtocolP", "utf8"]
+- !private ["So14NSSecureCodingP", "base58CheckDecodedBytes"]
+- !private ["So14NSSecureCodingP", "utf8"]
+- !private ["So8NSStringC", "base58CheckDecodedBytes"]
+- !private ["So8NSStringC", "utf8"]
+- !private ["s22RandomAccessCollectionP", "base58CheckEncodedString"]
+- !private ["s22RandomAccessCollectionP", "init"]
+- !private ["s22RandomAccessCollectionP", "sha256"]
+- !private ["s22RandomAccessCollectionP", "subscript"]
+- !private ["s22RandomAccessCollectionP", "xor"]
+- !private ["s26RangeReplaceableCollectionP", "base58CheckDecodedBytes"]
+- !private ["s26RangeReplaceableCollectionP", "base58CheckEncodedString"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "sha256"]
+- !private ["s26RangeReplaceableCollectionP", "subscript"]
+- !private ["s26RangeReplaceableCollectionP", "utf8"]
+- !private ["s26RangeReplaceableCollectionP", "xor"]
+- !private ["s16RawRepresentableP", "keySize256"]
+- !private ["s8SequenceP", "base58CheckDecodedBytes"]
+- !private ["s8SequenceP", "base58CheckEncodedString"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "sha256"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["s8SequenceP", "utf8"]
+- !private ["s8SequenceP", "xor"]
+- !private ["SS", "base58CheckDecodedBytes"]
+- !private ["SS", "utf8"]
+- !private ["s14StringProtocolP", "base58CheckDecodedBytes"]
+- !private ["s14StringProtocolP", "utf8"]
+- !private ["s16TextOutputStreamP", "base58CheckDecodedBytes"]
+- !private ["s16TextOutputStreamP", "utf8"]
+- !private ["s20TextOutputStreamableP", "base58CheckDecodedBytes"]
+- !private ["s20TextOutputStreamableP", "utf8"]
+- !private ["9Alamofire14URLConvertibleP", "base58CheckDecodedBytes"]
+- !private ["9Alamofire14URLConvertibleP", "utf8"]
+- !private ["s14_ArrayProtocolP", "base58CheckEncodedString"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "sha256"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s14_ArrayProtocolP", "xor"]
+- !private ["s24_DestructorSafeContainerP", "base58CheckEncodedString"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "sha256"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "xor"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "base58CheckDecodedBytes"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "utf8"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "base58CheckDecodedBytes"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "utf8"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "base58CheckDecodedBytes"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "utf8"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "base58CheckDecodedBytes"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "utf8"]
+- !private ["s33_ExpressibleByStringInterpolationP", "base58CheckDecodedBytes"]
+- !private ["s33_ExpressibleByStringInterpolationP", "utf8"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "base58CheckDecodedBytes"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "utf8"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "base58CheckDecodedBytes"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "utf8"]
+- !private ["s21_ObjectiveCBridgeableP", "base58CheckDecodedBytes"]
+- !private ["s21_ObjectiveCBridgeableP", "base58CheckEncodedString"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "sha256"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "utf8"]
+- !private ["s21_ObjectiveCBridgeableP", "xor"]
+- !private ["s16_SwiftStringViewP", "base58CheckDecodedBytes"]
+- !private ["s16_SwiftStringViewP", "utf8"]
+- !private ["16AlchemintProject6scryptC", "init"]
+- !private ["16AlchemintProject6scryptC", "scrypt"]
+depends-nominal:
+- !private "16AlchemintProject3AESV"
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- !private "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s8HashableP"
+- !private "16AlchemintProject3AESV7KeySizeO"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- "16AlchemintProject4NEP2C"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "s8SequenceP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "9Alamofire14URLConvertibleP"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+- !private "16AlchemintProject6scryptC"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/Neoutils.framework/Headers/Universe.objc.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/Neoutils.framework/Headers/Neoutils.objc.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/Neoutils.framework/Headers/ref.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/Neoutils.framework/Headers/Neoutils.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/CommonCrypto/module.modulemap"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/Neoutils.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LocalAuthentication.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "cb4080efff59363c1814bb983253a390"

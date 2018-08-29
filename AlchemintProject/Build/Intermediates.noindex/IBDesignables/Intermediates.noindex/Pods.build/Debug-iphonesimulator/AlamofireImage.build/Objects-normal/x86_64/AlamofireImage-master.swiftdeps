@@ -1,0 +1,13 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "070fb318bb6d51f78fe84ca19e24fd83"
+build_time: [1535540426, 423492000]
+inputs:
+  "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Pods/AlamofireImage/Source/AFIError.swift": [1535509471, 0]
+  "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Pods/AlamofireImage/Source/Image.swift": [1535509471, 0]
+  "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Pods/AlamofireImage/Source/ImageCache.swift": [1535509471, 0]
+  "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Pods/AlamofireImage/Source/ImageDownloader.swift": [1535509471, 0]
+  "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Pods/AlamofireImage/Source/ImageFilter.swift": [1535509471, 0]
+  "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Pods/AlamofireImage/Source/Request+AlamofireImage.swift": [1535509471, 0]
+  "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Pods/AlamofireImage/Source/UIButton+AlamofireImage.swift": [1535509471, 0]
+  "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Pods/AlamofireImage/Source/UIImage+AlamofireImage.swift": [1535509471, 0]
+  "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Pods/AlamofireImage/Source/UIImageView+AlamofireImage.swift": [1535509471, 0]

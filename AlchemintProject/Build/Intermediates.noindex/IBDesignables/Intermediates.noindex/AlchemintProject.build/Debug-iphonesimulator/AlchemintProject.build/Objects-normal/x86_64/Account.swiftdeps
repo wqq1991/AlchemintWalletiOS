@@ -1,0 +1,785 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Account"
+provides-nominal:
+- "16AlchemintProject7AccountC"
+provides-member:
+- ["16AlchemintProject7AccountC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "*"
+- !private "+"
+- !private "-"
+- !private "..<"
+- !private "<"
+- !private "=="
+- "Account"
+- !private "Array"
+- "AssetId"
+- "Assets"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "Claimable"
+- "Data"
+- "Decimal"
+- "Double"
+- "Error"
+- "Float64"
+- !private "Int"
+- !private "NEP2"
+- !private "NSDecimalNumber"
+- !private "NSError"
+- "NeoClient"
+- "NeoClientResult"
+- !private "NeoutilsDecrypt"
+- !private "NeoutilsEncrypt"
+- !private "NeoutilsGenerateFromPrivateKey"
+- !private "NeoutilsGenerateFromWIF"
+- !private "NeoutilsMintTokensRawTransactionMobile"
+- !private "NeoutilsSign"
+- !private "ScriptBuilder"
+- !private "SecRandomCopyBytes"
+- "String"
+- !private "StringLiteralType"
+- "TransactionAttritbute"
+- !private "UInt16"
+- !private "UInt64"
+- "UInt8"
+- !private "UTXO"
+- "Void"
+- !private "errSecSuccess"
+- !private "fatalError"
+- !private "kSecRandomDefault"
+- !private "pow"
+- !private "print"
+- !private "round"
+- !private "toByteArray"
+depends-member:
+- ["16AlchemintProject7AccountC", "AssetId"]
+- ["16AlchemintProject7AccountC", "Assets"]
+- ["16AlchemintProject7AccountC", "Bool"]
+- ["16AlchemintProject7AccountC", "Claimable"]
+- ["16AlchemintProject7AccountC", "Data"]
+- ["16AlchemintProject7AccountC", "Decimal"]
+- ["16AlchemintProject7AccountC", "Double"]
+- ["16AlchemintProject7AccountC", "Error"]
+- ["16AlchemintProject7AccountC", "Float64"]
+- !private ["16AlchemintProject7AccountC", "Int"]
+- !private ["16AlchemintProject7AccountC", "NEP2"]
+- !private ["16AlchemintProject7AccountC", "NSDecimalNumber"]
+- !private ["16AlchemintProject7AccountC", "NSError"]
+- ["16AlchemintProject7AccountC", "NeoClient"]
+- ["16AlchemintProject7AccountC", "NeoClientResult"]
+- !private ["16AlchemintProject7AccountC", "NeoutilsDecrypt"]
+- !private ["16AlchemintProject7AccountC", "NeoutilsEncrypt"]
+- !private ["16AlchemintProject7AccountC", "NeoutilsGenerateFromPrivateKey"]
+- !private ["16AlchemintProject7AccountC", "NeoutilsGenerateFromWIF"]
+- !private ["16AlchemintProject7AccountC", "NeoutilsMintTokensRawTransactionMobile"]
+- !private ["16AlchemintProject7AccountC", "NeoutilsSign"]
+- !private ["16AlchemintProject7AccountC", "ScriptBuilder"]
+- !private ["16AlchemintProject7AccountC", "SecRandomCopyBytes"]
+- ["16AlchemintProject7AccountC", "String"]
+- ["16AlchemintProject7AccountC", "TransactionAttritbute"]
+- !private ["16AlchemintProject7AccountC", "UInt16"]
+- !private ["16AlchemintProject7AccountC", "UInt64"]
+- ["16AlchemintProject7AccountC", "UInt8"]
+- !private ["16AlchemintProject7AccountC", "UTXO"]
+- ["16AlchemintProject7AccountC", "Void"]
+- ["16AlchemintProject7AccountC", "address"]
+- ["16AlchemintProject7AccountC", "allowToParticipateInTokenSale"]
+- !private ["16AlchemintProject7AccountC", "buildNEP5TransferScript"]
+- ["16AlchemintProject7AccountC", "claimGas"]
+- ["16AlchemintProject7AccountC", "concatenatePayloadData"]
+- ["16AlchemintProject7AccountC", "createSharedSecret"]
+- ["16AlchemintProject7AccountC", "decryptString"]
+- ["16AlchemintProject7AccountC", "deinit"]
+- ["16AlchemintProject7AccountC", "encryptString"]
+- !private ["16AlchemintProject7AccountC", "errSecSuccess"]
+- ["16AlchemintProject7AccountC", "exportEncryptedKey"]
+- !private ["16AlchemintProject7AccountC", "fatalError"]
+- ["16AlchemintProject7AccountC", "generateClaimInputData"]
+- ["16AlchemintProject7AccountC", "generateClaimTransactionPayload"]
+- !private ["16AlchemintProject7AccountC", "generateInvokeTransactionPayload"]
+- ["16AlchemintProject7AccountC", "generateSendTransactionPayload"]
+- ["16AlchemintProject7AccountC", "getBalance"]
+- ["16AlchemintProject7AccountC", "getInputsNecessaryToSendAsset"]
+- ["16AlchemintProject7AccountC", "hashedSignature"]
+- ["16AlchemintProject7AccountC", "init"]
+- ["16AlchemintProject7AccountC", "invokeContractFunction"]
+- !private ["16AlchemintProject7AccountC", "kSecRandomDefault"]
+- ["16AlchemintProject7AccountC", "neoClient"]
+- ["16AlchemintProject7AccountC", "packRawTransactionBytes"]
+- ["16AlchemintProject7AccountC", "participateTokenSales"]
+- !private ["16AlchemintProject7AccountC", "pow"]
+- !private ["16AlchemintProject7AccountC", "print"]
+- ["16AlchemintProject7AccountC", "privateKey"]
+- ["16AlchemintProject7AccountC", "privateKeyString"]
+- !private ["16AlchemintProject7AccountC", "privateKeyString.storage"]
+- ["16AlchemintProject7AccountC", "publicKey"]
+- ["16AlchemintProject7AccountC", "publicKeyString"]
+- !private ["16AlchemintProject7AccountC", "publicKeyString.storage"]
+- !private ["16AlchemintProject7AccountC", "round"]
+- ["16AlchemintProject7AccountC", "sendAssetTransaction"]
+- ["16AlchemintProject7AccountC", "sendNep5Token"]
+- !private ["16AlchemintProject7AccountC", "toByteArray"]
+- ["16AlchemintProject7AccountC", "wif"]
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- !private ["Sa", "fullHexString"]
+- !private ["Sa", "init"]
+- !private ["Sa", "reduce"]
+- !private ["Sa", "reversed"]
+- !private ["Sa", "subscript"]
+- !private ["s10ArraySliceV", "index"]
+- !private ["s10ArraySliceV", "txid"]
+- !private ["s10ArraySliceV", "value"]
+- !private ["16AlchemintProject7AssetIdO", "deinit"]
+- !private ["16AlchemintProject7AssetIdO", "gasAssetId"]
+- !private ["16AlchemintProject7AssetIdO", "neoAssetId"]
+- !private ["16AlchemintProject7AssetIdO", "rawValue"]
+- !private ["16AlchemintProject6AssetsV", "getSortedGASUTXOs"]
+- !private ["16AlchemintProject6AssetsV", "getSortedNEOUTXOs"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- !private ["s23BidirectionalCollectionP", "bytes"]
+- !private ["s23BidirectionalCollectionP", "count"]
+- !private ["s23BidirectionalCollectionP", "dataWithHexString"]
+- !private ["s23BidirectionalCollectionP", "fullHexString"]
+- !private ["s23BidirectionalCollectionP", "hashFromAddress"]
+- !private ["s23BidirectionalCollectionP", "index"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "reduce"]
+- !private ["s23BidirectionalCollectionP", "reversed"]
+- !private ["s23BidirectionalCollectionP", "subscript"]
+- !private ["s23BidirectionalCollectionP", "txid"]
+- !private ["s23BidirectionalCollectionP", "value"]
+- !private ["s23BidirectionalCollectionP", "withUnsafeMutableBytes"]
+- !private ["s13BinaryIntegerP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "address"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "computeSharedSecret"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "data"]
+- !private ["s7CVarArgP", "dataWithHexString"]
+- !private ["s7CVarArgP", "doubleValue"]
+- !private ["s7CVarArgP", "fullHexString"]
+- !private ["s7CVarArgP", "hashFromAddress"]
+- !private ["s7CVarArgP", "hashedSignature"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "intValue"]
+- !private ["s7CVarArgP", "privateKey"]
+- !private ["s7CVarArgP", "publicKey"]
+- !private ["s7CVarArgP", "reduce"]
+- !private ["s7CVarArgP", "reversed"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "txid"]
+- !private ["s7CVarArgP", "wif"]
+- !private ["16AlchemintProject9ClaimableV5ClaimV", "index"]
+- !private ["16AlchemintProject9ClaimableV5ClaimV", "txid"]
+- !private ["16AlchemintProject9ClaimableV", "claims"]
+- !private ["16AlchemintProject9ClaimableV", "gas"]
+- !private ["s10CollectionP", "append"]
+- !private ["s10CollectionP", "bytes"]
+- !private ["s10CollectionP", "count"]
+- !private ["s10CollectionP", "dataWithHexString"]
+- !private ["s10CollectionP", "fullHexString"]
+- !private ["s10CollectionP", "hashFromAddress"]
+- !private ["s10CollectionP", "index"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "reduce"]
+- !private ["s10CollectionP", "reversed"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10CollectionP", "txid"]
+- !private ["s10CollectionP", "value"]
+- !private ["s10CollectionP", "withUnsafeMutableBytes"]
+- !private ["s10ComparableP", "dataWithHexString"]
+- !private ["s10ComparableP", "hashFromAddress"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "address"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "bytes"]
+- !private ["s28CustomDebugStringConvertibleP", "computeSharedSecret"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "data"]
+- !private ["s28CustomDebugStringConvertibleP", "dataWithHexString"]
+- !private ["s28CustomDebugStringConvertibleP", "doubleValue"]
+- !private ["s28CustomDebugStringConvertibleP", "fullHexString"]
+- !private ["s28CustomDebugStringConvertibleP", "hashFromAddress"]
+- !private ["s28CustomDebugStringConvertibleP", "hashedSignature"]
+- !private ["s28CustomDebugStringConvertibleP", "index"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "intValue"]
+- !private ["s28CustomDebugStringConvertibleP", "privateKey"]
+- !private ["s28CustomDebugStringConvertibleP", "publicKey"]
+- !private ["s28CustomDebugStringConvertibleP", "reduce"]
+- !private ["s28CustomDebugStringConvertibleP", "reversed"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "txid"]
+- !private ["s28CustomDebugStringConvertibleP", "value"]
+- !private ["s28CustomDebugStringConvertibleP", "wif"]
+- !private ["s28CustomDebugStringConvertibleP", "withUnsafeMutableBytes"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "dataWithHexString"]
+- !private ["s29CustomPlaygroundQuickLookableP", "hashFromAddress"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "bytes"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "dataWithHexString"]
+- !private ["s17CustomReflectableP", "fullHexString"]
+- !private ["s17CustomReflectableP", "hashFromAddress"]
+- !private ["s17CustomReflectableP", "index"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "reduce"]
+- !private ["s17CustomReflectableP", "reversed"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "txid"]
+- !private ["s17CustomReflectableP", "value"]
+- !private ["s17CustomReflectableP", "withUnsafeMutableBytes"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "address"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "bytes"]
+- !private ["s23CustomStringConvertibleP", "computeSharedSecret"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "data"]
+- !private ["s23CustomStringConvertibleP", "dataWithHexString"]
+- !private ["s23CustomStringConvertibleP", "doubleValue"]
+- !private ["s23CustomStringConvertibleP", "fullHexString"]
+- !private ["s23CustomStringConvertibleP", "hashFromAddress"]
+- !private ["s23CustomStringConvertibleP", "hashedSignature"]
+- !private ["s23CustomStringConvertibleP", "index"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "intValue"]
+- !private ["s23CustomStringConvertibleP", "privateKey"]
+- !private ["s23CustomStringConvertibleP", "publicKey"]
+- !private ["s23CustomStringConvertibleP", "reduce"]
+- !private ["s23CustomStringConvertibleP", "reversed"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "txid"]
+- !private ["s23CustomStringConvertibleP", "value"]
+- !private ["s23CustomStringConvertibleP", "wif"]
+- !private ["s23CustomStringConvertibleP", "withUnsafeMutableBytes"]
+- !private ["10Foundation4DataV", "bytes"]
+- !private ["10Foundation4DataV", "count"]
+- !private ["10Foundation4DataV", "fullHexString"]
+- !private ["10Foundation4DataV", "init"]
+- !private ["10Foundation4DataV", "withUnsafeMutableBytes"]
+- !private ["SC7DecimalV", "init"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "append"]
+- !private ["s9DecodableP", "bytes"]
+- !private ["s9DecodableP", "claims"]
+- !private ["s9DecodableP", "count"]
+- !private ["s9DecodableP", "dataWithHexString"]
+- !private ["s9DecodableP", "fullHexString"]
+- !private ["s9DecodableP", "gas"]
+- !private ["s9DecodableP", "getSortedGASUTXOs"]
+- !private ["s9DecodableP", "getSortedNEOUTXOs"]
+- !private ["s9DecodableP", "hashFromAddress"]
+- !private ["s9DecodableP", "index"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "reduce"]
+- !private ["s9DecodableP", "reversed"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s9DecodableP", "txid"]
+- !private ["s9DecodableP", "value"]
+- !private ["s9DecodableP", "withUnsafeMutableBytes"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "append"]
+- !private ["s9EncodableP", "bytes"]
+- !private ["s9EncodableP", "claims"]
+- !private ["s9EncodableP", "count"]
+- !private ["s9EncodableP", "dataWithHexString"]
+- !private ["s9EncodableP", "fullHexString"]
+- !private ["s9EncodableP", "gas"]
+- !private ["s9EncodableP", "getSortedGASUTXOs"]
+- !private ["s9EncodableP", "getSortedNEOUTXOs"]
+- !private ["s9EncodableP", "hashFromAddress"]
+- !private ["s9EncodableP", "index"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "reduce"]
+- !private ["s9EncodableP", "reversed"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EncodableP", "txid"]
+- !private ["s9EncodableP", "value"]
+- !private ["s9EncodableP", "withUnsafeMutableBytes"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "address"]
+- !private ["s9EquatableP", "append"]
+- !private ["s9EquatableP", "bytes"]
+- !private ["s9EquatableP", "computeSharedSecret"]
+- !private ["s9EquatableP", "count"]
+- !private ["s9EquatableP", "data"]
+- !private ["s9EquatableP", "dataWithHexString"]
+- !private ["s9EquatableP", "doubleValue"]
+- !private ["s9EquatableP", "fullHexString"]
+- !private ["s9EquatableP", "gasAssetId"]
+- !private ["s9EquatableP", "hashFromAddress"]
+- !private ["s9EquatableP", "hashedSignature"]
+- !private ["s9EquatableP", "index"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "intValue"]
+- !private ["s9EquatableP", "neoAssetId"]
+- !private ["s9EquatableP", "privateKey"]
+- !private ["s9EquatableP", "publicKey"]
+- !private ["s9EquatableP", "rawValue"]
+- !private ["s9EquatableP", "reduce"]
+- !private ["s9EquatableP", "reversed"]
+- !private ["s9EquatableP", "subscript"]
+- !private ["s9EquatableP", "test"]
+- !private ["s9EquatableP", "txid"]
+- !private ["s9EquatableP", "value"]
+- !private ["s9EquatableP", "wif"]
+- !private ["s9EquatableP", "withUnsafeMutableBytes"]
+- !private ["s5ErrorP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "fullHexString"]
+- !private ["s25ExpressibleByArrayLiteralP", "index"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "reduce"]
+- !private ["s25ExpressibleByArrayLiteralP", "reversed"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "txid"]
+- !private ["s25ExpressibleByArrayLiteralP", "value"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s27ExpressibleByBooleanLiteralP", "doubleValue"]
+- !private ["s27ExpressibleByBooleanLiteralP", "init"]
+- !private ["s27ExpressibleByBooleanLiteralP", "intValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "dataWithHexString"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "hashFromAddress"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "doubleValue"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "intValue"]
+- !private ["s27ExpressibleByIntegerLiteralP", "doubleValue"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "intValue"]
+- !private ["s26ExpressibleByStringLiteralP", "dataWithHexString"]
+- !private ["s26ExpressibleByStringLiteralP", "hashFromAddress"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "dataWithHexString"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "hashFromAddress"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "address"]
+- !private ["s8HashableP", "bytes"]
+- !private ["s8HashableP", "computeSharedSecret"]
+- !private ["s8HashableP", "count"]
+- !private ["s8HashableP", "data"]
+- !private ["s8HashableP", "dataWithHexString"]
+- !private ["s8HashableP", "doubleValue"]
+- !private ["s8HashableP", "fullHexString"]
+- !private ["s8HashableP", "gasAssetId"]
+- !private ["s8HashableP", "hashFromAddress"]
+- !private ["s8HashableP", "hashedSignature"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "intValue"]
+- !private ["s8HashableP", "neoAssetId"]
+- !private ["s8HashableP", "privateKey"]
+- !private ["s8HashableP", "publicKey"]
+- !private ["s8HashableP", "rawValue"]
+- !private ["s8HashableP", "test"]
+- !private ["s8HashableP", "txid"]
+- !private ["s8HashableP", "wif"]
+- !private ["s8HashableP", "withUnsafeMutableBytes"]
+- !private ["Si", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "dataWithHexString"]
+- !private ["s25LosslessStringConvertibleP", "hashFromAddress"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "dataWithHexString"]
+- !private ["s10MirrorPathP", "hashFromAddress"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "append"]
+- !private ["s17MutableCollectionP", "bytes"]
+- !private ["s17MutableCollectionP", "count"]
+- !private ["s17MutableCollectionP", "fullHexString"]
+- !private ["s17MutableCollectionP", "index"]
+- !private ["s17MutableCollectionP", "init"]
+- !private ["s17MutableCollectionP", "reduce"]
+- !private ["s17MutableCollectionP", "reversed"]
+- !private ["s17MutableCollectionP", "subscript"]
+- !private ["s17MutableCollectionP", "txid"]
+- !private ["s17MutableCollectionP", "value"]
+- !private ["s17MutableCollectionP", "withUnsafeMutableBytes"]
+- !private ["16AlchemintProject4NEP2C", "decryptKey"]
+- !private ["16AlchemintProject4NEP2C", "encryptKey"]
+- !private ["16AlchemintProject4NEP2C", "verify"]
+- !private ["So8NSCodingP", "dataWithHexString"]
+- !private ["So8NSCodingP", "doubleValue"]
+- !private ["So8NSCodingP", "hashFromAddress"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "intValue"]
+- !private ["So9NSCopyingP", "dataWithHexString"]
+- !private ["So9NSCopyingP", "doubleValue"]
+- !private ["So9NSCopyingP", "hashFromAddress"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "intValue"]
+- !private ["So15NSDecimalNumberC", "doubleValue"]
+- !private ["So15NSDecimalNumberC", "init"]
+- !private ["So15NSDecimalNumberC", "intValue"]
+- !private ["So7NSErrorC", "init"]
+- !private ["So21NSItemProviderReadingP", "dataWithHexString"]
+- !private ["So21NSItemProviderReadingP", "hashFromAddress"]
+- !private ["So21NSItemProviderWritingP", "dataWithHexString"]
+- !private ["So21NSItemProviderWritingP", "hashFromAddress"]
+- !private ["So16NSMutableCopyingP", "dataWithHexString"]
+- !private ["So16NSMutableCopyingP", "hashFromAddress"]
+- !private ["So8NSNumberC", "doubleValue"]
+- !private ["So8NSNumberC", "init"]
+- !private ["So8NSNumberC", "intValue"]
+- !private ["So8NSObjectC", "address"]
+- !private ["So8NSObjectC", "computeSharedSecret"]
+- !private ["So8NSObjectC", "data"]
+- !private ["So8NSObjectC", "dataWithHexString"]
+- !private ["So8NSObjectC", "doubleValue"]
+- !private ["So8NSObjectC", "hashFromAddress"]
+- !private ["So8NSObjectC", "hashedSignature"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "intValue"]
+- !private ["So8NSObjectC", "privateKey"]
+- !private ["So8NSObjectC", "publicKey"]
+- !private ["So8NSObjectC", "txid"]
+- !private ["So8NSObjectC", "wif"]
+- !private ["So16NSObjectProtocolP", "address"]
+- !private ["So16NSObjectProtocolP", "computeSharedSecret"]
+- !private ["So16NSObjectProtocolP", "data"]
+- !private ["So16NSObjectProtocolP", "dataWithHexString"]
+- !private ["So16NSObjectProtocolP", "doubleValue"]
+- !private ["So16NSObjectProtocolP", "hashFromAddress"]
+- !private ["So16NSObjectProtocolP", "hashedSignature"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "intValue"]
+- !private ["So16NSObjectProtocolP", "privateKey"]
+- !private ["So16NSObjectProtocolP", "publicKey"]
+- !private ["So16NSObjectProtocolP", "txid"]
+- !private ["So16NSObjectProtocolP", "wif"]
+- !private ["So14NSSecureCodingP", "dataWithHexString"]
+- !private ["So14NSSecureCodingP", "doubleValue"]
+- !private ["So14NSSecureCodingP", "hashFromAddress"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "intValue"]
+- !private ["So8NSStringC", "dataWithHexString"]
+- !private ["So8NSStringC", "hashFromAddress"]
+- !private ["So7NSValueC", "doubleValue"]
+- !private ["So7NSValueC", "intValue"]
+- !private ["16AlchemintProject9NeoClientC", "getAssets"]
+- !private ["16AlchemintProject9NeoClientC", "getClaims"]
+- !private ["16AlchemintProject9NeoClientC", "getTokenSaleStatus"]
+- !private ["16AlchemintProject9NeoClientC", "network"]
+- !private ["16AlchemintProject9NeoClientC", "sendRawTransaction"]
+- !private ["16AlchemintProject9NeoClientC", "sharedMain"]
+- !private ["16AlchemintProject14NeoClientErrorO", "deinit"]
+- !private ["16AlchemintProject15NeoClientResultO", "failure"]
+- !private ["16AlchemintProject15NeoClientResultO", "success"]
+- !private ["So22NeoutilsRawTransactionC", "data"]
+- !private ["So22NeoutilsRawTransactionC", "txid"]
+- !private ["So14NeoutilsWalletC", "address"]
+- !private ["So14NeoutilsWalletC", "computeSharedSecret"]
+- !private ["So14NeoutilsWalletC", "hashedSignature"]
+- !private ["So14NeoutilsWalletC", "privateKey"]
+- !private ["So14NeoutilsWalletC", "publicKey"]
+- !private ["So14NeoutilsWalletC", "wif"]
+- !private ["16AlchemintProject7NetworkO", "deinit"]
+- !private ["16AlchemintProject7NetworkO", "test"]
+- !private ["s7NumericP", "init"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- !private ["s22RandomAccessCollectionP", "bytes"]
+- !private ["s22RandomAccessCollectionP", "count"]
+- !private ["s22RandomAccessCollectionP", "fullHexString"]
+- !private ["s22RandomAccessCollectionP", "index"]
+- !private ["s22RandomAccessCollectionP", "init"]
+- !private ["s22RandomAccessCollectionP", "reduce"]
+- !private ["s22RandomAccessCollectionP", "reversed"]
+- !private ["s22RandomAccessCollectionP", "subscript"]
+- !private ["s22RandomAccessCollectionP", "txid"]
+- !private ["s22RandomAccessCollectionP", "value"]
+- !private ["s22RandomAccessCollectionP", "withUnsafeMutableBytes"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "bytes"]
+- !private ["s26RangeReplaceableCollectionP", "count"]
+- !private ["s26RangeReplaceableCollectionP", "dataWithHexString"]
+- !private ["s26RangeReplaceableCollectionP", "fullHexString"]
+- !private ["s26RangeReplaceableCollectionP", "hashFromAddress"]
+- !private ["s26RangeReplaceableCollectionP", "index"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "reduce"]
+- !private ["s26RangeReplaceableCollectionP", "reversed"]
+- !private ["s26RangeReplaceableCollectionP", "subscript"]
+- !private ["s26RangeReplaceableCollectionP", "txid"]
+- !private ["s26RangeReplaceableCollectionP", "value"]
+- !private ["s26RangeReplaceableCollectionP", "withUnsafeMutableBytes"]
+- !private ["s16RawRepresentableP", "gasAssetId"]
+- !private ["s16RawRepresentableP", "neoAssetId"]
+- !private ["s16RawRepresentableP", "rawValue"]
+- !private ["s16RawRepresentableP", "test"]
+- !private ["10Foundation20ReferenceConvertibleP", "bytes"]
+- !private ["10Foundation20ReferenceConvertibleP", "count"]
+- !private ["10Foundation20ReferenceConvertibleP", "fullHexString"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "withUnsafeMutableBytes"]
+- !private ["16AlchemintProject13ScriptBuilderC", "init"]
+- !private ["16AlchemintProject13ScriptBuilderC", "pushContractInvoke"]
+- !private ["16AlchemintProject13ScriptBuilderC", "rawBytes"]
+- !private ["s8SequenceP", "append"]
+- !private ["s8SequenceP", "bytes"]
+- !private ["s8SequenceP", "count"]
+- !private ["s8SequenceP", "dataWithHexString"]
+- !private ["s8SequenceP", "fullHexString"]
+- !private ["s8SequenceP", "hashFromAddress"]
+- !private ["s8SequenceP", "index"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "reduce"]
+- !private ["s8SequenceP", "reversed"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["s8SequenceP", "txid"]
+- !private ["s8SequenceP", "value"]
+- !private ["s8SequenceP", "withUnsafeMutableBytes"]
+- !private ["s13SignedIntegerP", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s10StrideableP", "init"]
+- !private ["SS", "dataWithHexString"]
+- !private ["SS", "hashFromAddress"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "dataWithHexString"]
+- !private ["s14StringProtocolP", "hashFromAddress"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "dataWithHexString"]
+- !private ["s16TextOutputStreamP", "hashFromAddress"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "dataWithHexString"]
+- !private ["s20TextOutputStreamableP", "hashFromAddress"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["16AlchemintProject21TransactionAttritbuteC", "data"]
+- !private ["s6UInt16V", "init"]
+- !private ["s6UInt64V", "init"]
+- !private ["s5UInt8V", "init"]
+- !private ["9Alamofire14URLConvertibleP", "dataWithHexString"]
+- !private ["9Alamofire14URLConvertibleP", "hashFromAddress"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["16AlchemintProject6AssetsV4UTXOV", "index"]
+- !private ["16AlchemintProject6AssetsV4UTXOV", "txid"]
+- !private ["16AlchemintProject6AssetsV4UTXOV", "value"]
+- !private ["s15UnsignedIntegerP", "init"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "fullHexString"]
+- !private ["s14_ArrayProtocolP", "index"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "reduce"]
+- !private ["s14_ArrayProtocolP", "reversed"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s14_ArrayProtocolP", "txid"]
+- !private ["s14_ArrayProtocolP", "value"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "fullHexString"]
+- !private ["s24_DestructorSafeContainerP", "index"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "reduce"]
+- !private ["s24_DestructorSafeContainerP", "reversed"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "txid"]
+- !private ["s24_DestructorSafeContainerP", "value"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "dataWithHexString"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "hashFromAddress"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "dataWithHexString"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "hashFromAddress"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "dataWithHexString"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "hashFromAddress"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "dataWithHexString"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "hashFromAddress"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "dataWithHexString"]
+- !private ["s33_ExpressibleByStringInterpolationP", "hashFromAddress"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "dataWithHexString"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "doubleValue"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "hashFromAddress"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "intValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "address"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "computeSharedSecret"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "data"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataWithHexString"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "doubleValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "hashFromAddress"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "hashedSignature"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "intValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "privateKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "publicKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "txid"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "wif"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "bytes"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "dataWithHexString"]
+- !private ["s21_ObjectiveCBridgeableP", "fullHexString"]
+- !private ["s21_ObjectiveCBridgeableP", "hashFromAddress"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "reduce"]
+- !private ["s21_ObjectiveCBridgeableP", "reversed"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "withUnsafeMutableBytes"]
+- !private ["s14_StringElementP", "init"]
+- !private ["s16_SwiftStringViewP", "dataWithHexString"]
+- !private ["s16_SwiftStringViewP", "hashFromAddress"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["So17goSeqRefInterfaceP", "address"]
+- !private ["So17goSeqRefInterfaceP", "computeSharedSecret"]
+- !private ["So17goSeqRefInterfaceP", "data"]
+- !private ["So17goSeqRefInterfaceP", "hashedSignature"]
+- !private ["So17goSeqRefInterfaceP", "privateKey"]
+- !private ["So17goSeqRefInterfaceP", "publicKey"]
+- !private ["So17goSeqRefInterfaceP", "txid"]
+- !private ["So17goSeqRefInterfaceP", "wif"]
+depends-nominal:
+- "16AlchemintProject7AccountC"
+- !private "Sa"
+- !private "s10ArraySliceV"
+- !private "16AlchemintProject7AssetIdO"
+- !private "16AlchemintProject6AssetsV"
+- !private "s23BidirectionalCollectionP"
+- !private "s13BinaryIntegerP"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "16AlchemintProject9ClaimableV5ClaimV"
+- !private "16AlchemintProject9ClaimableV"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation4DataV"
+- !private "SC7DecimalV"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "s8HashableP"
+- !private "Si"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- !private "16AlchemintProject4NEP2C"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So15NSDecimalNumberC"
+- !private "So7NSErrorC"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSNumberC"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "So7NSValueC"
+- !private "16AlchemintProject9NeoClientC"
+- !private "16AlchemintProject14NeoClientErrorO"
+- !private "16AlchemintProject15NeoClientResultO"
+- !private "So22NeoutilsRawTransactionC"
+- !private "So14NeoutilsWalletC"
+- !private "16AlchemintProject7NetworkO"
+- !private "s7NumericP"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "16AlchemintProject13ScriptBuilderC"
+- !private "s8SequenceP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s12StaticStringV"
+- !private "s10StrideableP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "16AlchemintProject21TransactionAttritbuteC"
+- !private "s6UInt16V"
+- !private "s6UInt64V"
+- !private "s5UInt8V"
+- !private "9Alamofire14URLConvertibleP"
+- !private "16AlchemintProject6AssetsV4UTXOV"
+- !private "s15UnsignedIntegerP"
+- !private "s14_ArrayProtocolP"
+- !private "s18_BitwiseOperationsP"
+- !private "s15_CVarArgAlignedP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s14_StringElementP"
+- !private "s16_SwiftStringViewP"
+- !private "So17goSeqRefInterfaceP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/Neoutils.framework/Headers/Universe.objc.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/Neoutils.framework/Headers/Neoutils.objc.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/Neoutils.framework/Headers/ref.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/Neoutils.framework/Headers/Neoutils.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/CommonCrypto/module.modulemap"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/Neoutils.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LocalAuthentication.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "7e915dba22177e70eaa6dcf6f38c667a"

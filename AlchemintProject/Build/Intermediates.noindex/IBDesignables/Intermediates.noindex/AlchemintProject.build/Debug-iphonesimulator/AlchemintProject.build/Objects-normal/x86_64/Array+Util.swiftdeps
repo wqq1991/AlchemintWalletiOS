@@ -1,0 +1,476 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "arrayUtil_convertArray"
+provides-nominal:
+provides-member:
+- ["Sa", ""]
+- ["Sa", "hexString"]
+- ["Sa", "hexStringWithPrefix"]
+- ["Sa", "fullHexString"]
+- ["Sa", "fullHexStringWithPrefix"]
+- ["Sa", "toWordArray"]
+- ["Sa", "removeTrailingZeros"]
+- ["Sa", "xor"]
+- ["Sa", "toByteArrayFast"]
+- ["Sa", "toByteArray"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "*"
+- !private "..<"
+- !private "/"
+- !private "=="
+- "Array"
+- !private "MemoryLayout"
+- "String"
+- !private "StringLiteralType"
+- "UInt32"
+- "UInt8"
+- !private "UnsafeBufferPointer"
+- !private "^"
+- "arrayUtil_convertArray"
+- !private "assert"
+depends-member:
+- ["Sa", "String"]
+- ["Sa", "UInt32"]
+- ["Sa", "UInt8"]
+- !private ["Sa", "append"]
+- !private ["Sa", "arrayUtil_convertArray"]
+- !private ["Sa", "assert"]
+- !private ["Sa", "count"]
+- !private ["Sa", "endIndex"]
+- ["Sa", "fullHexString"]
+- ["Sa", "fullHexStringWithPrefix"]
+- ["Sa", "hexString"]
+- ["Sa", "hexStringWithPrefix"]
+- !private ["Sa", "init"]
+- !private ["Sa", "joined"]
+- !private ["Sa", "map"]
+- !private ["Sa", "remove"]
+- ["Sa", "removeTrailingZeros"]
+- !private ["Sa", "subscript"]
+- ["Sa", "toByteArray"]
+- ["Sa", "toByteArrayFast"]
+- ["Sa", "toWordArray"]
+- !private ["Sa", "withUnsafeBufferPointer"]
+- ["Sa", "xor"]
+- !private ["s23BidirectionalCollectionP", "String"]
+- ["s23BidirectionalCollectionP", "UInt32"]
+- ["s23BidirectionalCollectionP", "UInt8"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- !private ["s23BidirectionalCollectionP", "arrayUtil_convertArray"]
+- !private ["s23BidirectionalCollectionP", "assert"]
+- !private ["s23BidirectionalCollectionP", "baseAddress"]
+- !private ["s23BidirectionalCollectionP", "count"]
+- !private ["s23BidirectionalCollectionP", "endIndex"]
+- !private ["s23BidirectionalCollectionP", "fullHexString"]
+- !private ["s23BidirectionalCollectionP", "hexString"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "joined"]
+- !private ["s23BidirectionalCollectionP", "map"]
+- !private ["s23BidirectionalCollectionP", "remove"]
+- !private ["s23BidirectionalCollectionP", "reversed"]
+- !private ["s23BidirectionalCollectionP", "subscript"]
+- !private ["s23BidirectionalCollectionP", "withUnsafeBufferPointer"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "String"]
+- ["s7CVarArgP", "UInt32"]
+- ["s7CVarArgP", "UInt8"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "arrayUtil_convertArray"]
+- !private ["s7CVarArgP", "assert"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "endIndex"]
+- !private ["s7CVarArgP", "fullHexString"]
+- !private ["s7CVarArgP", "hexString"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "joined"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "remove"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "withMemoryRebound"]
+- !private ["s7CVarArgP", "withUnsafeBufferPointer"]
+- !private ["s10CollectionP", "String"]
+- ["s10CollectionP", "UInt32"]
+- ["s10CollectionP", "UInt8"]
+- !private ["s10CollectionP", "append"]
+- !private ["s10CollectionP", "arrayUtil_convertArray"]
+- !private ["s10CollectionP", "assert"]
+- !private ["s10CollectionP", "baseAddress"]
+- !private ["s10CollectionP", "count"]
+- !private ["s10CollectionP", "endIndex"]
+- !private ["s10CollectionP", "fullHexString"]
+- !private ["s10CollectionP", "hexString"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "joined"]
+- !private ["s10CollectionP", "map"]
+- !private ["s10CollectionP", "remove"]
+- !private ["s10CollectionP", "reversed"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10CollectionP", "withUnsafeBufferPointer"]
+- !private ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "withMemoryRebound"]
+- !private ["s14CountableRangeV", "reversed"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- ["s28CustomDebugStringConvertibleP", "UInt32"]
+- ["s28CustomDebugStringConvertibleP", "UInt8"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "arrayUtil_convertArray"]
+- !private ["s28CustomDebugStringConvertibleP", "assert"]
+- !private ["s28CustomDebugStringConvertibleP", "baseAddress"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "endIndex"]
+- !private ["s28CustomDebugStringConvertibleP", "fullHexString"]
+- !private ["s28CustomDebugStringConvertibleP", "hexString"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "joined"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "remove"]
+- !private ["s28CustomDebugStringConvertibleP", "reversed"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "withMemoryRebound"]
+- !private ["s28CustomDebugStringConvertibleP", "withUnsafeBufferPointer"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "withMemoryRebound"]
+- !private ["s17CustomReflectableP", "String"]
+- ["s17CustomReflectableP", "UInt32"]
+- ["s17CustomReflectableP", "UInt8"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "arrayUtil_convertArray"]
+- !private ["s17CustomReflectableP", "assert"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "endIndex"]
+- !private ["s17CustomReflectableP", "fullHexString"]
+- !private ["s17CustomReflectableP", "hexString"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "joined"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "remove"]
+- !private ["s17CustomReflectableP", "reversed"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "withMemoryRebound"]
+- !private ["s17CustomReflectableP", "withUnsafeBufferPointer"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- ["s23CustomStringConvertibleP", "UInt32"]
+- ["s23CustomStringConvertibleP", "UInt8"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "arrayUtil_convertArray"]
+- !private ["s23CustomStringConvertibleP", "assert"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "endIndex"]
+- !private ["s23CustomStringConvertibleP", "fullHexString"]
+- !private ["s23CustomStringConvertibleP", "hexString"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "joined"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "remove"]
+- !private ["s23CustomStringConvertibleP", "reversed"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "withUnsafeBufferPointer"]
+- !private ["s9DecodableP", "String"]
+- ["s9DecodableP", "UInt32"]
+- ["s9DecodableP", "UInt8"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "append"]
+- !private ["s9DecodableP", "arrayUtil_convertArray"]
+- !private ["s9DecodableP", "assert"]
+- !private ["s9DecodableP", "count"]
+- !private ["s9DecodableP", "endIndex"]
+- !private ["s9DecodableP", "fullHexString"]
+- !private ["s9DecodableP", "hexString"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "joined"]
+- !private ["s9DecodableP", "map"]
+- !private ["s9DecodableP", "remove"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s9DecodableP", "withUnsafeBufferPointer"]
+- !private ["s9EncodableP", "String"]
+- ["s9EncodableP", "UInt32"]
+- ["s9EncodableP", "UInt8"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "append"]
+- !private ["s9EncodableP", "arrayUtil_convertArray"]
+- !private ["s9EncodableP", "assert"]
+- !private ["s9EncodableP", "count"]
+- !private ["s9EncodableP", "endIndex"]
+- !private ["s9EncodableP", "fullHexString"]
+- !private ["s9EncodableP", "hexString"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "joined"]
+- !private ["s9EncodableP", "map"]
+- !private ["s9EncodableP", "remove"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EncodableP", "withUnsafeBufferPointer"]
+- !private ["s9EquatableP", "String"]
+- ["s9EquatableP", "UInt32"]
+- ["s9EquatableP", "UInt8"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "append"]
+- !private ["s9EquatableP", "arrayUtil_convertArray"]
+- !private ["s9EquatableP", "assert"]
+- !private ["s9EquatableP", "count"]
+- !private ["s9EquatableP", "endIndex"]
+- !private ["s9EquatableP", "fullHexString"]
+- !private ["s9EquatableP", "hexString"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "joined"]
+- !private ["s9EquatableP", "map"]
+- !private ["s9EquatableP", "remove"]
+- !private ["s9EquatableP", "reversed"]
+- !private ["s9EquatableP", "subscript"]
+- !private ["s9EquatableP", "withMemoryRebound"]
+- !private ["s9EquatableP", "withUnsafeBufferPointer"]
+- !private ["s25ExpressibleByArrayLiteralP", "String"]
+- ["s25ExpressibleByArrayLiteralP", "UInt32"]
+- ["s25ExpressibleByArrayLiteralP", "UInt8"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "arrayUtil_convertArray"]
+- !private ["s25ExpressibleByArrayLiteralP", "assert"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "endIndex"]
+- !private ["s25ExpressibleByArrayLiteralP", "fullHexString"]
+- !private ["s25ExpressibleByArrayLiteralP", "hexString"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "joined"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s25ExpressibleByArrayLiteralP", "remove"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "withUnsafeBufferPointer"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "withMemoryRebound"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s12MemoryLayoutO", "stride"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "String"]
+- ["s17MutableCollectionP", "UInt32"]
+- ["s17MutableCollectionP", "UInt8"]
+- !private ["s17MutableCollectionP", "append"]
+- !private ["s17MutableCollectionP", "arrayUtil_convertArray"]
+- !private ["s17MutableCollectionP", "assert"]
+- !private ["s17MutableCollectionP", "count"]
+- !private ["s17MutableCollectionP", "endIndex"]
+- !private ["s17MutableCollectionP", "fullHexString"]
+- !private ["s17MutableCollectionP", "hexString"]
+- !private ["s17MutableCollectionP", "init"]
+- !private ["s17MutableCollectionP", "joined"]
+- !private ["s17MutableCollectionP", "map"]
+- !private ["s17MutableCollectionP", "remove"]
+- !private ["s17MutableCollectionP", "subscript"]
+- !private ["s17MutableCollectionP", "withUnsafeBufferPointer"]
+- !private ["s22RandomAccessCollectionP", "String"]
+- ["s22RandomAccessCollectionP", "UInt32"]
+- ["s22RandomAccessCollectionP", "UInt8"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- !private ["s22RandomAccessCollectionP", "arrayUtil_convertArray"]
+- !private ["s22RandomAccessCollectionP", "assert"]
+- !private ["s22RandomAccessCollectionP", "baseAddress"]
+- !private ["s22RandomAccessCollectionP", "count"]
+- !private ["s22RandomAccessCollectionP", "endIndex"]
+- !private ["s22RandomAccessCollectionP", "fullHexString"]
+- !private ["s22RandomAccessCollectionP", "hexString"]
+- !private ["s22RandomAccessCollectionP", "init"]
+- !private ["s22RandomAccessCollectionP", "joined"]
+- !private ["s22RandomAccessCollectionP", "map"]
+- !private ["s22RandomAccessCollectionP", "remove"]
+- !private ["s22RandomAccessCollectionP", "reversed"]
+- !private ["s22RandomAccessCollectionP", "subscript"]
+- !private ["s22RandomAccessCollectionP", "withUnsafeBufferPointer"]
+- !private ["s5RangeV", "reversed"]
+- !private ["s15RangeExpressionP", "reversed"]
+- !private ["s26RangeReplaceableCollectionP", "String"]
+- ["s26RangeReplaceableCollectionP", "UInt32"]
+- ["s26RangeReplaceableCollectionP", "UInt8"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "arrayUtil_convertArray"]
+- !private ["s26RangeReplaceableCollectionP", "assert"]
+- !private ["s26RangeReplaceableCollectionP", "count"]
+- !private ["s26RangeReplaceableCollectionP", "endIndex"]
+- !private ["s26RangeReplaceableCollectionP", "fullHexString"]
+- !private ["s26RangeReplaceableCollectionP", "hexString"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "joined"]
+- !private ["s26RangeReplaceableCollectionP", "map"]
+- !private ["s26RangeReplaceableCollectionP", "remove"]
+- !private ["s26RangeReplaceableCollectionP", "subscript"]
+- !private ["s26RangeReplaceableCollectionP", "withUnsafeBufferPointer"]
+- !private ["s8SequenceP", "String"]
+- ["s8SequenceP", "UInt32"]
+- ["s8SequenceP", "UInt8"]
+- !private ["s8SequenceP", "append"]
+- !private ["s8SequenceP", "arrayUtil_convertArray"]
+- !private ["s8SequenceP", "assert"]
+- !private ["s8SequenceP", "baseAddress"]
+- !private ["s8SequenceP", "count"]
+- !private ["s8SequenceP", "endIndex"]
+- !private ["s8SequenceP", "fullHexString"]
+- !private ["s8SequenceP", "hexString"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "joined"]
+- !private ["s8SequenceP", "map"]
+- !private ["s8SequenceP", "remove"]
+- !private ["s8SequenceP", "reversed"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["s8SequenceP", "withUnsafeBufferPointer"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s10StrideableP", "withMemoryRebound"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["SR", "baseAddress"]
+- !private ["SR", "init"]
+- !private ["SP", "withMemoryRebound"]
+- !private ["s14_ArrayProtocolP", "String"]
+- ["s14_ArrayProtocolP", "UInt32"]
+- ["s14_ArrayProtocolP", "UInt8"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "arrayUtil_convertArray"]
+- !private ["s14_ArrayProtocolP", "assert"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "endIndex"]
+- !private ["s14_ArrayProtocolP", "fullHexString"]
+- !private ["s14_ArrayProtocolP", "hexString"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "joined"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s14_ArrayProtocolP", "remove"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s14_ArrayProtocolP", "withUnsafeBufferPointer"]
+- !private ["s24_DestructorSafeContainerP", "String"]
+- ["s24_DestructorSafeContainerP", "UInt32"]
+- ["s24_DestructorSafeContainerP", "UInt8"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "arrayUtil_convertArray"]
+- !private ["s24_DestructorSafeContainerP", "assert"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "endIndex"]
+- !private ["s24_DestructorSafeContainerP", "fullHexString"]
+- !private ["s24_DestructorSafeContainerP", "hexString"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "joined"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s24_DestructorSafeContainerP", "remove"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "withUnsafeBufferPointer"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "String"]
+- ["s21_ObjectiveCBridgeableP", "UInt32"]
+- ["s21_ObjectiveCBridgeableP", "UInt8"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "arrayUtil_convertArray"]
+- !private ["s21_ObjectiveCBridgeableP", "assert"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "endIndex"]
+- !private ["s21_ObjectiveCBridgeableP", "fullHexString"]
+- !private ["s21_ObjectiveCBridgeableP", "hexString"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "joined"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "remove"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "withUnsafeBufferPointer"]
+- !private ["s8_PointerP", "withMemoryRebound"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "Sa"
+- "s23BidirectionalCollectionP"
+- !private "Sb"
+- "s7CVarArgP"
+- "s10CollectionP"
+- !private "s10ComparableP"
+- !private "s14CountableRangeV"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s12MemoryLayoutO"
+- !private "s10MirrorPathP"
+- "s17MutableCollectionP"
+- "s22RandomAccessCollectionP"
+- !private "s5RangeV"
+- !private "s15RangeExpressionP"
+- "s26RangeReplaceableCollectionP"
+- "s8SequenceP"
+- !private "s12StaticStringV"
+- !private "s10StrideableP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "9Alamofire14URLConvertibleP"
+- !private "SR"
+- !private "SP"
+- "s14_ArrayProtocolP"
+- "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s8_PointerP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/Neoutils.framework/Headers/Universe.objc.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/Neoutils.framework/Headers/Neoutils.objc.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/Neoutils.framework/Headers/ref.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/Neoutils.framework/Headers/Neoutils.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/CommonCrypto/module.modulemap"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/Neoutils.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LocalAuthentication.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "620aac507f612f334635ecd6768aa770"
