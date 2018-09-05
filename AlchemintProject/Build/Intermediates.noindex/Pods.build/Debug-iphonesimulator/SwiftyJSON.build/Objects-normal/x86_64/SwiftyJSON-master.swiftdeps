@@ -1,5 +1,5 @@
 version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
 options: "bb8bb15caae0cd974376ccb2f93d7aaf"
-build_time: [1535537535, 402670000]
+build_time: [1536145870, 416414000]
 inputs:
   "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Pods/SwiftyJSON/Source/SwiftyJSON.swift": [1535509523, 0]

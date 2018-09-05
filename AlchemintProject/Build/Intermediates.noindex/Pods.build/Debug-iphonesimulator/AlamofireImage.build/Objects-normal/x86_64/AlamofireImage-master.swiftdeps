@@ -1,6 +1,6 @@
 version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
 options: "cdc0742887b85b00be15f6cf59d598d8"
-build_time: [1535537549, 535027000]
+build_time: [1536145911, 453993000]
 inputs:
   "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Pods/AlamofireImage/Source/AFIError.swift": [1535509471, 0]
   "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Pods/AlamofireImage/Source/Image.swift": [1535509471, 0]

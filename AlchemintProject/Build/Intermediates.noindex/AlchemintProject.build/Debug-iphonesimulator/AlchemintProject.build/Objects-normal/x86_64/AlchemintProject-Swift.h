@@ -267,6 +267,17 @@ SWIFT_CLASS("_TtC16AlchemintProject8JWButton")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
+SWIFT_CLASS("_TtC16AlchemintProject28JWCustomNavigationController")
+@interface JWCustomNavigationController : UINavigationController <UIGestureRecognizerDelegate, UINavigationControllerDelegate>
+- (nonnull instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (void)pushViewController:(UIViewController * _Nonnull)viewController animated:(BOOL)animated;
+- (void)navigationController:(UINavigationController * _Nonnull)navigationController didShowViewController:(UIViewController * _Nonnull)viewController animated:(BOOL)animated;
+- (nonnull instancetype)initWithNavigationBarClass:(Class _Nullable)navigationBarClass toolbarClass:(Class _Nullable)toolbarClass SWIFT_UNAVAILABLE;
+- (nonnull instancetype)initWithRootViewController:(UIViewController * _Nonnull)rootViewController SWIFT_UNAVAILABLE;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
+@end
+
 @class UIImage;
 
 SWIFT_CLASS("_TtC16AlchemintProject11JWImageView")
@@ -376,6 +387,8 @@ SWIFT_CLASS("_TtC16AlchemintProject15ProductListCell")
 
 SWIFT_CLASS("_TtC16AlchemintProject26Product_RootViewController")
 @interface Product_RootViewController : JWBaseViewController
+@property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified tableView;
+- (void)viewDidLoad;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -438,13 +451,13 @@ SWIFT_CLASS("_TtC16AlchemintProject19StartViewController")
 
 
 @interface UITextField (SWIFT_EXTENSION(AlchemintProject))
-@property (nonatomic) CGFloat offsetX;
+/// 设置textfield 文字偏移量
+@property (nonatomic) CGFloat textOffsetX;
 @end
 
 
 @interface UITextField (SWIFT_EXTENSION(AlchemintProject))
-/// 设置textfield 文字偏移量
-@property (nonatomic) CGFloat textOffsetX;
+@property (nonatomic) CGFloat offsetX;
 @end
 
 
@@ -465,6 +478,17 @@ SWIFT_CLASS("_TtC16AlchemintProject14ViewController")
 - (void)didReceiveMemoryWarning;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface ViewController (SWIFT_EXTENSION(AlchemintProject)) <UITableViewDelegate>
+- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+@end
+
+
+@interface ViewController (SWIFT_EXTENSION(AlchemintProject)) <UITableViewDataSource>
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 @end
 
 #if __has_attribute(external_source_symbol)

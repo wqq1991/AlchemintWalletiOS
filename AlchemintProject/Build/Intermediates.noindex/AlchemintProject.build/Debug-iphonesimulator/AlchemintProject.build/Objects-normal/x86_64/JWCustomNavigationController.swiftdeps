@@ -10,7 +10,6 @@ provides-member:
 provides-dynamic-lookup:
 - "navigationController"
 - "pushViewController"
-- "viewDidLoad"
 depends-top-level:
 - "=="
 - "AssignmentPrecedence"
@@ -18,6 +17,8 @@ depends-top-level:
 - !private "BooleanLiteralType"
 - "Int"
 - "JWCustomNavigationController"
+- "NSCoder"
+- !private "StringLiteralType"
 - "UIGestureRecognizerDelegate"
 - "UINavigationController"
 - "UINavigationControllerDelegate"
@@ -31,9 +32,9 @@ depends-member:
 - ["s7CVarArgP", ""]
 - !private ["s7CVarArgP", "_getBuiltinLogicValue"]
 - !private ["s7CVarArgP", "count"]
-- !private ["s7CVarArgP", "delegate"]
 - ["s7CVarArgP", "gestureRecognizer"]
 - ["s7CVarArgP", "gestureRecognizerShouldBegin"]
+- !private ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "interactivePopGestureRecognizer"]
 - !private ["s7CVarArgP", "isEnabled"]
 - ["s7CVarArgP", "navigationController"]
@@ -46,9 +47,9 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "UINavigationController"]
 - ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s28CustomDebugStringConvertibleP", "count"]
-- !private ["s28CustomDebugStringConvertibleP", "delegate"]
 - ["s28CustomDebugStringConvertibleP", "gestureRecognizer"]
 - ["s28CustomDebugStringConvertibleP", "gestureRecognizerShouldBegin"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "interactivePopGestureRecognizer"]
 - !private ["s28CustomDebugStringConvertibleP", "isEnabled"]
 - ["s28CustomDebugStringConvertibleP", "navigationController"]
@@ -60,13 +61,14 @@ depends-member:
 - !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
 - !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
 - !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "init"]
 - !private ["s23CustomStringConvertibleP", "UINavigationController"]
 - ["s23CustomStringConvertibleP", ""]
 - !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s23CustomStringConvertibleP", "count"]
-- !private ["s23CustomStringConvertibleP", "delegate"]
 - ["s23CustomStringConvertibleP", "gestureRecognizer"]
 - ["s23CustomStringConvertibleP", "gestureRecognizerShouldBegin"]
+- !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "interactivePopGestureRecognizer"]
 - !private ["s23CustomStringConvertibleP", "isEnabled"]
 - ["s23CustomStringConvertibleP", "navigationController"]
@@ -85,7 +87,6 @@ depends-member:
 - ["s9EquatableP", "_Default_RawValue"]
 - !private ["s9EquatableP", "_getBuiltinLogicValue"]
 - !private ["s9EquatableP", "count"]
-- !private ["s9EquatableP", "delegate"]
 - ["s9EquatableP", "gestureRecognizer"]
 - ["s9EquatableP", "gestureRecognizerShouldBegin"]
 - ["s9EquatableP", "hashValue"]
@@ -101,12 +102,26 @@ depends-member:
 - !private ["s9EquatableP", "viewControllers"]
 - !private ["s25ExpressibleByArrayLiteralP", "count"]
 - !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["7RxCocoa11HasDelegateP", "UINavigationController"]
+- ["7RxCocoa11HasDelegateP", ""]
+- ["7RxCocoa11HasDelegateP", "gestureRecognizer"]
+- ["7RxCocoa11HasDelegateP", "gestureRecognizerShouldBegin"]
+- !private ["7RxCocoa11HasDelegateP", "init"]
+- !private ["7RxCocoa11HasDelegateP", "interactivePopGestureRecognizer"]
+- ["7RxCocoa11HasDelegateP", "navigationController"]
+- ["7RxCocoa11HasDelegateP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["7RxCocoa11HasDelegateP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["7RxCocoa11HasDelegateP", "pushViewController"]
+- !private ["7RxCocoa11HasDelegateP", "responds"]
+- !private ["7RxCocoa11HasDelegateP", "viewControllers"]
 - ["s8HashableP", "RawValue"]
 - !private ["s8HashableP", "UINavigationController"]
 - ["s8HashableP", ""]
 - ["s8HashableP", "_Default_RawValue"]
 - !private ["s8HashableP", "_getBuiltinLogicValue"]
-- !private ["s8HashableP", "delegate"]
 - ["s8HashableP", "gestureRecognizer"]
 - ["s8HashableP", "gestureRecognizerShouldBegin"]
 - ["s8HashableP", "hashValue"]
@@ -124,12 +139,10 @@ depends-member:
 - ["16AlchemintProject28JWCustomNavigationControllerC", "DismissBlock"]
 - ["16AlchemintProject28JWCustomNavigationControllerC", "Int"]
 - ["16AlchemintProject28JWCustomNavigationControllerC", "LoginType"]
+- ["16AlchemintProject28JWCustomNavigationControllerC", "NSCoder"]
 - ["16AlchemintProject28JWCustomNavigationControllerC", "UINavigationController"]
 - ["16AlchemintProject28JWCustomNavigationControllerC", "UIViewController"]
 - ["16AlchemintProject28JWCustomNavigationControllerC", "deinit"]
-- !private ["16AlchemintProject28JWCustomNavigationControllerC", "delegate"]
-- ["16AlchemintProject28JWCustomNavigationControllerC", "dismissAction"]
-- ["16AlchemintProject28JWCustomNavigationControllerC", "dismissActionBlock"]
 - ["16AlchemintProject28JWCustomNavigationControllerC", "gestureRecognizer"]
 - ["16AlchemintProject28JWCustomNavigationControllerC", "gestureRecognizerShouldBegin"]
 - ["16AlchemintProject28JWCustomNavigationControllerC", "init"]
@@ -139,7 +152,7 @@ depends-member:
 - ["16AlchemintProject28JWCustomNavigationControllerC", "navigationControllerSupportedInterfaceOrientations"]
 - ["16AlchemintProject28JWCustomNavigationControllerC", "pushViewController"]
 - !private ["16AlchemintProject28JWCustomNavigationControllerC", "responds"]
-- ["16AlchemintProject28JWCustomNavigationControllerC", "viewDidLoad"]
+- !private ["7RxCocoa16KVORepresentableP", "_getBuiltinLogicValue"]
 - ["16AlchemintProject28JWCustomNavigationControllerC9LoginTypeO", "RawValue"]
 - ["16AlchemintProject28JWCustomNavigationControllerC9LoginTypeO", "_Default_RawValue"]
 - ["16AlchemintProject28JWCustomNavigationControllerC9LoginTypeO", "canceled"]
@@ -153,9 +166,9 @@ depends-member:
 - !private ["s17MutableCollectionP", "count"]
 - !private ["So8NSCodingP", "UINavigationController"]
 - ["So8NSCodingP", ""]
-- !private ["So8NSCodingP", "delegate"]
 - ["So8NSCodingP", "gestureRecognizer"]
 - ["So8NSCodingP", "gestureRecognizerShouldBegin"]
+- !private ["So8NSCodingP", "init"]
 - !private ["So8NSCodingP", "interactivePopGestureRecognizer"]
 - ["So8NSCodingP", "navigationController"]
 - ["So8NSCodingP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
@@ -165,9 +178,9 @@ depends-member:
 - !private ["So8NSCodingP", "viewControllers"]
 - !private ["So26NSExtensionRequestHandlingP", "UINavigationController"]
 - ["So26NSExtensionRequestHandlingP", ""]
-- !private ["So26NSExtensionRequestHandlingP", "delegate"]
 - ["So26NSExtensionRequestHandlingP", "gestureRecognizer"]
 - ["So26NSExtensionRequestHandlingP", "gestureRecognizerShouldBegin"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
 - !private ["So26NSExtensionRequestHandlingP", "interactivePopGestureRecognizer"]
 - ["So26NSExtensionRequestHandlingP", "navigationController"]
 - ["So26NSExtensionRequestHandlingP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
@@ -176,14 +189,11 @@ depends-member:
 - !private ["So26NSExtensionRequestHandlingP", "responds"]
 - !private ["So26NSExtensionRequestHandlingP", "viewControllers"]
 - ["So8NSObjectC", "Bool"]
-- ["So8NSObjectC", "DismissBlock"]
 - ["So8NSObjectC", "Int"]
 - ["So8NSObjectC", "LoginType"]
+- ["So8NSObjectC", "NSCoder"]
 - ["So8NSObjectC", "UINavigationController"]
 - ["So8NSObjectC", "UIViewController"]
-- !private ["So8NSObjectC", "delegate"]
-- ["So8NSObjectC", "dismissAction"]
-- ["So8NSObjectC", "dismissActionBlock"]
 - ["So8NSObjectC", "gestureRecognizer"]
 - ["So8NSObjectC", "gestureRecognizerShouldBegin"]
 - ["So8NSObjectC", "init"]
@@ -195,12 +205,11 @@ depends-member:
 - ["So8NSObjectC", "pushViewController"]
 - !private ["So8NSObjectC", "responds"]
 - !private ["So8NSObjectC", "viewControllers"]
-- ["So8NSObjectC", "viewDidLoad"]
 - !private ["So16NSObjectProtocolP", "UINavigationController"]
 - ["So16NSObjectProtocolP", ""]
-- !private ["So16NSObjectProtocolP", "delegate"]
 - ["So16NSObjectProtocolP", "gestureRecognizer"]
 - ["So16NSObjectProtocolP", "gestureRecognizerShouldBegin"]
+- !private ["So16NSObjectProtocolP", "init"]
 - !private ["So16NSObjectProtocolP", "interactivePopGestureRecognizer"]
 - !private ["So16NSObjectProtocolP", "isEnabled"]
 - ["So16NSObjectProtocolP", "navigationController"]
@@ -217,12 +226,26 @@ depends-member:
 - ["s16RawRepresentableP", "hashValue"]
 - ["s16RawRepresentableP", "init"]
 - ["s16RawRepresentableP", "rawValue"]
+- !private ["7RxSwift18ReactiveCompatibleP", "UINavigationController"]
+- ["7RxSwift18ReactiveCompatibleP", ""]
+- ["7RxSwift18ReactiveCompatibleP", "gestureRecognizer"]
+- ["7RxSwift18ReactiveCompatibleP", "gestureRecognizerShouldBegin"]
+- !private ["7RxSwift18ReactiveCompatibleP", "init"]
+- !private ["7RxSwift18ReactiveCompatibleP", "interactivePopGestureRecognizer"]
+- !private ["7RxSwift18ReactiveCompatibleP", "isEnabled"]
+- ["7RxSwift18ReactiveCompatibleP", "navigationController"]
+- ["7RxSwift18ReactiveCompatibleP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["7RxSwift18ReactiveCompatibleP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["7RxSwift18ReactiveCompatibleP", "pushViewController"]
+- !private ["7RxSwift18ReactiveCompatibleP", "responds"]
+- !private ["7RxSwift18ReactiveCompatibleP", "viewControllers"]
 - !private ["s8SequenceP", "count"]
+- !private ["s12StaticStringV", "init"]
 - !private ["So21UIAppearanceContainerP", "UINavigationController"]
 - ["So21UIAppearanceContainerP", ""]
-- !private ["So21UIAppearanceContainerP", "delegate"]
 - ["So21UIAppearanceContainerP", "gestureRecognizer"]
 - ["So21UIAppearanceContainerP", "gestureRecognizerShouldBegin"]
+- !private ["So21UIAppearanceContainerP", "init"]
 - !private ["So21UIAppearanceContainerP", "interactivePopGestureRecognizer"]
 - ["So21UIAppearanceContainerP", "navigationController"]
 - ["So21UIAppearanceContainerP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
@@ -232,9 +255,9 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "viewControllers"]
 - !private ["So18UIContentContainerP", "UINavigationController"]
 - ["So18UIContentContainerP", ""]
-- !private ["So18UIContentContainerP", "delegate"]
 - ["So18UIContentContainerP", "gestureRecognizer"]
 - ["So18UIContentContainerP", "gestureRecognizerShouldBegin"]
+- !private ["So18UIContentContainerP", "init"]
 - !private ["So18UIContentContainerP", "interactivePopGestureRecognizer"]
 - ["So18UIContentContainerP", "navigationController"]
 - ["So18UIContentContainerP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
@@ -244,9 +267,9 @@ depends-member:
 - !private ["So18UIContentContainerP", "viewControllers"]
 - !private ["So18UIFocusEnvironmentP", "UINavigationController"]
 - ["So18UIFocusEnvironmentP", ""]
-- !private ["So18UIFocusEnvironmentP", "delegate"]
 - ["So18UIFocusEnvironmentP", "gestureRecognizer"]
 - ["So18UIFocusEnvironmentP", "gestureRecognizerShouldBegin"]
+- !private ["So18UIFocusEnvironmentP", "init"]
 - !private ["So18UIFocusEnvironmentP", "interactivePopGestureRecognizer"]
 - ["So18UIFocusEnvironmentP", "navigationController"]
 - ["So18UIFocusEnvironmentP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
@@ -254,11 +277,9 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "pushViewController"]
 - !private ["So18UIFocusEnvironmentP", "responds"]
 - !private ["So18UIFocusEnvironmentP", "viewControllers"]
-- !private ["So19UIGestureRecognizerC", "delegate"]
 - !private ["So19UIGestureRecognizerC", "isEnabled"]
 - !private ["So27UIGestureRecognizerDelegateP", "UINavigationController"]
 - ["So27UIGestureRecognizerDelegateP", ""]
-- !private ["So27UIGestureRecognizerDelegateP", "delegate"]
 - ["So27UIGestureRecognizerDelegateP", "gestureRecognizer"]
 - ["So27UIGestureRecognizerDelegateP", "gestureRecognizerShouldBegin"]
 - !private ["So27UIGestureRecognizerDelegateP", "interactivePopGestureRecognizer"]
@@ -267,15 +288,12 @@ depends-member:
 - ["So27UIGestureRecognizerDelegateP", "navigationControllerSupportedInterfaceOrientations"]
 - !private ["So27UIGestureRecognizerDelegateP", "responds"]
 - ["So22UINavigationControllerC", "Bool"]
-- ["So22UINavigationControllerC", "DismissBlock"]
 - ["So22UINavigationControllerC", "Int"]
 - ["So22UINavigationControllerC", "LoginType"]
+- ["So22UINavigationControllerC", "NSCoder"]
 - ["So22UINavigationControllerC", "UINavigationController"]
 - ["So22UINavigationControllerC", "UIViewController"]
 - ["So22UINavigationControllerC", ""]
-- !private ["So22UINavigationControllerC", "delegate"]
-- ["So22UINavigationControllerC", "dismissAction"]
-- ["So22UINavigationControllerC", "dismissActionBlock"]
 - ["So22UINavigationControllerC", "gestureRecognizer"]
 - ["So22UINavigationControllerC", "gestureRecognizerShouldBegin"]
 - ["So22UINavigationControllerC", "init"]
@@ -286,10 +304,8 @@ depends-member:
 - ["So22UINavigationControllerC", "pushViewController"]
 - !private ["So22UINavigationControllerC", "responds"]
 - !private ["So22UINavigationControllerC", "viewControllers"]
-- ["So22UINavigationControllerC", "viewDidLoad"]
 - !private ["So30UINavigationControllerDelegateP", "UINavigationController"]
 - ["So30UINavigationControllerDelegateP", ""]
-- !private ["So30UINavigationControllerDelegateP", "delegate"]
 - ["So30UINavigationControllerDelegateP", "gestureRecognizer"]
 - ["So30UINavigationControllerDelegateP", "gestureRecognizerShouldBegin"]
 - !private ["So30UINavigationControllerDelegateP", "interactivePopGestureRecognizer"]
@@ -299,9 +315,9 @@ depends-member:
 - !private ["So30UINavigationControllerDelegateP", "responds"]
 - !private ["So30UIPasteConfigurationSupportingP", "UINavigationController"]
 - ["So30UIPasteConfigurationSupportingP", ""]
-- !private ["So30UIPasteConfigurationSupportingP", "delegate"]
 - ["So30UIPasteConfigurationSupportingP", "gestureRecognizer"]
 - ["So30UIPasteConfigurationSupportingP", "gestureRecognizerShouldBegin"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
 - !private ["So30UIPasteConfigurationSupportingP", "interactivePopGestureRecognizer"]
 - ["So30UIPasteConfigurationSupportingP", "navigationController"]
 - ["So30UIPasteConfigurationSupportingP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
@@ -310,14 +326,11 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "responds"]
 - !private ["So30UIPasteConfigurationSupportingP", "viewControllers"]
 - ["So11UIResponderC", "Bool"]
-- ["So11UIResponderC", "DismissBlock"]
 - ["So11UIResponderC", "Int"]
 - ["So11UIResponderC", "LoginType"]
+- ["So11UIResponderC", "NSCoder"]
 - ["So11UIResponderC", "UINavigationController"]
 - ["So11UIResponderC", "UIViewController"]
-- !private ["So11UIResponderC", "delegate"]
-- ["So11UIResponderC", "dismissAction"]
-- ["So11UIResponderC", "dismissActionBlock"]
 - ["So11UIResponderC", "gestureRecognizer"]
 - ["So11UIResponderC", "gestureRecognizerShouldBegin"]
 - ["So11UIResponderC", "init"]
@@ -328,12 +341,11 @@ depends-member:
 - ["So11UIResponderC", "pushViewController"]
 - !private ["So11UIResponderC", "responds"]
 - !private ["So11UIResponderC", "viewControllers"]
-- ["So11UIResponderC", "viewDidLoad"]
 - !private ["So30UIResponderStandardEditActionsP", "UINavigationController"]
 - ["So30UIResponderStandardEditActionsP", ""]
-- !private ["So30UIResponderStandardEditActionsP", "delegate"]
 - ["So30UIResponderStandardEditActionsP", "gestureRecognizer"]
 - ["So30UIResponderStandardEditActionsP", "gestureRecognizerShouldBegin"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
 - !private ["So30UIResponderStandardEditActionsP", "interactivePopGestureRecognizer"]
 - ["So30UIResponderStandardEditActionsP", "navigationController"]
 - ["So30UIResponderStandardEditActionsP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
@@ -343,9 +355,9 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "viewControllers"]
 - !private ["So16UIStateRestoringP", "UINavigationController"]
 - ["So16UIStateRestoringP", ""]
-- !private ["So16UIStateRestoringP", "delegate"]
 - ["So16UIStateRestoringP", "gestureRecognizer"]
 - ["So16UIStateRestoringP", "gestureRecognizerShouldBegin"]
+- !private ["So16UIStateRestoringP", "init"]
 - !private ["So16UIStateRestoringP", "interactivePopGestureRecognizer"]
 - ["So16UIStateRestoringP", "navigationController"]
 - ["So16UIStateRestoringP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
@@ -355,9 +367,9 @@ depends-member:
 - !private ["So16UIStateRestoringP", "viewControllers"]
 - !private ["So18UITraitEnvironmentP", "UINavigationController"]
 - ["So18UITraitEnvironmentP", ""]
-- !private ["So18UITraitEnvironmentP", "delegate"]
 - ["So18UITraitEnvironmentP", "gestureRecognizer"]
 - ["So18UITraitEnvironmentP", "gestureRecognizerShouldBegin"]
+- !private ["So18UITraitEnvironmentP", "init"]
 - !private ["So18UITraitEnvironmentP", "interactivePopGestureRecognizer"]
 - ["So18UITraitEnvironmentP", "navigationController"]
 - ["So18UITraitEnvironmentP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
@@ -366,14 +378,11 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "responds"]
 - !private ["So18UITraitEnvironmentP", "viewControllers"]
 - ["So16UIViewControllerC", "Bool"]
-- ["So16UIViewControllerC", "DismissBlock"]
 - ["So16UIViewControllerC", "Int"]
 - ["So16UIViewControllerC", "LoginType"]
+- ["So16UIViewControllerC", "NSCoder"]
 - ["So16UIViewControllerC", "UINavigationController"]
 - ["So16UIViewControllerC", "UIViewController"]
-- !private ["So16UIViewControllerC", "delegate"]
-- ["So16UIViewControllerC", "dismissAction"]
-- ["So16UIViewControllerC", "dismissActionBlock"]
 - ["So16UIViewControllerC", "gestureRecognizer"]
 - ["So16UIViewControllerC", "gestureRecognizerShouldBegin"]
 - ["So16UIViewControllerC", "init"]
@@ -384,15 +393,17 @@ depends-member:
 - ["So16UIViewControllerC", "pushViewController"]
 - !private ["So16UIViewControllerC", "responds"]
 - !private ["So16UIViewControllerC", "viewControllers"]
-- ["So16UIViewControllerC", "viewDidLoad"]
 - !private ["s14_ArrayProtocolP", "count"]
 - !private ["s24_DestructorSafeContainerP", "count"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UINavigationController"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "gestureRecognizer"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "gestureRecognizerShouldBegin"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "interactivePopGestureRecognizer"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "isEnabled"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "navigationController"]
@@ -418,8 +429,13 @@ depends-nominal:
 - "s9EquatableP"
 - !private "s25ExpressibleByArrayLiteralP"
 - !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "7RxCocoa11HasDelegateP"
 - "s8HashableP"
 - "16AlchemintProject28JWCustomNavigationControllerC"
+- !private "7RxCocoa16KVORepresentableP"
 - "16AlchemintProject28JWCustomNavigationControllerC9LoginTypeO"
 - !private "s25LosslessStringConvertibleP"
 - !private "s17MutableCollectionP"
@@ -430,7 +446,9 @@ depends-nominal:
 - !private "s22RandomAccessCollectionP"
 - !private "s26RangeReplaceableCollectionP"
 - "s16RawRepresentableP"
+- "7RxSwift18ReactiveCompatibleP"
 - !private "s8SequenceP"
+- !private "s12StaticStringV"
 - "So21UIAppearanceContainerP"
 - "So18UIContentContainerP"
 - "So18UIFocusEnvironmentP"
@@ -447,12 +465,17 @@ depends-nominal:
 - !private "s14_ArrayProtocolP"
 - !private "s24_DestructorSafeContainerP"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - "10Foundation27_KeyValueCodingAndObservingP"
 - !private "s21_ObjectiveCBridgeableP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Modules/RxCocoa.swiftmodule/x86_64.swiftmodule"
 - "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
@@ -465,15 +488,45 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Products/Debug-iphonesimulator/pop/pop.framework/Headers/POP.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RX.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa-umbrella.h"
 - "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Products/Debug-iphonesimulator/pop/pop.framework/Headers/pop-umbrella.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-umbrella.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa.h"
 - "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/Neoutils.framework/Headers/Universe.objc.h"
 - "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/Neoutils.framework/Headers/Neoutils.objc.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RXObjCRuntime.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoaRuntime.h"
 - "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/Neoutils.framework/Headers/ref.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Products/Debug-iphonesimulator/pop/pop.framework/Headers/POPAnimation.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Products/Debug-iphonesimulator/pop/pop.framework/Headers/POPBasicAnimation.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Products/Debug-iphonesimulator/pop/pop.framework/Headers/POPSpringAnimation.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Products/Debug-iphonesimulator/pop/pop.framework/Headers/POPCustomAnimation.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Products/Debug-iphonesimulator/pop/pop.framework/Headers/POPDecayAnimation.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Products/Debug-iphonesimulator/pop/pop.framework/Headers/POPPropertyAnimation.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Products/Debug-iphonesimulator/pop/pop.framework/Headers/POPAnimationTracer.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RXKVOObserver.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Products/Debug-iphonesimulator/pop/pop.framework/Headers/POPAnimator.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Products/Debug-iphonesimulator/pop/pop.framework/Headers/POPAnimationExtras.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Products/Debug-iphonesimulator/pop/pop.framework/Headers/POPLayerExtras.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Products/Debug-iphonesimulator/pop/pop.framework/Headers/POPDefines.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Products/Debug-iphonesimulator/pop/pop.framework/Headers/POPAnimatablePropertyTypes.h"
 - "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/Neoutils.framework/Headers/Neoutils.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa-Swift.h"
 - "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Products/Debug-iphonesimulator/pop/pop.framework/Headers/POPAnimationEvent.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Products/Debug-iphonesimulator/pop/pop.framework/Headers/POPGeometry.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Products/Debug-iphonesimulator/pop/pop.framework/Headers/POPAnimatableProperty.h"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RXDelegateProxy.h"
 - "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/CommonCrypto/module.modulemap"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Modules/module.modulemap"
 - "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Products/Debug-iphonesimulator/pop/pop.framework/Modules/module.modulemap"
 - "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/Neoutils.framework/Modules/module.modulemap"
+- "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
@@ -485,4 +538,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
-interface-hash: "5b0d9414c7bdde4b8e8350926807b25e"
+interface-hash: "42a54be9af8572b2fc5bf6bb900fa93f"

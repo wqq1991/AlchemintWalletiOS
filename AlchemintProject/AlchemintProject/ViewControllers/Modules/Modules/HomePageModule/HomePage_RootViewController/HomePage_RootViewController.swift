@@ -8,6 +8,7 @@
 
 import UIKit
 import Foundation
+import pop
 
 class HomePage_RootViewController : JWBaseViewController {
     
@@ -47,16 +48,19 @@ class HomePage_RootViewController : JWBaseViewController {
 //            
 //        } 
         
-//        let animation = POPBasicAnimation(propertyNamed: kPOPLayerCornerRadius)
-//        animation.toValue = NSNumber(float: 5)
-//        animation.name = "animacijaCircle";
-//        animation.delegate = self
-//        animation.duration = 1.5
-//        mView.layer.pop_addAnimation(animation, forKey: "animation")
+//        if let animation = POPBasicAnimation(propertyNamed: kPOPLayerCornerRadius) {
+//
+//            animation.toValue = 5
+//            animation.name = "animacijaCircle";
+//            animation.delegate = self
+//            animation.duration = 1.5
+//            mView.layer.pop_add(animation, forKey: "animation")
+//        }
         
         
+         
 //        let anim = POPBasicAnimation(propertyNamed: kPOPViewScaleXY)
-//       anim.toValue = NSValue(CGRect: CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT))
+//        anim?.toValue = NSValue.init(cgRect: CGRect(x: 0, y: 0, width: SCREEN_WIDTH, height: SCREEN_HEIGHT))
 //        anim?.toValue = NSValue(cgSize: CGSize(width: 0.8, height: 0.8))
 //        anim?.duration = 1.5
 //

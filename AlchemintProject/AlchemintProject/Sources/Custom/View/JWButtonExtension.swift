@@ -20,8 +20,7 @@ extension UIButton  {
         get {
         
             if objc_getAssociatedObject(self, jwEnabledKey) != nil {
-            
-                
+             
                 return objc_getAssociatedObject(self, jwEnabledKey) as! Bool;
             }
             

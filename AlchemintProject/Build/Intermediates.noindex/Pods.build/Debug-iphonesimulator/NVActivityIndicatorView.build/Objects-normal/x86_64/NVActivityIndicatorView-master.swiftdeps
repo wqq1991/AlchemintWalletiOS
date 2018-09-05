@@ -1,6 +1,6 @@
 version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
 options: "e49be4ae683001798cccf57db5d7dda5"
-build_time: [1535537535, 400421000]
+build_time: [1536145870, 426621000]
 inputs:
   "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Pods/NVActivityIndicatorView/Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationAudioEqualizer.swift": [1535511079, 0]
   "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Pods/NVActivityIndicatorView/Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallBeat.swift": [1535511079, 0]

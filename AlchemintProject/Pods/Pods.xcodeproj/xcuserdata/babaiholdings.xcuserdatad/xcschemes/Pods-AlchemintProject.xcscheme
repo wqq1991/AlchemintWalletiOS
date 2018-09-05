@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0930"
+   LastUpgradeVersion = "0940"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1D1CB1C96B5EE19DF5AA37DAFF3985DC"
+               BlueprintIdentifier = "00A519950EF226CB8F0213E4AA0F611D"
                BuildableName = "Pods_AlchemintProject.framework"
                BlueprintName = "Pods-AlchemintProject"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1D1CB1C96B5EE19DF5AA37DAFF3985DC"
+            BlueprintIdentifier = "00A519950EF226CB8F0213E4AA0F611D"
             BuildableName = "Pods_AlchemintProject.framework"
             BlueprintName = "Pods-AlchemintProject"
             ReferencedContainer = "container:Pods.xcodeproj">

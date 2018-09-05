@@ -78,7 +78,7 @@ class RootTabBarController : UITabBarController {
 
         let moreModuleNav : UIViewController? = UIStoryboard(name: "MoreModule", bundle: nil).instantiateViewController(withIdentifier: "MoreModuleNav")
         
-             self .setViewControllers([homeMeModuleNav!,productModuleNav!,myWealthModuleNav!,moreModuleNav!], animated: true)
+        self .setViewControllers([homeMeModuleNav!,productModuleNav!,myWealthModuleNav!,moreModuleNav!], animated: true)
  
     }
     
@@ -121,10 +121,14 @@ class RootTabBarController : UITabBarController {
             *
             *  @return return value description
             */
-//            let itemImage:UIImage = UIImage(named: itemNomalImages[index])!
+            let imageName = itemNomalImages[index]
             
-//            item.image = itemImage
+            let itemImage:UIImage = UIImage.init(named: imageName)!
             
+            item.image = itemImage
+            
+            item.titlePositionAdjustment = UIOffset(horizontal: 0, vertical: -2)
+                
             index += 1
         }
     }
@@ -168,7 +172,10 @@ class RootTabBarController : UITabBarController {
         
             UIView.animate(withDuration: 0.35, delay: 0, usingSpringWithDamping: 0.8, initialSpringVelocity: 0, options: UIViewAnimationOptions.allowUserInteraction, animations: { () -> Void in
                 
+                let colors = [UIColor.colorFromeRGB(0xf25f5c),UIColor.colorFromeRGB(0xffe066),UIColor.colorFromeRGB(0x247ba0),UIColor.colorFromeRGB(0x70c1b3)]
+                
                 self.sliderBgView!.frame = CGRect(x: rect!.size.width * CGFloat(selectedIndex), y: self.tabBar.frame.origin.x, width: rect!.size.width, height: rect!.size.height)
+                self.sliderBgView?.backgroundColor = colors[selectedIndex]
                 
                 }, completion: nil)
             

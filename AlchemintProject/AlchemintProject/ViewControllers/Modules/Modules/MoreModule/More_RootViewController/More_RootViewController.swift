@@ -10,15 +10,18 @@ import UIKit
 
 class More_RootViewController : UIViewController, UITableViewDelegate, UITableViewDataSource {
     
+    
     var titles = [["关于我们","安全保障","常见问题"],["分享好友","给我们评分","客服咨询","当前版本"]]
     
     @IBOutlet weak var mTableView: UITableView!
     
     override func viewDidLoad() {
+        
         self.navigationItem.title = "更多信息"
-        
+        mTableView.delegate = self
+        mTableView.dataSource = self
         mTableView.rowHeight = 42.0
-        
+        mTableView.register(UITableViewCell.self, forCellReuseIdentifier: "MoreListCellID")
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
@@ -32,8 +35,11 @@ class More_RootViewController : UIViewController, UITableViewDelegate, UITableVi
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-      
         
+        let homePage = UIStoryboard(name: "HomePageModule", bundle: nil).instantiateViewController(withIdentifier: "HomePageModuleNav")
+        
+        self.navigationController?.pushViewController(homePage, animated: true)
+
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {

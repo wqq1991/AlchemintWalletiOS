@@ -57,6 +57,37 @@ class ViewController: UIViewController {
         
     }
     
+    func Array() {
+        
+        var array : [String] = ["a","b","c"]
+        
+        array += ["d","e"]
+        
+        array.append("f")
+        
+        array[3...5] = ["1","2","3"]
+        
+        array.insert("10", at: 7)
+        
+        for (index, value) in array.enumerated() {
+            
+            DLog("value = \(value) index = \(index)")
+        }
+        
+        
+        
+    }
+    
+    func Dictionary() {
+        
+        var dictionary = [String: String]()
+        
+        dictionary = ["11":"a","12":"b","13":"c"];
+        
+        
+        
+        
+    }
 
 }
 

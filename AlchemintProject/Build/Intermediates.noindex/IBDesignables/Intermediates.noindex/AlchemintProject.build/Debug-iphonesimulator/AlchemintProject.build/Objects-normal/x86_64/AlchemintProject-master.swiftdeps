@@ -1,9 +1,10 @@
 version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
 options: "4b3812c6fa8f8d5047fe1c96aa6616a9"
-build_time: [1535540444, 102302000]
+build_time: [1535608587, 961909000]
 inputs:
+  "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/ViewControllers/JWBaseViewControllers/JWCustomNavigationController/JWCustomNavigationController.swift": [9223372036, 854775807]
   "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/Models/NeoScanTransactionHistory.swift": [1534902160, 0]
-  "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/NeoClient.swift": [1534914875, 0]
+  "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/NeoClient.swift": [1535608413, 0]
   "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/Util/NEP2.swift": [1534908487, 0]
   "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/ViewControllers/Modules/Modules/ProductModule/Product_RootViewController/Product_RootViewController.swift": [1535529866, 0]
   "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/AlchemintProject/Sources/External/NeoSwift/ShamirSecret.swift": [1534914728, 0]

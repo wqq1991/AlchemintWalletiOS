@@ -69,6 +69,7 @@
 		44E297D921368A9400FB1E87 /* RootTabBarController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44E297C621368A9300FB1E87 /* RootTabBarController.storyboard */; };
 		44E297DA21368A9400FB1E87 /* StartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44E297C821368A9300FB1E87 /* StartViewController.xib */; };
 		44E297DB21368A9400FB1E87 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E297C921368A9300FB1E87 /* StartViewController.swift */; };
+		44F7CD7C21378C9C00588FA3 /* JWCustomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F7CD7B21378C9C00588FA3 /* JWCustomNavigationController.swift */; };
 		494DB6EC212725D5004FEE9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494DB6EB212725D5004FEE9D /* AppDelegate.swift */; };
 		494DB6EE212725D5004FEE9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494DB6ED212725D5004FEE9D /* ViewController.swift */; };
 		494DB6F1212725D5004FEE9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 494DB6EF212725D5004FEE9D /* Main.storyboard */; };
@@ -155,6 +156,7 @@
 		44E297C621368A9300FB1E87 /* RootTabBarController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = RootTabBarController.storyboard; sourceTree = "<group>"; };
 		44E297C821368A9300FB1E87 /* StartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StartViewController.xib; sourceTree = "<group>"; };
 		44E297C921368A9300FB1E87 /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		44F7CD7B21378C9C00588FA3 /* JWCustomNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JWCustomNavigationController.swift; sourceTree = "<group>"; };
 		494DB6E8212725D5004FEE9D /* AlchemintProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlchemintProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		494DB6EB212725D5004FEE9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		494DB6ED212725D5004FEE9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -365,13 +367,13 @@
 		44E297AA21368A9300FB1E87 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				44E297AB21368A9300FB1E87 /* LoginModule */,
-				44E297B121368A9300FB1E87 /* MoreModule */,
+				44E297C021368A9300FB1E87 /* HomePageModule */,
 				44E297B621368A9300FB1E87 /* ProductModule */,
 				44E297BC21368A9300FB1E87 /* MyWealthModule */,
-				44E297C021368A9300FB1E87 /* HomePageModule */,
-				44E297C421368A9300FB1E87 /* RootTabBarViewController */,
+				44E297AB21368A9300FB1E87 /* LoginModule */,
+				44E297B121368A9300FB1E87 /* MoreModule */,
 				44E297C721368A9300FB1E87 /* OtherModule */,
+				44E297C421368A9300FB1E87 /* RootTabBarViewController */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -478,6 +480,7 @@
 		44E297DC2136A84D00FB1E87 /* JWCustomNavigationController */ = {
 			isa = PBXGroup;
 			children = (
+				44F7CD7B21378C9C00588FA3 /* JWCustomNavigationController.swift */,
 			);
 			path = JWCustomNavigationController;
 			sourceTree = "<group>";
@@ -659,7 +662,10 @@
 				"${BUILT_PRODUCTS_DIR}/AlamofireJsonToObjects/AlamofireJsonToObjects.framework",
 				"${BUILT_PRODUCTS_DIR}/EVReflection/EVReflection.framework",
 				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -669,7 +675,10 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireJsonToObjects.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EVReflection.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -701,6 +710,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44F7CD7C21378C9C00588FA3 /* JWCustomNavigationController.swift in Sources */,
 				44E29719213417C200FB1E87 /* NeoScanTransactionHistory.swift in Sources */,
 				44E29727213417C200FB1E87 /* NeoClient.swift in Sources */,
 				44E29709213417C200FB1E87 /* NEP2.swift in Sources */,

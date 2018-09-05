@@ -1,14 +1,15 @@
 //
-//  JWNavigationController.swift
-//  HelloSwift
+//  CustomNavigationController.swift
+//  AlchemintProject
 //
-//  Created by WuQiaoqiao on 16/2/29.
-//  Copyright © 2016年 Joe. All rights reserved.
+//  Created by BABAIHOLDINGS on 2018/8/30.
+//  Copyright © 2018年 com.alchemintTeam.wuqiaoqiao. All rights reserved.
 //
 
+import Foundation
 import UIKit
 
-class JWCustomNavigationController:UINavigationController,UIGestureRecognizerDelegate,UINavigationControllerDelegate {
+class JWCustomNavigationController: UINavigationController,UIGestureRecognizerDelegate,UINavigationControllerDelegate  {
     
     enum LoginType: Int {
         
@@ -16,46 +17,23 @@ class JWCustomNavigationController:UINavigationController,UIGestureRecognizerDel
         case logined
         case registered
     }
-   
+    
     typealias DismissBlock = (_ loginType: LoginType, _ finished: Bool) -> ()
     
-    var dismissAction : DismissBlock
+    //var dismissAction : DismissBlock
     
-//    init() {
-//        super.init(nibName: nil, bundle: nil)
-//    }
-  
-    convenience override init(rootViewController: UIViewController) {
-     
-        //super.init(rootViewController: rootViewController)
-    }
-    
-//    required init?(coder aDecoder: NSCoder) {
-//
-//        fatalError("init(coder:) has not been implemented")
-//    }
-    
-    override func viewDidLoad() {
+    required init(coder aDecoder: NSCoder) {
         
-        interactivePopGestureRecognizer?.delegate = self
-        self.delegate = self
+        super.init(coder: aDecoder)!
         
     }
-    
-    
-    func dismissActionBlock(_ actionBlock: DismissBlock) {
-        
-//        dismissAction = actionBlock
-    }
-    
-    
     
     override func pushViewController(_ viewController: UIViewController, animated: Bool) {
         
         if  self.responds(to: #selector(getter: UINavigationController.interactivePopGestureRecognizer)) {
-        
+            
             self.interactivePopGestureRecognizer?.isEnabled = false
-        
+            
             super.pushViewController(viewController, animated: animated)
         }
         
@@ -64,13 +42,12 @@ class JWCustomNavigationController:UINavigationController,UIGestureRecognizerDel
     func navigationController(_ navigationController: UINavigationController, didShow viewController: UIViewController, animated: Bool) {
         
         if navigationController.viewControllers.count == 1 {
-        
+            
             navigationController.interactivePopGestureRecognizer?.isEnabled = false
         }else
         {
             navigationController.interactivePopGestureRecognizer?.isEnabled = true
         }
     }
-    
-    
+ 
 }

@@ -16,7 +16,44 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        customizeInterface()
+        
         return true
+    }
+    
+    
+    /**
+     配置导航控件基本样式
+     */
+    func customizeInterface() {
+        
+        let navigationBarAppearance = UINavigationBar.appearance()
+        
+        var textAttributes:NSDictionary
+        
+        navigationBarAppearance.tintColor = UIColor.purple
+        
+        navigationBarAppearance.setBackgroundImage(UIImage.imageWithColor(kNavThemeColor), for: UIBarMetrics.default)
+        
+        textAttributes = [NSAttributedStringKey.font:UIFont.systemFont(ofSize: 18.0),NSAttributedStringKey.foregroundColor:kNavThemeColor2]
+        
+        navigationBarAppearance.titleTextAttributes = textAttributes as? [NSAttributedStringKey : Any]
+        
+        let tabBarAppearance = UITabBar.appearance()
+        
+        let version:NSString = UIDevice.current.systemVersion as NSString
+        
+        if(version.floatValue >= 8.0) {
+            
+            navigationBarAppearance .isTranslucent = false
+            
+            tabBarAppearance.isTranslucent = false
+        }
+        
+        let textfieldAppearance = UITextField.appearance()
+        
+        textfieldAppearance.tintColor = UIColor.blue
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
