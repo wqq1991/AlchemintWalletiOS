@@ -14,7 +14,7 @@ let jwEnabledKey: String = "jwEnabledKey"
 
 @IBDesignable
 extension UIButton  {
-    
+    /*
     @IBInspectable var jwEnabled : Bool {
     
         get {
@@ -47,10 +47,11 @@ extension UIButton  {
                     self.backgroundColor = self.enabledBackgroundColor
                 })
             }
-            
+ 
         }
-    
+ 
     }
+    */
     
    @IBInspectable  var disabledBackgroundColor : UIColor {
     

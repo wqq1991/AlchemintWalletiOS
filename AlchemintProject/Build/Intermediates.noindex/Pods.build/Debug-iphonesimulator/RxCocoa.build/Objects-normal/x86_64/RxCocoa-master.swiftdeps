@@ -1,6 +1,6 @@
 version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
 options: "d63ddbaff4a9eeddcc37055c8fc84814"
-build_time: [1536145933, 367833000]
+build_time: [1536231375, 955910000]
 inputs:
   "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Pods/RxCocoa/Platform/DataStructures/Bag.swift": [1536136743, 0]
   "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Pods/RxCocoa/RxCocoa/Traits/Driver/BehaviorRelay+Driver.swift": [1536136743, 0]

@@ -1,6 +1,6 @@
 version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
 options: "e6ee1952244ee7eb287095413a660aae"
-build_time: [1536145870, 418636000]
+build_time: [1536231319, 541768000]
 inputs:
   "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Pods/Alamofire/Source/AFError.swift": [1535369187, 0]
   "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Pods/Alamofire/Source/Alamofire.swift": [1535369187, 0]

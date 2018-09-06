@@ -1,6 +1,6 @@
 version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
 options: "8f408e76769fa6a57a4340ea631e5cd3"
-build_time: [1536145882, 177336000]
+build_time: [1536231332, 438755000]
 inputs:
   "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Pods/RxSwift/RxSwift/Observables/AddRef.swift": [1536136497, 0]
   "/Users/babaiholdings/Documents/AlchemintWalletiOS/AlchemintProject/Pods/RxSwift/RxSwift/Observables/Amb.swift": [1536136497, 0]

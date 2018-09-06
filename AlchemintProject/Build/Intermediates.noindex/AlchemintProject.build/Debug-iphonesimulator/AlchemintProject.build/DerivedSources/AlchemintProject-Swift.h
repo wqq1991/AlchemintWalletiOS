@@ -249,7 +249,6 @@ SWIFT_CLASS("_TtC16AlchemintProject27HomePage_RootViewController")
 @property (nonatomic, weak) IBOutlet UIScrollView * _Null_unspecified mScrollview;
 - (void)viewDidLoad;
 - (void)viewDidAppear:(BOOL)animated;
-- (void)leftItemTapped;
 - (void)rightItemTapped;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
@@ -271,6 +270,7 @@ SWIFT_CLASS("_TtC16AlchemintProject8JWButton")
 SWIFT_CLASS("_TtC16AlchemintProject28JWCustomNavigationController")
 @interface JWCustomNavigationController : UINavigationController <UIGestureRecognizerDelegate, UINavigationControllerDelegate>
 - (nonnull instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (void)viewDidLoad;
 - (void)pushViewController:(UIViewController * _Nonnull)viewController animated:(BOOL)animated;
 - (void)navigationController:(UINavigationController * _Nonnull)navigationController didShowViewController:(UIViewController * _Nonnull)viewController animated:(BOOL)animated;
 - (nonnull instancetype)initWithNavigationBarClass:(Class _Nullable)navigationBarClass toolbarClass:(Class _Nullable)toolbarClass SWIFT_UNAVAILABLE;
@@ -330,6 +330,14 @@ SWIFT_CLASS("_TtC16AlchemintProject19LoginViewController")
 @end
 
 
+SWIFT_CLASS("_TtC16AlchemintProject24MoreDetailViewController")
+@interface MoreDetailViewController : JWBaseViewController
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 SWIFT_CLASS("_TtC16AlchemintProject12MoreListCell")
 @interface MoreListCell : UITableViewCell
 - (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
@@ -339,17 +347,25 @@ SWIFT_CLASS("_TtC16AlchemintProject12MoreListCell")
 @class UITableView;
 
 SWIFT_CLASS("_TtC16AlchemintProject23More_RootViewController")
-@interface More_RootViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+@interface More_RootViewController : JWBaseViewController
 @property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified mTableView;
 - (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface More_RootViewController (SWIFT_EXTENSION(AlchemintProject)) <UITableViewDelegate>
+- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+@end
+
+
+@interface More_RootViewController (SWIFT_EXTENSION(AlchemintProject)) <UITableViewDataSource>
 - (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 - (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForHeaderInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
-- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 - (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
 - (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
@@ -391,6 +407,17 @@ SWIFT_CLASS("_TtC16AlchemintProject26Product_RootViewController")
 - (void)viewDidLoad;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface Product_RootViewController (SWIFT_EXTENSION(AlchemintProject)) <UITableViewDelegate>
+- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+@end
+
+
+@interface Product_RootViewController (SWIFT_EXTENSION(AlchemintProject)) <UITableViewDataSource>
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 @end
 
 
@@ -436,7 +463,6 @@ SWIFT_CLASS("_TtC16AlchemintProject19StartViewController")
 
 
 @interface UIButton (SWIFT_EXTENSION(AlchemintProject))
-@property (nonatomic) BOOL jwEnabled;
 @property (nonatomic, strong) UIColor * _Nonnull disabledBackgroundColor;
 @property (nonatomic, strong) UIColor * _Nonnull enabledBackgroundColor;
 @end
@@ -478,17 +504,6 @@ SWIFT_CLASS("_TtC16AlchemintProject14ViewController")
 - (void)didReceiveMemoryWarning;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-@interface ViewController (SWIFT_EXTENSION(AlchemintProject)) <UITableViewDelegate>
-- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
-@end
-
-
-@interface ViewController (SWIFT_EXTENSION(AlchemintProject)) <UITableViewDataSource>
-- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
-- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 @end
 
 #if __has_attribute(external_source_symbol)

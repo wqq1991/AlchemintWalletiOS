@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="StartViewController" customModule="HelloSwift" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="StartViewController" customModule="AlchemintProject" customModuleProvider="target">
             <connections>
                 <outlet property="iconLb" destination="XZC-So-EgX" id="cSN-o0-WVt"/>
                 <outlet property="imageView" destination="lNh-PT-J0R" id="s1s-zx-wwB"/>
@@ -21,28 +22,28 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Swift" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XZC-So-EgX">
-                    <rect key="frame" x="88" y="110" width="200" height="80"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="80" id="UQz-dE-LHQ"/>
-                        <constraint firstAttribute="width" constant="200" id="k24-q4-W5E"/>
-                    </constraints>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Alchemint" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XZC-So-EgX">
+                    <rect key="frame" x="33" y="120" width="309" height="69.5"/>
                     <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="55"/>
-                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="textColor" red="0.80653913909999997" green="0.60388869739999995" blue="0.14452199499999999" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.0" contentMode="scaleAspectFill" fixedFrame="YES" image="IMG_0958.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="lNh-PT-J0R">
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.0" contentMode="scaleAspectFill" image="IMG_0958.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="lNh-PT-J0R">
                     <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
             </subviews>
             <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="XZC-So-EgX" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="110" id="42J-jE-6g4"/>
-                <constraint firstItem="XZC-So-EgX" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="dZ6-jl-2Se"/>
+                <constraint firstItem="lNh-PT-J0R" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="8PM-nR-I7e"/>
+                <constraint firstAttribute="trailing" secondItem="lNh-PT-J0R" secondAttribute="trailing" id="FdT-Le-7DC"/>
+                <constraint firstItem="lNh-PT-J0R" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="KNJ-BA-CuU"/>
+                <constraint firstItem="XZC-So-EgX" firstAttribute="top" secondItem="C8C-P4-USc" secondAttribute="top" constant="100" id="XzB-ZD-VSc"/>
+                <constraint firstItem="XZC-So-EgX" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="aMw-89-eVi"/>
+                <constraint firstAttribute="bottom" secondItem="lNh-PT-J0R" secondAttribute="bottom" id="jgV-f0-1ue"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
-            <point key="canvasLocation" x="517.5" y="412.5"/>
+            <viewLayoutGuide key="safeArea" id="C8C-P4-USc"/>
+            <point key="canvasLocation" x="483" y="286"/>
         </view>
     </objects>
     <resources>

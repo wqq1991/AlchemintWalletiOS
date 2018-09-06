@@ -37,24 +37,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" allowsSelection="NO" rowHeight="42" sectionHeaderHeight="1" sectionFooterHeight="30" translatesAutoresizingMaskIntoConstraints="NO" id="uop-zl-EiG">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="98" sectionHeaderHeight="1" sectionFooterHeight="1" translatesAutoresizingMaskIntoConstraints="NO" id="uop-zl-EiG">
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
-                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <inset key="separatorInset" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="MoreListCellID" rowHeight="42" id="a9e-Ms-j1p">
-                                        <rect key="frame" x="0.0" y="55.5" width="375" height="42"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="MoreListCellID" editingAccessoryType="detailButton" rowHeight="98" id="a9e-Ms-j1p">
+                                        <rect key="frame" x="0.0" y="55.5" width="375" height="98"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="a9e-Ms-j1p" id="hhn-Bm-GGJ">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="41.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="97.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="gma-mo-46a" kind="push" id="dLA-CQ-9Iz"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <sections/>
                                 <connections>
-                                    <outlet property="dataSource" destination="xFT-Jg-SCT" id="jk5-HO-wYQ"/>
-                                    <outlet property="delegate" destination="xFT-Jg-SCT" id="tkY-0Z-HPY"/>
+                                    <outlet property="dataSource" destination="xFT-Jg-SCT" id="Qv2-59-KpQ"/>
+                                    <outlet property="delegate" destination="xFT-Jg-SCT" id="kVB-uV-OMx"/>
                                 </connections>
                             </tableView>
                         </subviews>
@@ -68,12 +71,31 @@
                     </view>
                     <navigationItem key="navigationItem" id="NZd-s7-MRa"/>
                     <connections>
-                        <outlet property="mTableView" destination="uop-zl-EiG" id="lti-bV-kTS"/>
+                        <outlet property="mTableView" destination="uop-zl-EiG" id="e74-m8-zHO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5kn-UE-H13" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="85.5" y="278.5"/>
+            <point key="canvasLocation" x="84" y="278.41079460269867"/>
+        </scene>
+        <!--More Detail View Controller-->
+        <scene sceneID="nX1-yY-lr7">
+            <objects>
+                <viewController storyboardIdentifier="MoreDetailViewController" id="gma-mo-46a" customClass="MoreDetailViewController" customModule="AlchemintProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2Zm-md-rnf"/>
+                        <viewControllerLayoutGuide type="bottom" id="7aC-bJ-oVf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ncz-Zb-itT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="f2n-Vi-Bef"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nki-Mv-6Gn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="842" y="278"/>
         </scene>
     </scenes>
 </document>

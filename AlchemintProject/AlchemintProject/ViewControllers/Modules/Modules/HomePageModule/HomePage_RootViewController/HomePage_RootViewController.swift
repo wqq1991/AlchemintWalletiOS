@@ -83,10 +83,10 @@ class HomePage_RootViewController : JWBaseViewController {
         
     }
     
-    override func leftItemTapped() {
-        
-        NotificationCenter.default.post(name: Notification.Name(rawValue: kLoginViewViewNotification), object: nil)
-    }
+//    override func leftItemTapped() {
+//
+//        NotificationCenter.default.post(name: Notification.Name(rawValue: kLoginViewViewNotification), object: nil)
+//    }
     
     override func rightItemTapped() {
         

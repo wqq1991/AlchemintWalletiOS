@@ -40,15 +40,15 @@ class Product_RootViewController : JWBaseViewController {
         setLeftNaviItemWithTitle("refresh", imageName: "")
         setRightNaviItemWithTitle("endRefresh", imageName: "")
         
-//        tableView.delegate = self
-//        tableView.dataSource = self
+//        tableView.delegate = self as! UITableViewDelegate
+//        tableView.dataSource = self as! UITableViewDataSource
         
         tableView.rowHeight = 42.0
-        
+        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "musicCell")
     }
     
 }
-extension ViewController: UITableViewDataSource {
+extension Product_RootViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
       
@@ -66,7 +66,7 @@ extension ViewController: UITableViewDataSource {
     
 }
 
-extension ViewController: UITableViewDelegate {
+extension Product_RootViewController: UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         

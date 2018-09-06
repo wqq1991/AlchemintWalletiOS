@@ -19,6 +19,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         customizeInterface()
         
+        StartViewController.addStartViewToView((window?.rootViewController?.view)!) { (finish) -> Void in
+            
+            
+        }
+        
         return true
     }
     

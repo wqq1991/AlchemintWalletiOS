@@ -19,8 +19,7 @@ typealias Task = (_ cancel : Bool) -> Void
  :returns: Task
  */
 func dispatch_after_delay(_ timeInterval : TimeInterval, task:@escaping () -> ()) -> Task? {
-
-    
+ 
     func dispatch_later(_ block:@escaping () -> ()) {
     
         let time = DispatchTime.now() + timeInterval;

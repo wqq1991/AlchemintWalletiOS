@@ -15,7 +15,7 @@ class JWBaseViewController: UIViewController {
     
     override func viewDidLoad() {
         
-        edgesForExtendedLayout = UIRectEdge()
+        edgesForExtendedLayout = UIRectEdge() 
     }
     
     /**

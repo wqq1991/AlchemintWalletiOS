@@ -23,13 +23,14 @@ class StartViewController: JWBaseViewController {
      
         let startVC = StartViewController()
         
+        startVC.view.frame = view.bounds
         view .addSubview(startVC.view)
         
     }
     
     override func viewDidLoad() {
         
-//        ///随机生成 欢迎页图片
+        /*随机生成 欢迎页图片*/
         let imageNames = ["IMG_0979.JPG","IMG_0980.JPG","IMG_0958.JPG","IMG_0961.JPG","IMG_0967.JPG","IMG_0968.JPG","IMG_0988.JPG"]
         
         let count = imageNames.count

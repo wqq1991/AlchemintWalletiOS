@@ -28,6 +28,13 @@ class JWCustomNavigationController: UINavigationController,UIGestureRecognizerDe
         
     }
     
+    override func viewDidLoad() {
+        
+        interactivePopGestureRecognizer?.delegate = self
+        self.delegate = self
+        
+    }
+    
     override func pushViewController(_ viewController: UIViewController, animated: Bool) {
         
         if  self.responds(to: #selector(getter: UINavigationController.interactivePopGestureRecognizer)) {
