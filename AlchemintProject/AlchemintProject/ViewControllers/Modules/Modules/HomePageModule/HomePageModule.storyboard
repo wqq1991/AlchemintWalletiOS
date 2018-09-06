@@ -64,6 +64,9 @@
                                                     <color key="value" red="0.81568627449999997" green="0.14901960780000001" blue="0.2156862745" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </userDefinedRuntimeAttribute>
                                             </userDefinedRuntimeAttributes>
+                                            <connections>
+                                                <action selector="mButtonAction:" destination="QP2-JJ-pPi" eventType="touchUpInside" id="pue-pY-t1n"/>
+                                            </connections>
                                         </button>
                                     </subviews>
                                     <constraints>

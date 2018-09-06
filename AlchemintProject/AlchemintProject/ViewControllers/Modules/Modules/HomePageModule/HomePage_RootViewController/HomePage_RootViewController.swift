@@ -12,8 +12,13 @@ import pop
 
 class HomePage_RootViewController : JWBaseViewController {
     
+    
     @IBOutlet weak var mView: UIView!
     @IBOutlet weak var mScrollview: UIScrollView!
+    @IBAction func mButtonAction(_ sender: UIButton) {
+        
+        animals()
+    }
     
     var a: CGFloat = 0
     
@@ -59,12 +64,7 @@ class HomePage_RootViewController : JWBaseViewController {
         
         
          
-//        let anim = POPBasicAnimation(propertyNamed: kPOPViewScaleXY)
-//        anim?.toValue = NSValue.init(cgRect: CGRect(x: 0, y: 0, width: SCREEN_WIDTH, height: SCREEN_HEIGHT))
-//        anim?.toValue = NSValue(cgSize: CGSize(width: 0.8, height: 0.8))
-//        anim?.duration = 1.5
-//
-//        mView.pop_add(anim, forKey: "anim")
+
     }
     
     
@@ -96,6 +96,17 @@ class HomePage_RootViewController : JWBaseViewController {
 //            
 //            JWLoadingView.hiddenView(in: self.view)
 //        }
+    }
+    
+    func animals() {
+        
+        let anim = POPBasicAnimation(propertyNamed: kPOPViewScaleXY)
+        anim?.toValue = NSValue(cgSize: CGSize(width: 0.99, height: 0.99))
+        anim?.toValue = NSValue(cgSize: CGSize(width: 0.8, height: 0.8))
+        anim?.duration = 1.5
+
+        mView.pop_add(anim, forKey: "anim")
+        
     }
     
 }
