@@ -17,18 +17,13 @@ extension UITextField {
  
         get {
         
-//            _borderColor = UIColor(CGColor: layer.borderColor!)
-            
+            _borderColor = UIColor.init(cgColor: layer.borderColor!)
             return _borderColor
         }
         
-        
         set {
-        
             _borderColor = newValue
-        
             layer.borderColor = _borderColor?.cgColor
-            
         }
         
     }
@@ -36,16 +31,12 @@ extension UITextField {
     @IBInspectable var borderWidth: CGFloat {
     
         get {
-        
-//            _borderWidth = layer.borderWidth
-            
+            _borderWidth = layer.borderWidth
             return _borderWidth
         }
     
         set {
-        
             _borderWidth = newValue
-            
             layer.borderWidth = _borderWidth
         }
     }
@@ -55,7 +46,7 @@ extension UITextField {
     
         get {
         
-//            _cornerRadius = layer.cornerRadius
+            _cornerRadius = layer.cornerRadius
             return _cornerRadius
         }
     

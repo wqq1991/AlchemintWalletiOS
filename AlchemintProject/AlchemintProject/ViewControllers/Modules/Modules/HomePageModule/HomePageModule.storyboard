@@ -43,25 +43,63 @@
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
-                                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4iG-cq-xBN">
-                                            <rect key="frame" x="41" y="92" width="94" height="95"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <color key="backgroundColor" red="0.99607843139999996" green="0.73725490199999999" blue="0.1176470588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </view>
                                         <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6lL-rE-muh">
                                             <rect key="frame" x="0.0" y="66" width="375" height="601"/>
                                         </scrollView>
-                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qYd-CY-e0W">
+                                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="电饭锅" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eiU-lY-3Jc" customClass="JWTextField" customModule="AlchemintProject" customModuleProvider="target">
+                                            <rect key="frame" x="105" y="318" width="165" height="30"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="30" id="WY9-Ns-CqX"/>
+                                                <constraint firstAttribute="width" constant="165" id="gbA-P1-L1N"/>
+                                            </constraints>
+                                            <nil key="textColor"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                            <textInputTraits key="textInputTraits"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                    <real key="value" value="1"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                    <color key="value" red="0.68235294120000001" green="0.56078431370000004" blue="0.28235294119999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="offsetX">
+                                                    <real key="value" value="0.0"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                    <real key="value" value="8"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                        </textField>
+                                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4iG-cq-xBN" customClass="JWView" customModule="AlchemintProject">
+                                            <rect key="frame" x="41" y="92" width="94" height="95"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <color key="backgroundColor" red="0.99607843139999996" green="0.73725490199999999" blue="0.1176470588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                    <real key="value" value="4"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                    <real key="value" value="13"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                        </view>
+                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qYd-CY-e0W" customClass="JWButton" customModule="AlchemintProject" customModuleProvider="target">
                                             <rect key="frame" x="79" y="246" width="129" height="33"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <state key="normal" title="Button"/>
                                             <userDefinedRuntimeAttributes>
-                                                <userDefinedRuntimeAttribute type="boolean" keyPath="jwEnabled" value="NO"/>
+                                                <userDefinedRuntimeAttribute type="boolean" keyPath="jwEnabled" value="YES"/>
                                                 <userDefinedRuntimeAttribute type="color" keyPath="disabledBackgroundColor">
-                                                    <color key="value" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="value" red="0.1176470588" green="0.83921568629999999" blue="0.80784313730000001" alpha="1" colorSpace="calibratedRGB"/>
                                                 </userDefinedRuntimeAttribute>
                                                 <userDefinedRuntimeAttribute type="color" keyPath="enabledBackgroundColor">
-                                                    <color key="value" red="0.81568627449999997" green="0.14901960780000001" blue="0.2156862745" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="value" red="0.89019607840000003" green="0.15686274510000001" blue="0.14117647059999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                    <integer key="value" value="6"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                    <real key="value" value="5"/>
                                                 </userDefinedRuntimeAttribute>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
@@ -73,7 +111,9 @@
                                         <constraint firstAttribute="trailing" secondItem="6lL-rE-muh" secondAttribute="trailing" id="Rni-ZS-kAK"/>
                                         <constraint firstItem="6lL-rE-muh" firstAttribute="top" secondItem="qLx-Kg-Wfe" secondAttribute="top" constant="66" id="V14-co-hT3"/>
                                         <constraint firstAttribute="bottom" secondItem="6lL-rE-muh" secondAttribute="bottom" id="XUB-3A-Lik"/>
+                                        <constraint firstItem="eiU-lY-3Jc" firstAttribute="top" secondItem="qLx-Kg-Wfe" secondAttribute="top" constant="318" id="dE6-3b-kB4"/>
                                         <constraint firstItem="6lL-rE-muh" firstAttribute="leading" secondItem="qLx-Kg-Wfe" secondAttribute="leading" id="h4o-iM-3qM"/>
+                                        <constraint firstItem="eiU-lY-3Jc" firstAttribute="leading" secondItem="qLx-Kg-Wfe" secondAttribute="leading" constant="105" id="kUf-dn-2JM"/>
                                     </constraints>
                                 </view>
                                 <blurEffect style="extraLight"/>
@@ -95,7 +135,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="o1T-sI-KM0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="101.5" y="278.5"/>
+            <point key="canvasLocation" x="100" y="278.41079460269867"/>
         </scene>
     </scenes>
 </document>

@@ -10,6 +10,7 @@ import UIKit
 import Foundation
 import pop
 
+
 class HomePage_RootViewController : JWBaseViewController {
     
     
@@ -35,12 +36,19 @@ class HomePage_RootViewController : JWBaseViewController {
         
 //        JWLoadingView.showLoadingView(self.view, forGifWithName: "loading10", timeSlot: 0.05)
         
-//        dispatch_after_delay(1.5) {
-//            
-//            JWLoadingView.hiddenViewInView(self.view)
+        DLog("等待5秒？")
+        _ = dispatch_after_delay(5) {
+            
+            DLog("时间到了")
+            //JWLoadingView.hiddenViewInView(self.view)
+        }
+        
+//        cancel { (finished) in
+//
+//            DLog("取消算了")
+//            task!(true)
 //        }
         
-      
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -77,7 +85,7 @@ class HomePage_RootViewController : JWBaseViewController {
         let mView = JWView(frame: CGRect(x: x,y: y,width: 40,height: 40))
         
         mView.backgroundColor = UIColor.red
-        mView.overForTime(0)
+//        mView.overForTime(0)
         
         view.insertSubview(mView, at: 0)
         
@@ -90,12 +98,14 @@ class HomePage_RootViewController : JWBaseViewController {
     
     override func rightItemTapped() {
         
-//        JWLoadingView.show(self.view, forGifWithName: "loading10", timeSlot: 0.05)
         
-//        dispatch_after_delay(2.5) {
-//            
+        
+        //JWLoadingView.show(self.view, forGifWithName: "loading10", timeSlot: 0.05)
+        
+        dispatch_after_delay(2.5) {
+            
 //            JWLoadingView.hiddenView(in: self.view)
-//        }
+        }
     }
     
     func animals() {

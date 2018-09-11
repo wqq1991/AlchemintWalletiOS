@@ -18,11 +18,9 @@ class More_RootViewController : JWBaseViewController {
         
         self.navigationItem.title = "更多信息"
         
-    
         mTableView.rowHeight = 42.0
         mTableView.register(UITableViewCell.self, forCellReuseIdentifier: "MoreListCellID")
     }
-    
 }
 
 extension More_RootViewController: UITableViewDataSource {

@@ -16,11 +16,8 @@ extension UITextField {
 
 }
 
-
-
+ 
 class AccountTextField: JWTextField  {
-    
-    
     
     var _maxLength: Int = 0
    @IBInspectable var maxLength: Int {

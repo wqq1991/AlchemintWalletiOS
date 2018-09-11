@@ -100,22 +100,23 @@
 		44F7CDBA2141397400588FA3 /* loading10.gif in Resources */ = {isa = PBXBuildFile; fileRef = 44F7CD9D2141397400588FA3 /* loading10.gif */; };
 		44F7CDBB2141397400588FA3 /* loading9.gif in Resources */ = {isa = PBXBuildFile; fileRef = 44F7CD9E2141397400588FA3 /* loading9.gif */; };
 		44F7CDBC2141397400588FA3 /* loading4.gif in Resources */ = {isa = PBXBuildFile; fileRef = 44F7CD9F2141397400588FA3 /* loading4.gif */; };
+		4946C194214796EA00C7F780 /* JWLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4946C192214796E900C7F780 /* JWLoadingView.m */; };
+		4946C195214796EA00C7F780 /* JWLoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4946C193214796E900C7F780 /* JWLoadingView.xib */; };
+		4946C19B2147BC1B00C7F780 /* JWImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4946C1972147BC1B00C7F780 /* JWImageViewExtension.swift */; };
+		4946C19C2147BC1B00C7F780 /* JWButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4946C1982147BC1B00C7F780 /* JWButtonExtension.swift */; };
+		4946C19D2147BC1B00C7F780 /* JWViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4946C1992147BC1B00C7F780 /* JWViewExtension.swift */; };
+		4946C19E2147BC1B00C7F780 /* JWTextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4946C19A2147BC1B00C7F780 /* JWTextFieldExtension.swift */; };
+		4946C1A02147BCD000C7F780 /* JWUIKits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4946C19F2147BCCF00C7F780 /* JWUIKits.swift */; };
 		494DB6EC212725D5004FEE9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494DB6EB212725D5004FEE9D /* AppDelegate.swift */; };
 		494DB6EE212725D5004FEE9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494DB6ED212725D5004FEE9D /* ViewController.swift */; };
 		494DB6F1212725D5004FEE9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 494DB6EF212725D5004FEE9D /* Main.storyboard */; };
 		494DB6F3212725D7004FEE9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 494DB6F2212725D7004FEE9D /* Assets.xcassets */; };
 		494DB6F6212725D7004FEE9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 494DB6F4212725D7004FEE9D /* LaunchScreen.storyboard */; };
-		49FD85ED2135790B00F86387 /* UIImageCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FD85DC2135790B00F86387 /* UIImageCommon.swift */; };
-		49FD85EE2135790B00F86387 /* TextOffsetX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FD85DD2135790B00F86387 /* TextOffsetX.swift */; };
-		49FD85EF2135790B00F86387 /* JWViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FD85DF2135790B00F86387 /* JWViewExtension.swift */; };
 		49FD85F02135790B00F86387 /* JWNavigationBarEt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FD85E02135790B00F86387 /* JWNavigationBarEt.swift */; };
 		49FD85F12135790B00F86387 /* UIColorPreinstall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FD85E12135790B00F86387 /* UIColorPreinstall.swift */; };
-		49FD85F22135790B00F86387 /* JWTextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FD85E22135790B00F86387 /* JWTextFieldExtension.swift */; };
 		49FD85F32135790B00F86387 /* AutoLayoutAssist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FD85E42135790B00F86387 /* AutoLayoutAssist.swift */; };
-		49FD85F42135790B00F86387 /* JWButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FD85E52135790B00F86387 /* JWButtonExtension.swift */; };
 		49FD85F52135790B00F86387 /* TaskForGCD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FD85E62135790B00F86387 /* TaskForGCD.swift */; };
 		49FD85F62135790B00F86387 /* AccountTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FD85E72135790B00F86387 /* AccountTextField.swift */; };
-		49FD85F72135790B00F86387 /* JWUIKits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FD85E82135790B00F86387 /* JWUIKits.swift */; };
 		E37763F6AF5285587955FDA0 /* Pods_AlchemintProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ADF4FED3BCCB015B106ADEB /* Pods_AlchemintProject.framework */; };
 /* End PBXBuildFile section */
 
@@ -217,6 +218,14 @@
 		44F7CD9D2141397400588FA3 /* loading10.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading10.gif; sourceTree = "<group>"; };
 		44F7CD9E2141397400588FA3 /* loading9.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading9.gif; sourceTree = "<group>"; };
 		44F7CD9F2141397400588FA3 /* loading4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading4.gif; sourceTree = "<group>"; };
+		4946C191214796E900C7F780 /* JWLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWLoadingView.h; sourceTree = "<group>"; };
+		4946C192214796E900C7F780 /* JWLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWLoadingView.m; sourceTree = "<group>"; };
+		4946C193214796E900C7F780 /* JWLoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JWLoadingView.xib; sourceTree = "<group>"; };
+		4946C1972147BC1B00C7F780 /* JWImageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JWImageViewExtension.swift; sourceTree = "<group>"; };
+		4946C1982147BC1B00C7F780 /* JWButtonExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JWButtonExtension.swift; sourceTree = "<group>"; };
+		4946C1992147BC1B00C7F780 /* JWViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JWViewExtension.swift; sourceTree = "<group>"; };
+		4946C19A2147BC1B00C7F780 /* JWTextFieldExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JWTextFieldExtension.swift; sourceTree = "<group>"; };
+		4946C19F2147BCCF00C7F780 /* JWUIKits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JWUIKits.swift; sourceTree = "<group>"; };
 		494DB6E8212725D5004FEE9D /* AlchemintProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlchemintProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		494DB6EB212725D5004FEE9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		494DB6ED212725D5004FEE9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -224,17 +233,11 @@
 		494DB6F2212725D7004FEE9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		494DB6F5212725D7004FEE9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		494DB6F7212725D7004FEE9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		49FD85DC2135790B00F86387 /* UIImageCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageCommon.swift; sourceTree = "<group>"; };
-		49FD85DD2135790B00F86387 /* TextOffsetX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextOffsetX.swift; sourceTree = "<group>"; };
-		49FD85DF2135790B00F86387 /* JWViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JWViewExtension.swift; sourceTree = "<group>"; };
 		49FD85E02135790B00F86387 /* JWNavigationBarEt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JWNavigationBarEt.swift; sourceTree = "<group>"; };
 		49FD85E12135790B00F86387 /* UIColorPreinstall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorPreinstall.swift; sourceTree = "<group>"; };
-		49FD85E22135790B00F86387 /* JWTextFieldExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JWTextFieldExtension.swift; sourceTree = "<group>"; };
 		49FD85E42135790B00F86387 /* AutoLayoutAssist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoLayoutAssist.swift; sourceTree = "<group>"; };
-		49FD85E52135790B00F86387 /* JWButtonExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JWButtonExtension.swift; sourceTree = "<group>"; };
 		49FD85E62135790B00F86387 /* TaskForGCD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskForGCD.swift; sourceTree = "<group>"; };
 		49FD85E72135790B00F86387 /* AccountTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountTextField.swift; sourceTree = "<group>"; };
-		49FD85E82135790B00F86387 /* JWUIKits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JWUIKits.swift; sourceTree = "<group>"; };
 		587BFC4684D65D7BB0EB1D2C /* Pods-AlchemintProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlchemintProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlchemintProject/Pods-AlchemintProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -606,6 +609,28 @@
 			path = gifImages;
 			sourceTree = "<group>";
 		};
+		4946C190214796E900C7F780 /* JWLoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				4946C191214796E900C7F780 /* JWLoadingView.h */,
+				4946C192214796E900C7F780 /* JWLoadingView.m */,
+				4946C193214796E900C7F780 /* JWLoadingView.xib */,
+			);
+			path = JWLoadingView;
+			sourceTree = "<group>";
+		};
+		4946C1962147BC1B00C7F780 /* JWUIKITExtension */ = {
+			isa = PBXGroup;
+			children = (
+				4946C19F2147BCCF00C7F780 /* JWUIKits.swift */,
+				4946C1972147BC1B00C7F780 /* JWImageViewExtension.swift */,
+				4946C1982147BC1B00C7F780 /* JWButtonExtension.swift */,
+				4946C1992147BC1B00C7F780 /* JWViewExtension.swift */,
+				4946C19A2147BC1B00C7F780 /* JWTextFieldExtension.swift */,
+			);
+			path = JWUIKITExtension;
+			sourceTree = "<group>";
+		};
 		494DB6DF212725D5004FEE9D = {
 			isa = PBXGroup;
 			children = (
@@ -655,32 +680,20 @@
 		49FD85DB2135790B00F86387 /* CateGory */ = {
 			isa = PBXGroup;
 			children = (
-				49FD85DE2135790B00F86387 /* JWUIViewExtension */,
-				49FD85DC2135790B00F86387 /* UIImageCommon.swift */,
-				49FD85DD2135790B00F86387 /* TextOffsetX.swift */,
+				4946C1962147BC1B00C7F780 /* JWUIKITExtension */,
 				49FD85E02135790B00F86387 /* JWNavigationBarEt.swift */,
 				49FD85E12135790B00F86387 /* UIColorPreinstall.swift */,
-				49FD85E22135790B00F86387 /* JWTextFieldExtension.swift */,
 			);
 			path = CateGory;
-			sourceTree = "<group>";
-		};
-		49FD85DE2135790B00F86387 /* JWUIViewExtension */ = {
-			isa = PBXGroup;
-			children = (
-				49FD85DF2135790B00F86387 /* JWViewExtension.swift */,
-			);
-			path = JWUIViewExtension;
 			sourceTree = "<group>";
 		};
 		49FD85E32135790B00F86387 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				4946C190214796E900C7F780 /* JWLoadingView */,
 				49FD85E42135790B00F86387 /* AutoLayoutAssist.swift */,
-				49FD85E52135790B00F86387 /* JWButtonExtension.swift */,
 				49FD85E62135790B00F86387 /* TaskForGCD.swift */,
 				49FD85E72135790B00F86387 /* AccountTextField.swift */,
-				49FD85E82135790B00F86387 /* JWUIKits.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -771,6 +784,7 @@
 				44F7CDA22141397400588FA3 /* IMG_0997.JPG in Resources */,
 				44F7CDB42141397400588FA3 /* IMG_0998.JPG in Resources */,
 				44F7CDB82141397400588FA3 /* IMG_0958.JPG in Resources */,
+				4946C195214796EA00C7F780 /* JWLoadingView.xib in Resources */,
 				44F7CDA12141397400588FA3 /* IMG_0983.JPG in Resources */,
 				494DB6F6212725D7004FEE9D /* LaunchScreen.storyboard in Resources */,
 				494DB6F3212725D7004FEE9D /* Assets.xcassets in Resources */,
@@ -874,11 +888,11 @@
 				44E29714213417C200FB1E87 /* ValueOut.swift in Sources */,
 				44E297532136339600FB1E87 /* AlchemintClient.swift in Sources */,
 				49FD85F02135790B00F86387 /* JWNavigationBarEt.swift in Sources */,
-				49FD85F42135790B00F86387 /* JWButtonExtension.swift in Sources */,
 				44E29711213417C200FB1E87 /* Claims.swift in Sources */,
 				49FD85F62135790B00F86387 /* AccountTextField.swift in Sources */,
 				44F7CD7F21411D4000588FA3 /* MoreDetailViewController.swift in Sources */,
 				44E29724213417C200FB1E87 /* Account.swift in Sources */,
+				4946C19C2147BC1B00C7F780 /* JWButtonExtension.swift in Sources */,
 				44E2972B2135208700FB1E87 /* Parameter.swift in Sources */,
 				494DB6EE212725D5004FEE9D /* ViewController.swift in Sources */,
 				44E2971F213417C200FB1E87 /* ContractResult.swift in Sources */,
@@ -886,19 +900,21 @@
 				49FD85F52135790B00F86387 /* TaskForGCD.swift in Sources */,
 				44E29701213417C200FB1E87 /* AES.swift in Sources */,
 				44E29716213417C200FB1E87 /* Block.swift in Sources */,
+				4946C19B2147BC1B00C7F780 /* JWImageViewExtension.swift in Sources */,
+				4946C1A02147BCD000C7F780 /* JWUIKits.swift in Sources */,
 				44E29712213417C200FB1E87 /* ValueIn.swift in Sources */,
-				49FD85F22135790B00F86387 /* JWTextFieldExtension.swift in Sources */,
-				49FD85ED2135790B00F86387 /* UIImageCommon.swift in Sources */,
+				4946C19E2147BC1B00C7F780 /* JWTextFieldExtension.swift in Sources */,
 				44E2971C213417C200FB1E87 /* Asset.swift in Sources */,
 				44E2970D213417C200FB1E87 /* OpCodes.swift in Sources */,
+				4946C19D2147BC1B00C7F780 /* JWViewExtension.swift in Sources */,
 				44E29715213417C200FB1E87 /* TransactionHistory.swift in Sources */,
 				44E2971A213417C200FB1E87 /* Transaction.swift in Sources */,
 				44E297D221368A9400FB1E87 /* ProductListCell.swift in Sources */,
 				44E29703213417C200FB1E87 /* scrypt.swift in Sources */,
 				44E2971E213417C200FB1E87 /* Peer.swift in Sources */,
 				44E29718213417C200FB1E87 /* Script.swift in Sources */,
+				4946C194214796EA00C7F780 /* JWLoadingView.m in Sources */,
 				44E297A82136848C00FB1E87 /* JWBaseViewController.swift in Sources */,
-				49FD85EE2135790B00F86387 /* TextOffsetX.swift in Sources */,
 				44E297D721368A9400FB1E87 /* HomePage_RootViewController.swift in Sources */,
 				44E297CD21368A9400FB1E87 /* More_RootViewController.swift in Sources */,
 				44E29707213417C200FB1E87 /* Array+Util.swift in Sources */,
@@ -907,11 +923,9 @@
 				44E297D821368A9400FB1E87 /* RootTabBarController.swift in Sources */,
 				44E297D121368A9400FB1E87 /* ProductDetailViewController.swift in Sources */,
 				44E297CE21368A9400FB1E87 /* MoreListCell.swift in Sources */,
-				49FD85EF2135790B00F86387 /* JWViewExtension.swift in Sources */,
 				44E29717213417C200FB1E87 /* Balance.swift in Sources */,
 				44E2970B213417C200FB1E87 /* Base58.swift in Sources */,
 				494DB6EC212725D5004FEE9D /* AppDelegate.swift in Sources */,
-				49FD85F72135790B00F86387 /* JWUIKits.swift in Sources */,
 				44E29710213417C200FB1E87 /* AccountState.swift in Sources */,
 				44E297CA21368A9400FB1E87 /* LoginViewController.swift in Sources */,
 				49FD85F12135790B00F86387 /* UIColorPreinstall.swift in Sources */,

@@ -1,17 +1,20 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--Custom Navigation Controller-->
         <scene sceneID="83O-in-h3F">
             <objects>
-                <navigationController storyboardIdentifier="MyWealthModuleNav" id="Xss-MX-l4V" customClass="JWCustomNavigationController" customModule="HelloSwift" customModuleProvider="target" sceneMemberID="viewController">
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                <navigationController storyboardIdentifier="MyWealthModuleNav" id="Xss-MX-l4V" customClass="JWCustomNavigationController" customModule="AlchemintProject" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="UB9-RT-VxM">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -20,12 +23,12 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TQu-Fu-UWb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-370" y="279"/>
+            <point key="canvasLocation" x="-583" y="278"/>
         </scene>
         <!--My Wealth Root View Controller-->
         <scene sceneID="tiT-pL-foM">
             <objects>
-                <viewController id="q6i-yM-wuf" customClass="MyWealth_RootViewController" customModule="HelloSwift" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="q6i-yM-wuf" customClass="MyWealth_RootViewController" customModule="AlchemintProject" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="s1W-hC-w8o"/>
                         <viewControllerLayoutGuide type="bottom" id="wYS-qq-nuf"/>
@@ -36,9 +39,9 @@
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="43" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="NTP-Ss-BgA">
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <view key="tableHeaderView" contentMode="scaleToFill" id="wpp-0J-etT">
-                                    <rect key="frame" x="0.0" y="64" width="375" height="132"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="132"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bGg-3Q-2Ch">
@@ -47,11 +50,11 @@
                                                 <constraint firstAttribute="height" relation="lessThanOrEqual" constant="200" id="AgY-1m-VYa"/>
                                             </constraints>
                                             <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="50"/>
-                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
-                                    <color key="backgroundColor" red="0.93998062609999999" green="0.3544936776" blue="0.1577977985" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="backgroundColor" red="0.93998062609999999" green="0.3544936776" blue="0.1577977985" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <constraints>
                                         <constraint firstItem="bGg-3Q-2Ch" firstAttribute="leading" secondItem="wpp-0J-etT" secondAttribute="leading" id="M5E-Z2-nIt"/>
                                         <constraint firstAttribute="trailing" secondItem="bGg-3Q-2Ch" secondAttribute="trailing" id="c71-Y4-vBk"/>
@@ -59,18 +62,18 @@
                                     </constraints>
                                 </view>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="tableviewCellID" rowHeight="43" id="5qW-C3-Dth" userLabel="tableviewCellID">
-                                        <rect key="frame" x="0.0" y="224" width="375" height="43"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="tableviewCellID" rowHeight="43" id="5qW-C3-Dth" userLabel="tableviewCellID">
+                                        <rect key="frame" x="0.0" y="160" width="375" height="43"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="5qW-C3-Dth" id="i9W-8K-6kV">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="42.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="NTP-Ss-BgA" secondAttribute="trailing" id="0gF-h4-EdE"/>
                             <constraint firstItem="NTP-Ss-BgA" firstAttribute="leading" secondItem="Ppx-fZ-vvD" secondAttribute="leading" id="2z0-M0-bCP"/>
@@ -82,7 +85,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wv4-5C-IqQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="97.5" y="278.5"/>
+            <point key="canvasLocation" x="135" y="278"/>
         </scene>
     </scenes>
 </document>
