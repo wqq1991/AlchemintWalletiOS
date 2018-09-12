@@ -74,7 +74,7 @@ static NSTimeInterval const kDefaultTimeSlot = 0.04f;
     
     loadingView.bgMaskView.alpha = 0.3f;
 }
-
+ 
 /**
  *  @author qiaoqiao.wu, 16-01-07 22:01:01
  *

@@ -9,20 +9,18 @@
 import UIKit
 
 let key: String = "coverViewKey"
+private var _coverView:UIView?;
 
 extension UINavigationBar {
 
     var coverView: UIView? {
         
         get {
-        
-            return objc_getAssociatedObject(self, key) as? UIView
+            return _coverView;
         }
         
         set {
-        
-        
-            objc_setAssociatedObject(self, key, newValue, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+            _coverView = newValue;
         }
         
     }

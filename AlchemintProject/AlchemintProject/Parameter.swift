@@ -63,3 +63,13 @@ func DLog<T>(_ message: T, file: String = #file, method: String = #function, lin
     print("\((file as NSString).lastPathComponent)[\(line)], \(method): \(message)")
     #endif
 }
+
+//----------------------网络请求---------------------------
+
+let kTimeoutInterval = 30
+let kWaitTitleText = "加载中...";
+let kNoMoreDataFooterText = "没有更多数据啦!";
+let kResponseSuccessfulCode = "200";
+let kResponseUnLoginCode = "204";
+let kShowAlertWaitInterval = 10
+

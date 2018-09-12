@@ -10,7 +10,6 @@ import UIKit
 import Foundation
 import pop
 
-
 class HomePage_RootViewController : JWBaseViewController {
     
     
@@ -34,13 +33,14 @@ class HomePage_RootViewController : JWBaseViewController {
         
         DLog("测试");
         
-//        JWLoadingView.showLoadingView(self.view, forGifWithName: "loading10", timeSlot: 0.05)
+        
+        JWLoadingView.show(self.view, forGifWithName: "loading10", timeSlot: 0.05)
         
         DLog("等待5秒？")
         _ = dispatch_after_delay(5) {
             
             DLog("时间到了")
-            //JWLoadingView.hiddenViewInView(self.view)
+            JWLoadingView.hiddenView(in:self.view)
         }
         
 //        cancel { (finished) in
@@ -48,6 +48,30 @@ class HomePage_RootViewController : JWBaseViewController {
 //            DLog("取消算了")
 //            task!(true)
 //        }
+        
+//        NeoTest()
+        
+        let vc = ViewController()
+        vc.jsonToObject()
+        vc.objectToJson()
+    }
+    
+    func NeoTest() {
+        
+        let account = Account(wif: "L1Uxyf13HcniShRuxonMeZ34Es91zu1kTkqBpSFRsTQGcxpaZfDZ")
+//        account?.getBalance(completion: { (ass, err) in
+//
+//            DLog("ass = \(ass),err = \(err)")
+//        })
+
+        let assetID = AssetId.gasAssetId
+        
+        
+        account?.sendAssetTransaction(asset: assetID, amount: 100000000, toAddress: "Aeto8Loxsh7nXWoVS4FzBkUrFuiCB3Qidn", completion: { (suc, err) in
+            
+            DLog("suc = \(suc)")
+            
+        })
         
     }
     
@@ -98,11 +122,11 @@ class HomePage_RootViewController : JWBaseViewController {
     
     override func rightItemTapped() {
         
-        
-        
         //JWLoadingView.show(self.view, forGifWithName: "loading10", timeSlot: 0.05)
         
-        dispatch_after_delay(2.5) {
+        NeoTest()
+        
+        _ = dispatch_after_delay(2.5) {
             
 //            JWLoadingView.hiddenView(in: self.view)
         }
@@ -113,9 +137,19 @@ class HomePage_RootViewController : JWBaseViewController {
         let anim = POPBasicAnimation(propertyNamed: kPOPViewScaleXY)
         anim?.toValue = NSValue(cgSize: CGSize(width: 0.99, height: 0.99))
         anim?.toValue = NSValue(cgSize: CGSize(width: 0.8, height: 0.8))
-        anim?.duration = 1.5
+        anim?.duration = 0.35
 
         mView.pop_add(anim, forKey: "anim")
+        
+        weak var weakView = mView!
+        _ = dispatch_after_delay(0.25, task: {
+            
+            let anim = POPBasicAnimation(propertyNamed: kPOPViewScaleXY)
+            anim?.toValue = NSValue(cgSize: CGSize(width: 0.8, height: 0.8))
+            anim?.toValue = NSValue(cgSize: CGSize(width: 0.99, height: 0.99))
+            anim?.duration = 0.25
+            weakView?.pop_add(anim, forKey: "anim")
+        })
         
     }
     

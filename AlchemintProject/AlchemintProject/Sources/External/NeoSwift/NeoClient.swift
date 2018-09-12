@@ -82,7 +82,7 @@ public class NEONetworkMonitor {
 public class NeoClient {
     public var network: Network = .test
     public var seed = "http://seed3.o3node.org:10332"
-    public var fullNodeAPI = "http://testnet-api.wallet.cityofzion.io/v2/"
+    public var fullNodeAPI = "http://47.75.103.144:59908/api/privatenet/"
     public static let sharedTest = NeoClient(network: .test)
     public static let sharedMain = NeoClient(network: .main)
     private init() {}
@@ -132,7 +132,7 @@ public class NeoClient {
             fullNodeAPI = "http://testnet-api.wallet.cityofzion.io/v2/"
             seed = "http://test4.cityofzion.io:8880"
         case .main:
-            fullNodeAPI = "https://platform.o3.network/api/v1/neo/"
+            fullNodeAPI = "http://47.75.103.144:59908/api/privatenet/"
             seed = "http://seed1.neo.org:10332"
         case .privateNet:
             fullNodeAPI = "http://127.0.0.1:5000/"
@@ -402,6 +402,7 @@ public class NeoClient {
     
     public func getAssets(for address: String, params: [Any]?, completion: @escaping(NeoClientResult<Assets>) -> ()) {
         let url = fullNodeAPI + address + "/" + apiURL.getUTXO.rawValue
+        
         sendFullNodeRequest(url, params: params) { result in
             
             switch result {

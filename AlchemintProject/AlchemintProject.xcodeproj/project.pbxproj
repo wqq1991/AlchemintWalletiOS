@@ -112,6 +112,11 @@
 		494DB6F1212725D5004FEE9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 494DB6EF212725D5004FEE9D /* Main.storyboard */; };
 		494DB6F3212725D7004FEE9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 494DB6F2212725D7004FEE9D /* Assets.xcassets */; };
 		494DB6F6212725D7004FEE9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 494DB6F4212725D7004FEE9D /* LaunchScreen.storyboard */; };
+		49A91E282148FFBE00B96A31 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A91E272148FFBE00B96A31 /* Helper.swift */; };
+		49A91E2A2149058E00B96A31 /* ResponseHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A91E292149058E00B96A31 /* ResponseHandle.swift */; };
+		49A91E2C2149091B00B96A31 /* ResponseUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A91E2B2149091B00B96A31 /* ResponseUtil.swift */; };
+		49A91E2E2149094200B96A31 /* ErrandCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A91E2D2149094200B96A31 /* ErrandCommon.swift */; };
+		49A91E322149298F00B96A31 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A91E312149298F00B96A31 /* Test.m */; };
 		49FD85F02135790B00F86387 /* JWNavigationBarEt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FD85E02135790B00F86387 /* JWNavigationBarEt.swift */; };
 		49FD85F12135790B00F86387 /* UIColorPreinstall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FD85E12135790B00F86387 /* UIColorPreinstall.swift */; };
 		49FD85F32135790B00F86387 /* AutoLayoutAssist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FD85E42135790B00F86387 /* AutoLayoutAssist.swift */; };
@@ -233,6 +238,13 @@
 		494DB6F2212725D7004FEE9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		494DB6F5212725D7004FEE9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		494DB6F7212725D7004FEE9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49A91E272148FFBE00B96A31 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		49A91E292149058E00B96A31 /* ResponseHandle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseHandle.swift; sourceTree = "<group>"; };
+		49A91E2B2149091B00B96A31 /* ResponseUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseUtil.swift; sourceTree = "<group>"; };
+		49A91E2D2149094200B96A31 /* ErrandCommon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrandCommon.swift; sourceTree = "<group>"; };
+		49A91E2F2149271400B96A31 /* Swift-Brigding-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Swift-Brigding-Header.h"; sourceTree = "<group>"; };
+		49A91E302149298F00B96A31 /* Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		49A91E312149298F00B96A31 /* Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 		49FD85E02135790B00F86387 /* JWNavigationBarEt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JWNavigationBarEt.swift; sourceTree = "<group>"; };
 		49FD85E12135790B00F86387 /* UIColorPreinstall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorPreinstall.swift; sourceTree = "<group>"; };
 		49FD85E42135790B00F86387 /* AutoLayoutAssist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoLayoutAssist.swift; sourceTree = "<group>"; };
@@ -389,6 +401,10 @@
 			isa = PBXGroup;
 			children = (
 				44E297522136339500FB1E87 /* AlchemintClient.swift */,
+				49A91E272148FFBE00B96A31 /* Helper.swift */,
+				49A91E292149058E00B96A31 /* ResponseHandle.swift */,
+				49A91E2B2149091B00B96A31 /* ResponseUtil.swift */,
+				49A91E2D2149094200B96A31 /* ErrandCommon.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -615,6 +631,8 @@
 				4946C191214796E900C7F780 /* JWLoadingView.h */,
 				4946C192214796E900C7F780 /* JWLoadingView.m */,
 				4946C193214796E900C7F780 /* JWLoadingView.xib */,
+				49A91E302149298F00B96A31 /* Test.h */,
+				49A91E312149298F00B96A31 /* Test.m */,
 			);
 			path = JWLoadingView;
 			sourceTree = "<group>";
@@ -656,6 +674,7 @@
 				44E2972C213520EF00FB1E87 /* SwiftHeader.swift */,
 				494DB6EB212725D5004FEE9D /* AppDelegate.swift */,
 				494DB6ED212725D5004FEE9D /* ViewController.swift */,
+				49A91E2F2149271400B96A31 /* Swift-Brigding-Header.h */,
 				494DB6EF212725D5004FEE9D /* Main.storyboard */,
 				494DB6F2212725D7004FEE9D /* Assets.xcassets */,
 				494DB6F4212725D7004FEE9D /* LaunchScreen.storyboard */,
@@ -885,6 +904,7 @@
 				44E29708213417C200FB1E87 /* validator.swift in Sources */,
 				44E29726213417C200FB1E87 /* AssetIdConstants.swift in Sources */,
 				44E29702213417C200FB1E87 /* SHA256.swift in Sources */,
+				49A91E2C2149091B00B96A31 /* ResponseUtil.swift in Sources */,
 				44E29714213417C200FB1E87 /* ValueOut.swift in Sources */,
 				44E297532136339600FB1E87 /* AlchemintClient.swift in Sources */,
 				49FD85F02135790B00F86387 /* JWNavigationBarEt.swift in Sources */,
@@ -895,6 +915,7 @@
 				4946C19C2147BC1B00C7F780 /* JWButtonExtension.swift in Sources */,
 				44E2972B2135208700FB1E87 /* Parameter.swift in Sources */,
 				494DB6EE212725D5004FEE9D /* ViewController.swift in Sources */,
+				49A91E2A2149058E00B96A31 /* ResponseHandle.swift in Sources */,
 				44E2971F213417C200FB1E87 /* ContractResult.swift in Sources */,
 				44E29704213417C200FB1E87 /* RIPEMD160.swift in Sources */,
 				49FD85F52135790B00F86387 /* TaskForGCD.swift in Sources */,
@@ -904,6 +925,7 @@
 				4946C1A02147BCD000C7F780 /* JWUIKits.swift in Sources */,
 				44E29712213417C200FB1E87 /* ValueIn.swift in Sources */,
 				4946C19E2147BC1B00C7F780 /* JWTextFieldExtension.swift in Sources */,
+				49A91E2E2149094200B96A31 /* ErrandCommon.swift in Sources */,
 				44E2971C213417C200FB1E87 /* Asset.swift in Sources */,
 				44E2970D213417C200FB1E87 /* OpCodes.swift in Sources */,
 				4946C19D2147BC1B00C7F780 /* JWViewExtension.swift in Sources */,
@@ -929,11 +951,13 @@
 				44E29710213417C200FB1E87 /* AccountState.swift in Sources */,
 				44E297CA21368A9400FB1E87 /* LoginViewController.swift in Sources */,
 				49FD85F12135790B00F86387 /* UIColorPreinstall.swift in Sources */,
+				49A91E322149298F00B96A31 /* Test.m in Sources */,
 				44E29713213417C200FB1E87 /* NEONetwork.swift in Sources */,
 				44E2971D213417C200FB1E87 /* Token.swift in Sources */,
 				44E29720213417C200FB1E87 /* NeoScanBalance.swift in Sources */,
 				44E2970A213417C200FB1E87 /* Data+Util.swift in Sources */,
 				44E29705213417C200FB1E87 /* PBKDF2.swift in Sources */,
+				49A91E282148FFBE00B96A31 /* Helper.swift in Sources */,
 				44E2971B213417C200FB1E87 /* TransactionAttritbute.swift in Sources */,
 				44E297CC21368A9400FB1E87 /* RegisterViewController.swift in Sources */,
 				44E297D421368A9400FB1E87 /* MyWealth_RootViewController.swift in Sources */,
@@ -1109,6 +1133,8 @@
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/AlchemintProject/NeoSwift";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/AlchemintProject/Swift-Brigding-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1140,6 +1166,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/AlchemintProject/NeoSwift";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/AlchemintProject/Swift-Brigding-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
