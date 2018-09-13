@@ -12,20 +12,20 @@ import Alamofire
 typealias FailBlock = (_ error :Error) ->()
 typealias SuccessBlock = (_ success :JSONDictionary) ->()
 
-func asyncGetResquest(api:String, method:String,params:String,fail:@escaping FailBlock,success:@escaping SuccessBlock)
+func asyncGetResquest(api:String, method:String,params:RequestBaseModel,fail:@escaping FailBlock,success:@escaping SuccessBlock)
 {
-    let url = api + "?method=" + method + "&" + params;
+    let url = makeRpcUrl(url: api, method: method, params: params)
     
     Alamofire.request(url).responseJSON {(response) in
-        
+
         if let error = response.result.error
         {
             fail(error);
-            
+
         }else if let jsonValue = response.result.value
         {
             success(jsonValue as! JSONDictionary);
         }
     }
-    
+
 }

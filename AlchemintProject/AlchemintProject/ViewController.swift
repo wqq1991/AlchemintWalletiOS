@@ -26,13 +26,13 @@ class ViewController: UIViewController {
         //let url = "http://192.168.0.101:59908/api/privatenet?method=getutxo&params=['AQdP56hHfo54JCWfpPw4MXviJDtQJMtXFa']";
         
         
-        asyncGetResquest(api: BASE_URL, method: "getutxo", params: "['AQdP56hHfo54JCWfpPw4MXviJDtQJMtXFa']", fail: { (error) in
-            
-            DLog("error = \(error)")
-        }) { (jsonValue) in
-            
-            DLog("jsonValue = \(jsonValue)")
-        }
+//        asyncGetResquest(api: BASE_URL, method: "getutxo", params: "['AQdP56hHfo54JCWfpPw4MXviJDtQJMtXFa']", fail: { (error) in
+//
+//            DLog("error = \(error)")
+//        }) { (jsonValue) in
+//            
+//            DLog("jsonValue = \(jsonValue)")
+//        }
         
 //        Alamofire.request(url).responseJSON { (response) in
 //
@@ -123,31 +123,27 @@ class ViewController: UIViewController {
     
    public func objectToJson() {
     
-    let model = Model()
-    
-    let encoder = JSONEncoder()
-    
-    let data = try! encoder.encode(model)
-    
-    DLog(String(data: data, encoding: .utf8)!)
-    
-    let test = Test()
-    
-    test.sayHello()
-    
+//    let model = Model()
+//
+//    let encoder = JSONEncoder()
+//
+//    let data = try! encoder.encode(model)
+//
+//    DLog(String(data: data, encoding: .utf8)!)
+//
+//    let test = Test()
+//
+//    test.sayHello()
+//
+        networkTest()
     }
-}
-
-    class Model: Codable {
+    
+    func networkTest() {
         
-        let a = "AAA";
-        let b = "BBB"
-//      let people:People = People()
         
+        
+        
+    }
+    
 }
-
-class People {
-    let age = 15
-    let name = "小红"
-}
-
+ 

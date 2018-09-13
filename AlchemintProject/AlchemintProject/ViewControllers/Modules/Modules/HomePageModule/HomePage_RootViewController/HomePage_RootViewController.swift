@@ -33,7 +33,6 @@ class HomePage_RootViewController : JWBaseViewController {
         
         DLog("测试");
         
-        
         JWLoadingView.show(self.view, forGifWithName: "loading10", timeSlot: 0.05)
         
         DLog("等待5秒？")
@@ -67,12 +66,26 @@ class HomePage_RootViewController : JWBaseViewController {
         let assetID = AssetId.gasAssetId
         
         
-        account?.sendAssetTransaction(asset: assetID, amount: 100000000, toAddress: "Aeto8Loxsh7nXWoVS4FzBkUrFuiCB3Qidn", completion: { (suc, err) in
-            
-            DLog("suc = \(suc)")
-            
-        })
+//        account?.sendAssetTransaction(asset: assetID, amount: 100000000, toAddress: "Aeto8Loxsh7nXWoVS4FzBkUrFuiCB3Qidn", completion: { (suc, err) in
+//
+//            DLog("suc = \(suc)")
+//
+//        })
         
+        let model:GetUtxoModel = GetUtxoModel()
+        model.address = "Aeto8Loxsh7nXWoVS4FzBkUrFuiCB3Qidn";
+        
+        let json = makeRpcUrl(url: BASE_URL,method: "getutxo",params: model)
+        
+//        DLog("json = \(json)")
+        
+        asyncGetResquest(api: BASE_URL, method: "getutxo", params: model, fail: { (error) in
+            
+            DLog("error = \(error)")
+        }) { (dic) in
+            
+            DLog("dic = \(dic)")
+        }
     }
     
     override func viewDidAppear(_ animated: Bool) {

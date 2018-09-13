@@ -9,10 +9,16 @@
 //#ifndef SwiftSocket_Brigding_Header_h
 //#define SwiftSocket_Brigding_Header_h
 
-//#import "JWLoadingView.h"
-
 #import "JWLoadingView.h"
-#import "Test.h"
+#import "Parameter.h"
+//#import "AsyncRequestHandles.h"
+#import "ResponseHandle.h"
+#import "RequestHandle.h"
+#import "ModelsHandle.h"
+#import "AllResultModels.h"
+#import "AllRequestModels.h"
+
+
 
 //#endif /* SwiftSocket_Brigding_Header_h */
 
