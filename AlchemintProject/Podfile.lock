@@ -11,10 +11,6 @@ PODS:
   - EVReflection (5.7.0):
     - EVReflection/Core (= 5.7.0)
   - EVReflection/Core (5.7.0)
-  - NVActivityIndicatorView (4.3.0):
-    - NVActivityIndicatorView/Presenter (= 4.3.0)
-  - NVActivityIndicatorView/Presenter (4.3.0)
-  - pop (1.0.10)
   - RxCocoa (4.2.0):
     - RxSwift (~> 4.0)
   - RxSwift (4.2.0)
@@ -25,8 +21,6 @@ DEPENDENCIES:
   - Alamofire-SwiftyJSON (~> 3.0.0)
   - AlamofireImage (~> 3.3.1)
   - AlamofireJsonToObjects (~> 2.4.1)
-  - NVActivityIndicatorView (~> 4.3.0)
-  - pop (~> 1.0.10)
   - RxCocoa (~> 4.2.0)
   - RxSwift (~> 4.2.0)
 
@@ -37,8 +31,6 @@ SPEC REPOS:
     - AlamofireImage
     - AlamofireJsonToObjects
     - EVReflection
-    - NVActivityIndicatorView
-    - pop
     - RxCocoa
     - RxSwift
     - SwiftyJSON
@@ -49,12 +41,10 @@ SPEC CHECKSUMS:
   AlamofireImage: 3b35b586853abaf94ca1250f4e94cff3c21a4c0d
   AlamofireJsonToObjects: 2f652417f69ca86f229b704cdd00370bb892af45
   EVReflection: c579d225cf0ec062d80f35f5af82acd770016a76
-  NVActivityIndicatorView: 963f62bf9f993fcf23218e55958e5b1761b9504c
-  pop: 82ca6b068ce9278fd350fd9dd09482a0ce9492e6
   RxCocoa: 0b54909c902e1e581212a03e690bbd94032d8baa
   RxSwift: 99e10317ddfcc7fbe01356aafd118fde4a0be104
   SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
 
-PODFILE CHECKSUM: efbfa9071f5d657108f7d4cb6d2638e2884d54f3
+PODFILE CHECKSUM: 4cfeb9a62da4bb92981828ac46ed70178acdb963
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.6.0.beta.1

@@ -8,7 +8,6 @@
 
 import UIKit
 import Foundation
-import pop
 
 class HomePage_RootViewController : JWBaseViewController {
     
@@ -146,7 +145,7 @@ class HomePage_RootViewController : JWBaseViewController {
     }
     
     func animals() {
-        
+        /*
         let anim = POPBasicAnimation(propertyNamed: kPOPViewScaleXY)
         anim?.toValue = NSValue(cgSize: CGSize(width: 0.99, height: 0.99))
         anim?.toValue = NSValue(cgSize: CGSize(width: 0.8, height: 0.8))
@@ -163,7 +162,7 @@ class HomePage_RootViewController : JWBaseViewController {
             anim?.duration = 0.25
             weakView?.pop_add(anim, forKey: "anim")
         })
-        
+        */
     }
     
 }
